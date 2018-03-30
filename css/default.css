@@ -1,0 +1,372 @@
+/*
+http://stackoverflow.com/questions/4979487/image-caption-width-to-same-as-image
+http://jsfiddle.net/blaker/8snwd/
+*/
+figure {
+    background-color:#abcdef;
+	/*background-color:beige;*/
+    display:table;
+    margin:14px;
+    padding:7px;
+    width:14px;
+
+}
+
+/* http://www.w3.org/1998/Math/MathML */
+code{white-space: pre;}
+
+figcaption {
+	/*font-style: italic;*/
+	font-size: 90%;
+}
+
+
+kaption {
+    /*font-style: italic;*/
+    font-size: 90%;
+}
+
+
+figure.right {
+    float:right;
+}
+
+figure.left {
+    float:left;
+}
+
+p {
+    margin:14px 0;
+}
+
+
+p.image {
+    width: 500px;
+}
+
+
+
+
+
+
+/*http://www.w3schools.com/cssref/sel_before.asp*/
+
+signature {
+	background-color:beige;
+	font-style: italic;
+	font-size: 120%;
+	font-family: "Century Schoolbook";
+}
+    
+selected_author {
+	font-weight: bold;
+	color:orange;
+}
+
+error {
+	font-weight: bold;
+	color:red;
+}
+
+signature::before{
+	content: "PPJ MHJ";
+}
+
+checked2::before{
+    content: "☒";
+}
+
+checked::before{
+    content: "☑";
+}
+
+
+unchecked::before{
+    content: "☐";
+}
+
+
+written::before{
+    content: "✍";
+    font-size: 300%;
+}
+
+
+/* Image floating:
+-----------------
+http://www.w3schools.com/css/css_float.asp
+http://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_float
+http://www.w3schools.com/css/tryit.asp?filename=trycss_float2
+http://www.w3schools.com/cssref/pr_class_float.asp
+*/
+
+
+floating_image {
+	clear: right;
+	float: left;
+	margin: 10px;
+	padding: 15px;
+	width: 300px;
+	}
+	
+floating_image.static {
+	float: none;
+	clear: none;
+}
+
+floating_image.static2 {
+	float: none;
+	clear: left;
+}
+
+
+img.restricted {
+    width: 500px;
+}
+
+
+
+
+div {
+    max-width: 950px;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	line-height: 150%;
+}
+
+blockquote{
+	background-color:LightGoldenRodYellow;
+}
+
+
+h1.small::first-letter, h2.small::first-letter, h3.small::first-letter, p.small::first-letter{
+    float: left;
+    width: 0.5em;
+    font-size: 300%;
+    font-family: Garamond, Trebuchet MS, Palatino, Algerian, Courier;
+	color: green;
+    line-height: 80%;
+}
+
+h1.medium::first-letter, h2.medium::first-letter, h3.medium::first-letter, p.medium::first-letter{
+    float: left;
+    width: 0.7em;
+    font-size: 300%;
+    font-family: Garamond, Trebuchet MS, Palatino, Algerian, Courier;
+	color: green;
+    line-height: 80%;
+}
+
+h1.big::first-letter, h2.big::first-letter, h3.big::first-letter, p.big::first-letter{
+    float: left;
+    width: 1em;
+    font-size: 300%;
+    font-family: Garamond, Trebuchet MS, Palatino, Algerian, Courier;
+	color: green;
+    line-height: 80%;
+}
+
+h1.large::first-letter, h2.large::first-letter, h3.large::first-letter, p.large::first-letter{
+    float: left;
+    width: 1.5em;
+    font-size: 300%;
+    font-family: Garamond, Trebuchet MS, Palatino, Algerian, Courier;
+	color: green;
+    line-height: 80%;
+}
+
+first_letter {
+    float: left;
+    width: 0.7em;
+    font-size: 300%;
+    font-family: Garamond, Trebuchet MS, Palatino, Algerian, Courier;
+	color: green;
+    line-height: 80%;
+}
+
+
+first_letter.small {
+	width: 0.5em;
+}
+
+first_letter.big {
+	width: 1em;
+}
+
+first_letter.large {
+	width: 1.5em;
+}
+
+/* CSS font size:
+-----------------
+http://www.w3schools.com/cssref/pr_font_font-size.asp
+http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_font_size_css
+http://www.w3schools.com/tags/att_font_size.asp
+*/
+	
+sentence {
+	font-size: 120%;
+}
+
+sentence._150 {
+	font-size: 150%;
+}
+
+sentence._200 {
+	font-size: 200%;
+}
+
+
+/* Superscript (sup tag)
+
+http://www.w3schools.com/tags/tag_sup.asp
+*/
+
+inside_translation { 
+    vertical-align: super;
+    font-size: smaller;
+	color:blue;
+}
+
+translation_source {
+	color:red;
+}
+
+
+
+/* HTML colors:
+---------------
+http://www.w3schools.com/html/html_colors.asp
+*/
+
+
+/* CSS lists:
+-------------
+http://www.w3schools.com/css/css_list.asp
+http://www.w3schools.com/colors/colors_names.asp
+*/
+
+/*
+ol {
+	background: LightBlue  ;
+}
+*/
+
+
+/* Treat differently ordered lists with Roman Numerals
+http://stackoverflow.com/questions/27104096/css-selector-type-var-not-selecting-lower-alpha-versus-upper-alpha
+*/
+
+
+ol[type="I"] li {
+	/*background: Linen    ;*/
+	padding: 5px;
+	margin-left: 50px;
+}
+
+
+/*http://stackoverflow.com/questions/20496719/target-blank-css-style-by-class*/
+
+a {
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: red;
+}
+
+
+a[target="_blank"] {
+  color: blue;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+ul.site_menu li a {
+    padding: 10px 20px;
+}
+
+ul.site_menu_alphabet li a{
+    padding: 8px 8px;
+}
+
+
+ul.site_menu ,ul.site_menu_alphabet {
+    padding: 0;
+}
+
+ul.site_menu li ,ul.site_menu_alphabet li {
+    display: inline;
+}
+
+ul.site_menu li a ,ul.site_menu_alphabet li a{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+	line-height: 250%;
+	font-weight: normal;
+}
+
+ul.site_menu li a:hover ,ul.site_menu_alphabet li a:hover{
+    background-color: blue;
+}
+
+ul.site_menu li a:active ,ul.site_menu_alphabet li a:active {
+    background-color: red;
+}
+
+ul.site_menu li a.selected ,ul.site_menu_alphabet li a.selected{
+    background-color: orange;
+}
+
+
+table#event th {
+    color: white;
+    background-color: blue;
+	/*width:33%*/
+}
+
+table#event tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table#event tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+
+
+table#event td {
+    text-align:left;
+    vertical-align:top;
+}
+
+table#changes th {
+    color: white;
+    background-color: red;
+	/*width:33%*/
+}
+
+table#changes tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table#changes tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+
+
+
