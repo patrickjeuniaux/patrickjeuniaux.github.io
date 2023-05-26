@@ -127,6 +127,7 @@ img.restricted {
 
 
 
+
 div {
     max-width: 950px;
 	letter-spacing: 2px;
@@ -137,6 +138,9 @@ div {
 blockquote{
 	background-color:LightGoldenRodYellow;
 }
+
+
+
 
 
 h1.small::first-letter, h2.small::first-letter, h3.small::first-letter, p.small::first-letter{
@@ -157,6 +161,8 @@ h1.medium::first-letter, h2.medium::first-letter, h3.medium::first-letter, p.med
     line-height: 80%;
 }
 
+
+
 h1.big::first-letter, h2.big::first-letter, h3.big::first-letter, p.big::first-letter{
     float: left;
     width: 1em;
@@ -174,6 +180,8 @@ h1.large::first-letter, h2.large::first-letter, h3.large::first-letter, p.large:
 	color: green;
     line-height: 80%;
 }
+
+
 
 first_letter {
     float: left;
@@ -366,7 +374,6 @@ table#changes tr:nth-child(even) {
 table#changes tr:nth-child(odd) {
     background-color: #fff;
 }
-
 
 
 
