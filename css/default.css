@@ -147,7 +147,7 @@ h1.small::first-letter, h2.small::first-letter, h3.small::first-letter, p.small:
     float: left;
     width: 0.5em;
     font-size: 300%;
-    font-family: Garamond, Trebuchet MS, Palatino, Algerian, Courier;
+    font-family: Garamond, Palatino;
 	color: green;
     line-height: 80%;
 }
@@ -156,7 +156,7 @@ h1.medium::first-letter, h2.medium::first-letter, h3.medium::first-letter, p.med
     float: left;
     width: 0.7em;
     font-size: 300%;
-    font-family: Garamond, Trebuchet MS, Palatino, Algerian, Courier;
+    font-family: Garamond, Palatino;
 	color: green;
     line-height: 80%;
 }
@@ -167,7 +167,7 @@ h1.big::first-letter, h2.big::first-letter, h3.big::first-letter, p.big::first-l
     float: left;
     width: 1em;
     font-size: 300%;
-    font-family: Garamond, Trebuchet MS, Palatino, Algerian, Courier;
+    font-family: Garamond, Palatino;
 	color: green;
     line-height: 80%;
 }
@@ -176,7 +176,7 @@ h1.large::first-letter, h2.large::first-letter, h3.large::first-letter, p.large:
     float: left;
     width: 1.5em;
     font-size: 300%;
-    font-family: Garamond, Trebuchet MS, Palatino, Algerian, Courier;
+    font-family: Garamond, Palatino;
 	color: green;
     line-height: 80%;
 }
@@ -187,7 +187,7 @@ first_letter {
     float: left;
     width: 0.7em;
     font-size: 300%;
-    font-family: Garamond, Trebuchet MS, Palatino, Algerian, Courier;
+    font-family: Garamond, Palatino;
 	color: green;
     line-height: 80%;
 }
