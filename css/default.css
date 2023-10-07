@@ -47,7 +47,21 @@ p.image {
 
 
 
-
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
 
 /*http://www.w3schools.com/cssref/sel_before.asp*/
 
