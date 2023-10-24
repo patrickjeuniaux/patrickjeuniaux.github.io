@@ -1,6 +1,8 @@
 /*
+
 http://stackoverflow.com/questions/4979487/image-caption-width-to-same-as-image
 http://jsfiddle.net/blaker/8snwd/
+
 */
 figure {
     background-color:#abcdef;
@@ -12,7 +14,13 @@ figure {
 
 }
 
-/* http://www.w3.org/1998/Math/MathML */
+/* 
+
+http://www.w3.org/1998/Math/MathML 
+
+*/
+
+
 code{white-space: pre;}
 
 figcaption {
@@ -53,21 +61,55 @@ https://stackoverflow.com/questions/17012421/auto-number-table-rows
 
 */
 
-table {
+table.numbered {
     counter-reset: rowNumber;
 }
 
-table tr:not(:first-child) {
+table.numbered tr:not(:first-child) {
     counter-increment: rowNumber;
 }
 
-table tr td:first-child::before {
+table.numbered tr td:first-child::before {
     content: counter(rowNumber);
     min-width: 1em;
     margin-right: 0.5em;
 }
 
 
+/*
+
+auto-number table rows - but in reverse order
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_counter_styles/Using_CSS_counters#basic_example_reversed_counter
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_counter_styles/Using_CSS_counters
+
+*/
+
+
+
+table.reversed {
+    counter-reset: reversed( section );
+}
+
+table.reversed tr:not(:first-child) {
+    counter-increment: rowNumber;
+}
+
+table.reversed tr td:first-child::before {
+    counter-increment: section -1;
+    content: counter(section);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+
+
+
+/*
+
+How tables look
+
+*/
 
 table {
     font-family: arial, sans-serif;
@@ -85,7 +127,17 @@ table {
     background-color: #dddddd;
   }
 
-/*http://www.w3schools.com/cssref/sel_before.asp*/
+
+
+/*
+
+CSS ::before Selector
+
+The ::before selector inserts something before the content of each selected element(s).
+
+http://www.w3schools.com/cssref/sel_before.asp
+
+*/
 
 signature {
 	background-color:beige;
@@ -128,12 +180,15 @@ written::before{
 }
 
 
-/* Image floating:
------------------
+/* 
+
+Image floating
+
 http://www.w3schools.com/css/css_float.asp
 http://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_float
 http://www.w3schools.com/css/tryit.asp?filename=trycss_float2
 http://www.w3schools.com/cssref/pr_class_float.asp
+
 */
 
 
@@ -241,11 +296,14 @@ first_letter.large {
 	width: 1.5em;
 }
 
-/* CSS font size:
------------------
+/* 
+
+CSS font size:
+
 http://www.w3schools.com/cssref/pr_font_font-size.asp
 http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_font_size_css
 http://www.w3schools.com/tags/att_font_size.asp
+
 */
 	
 sentence {
@@ -278,14 +336,19 @@ translation_source {
 
 
 
-/* HTML colors:
----------------
+/* 
+
+HTML colors
+
 http://www.w3schools.com/html/html_colors.asp
+
 */
 
 
-/* CSS lists:
--------------
+/* 
+
+CSS lists
+
 http://www.w3schools.com/css/css_list.asp
 http://www.w3schools.com/colors/colors_names.asp
 */
@@ -297,8 +360,12 @@ ol {
 */
 
 
-/* Treat differently ordered lists with Roman Numerals
+/* 
+
+Treat differently ordered lists with Roman Numerals
+
 http://stackoverflow.com/questions/27104096/css-selector-type-var-not-selecting-lower-alpha-versus-upper-alpha
+
 */
 
 
@@ -309,7 +376,11 @@ ol[type="I"] li {
 }
 
 
-/*http://stackoverflow.com/questions/20496719/target-blank-css-style-by-class*/
+/*
+
+http://stackoverflow.com/questions/20496719/target-blank-css-style-by-class
+
+*/
 
 a {
   color: green;
