@@ -45,6 +45,28 @@ p.image {
 }
 
 
+/*
+
+auto-number table rows
+
+https://stackoverflow.com/questions/17012421/auto-number-table-rows
+
+*/
+
+table {
+    counter-reset: rowNumber;
+}
+
+table tr:not(:first-child) {
+    counter-increment: rowNumber;
+}
+
+table tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+
 
 
 table {
