@@ -2,7 +2,7 @@
 <html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>
-            Linux - How to
+            initramfs error - insufficient boot disk space
         </title>
         <meta charset="UTF-8" />
         <link rel="shortcut icon" href="../../../../img/PPJMHJ.ico" />
@@ -69,26 +69,124 @@
     </ul>
 
 
-        <h1 class = "big">Linux</h1>
-        <h2 class = "big">How to?</h2>
+        <h1 class = "big">How to solve the "Package failed to install - initramfs-tools" error?</h1>
+        <h2 class = "big">Insufficient boot disk space</h2>
 
         <div>
 
             <br />
 
-            <p>
 
-              <ul>
-                
-                <li>
-                    <a href = "../../../../html/miscellaneous/L/Linux/initramfs_error.html">initramfs error</a> (insufficient boot disk space)
-                 </li>
-  
+<h3 class = "big">Problem</h3>
 
-              </ul>
-            
-            </p>
-            
+<p>
+    We get the following error message:
+</p>
+    
+<code>Package failed to install:
+Error while installing package: 
+installed initramfs-tools package post-installation script subprocess 
+returned error exit status 1</code>
+
+
+<h3 class = "big">Solution</h3>
+
+<p>
+    This problem can be caused by the lack of space on the Boot partition (insufficient boot disk space). if that is the case, we need to increase the space by removing unnecessary kernels.
+</p>
+
+<p>
+    <b>WARNING</b>: the following operations can destroy your system if applied carelessly. You need to understand what you are doing. It is a synthesis of that worked for me to solve some issues I once encountered with one of my systems. It might not work for you. 
+    
+    
+</p>
+
+<p>It was based on the following pages:
+
+    <ul>
+        <li>
+            initramfs-tools : Erreur <a href = "https://forum.ubuntu-fr.org/viewtopic.php?id=2072516" target = "_blank">https://forum.ubuntu-fr.org</a>
+        </li>
+        <li>
+            The installation of the package failed initramfs-tool <a href = "https://askubuntu.com/questions/1393700/the-installation-of-the-package-failed-initramfs-tool
+            " target = "_blank">https://askubuntu.com</a>
+        </li>
+        <li>
+            How To Fix A Full /boot Partition on Linux <a href = "https://www.jamescoyle.net/how-to/1974-how-to-fix-a-full-boot-partition-on-linux" target = "_blank">https://www.jamescoyle.net</a>
+        </li>
+        <li>
+            initramfs error when installing / updating <a href = "https://askubuntu.com/questions/1136480/initramfs-error-when-installing-updating" target = "_blank">https://askubuntu.com</a>
+        </li>
+        <li>
+            How to Fix sub-process /usr/bin/dpkg returned an error code (1) in Ubuntu <a href = "https://phoenixnap.com/kb/fix-sub-process-usr-bin-dpkg-returned-error-code-1" target = "_blank">https://phoenixnap.com</a>
+        </li>
+    </ul>
+</p>
+    
+
+<h4>
+How much boot space do we have ?
+</h4>
+
+<code>df -h ; echo ; df -ih</code>
+
+<br/>
+
+<code>ls -Sl /boot</code>
+
+<h4>
+What are the available Kernels?
+</h4>
+
+<code>dpkg --list 'linux-image*'</code>
+
+<h4>
+Which one is the current Kernel?
+</h4>
+
+<code>uname -a</code>
+
+<br/>
+
+<code>echo; 
+dpkg -l \
+| awk '!/^rc/ && / \
+linux-(c|g|h|i|lo|m|si|t)/{print $1,$2,$3,$4 | \
+"sort -k3V | column -t"}'; 
+echo -e "\nCurrent kernel : $(uname -mr)"</code>
+
+
+<h4>
+Delete unnecessary kernels.
+</h4>
+<p>
+Let's assume you want to delete the version 6.2.0-12345.
+</p>
+
+<code>version=6.2.0-12345
+echo $version</code>
+
+<h4>
+Inspect the content of the folder.
+</h4>
+
+<code>ls -la  /boot/*$version*</code>
+
+<p>Remove the folder</p>
+    
+<code>sudo rm /boot/*$version*</code>
+
+<h4>Complete the original upgrade now that we have enough space</h4>
+
+<p>We can do this because now we have enough space</p> 
+
+<code>sudo apt-get install -f</code>
+
+<h4>Remove old kernel packages that are no longer needed.</h4>
+    
+<code>sudo apt-get remove linux-image-$version-tuxedo 
+sudo apt autoremove</code>
+
             <br /><signature> — 19 November 2023</signature>
 
         </div>

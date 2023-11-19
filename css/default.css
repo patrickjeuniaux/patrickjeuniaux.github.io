@@ -21,7 +21,15 @@ http://www.w3.org/1998/Math/MathML
 */
 
 
-code{white-space: pre;}
+code{
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    white-space: pre;
+    font-family: 'Courier New', monospace; 
+
+}
 
 figcaption {
 	/*font-style: italic;*/
