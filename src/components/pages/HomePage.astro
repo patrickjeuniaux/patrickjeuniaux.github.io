@@ -1,0 +1,93 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { t, type Locale, localizePath, normalizeLocale } from '../../i18n/ui';
+import { getLocalizedPage } from '../../lib/content';
+import { getLocalizedBlogGroups, slugOf } from '../../lib/blog';
+
+interface Props { locale: Locale }
+const locale = normalizeLocale(Astro.props.locale);
+const s = t(locale);
+const homeEntry = await getLocalizedPage(locale, 'home');
+if (!homeEntry) throw new Error('home page content not found');
+const home = homeEntry.data;
+
+// Latest 5 blog posts, reverse-chrono
+const allPosts = await getCollection('blog');
+const latestPosts = getLocalizedBlogGroups(
+  allPosts.filter(p => !p.data.draft),
+  locale
+).slice(0, 5);
+
+import { localeDateFormat } from '../../i18n/ui';
+import path from 'node:path';
+
+const dateLocale = localeDateFormat(locale);
+const formatDate = (date: Date) =>
+  date.toLocaleDateString(dateLocale, { day: 'numeric', month: 'short', year: 'numeric' });
+
+const sourcePath = homeEntry.filePath ? path.resolve(process.cwd(), homeEntry.filePath) : undefined;
+---
+<BaseLayout locale={locale} title="patrick jeuniaux" description={s.siteDescription} sourcePath={sourcePath}>
+  <section class="hero hero-banner">
+    <div class="hero-banner-image" role="img" aria-label="ubi bene, ibi patria. a tree canopy reflected in water, with leaves and light."></div>
+    <div class="container hero-grid">
+      <div class="hero-panel">
+        <div class="kicker">{home.kicker}</div>
+        <h1 class="page-title page-title-icon hero-title" data-icon="⚓">{home.title}</h1>
+        <p class="lead dropcap">{home.lead}</p>
+      </div>
+      <aside class="hero-card card-accent-blue">
+        <p class="section-mark">{home.newsTitle}</p>
+        {latestPosts.length > 0 ? (
+          <ul class="list-clean news-list">
+            {latestPosts.map(post => (
+              <li>
+                <span class="news-date">{formatDate(post.data.date)}</span>
+                <a href={localizePath(locale, `/notes/${slugOf(post)}/`)} class="news-link">{post.data.title}</a>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p class="meta">—</p>
+        )}
+        <p style="margin-top: 0.9rem; margin-bottom: 0;">
+          <a href={localizePath(locale, '/notes/')} class="meta">{home.newsLink}</a>
+        </p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>{home.axesTitle}</h2>
+      <div class="grid-axes">
+        <article class="card card-accent-brown"><h3>{home.axis1Title}</h3><p>{home.axis1Text}</p></article>
+        <article class="card card-accent-blue"><h3>{home.axis2Title}</h3><p>{home.axis2Text}</p></article>
+        <article class="card card-accent-green"><h3>{home.axis3Title}</h3><p>{home.axis3Text}</p></article>
+        <article class="card card-accent-gold"><h3>{home.axis4Title}</h3><p>{home.axis4Text}</p></article>
+        <article class="card card-accent-brown"><h3>{home.axis5Title}</h3><p>{home.axis5Text}</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container stack-gap">
+      <div>
+        <h2>{home.navTitle}</h2>
+        <ul class="list-clean nav-list">
+          <li><a href={localizePath(locale, '/about/')}>{s.nav.about}</a> <span class="meta">{home.aboutText}</span></li>
+          <li><a href={localizePath(locale, '/projects/')}>{s.nav.projects}</a> <span class="meta">{home.projectsText}</span></li>
+          <li><a href={localizePath(locale, '/work/')}>{s.nav.work}</a> <span class="meta">{home.workText}</span></li>
+          <li><a href={localizePath(locale, '/notes/')}>{s.nav.notes}</a> <span class="meta">{home.notesText}</span></li>
+          <li><a href={localizePath(locale, '/collaborations/')}>{s.nav.collaborations}</a> <span class="meta">{home.collaborationsText}</span></li>
+          <li><a href={localizePath(locale, '/contact/')}>{s.nav.contact}</a> <span class="meta">{home.contactText}</span></li>
+        </ul>
+      </div>
+      <div class="card card-accent-gold">
+        <p class="section-mark">{home.editorial}</p>
+        <p>{home.editorialText}</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

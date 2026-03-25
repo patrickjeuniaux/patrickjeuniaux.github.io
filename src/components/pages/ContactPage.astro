@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t, type Locale, normalizeLocale } from '../../i18n/ui';
+import { render } from 'astro:content';
+import { getLocalizedPage } from '../../lib/content';
+
+import path from 'node:path';
+
+interface Props { locale: Locale }
+const locale = normalizeLocale(Astro.props.locale);
+const s = t(locale);
+const pageEntry = await getLocalizedPage(locale, 'contact');
+if (!pageEntry) throw new Error('contact page content not found');
+const page = pageEntry.data;
+const { Content } = await render(pageEntry);
+const cleanTitle = String(page.title || '').replace(/^[^\p{L}\p{N}]+/u, '').trim();
+const sourcePath = pageEntry.filePath ? path.resolve(process.cwd(), pageEntry.filePath) : undefined;
+---
+<BaseLayout locale={locale} title={`${s.nav.contact} · patrick jeuniaux`} description={s.siteDescription} sourcePath={sourcePath}>
+  <section class="section"><div class="container prose prose-wide">
+    <p class="eyebrow">{page.eyebrow}</p>
+    <h1 class="page-title page-title-icon" data-icon="⚖">{cleanTitle}</h1>
+    <p class="lead">{page.lead}</p>
+    <div class="note"><strong>{page.noteTitle}</strong><br />{page.noteText}</div>
+    <Content />
+  </div></section>
+</BaseLayout>

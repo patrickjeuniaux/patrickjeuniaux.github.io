@@ -1,0 +1,192 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import bibtexRaw from '../../../data/index.bib?raw';
+import { parseBibtexPublications, type Publication } from '../../lib/bibtex';
+import { t, type Locale, normalizeLocale } from '../../i18n/ui';
+import { render } from 'astro:content';
+import { getLocalizedPage } from '../../lib/content';
+
+interface Props { locale: Locale }
+const locale = normalizeLocale(Astro.props.locale);
+const s = t(locale);
+const pageEntry = await getLocalizedPage(locale, 'publications');
+if (!pageEntry) throw new Error('publications page content not found');
+const page = pageEntry.data;
+const { Content } = await render(pageEntry);
+const cleanTitle = String(page.title || '').replace(/^[^\p{L}\p{N}]+/u, '').trim();
+const allPublications = parseBibtexPublications(bibtexRaw) as Publication[];
+const years = [...new Set(allPublications.map((item) => item.year || 'undated'))].sort((a, b) => {
+  if (a === 'undated') return 1;
+  if (b === 'undated') return -1;
+  return Number(b) - Number(a);
+});
+const types = [...new Set(allPublications.map((item) => item.pubType || 'other'))].sort((a, b) => a.localeCompare(b));
+const languages = [...new Set(allPublications.map((item) => (item.language || 'UND').toLowerCase()))].sort((a, b) => a.localeCompare(b));
+const selectedCount = allPublications.filter((item) => item.selected).length;
+const groupedByType = Object.entries(allPublications.reduce((acc: Record<string, Record<string, Publication[]>>, item) => {
+  const type = item.pubType || 'other';
+  const year = item.year || 'undated';
+  if (!acc[type]) acc[type] = {};
+  if (!acc[type][year]) acc[type][year] = [];
+  acc[type][year].push(item);
+  return acc;
+}, {})).sort((a, b) => a[0].localeCompare(b[0]));
+const pillClass = (value: string) => {
+  const key = (value || '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '-');
+  return key ? `pill-type-${key}` : 'pill-type-default';
+};
+const languageClass = (value: string) => {
+  const key = (value || '').trim().toLowerCase();
+  return key ? `pill-lang-${key}` : 'pill-lang-default';
+};
+const resetLabel = locale === 'fra' ? 'Rétablir les valeurs par défaut' : 'Reset';
+import path from 'node:path';
+
+const sourcePath = pageEntry.filePath ? path.resolve(process.cwd(), pageEntry.filePath) : undefined;
+---
+<BaseLayout locale={locale} title={`${s.nav.work} · patrick jeuniaux`} description={s.siteDescription} sourcePath={sourcePath}>
+  <section class="section">
+    <div class="container">
+      <div class="prose prose-wide">
+        <p class="eyebrow">{page.eyebrow}</p>
+        <h1 class="page-title page-title-icon" data-icon="✒">{cleanTitle}</h1>
+        <p class="lead dropcap">{page.lead}</p>
+        <div class="note"><strong>{page.noteTitle}</strong><br />{page.noteText}</div>
+        <Content />
+      </div>
+
+      <div class="card publication-summary">
+        <p><strong>{s.publicationFilters.totalEntries}:</strong> {allPublications.length}</p>
+        <p><strong>{s.publicationFilters.selectedEntries}:</strong> {selectedCount}</p>
+      </div>
+
+      <div class="publication-toolbar card compact-toolbar">
+        <div>
+          <label for="filter-type">{s.publicationFilters.type}</label>
+          <select id="filter-type">
+            <option value="all">{s.publicationFilters.allTypes}</option>
+            {types.map((type) => <option value={type}>{type}</option>)}
+          </select>
+        </div>
+        <div>
+          <label for="filter-year">{s.publicationFilters.year}</label>
+          <select id="filter-year">
+            <option value="all">{s.publicationFilters.allYears}</option>
+            {years.map((year) => <option value={year}>{year}</option>)}
+          </select>
+        </div>
+        <div>
+          <label for="filter-language">{s.publicationFilters.language}</label>
+          <select id="filter-language">
+            <option value="all">{s.publicationFilters.allLanguages}</option>
+            {languages.map((language) => <option value={language}>{language === 'und' ? s.publicationFilters.unspecifiedLanguage : language}</option>)}
+          </select>
+        </div>
+        <div class="toolbar-checkbox compact-check">
+          <label for="filter-selected">{s.publicationFilters.selectedOnly}</label>
+          <input id="filter-selected" type="checkbox" />
+        </div>
+        <div class="toolbar-actions">
+          <button id="reset-publication-filters" type="button" class="button tertiary reset-button">{resetLabel}</button>
+        </div>
+      </div>
+
+      <div class="publication-groups" id="publication-groups">
+        {groupedByType.map(([type, yearsMap]) => {
+          const yearGroups = Object.entries(yearsMap).sort((a, b) => {
+            const ay = a[0] === 'undated' ? -1 : Number(a[0]);
+            const by = b[0] === 'undated' ? -1 : Number(b[0]);
+            return by - ay;
+          });
+          return (
+            <section class="publication-type-group" data-type-group={type}>
+              <div class="publication-type-header">
+                <h2>{type}</h2>
+                <span class={`pill publication-type-pill ${pillClass(type)}`}>{type}</span>
+              </div>
+              {yearGroups.map(([year, items]) => (
+                <section class="publication-year" data-year-group={year}>
+                  <h3 class="publication-year-title">{year}</h3>
+                  <div class="publication-list">
+                    {items.map((item) => (
+                      <article class:list={['card','publication-card', item.selected && 'publication-card-selected']} data-type={item.pubType || 'other'} data-year={item.year || 'undated'} data-language={(item.language || 'UND').toLowerCase()} data-selected={item.selected ? 'true' : 'false'}>
+                        <div class="publication-card-header">
+                          <div>
+                            <h4>{item.title}</h4>
+                            <p class="meta" set:html={item.authorsHtml + (item.date ? ` · ${item.date}` : '')}></p>
+                          </div>
+                          <div class="pill-group publication-badges compact-badges">
+                            {item.selected && <span class="pill pill-selected">{s.publicationFilters.selectedBadge}</span>}
+                            <span class={`pill pill-language ${languageClass((item.language || 'UND').toLowerCase())}`}>{(item.language || 'UND').toLowerCase()}</span>
+                            {item.pubType && <span class={`pill ${pillClass(item.pubType)}`}>{item.pubType}</span>}
+                          </div>
+                        </div>
+                        {(item.location || item.institution || item.booktitle || item.publisher) && <p class="meta publication-context">{[item.location, item.institution, item.booktitle, item.publisher].filter(Boolean).join(' · ')}</p>}
+                        {item.note && <p>{item.note}</p>}
+                        {item.abstract && <details class="publication-abstract"><summary>{s.publicationFilters.abstractSummary}</summary><p>{item.abstract}</p></details>}
+                        <div class="publication-links"><div class="publication-action-links">
+                          {item.pdfUrl && <a class="button-link" href={item.pdfUrl} target="_blank" rel="noreferrer">pdf</a>}
+                          {item.url && <a class="button-link" href={item.url} target="_blank" rel="noreferrer">{s.publicationFilters.externalLink}</a>}
+                          {!item.pdfUrl && !item.url && <span class="meta">{s.publicationFilters.noOnlineLink}</span>}
+                        </div></div>
+                      </article>
+                    ))}
+                  </div>
+                </section>
+              ))}
+            </section>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <script is:inline>
+    const typeSelect = document.getElementById('filter-type');
+    const yearSelect = document.getElementById('filter-year');
+    const languageSelect = document.getElementById('filter-language');
+    const selectedCheckbox = document.getElementById('filter-selected');
+    const resetPublicationFiltersButton = document.getElementById('reset-publication-filters');
+    const applyFilters = () => {
+      const selectedType = typeSelect && 'value' in typeSelect ? typeSelect.value : 'all';
+      const selectedYear = yearSelect && 'value' in yearSelect ? yearSelect.value : 'all';
+      const selectedLanguage = languageSelect && 'value' in languageSelect ? languageSelect.value : 'all';
+      const selectedOnly = selectedCheckbox && 'checked' in selectedCheckbox ? selectedCheckbox.checked : false;
+      document.querySelectorAll('.publication-type-group').forEach((typeGroup) => {
+        let visibleInType = 0;
+        const typeName = typeGroup.getAttribute('data-type-group') || '';
+        typeGroup.querySelectorAll('.publication-year').forEach((yearGroup) => {
+          let visibleInYear = 0;
+          yearGroup.querySelectorAll('.publication-card').forEach((card) => {
+            const cardType = card.getAttribute('data-type') || '';
+            const cardYear = card.getAttribute('data-year') || '';
+            const cardLanguage = card.getAttribute('data-language') || 'und';
+            const cardSelected = card.getAttribute('data-selected') === 'true';
+            const typeMatches = selectedType === 'all' || cardType === selectedType;
+            const yearMatches = selectedYear === 'all' || cardYear === selectedYear;
+            const languageMatches = selectedLanguage === 'all' || cardLanguage === selectedLanguage;
+            const selectedMatches = !selectedOnly || cardSelected;
+            const visible = typeMatches && yearMatches && languageMatches && selectedMatches;
+            card.style.display = visible ? '' : 'none';
+            if (visible) visibleInYear += 1;
+          });
+          yearGroup.style.display = visibleInYear > 0 ? '' : 'none';
+          visibleInType += visibleInYear;
+        });
+        const typeVisible = visibleInType > 0 && (selectedType === 'all' || selectedType === typeName);
+        typeGroup.style.display = typeVisible ? '' : 'none';
+      });
+    };
+    typeSelect && typeSelect.addEventListener('change', applyFilters);
+    yearSelect && yearSelect.addEventListener('change', applyFilters);
+    languageSelect && languageSelect.addEventListener('change', applyFilters);
+    selectedCheckbox && selectedCheckbox.addEventListener('change', applyFilters);
+    resetPublicationFiltersButton && resetPublicationFiltersButton.addEventListener('click', () => {
+      if (typeSelect && 'value' in typeSelect) typeSelect.value = 'all';
+      if (yearSelect && 'value' in yearSelect) yearSelect.value = 'all';
+      if (languageSelect && 'value' in languageSelect) languageSelect.value = 'all';
+      if (selectedCheckbox && 'checked' in selectedCheckbox) selectedCheckbox.checked = false;
+      applyFilters();
+    });
+  </script>
+</BaseLayout>

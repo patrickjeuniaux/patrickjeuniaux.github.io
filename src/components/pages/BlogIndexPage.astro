@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+import { t, type Locale, localizePath, normalizeLocale, localeDateFormat } from '../../i18n/ui';
+import { getLocalizedBlogGroups, slugOf } from '../../lib/blog';
+import { getLocalizedPage } from '../../lib/content';
+import path from 'node:path';
+
+interface Props { locale: Locale }
+const locale = normalizeLocale(Astro.props.locale);
+const s = t(locale);
+const posts = getLocalizedBlogGroups((await getCollection('blog')).filter((post) => !post.data.draft), locale);
+const pageEntry = await getLocalizedPage(locale, 'notes');
+if (!pageEntry) throw new Error('notes page content not found');
+const page = pageEntry.data;
+const { Content } = await render(pageEntry);
+const cleanTitle = String(page.title || '').replace(/^[^\p{L}\p{N}]+/u, '').trim();
+const dateLocale = localeDateFormat(locale);
+const sourcePath = pageEntry.filePath ? path.resolve(process.cwd(), pageEntry.filePath) : undefined;
+---
+<BaseLayout locale={locale} title={`${s.nav.notes} · patrick jeuniaux`} description={s.siteDescription} sourcePath={sourcePath}>
+  <section class="section"><div class="container prose prose-wide">
+    <p class="eyebrow">{page.eyebrow}</p>
+    <h1 class="page-title page-title-icon" data-icon="⚗">{cleanTitle}</h1>
+    <p class="lead">{page.lead}</p>
+    <div class="note"><strong>{page.noteTitle}</strong><br />{page.noteText}</div>
+    <Content />
+    {posts.length === 0 ? (
+      <div class="card"><p>{s.notes.noPosts}</p></div>
+    ) : (
+      <ul class="list-clean">
+        {posts.map((post) => (
+          <li class="card blog-card">
+            <h2 style="margin-top:0"><a class="plain-title-link" href={localizePath(locale, `/notes/${slugOf(post)}/`)}>{post.data.title}</a></h2>
+            <p class="meta">{post.data.date.toLocaleDateString(dateLocale)} · {post.data.description}</p>
+          </li>
+        ))}
+      </ul>
+    )}
+  </div></section>
+</BaseLayout>

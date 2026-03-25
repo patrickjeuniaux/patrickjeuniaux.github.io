@@ -1,0 +1,96 @@
+---
+import '../styles/global.css';
+import { t, type Locale, localizePath, localizedCurrentPath, localeLabels, locales, normalizeLocale, localeDateFormat } from '../i18n/ui';
+import { getFileDates } from '../lib/utils';
+
+interface Props {
+  title: string;
+  description?: string;
+  locale?: Locale;
+  translations?: Record<string, string>;
+  sourcePath?: string;
+}
+
+const { title, locale: rawLocale = 'fra', description, translations, sourcePath } = Astro.props;
+const locale = normalizeLocale(rawLocale);
+const s = t(locale);
+const metaDescription = description ?? s.siteDescription;
+const currentPath = Astro.url.pathname;
+
+const getLink = (targetLocale: Locale) => {
+  if (translations && translations[targetLocale]) return translations[targetLocale];
+  return localizedCurrentPath(currentPath, targetLocale);
+};
+
+const dates = sourcePath ? getFileDates(sourcePath) : null;
+const formatDate = (date: Date) => {
+  const y = date.getFullYear();
+  const m = String(date.getMonth() + 1).padStart(2, '0');
+  const d = String(date.getDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
+};
+---
+<!doctype html>
+<html lang={locale} dir={locale === 'ara' ? 'rtl' : 'ltr'}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={metaDescription} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header-inner">
+        <div class="header-top-row">
+          <a class="brand" href={localizePath(locale, '/')} aria-label="patrick p. j. m. h. jeuniaux">
+            <span class="site-title">patrick p. j. m. h. jeuniaux</span>
+            <small>{s.tagline}</small>
+          </a>
+          <nav class="nav" aria-label={s.primaryNavLabel}>
+            <a href={localizePath(locale, '/about/')}>{s.nav.about}</a>
+            <a href={localizePath(locale, '/projects/')}>{s.nav.projects}</a>
+            <a href={localizePath(locale, '/collaborations/')}>{s.nav.collaborations}</a>
+            <a href={localizePath(locale, '/work/')}>{s.nav.work}</a>
+            <a href={localizePath(locale, '/notes/')}>{s.nav.notes}</a>
+            <a href={localizePath(locale, '/contact/')}>{s.nav.contact}</a>
+          </nav>
+        </div>
+        <nav class="lang-switcher" aria-label={s.languageNavLabel}>
+          {locales.map((targetLocale) => (
+            <a href={getLink(targetLocale)} class:list={['lang-pill', locale === targetLocale && 'is-active']} hreflang={targetLocale} lang={targetLocale}>
+              {localeLabels[targetLocale]}
+            </a>
+          ))}
+        </nav>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="footer-title">{s.footerTitle}</p>
+          <p class="meta">{s.footerText}</p>
+        </div>
+        <div>
+          <p class="meta">
+            {dates && (
+              <span class="date-info">
+                {s.originalPublication}: {formatDate(dates.birthtime)} | {s.lastUpdated}: {formatDate(dates.mtime)}
+                <br />
+              </span>
+            )}
+            {s.autoTranslated && (
+              <span class="auto-translated">
+                {s.autoTranslated}
+                <br />
+              </span>
+            )}
+            {s.footerBuild}
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

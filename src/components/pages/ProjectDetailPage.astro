@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { render, getCollection } from 'astro:content';
+import { t, type Locale, normalizeLocale } from '../../i18n/ui';
+import { pickLocalizedProject } from '../../lib/projects';
+
+import path from 'node:path';
+
+interface Props { locale: Locale; slug: string; }
+const locale = normalizeLocale(Astro.props.locale);
+const slug = String(Astro.props.slug || '').toLowerCase();
+const s = t(locale);
+const entries = await getCollection('projects');
+const project = pickLocalizedProject(entries, locale, slug);
+if (!project) throw new Error(`project not found for slug: ${slug}`);
+const { Content } = await render(project);
+const sourcePath = project.filePath ? path.resolve(process.cwd(), project.filePath) : undefined;
+---
+<BaseLayout locale={locale} title={`${project.data.title} · patrick jeuniaux`} description={project.data.summary} sourcePath={sourcePath}>
+  <section class="section"><div class="container"><article class="prose">
+    <p class="eyebrow">{project.data.status ?? s.projectStatusFallback}</p>
+    <h1 class="page-title">{project.data.title}</h1>
+    <p class="lead dropcap">{project.data.summary}</p>
+    <div class="card publication-summary" style="margin-top: 1.5rem; margin-bottom: 2rem;">
+      {project.data.startYear && <p><strong>{locale === 'fra' ? 'Période' : locale === 'nld' ? 'Periode' : 'Period'} :</strong> {project.data.startYear} – {project.data.endYear || '...'}</p>}
+      {project.data.funder && <p><strong>{s.projectFilters?.funder || 'Bailleur'} :</strong> {project.data.funder}</p>}
+      {project.data.role && <p><strong>{s.projectFilters?.role || 'Rôle'} :</strong> {project.data.role}</p>}
+      {project.data.budget && <p><strong>Budget :</strong> {project.data.budget}</p>}
+    </div>
+    {project.data.keywords.length > 0 && <p class="meta">{project.data.keywords.join(' · ')}</p>}
+    <Content />
+    <p class="finis">✦</p>
+  </article></div></section>
+</BaseLayout>

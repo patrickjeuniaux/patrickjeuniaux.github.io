@@ -1,0 +1,18 @@
+---
+import { getCollection } from 'astro:content';
+import { locales } from '../../../i18n/ui';
+import { getLocalizedBlogGroups } from '../../../lib/blog';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  const filtered = posts.filter((post) => !post.data.draft);
+  return locales.flatMap((locale) => getLocalizedBlogGroups(filtered, locale).map((post) => ({
+    params: { locale, slug: post.slug },
+  })));
+}
+
+const locale = Astro.params.locale;
+const slugParam = Astro.params.slug;
+const slug = Array.isArray(slugParam) ? slugParam.join('/') : slugParam || '';
+return Astro.redirect(`/${locale}/notes/${slug}/`);
+---

@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t, type Locale, normalizeLocale } from '../../i18n/ui';
+import { render } from 'astro:content';
+import { getLocalizedPage } from '../../lib/content';
+
+import path from 'node:path';
+
+interface Props { locale: Locale }
+const locale = normalizeLocale(Astro.props.locale);
+const s = t(locale);
+const aboutEntry = await getLocalizedPage(locale, 'about');
+if (!aboutEntry) throw new Error('about page content not found');
+const about = aboutEntry.data;
+const { Content } = await render(aboutEntry);
+const cleanTitle = String(about.title || '').replace(/^[^\p{L}\p{N}]+/u, '').trim();
+const sourcePath = aboutEntry.filePath ? path.resolve(process.cwd(), aboutEntry.filePath) : undefined;
+---
+<BaseLayout locale={locale} title={`${about.eyebrow} · patrick jeuniaux`} description={s.siteDescription} sourcePath={sourcePath}>
+  <section class="section"><div class="container"><div class="prose prose-wide">
+    <p class="eyebrow">{about.eyebrow}</p>
+    <h1 class="page-title page-title-icon" data-icon="♞">{cleanTitle}</h1>
+    <p class="lead dropcap">{about.lead}</p>
+    <div class="note">{about.note}</div>
+    <Content />
+  </div></div></section>
+</BaseLayout>

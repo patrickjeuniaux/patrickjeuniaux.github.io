@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+import { t, type Locale, normalizeLocale, localeDateFormat } from '../../i18n/ui';
+import { pickLocalizedPost, getTranslationsForPost } from '../../lib/blog';
+
+import path from 'node:path';
+
+interface Props { locale: Locale; slug: string; }
+const locale = normalizeLocale(Astro.props.locale);
+const slug = String(Astro.props.slug || '').toLowerCase();
+const s = t(locale);
+const entries = await getCollection('blog');
+const post = pickLocalizedPost(entries, locale, slug);
+if (!post) throw new Error(`blog post not found for slug: ${slug}`);
+const translations = getTranslationsForPost(entries, post);
+const { Content } = await render(post);
+const sourcePath = post.filePath ? path.resolve(process.cwd(), post.filePath) : undefined;
+---
+<BaseLayout locale={locale} title={`${post.data.title} · patrick jeuniaux`} description={post.data.description} translations={translations} sourcePath={sourcePath}>
+  <section class="section"><div class="container prose prose-wide">
+    <p class="meta">{post.data.date.toLocaleDateString(localeDateFormat(locale))}</p>
+    <h1 class="page-title">{post.data.title}</h1>
+    <div class="note"><strong>{s.notes.translationPolicyTitle}</strong><br />{s.notes.translationPolicyDetailText}</div>
+    <Content />
+    <p class="finis">✦</p>
+  </div></section>
+</BaseLayout>

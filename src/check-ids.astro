@@ -1,0 +1,11 @@
+import { getCollection } from 'astro:content';
+
+export async function checkIds() {
+  const pages = await getCollection('pages');
+  console.log('--- PAGES ---');
+  pages.slice(0, 5).forEach(p => console.log(`ID: "${p.id}", slug: "${p.data.slug}"`));
+  
+  const blog = await getCollection('blog');
+  console.log('--- BLOG ---');
+  blog.slice(0, 5).forEach(b => console.log(`ID: "${b.id}"`));
+}

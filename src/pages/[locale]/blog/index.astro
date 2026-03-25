@@ -1,0 +1,10 @@
+---
+import { locales } from '../../../i18n/ui';
+
+export function getStaticPaths() {
+  return locales.map((locale) => ({ params: { locale } }));
+}
+
+const locale = Astro.params.locale;
+return Astro.redirect(`/${locale}/notes/`);
+---

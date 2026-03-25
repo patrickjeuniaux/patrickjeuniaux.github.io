@@ -1,0 +1,76 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProjectDetailPage from '../../components/pages/ProjectDetailPage.astro';
+import { locales, type Locale, normalizeLocale, t } from '../../i18n/ui';
+import { getCanonicalProjectGroups } from '../../lib/projects';
+
+export async function getStaticPaths() {
+  const projects = getCanonicalProjectGroups(await getCollection('projects'));
+  const pages = await getCollection('pages');
+  const explicitlyRouted = ['home', 'about', 'work', 'projects', 'notes', 'contact', 'collaborations'];
+
+  const projectPaths = locales.flatMap((locale) =>
+    projects.map((project) => ({
+      params: { locale, slug: project.data.routeSlug.toLowerCase() },
+      props: { type: 'project', slug: project.data.routeSlug.toLowerCase() },
+    }))
+  );
+
+  const pageSlugSet = new Set(
+    pages
+      .filter((page) => page.data.locale === 'fra' || page.data.canonical)
+      .map((page) => page.id.split('/').pop()?.replace(/\.md$/, '').toLowerCase() || '')
+      .filter((slug) => slug && !explicitlyRouted.includes(slug))
+  );
+
+  const pagePaths = locales.flatMap((locale) =>
+    [...pageSlugSet].map((pageSlug) => ({
+      params: { locale, slug: pageSlug },
+      props: { type: 'page', slug: pageSlug },
+    }))
+  );
+
+  return [...projectPaths, ...pagePaths];
+}
+
+import path from 'node:path';
+
+const { type, slug } = Astro.props;
+const locale = normalizeLocale(Astro.params.locale) as Locale;
+const s = t(locale);
+
+let pageData = null;
+let Content = null;
+let sourcePath = '';
+
+if (type === 'page') {
+  const allPages = await getCollection('pages');
+  const findPage = (l: Locale) => allPages.find(p => p.id.split('/').pop()?.replace(/\.(md|mdx)$/, '').toLowerCase() === slug.toLowerCase() && p.data.locale === l);
+  
+  let pageEntry = findPage(locale);
+  if (!pageEntry) pageEntry = findPage('eng');
+  if (!pageEntry) pageEntry = findPage('fra');
+
+  if (pageEntry) {
+    pageData = pageEntry.data;
+    const rendered = await render(pageEntry);
+    Content = rendered.Content;
+    sourcePath = pageEntry.filePath ? path.resolve(process.cwd(), pageEntry.filePath) : undefined;
+  }
+}
+---
+{type === 'project' ? (
+  <ProjectDetailPage locale={locale} slug={slug} />
+) : pageData ? (
+  <BaseLayout locale={locale} title={`${pageData.title} · patrick jeuniaux`} description={pageData.lead} sourcePath={sourcePath}>
+    <section class="section">
+      <div class="container">
+        <h1 class="page-title">{pageData.title}</h1>
+        <div class="prose prose-wide">
+          <Content />
+        </div>
+      </div>
+    </section>
+  </BaseLayout>
+) : null}

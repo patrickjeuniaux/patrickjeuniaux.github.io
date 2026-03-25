@@ -1,0 +1,22 @@
+{
+  "name": "patrickjeuniaux-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "sync-bib": "echo \"The publications page reads directly from data/index.bib; save the file and Astro will rebuild the page.\""
+  },
+  "dependencies": {
+    "astro": "^6.0.0",
+    "@astrojs/mdx": "^5.0.2",
+    "@astrojs/sitemap": "^3.7.1",
+    "remark-math": "^6.0.0",
+    "rehype-katex": "^7.0.0",
+    "katex": "^0.16.11"
+  }
+}

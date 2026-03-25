@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t, type Locale, normalizeLocale } from '../../i18n/ui';
+import { render } from 'astro:content';
+import { getLocalizedPage } from '../../lib/content';
+
+import path from 'node:path';
+
+interface Props { locale: Locale }
+const locale = normalizeLocale(Astro.props.locale);
+const s = t(locale);
+
+const entry = await getLocalizedPage(locale, 'collaborations');
+if (!entry) throw new Error('collaborations page content not found');
+const page = entry.data;
+const { Content } = await render(entry);
+const cleanTitle = String(page.title || '').replace(/^[^\p{L}\p{N}]+/u, '').trim();
+const sourcePath = entry.filePath ? path.resolve(process.cwd(), entry.filePath) : undefined;
+---
+<BaseLayout locale={locale} title={page.title || 'Collaborations'} description={page.lead} sourcePath={sourcePath}>
+  <header class="section">
+    <div class="container">
+      <p class="eyebrow">{page.eyebrow}</p>
+      <h1 class="page-title page-title-icon" data-icon="🏛">{cleanTitle}</h1>
+      {page.lead && <p class="lead">{page.lead}</p>}
+    </div>
+  </header>
+  
+  <section class="section">
+    <div class="container">
+      <div class="prose prose-wide">
+        <Content />
+      </div>
+      {(page.noteTitle || page.noteText) && (
+        <aside style="margin-top: 2rem;">
+          <div class="note">
+            <h3>{page.noteTitle}</h3>
+            <p>{page.noteText}</p>
+          </div>
+        </aside>
+      )}
+    </div>
+  </section>
+</BaseLayout>

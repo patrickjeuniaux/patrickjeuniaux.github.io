@@ -1,0 +1,174 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+import { t, type Locale, localizePath, normalizeLocale } from '../../i18n/ui';
+import { getLocalizedProjectGroups } from '../../lib/projects';
+import { getLocalizedPage } from '../../lib/content';
+
+import path from 'node:path';
+
+interface Props { locale: Locale }
+const locale = normalizeLocale(Astro.props.locale);
+const s = t(locale);
+const allProjects = await getCollection('projects');
+const projects = getLocalizedProjectGroups(allProjects, locale);
+const pageEntry = await getLocalizedPage(locale, 'projects');
+if (!pageEntry) throw new Error('projects page content not found');
+const page = pageEntry.data;
+const { Content } = await render(pageEntry);
+const cleanTitle = String(page.title || '').replace(/^[^\p{L}\p{N}]+/u, '').trim();
+const sourcePath = pageEntry.filePath ? path.resolve(process.cwd(), pageEntry.filePath) : undefined;
+
+// Calculate filter options
+const statuses = [...new Set(projects.map(p => p.data.status || ''))].filter(Boolean).sort();
+const domains = [...new Set(projects.map(p => p.data.domain || ''))].filter(Boolean).sort();
+const years = [...new Set(projects.map(p => p.data.startYear || 'undated'))].sort((a, b) => {
+  if (a === 'undated') return 1;
+  if (b === 'undated') return -1;
+  return Number(b) - Number(a);
+});
+const funders = [...new Set(projects.map(p => p.data.funder || 'other'))].sort();
+
+const pillClass = (value: string) => {
+  const key = (value || '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '-');
+  return key ? `pill-type-${key}` : 'pill-type-default';
+};
+---
+
+<BaseLayout locale={locale} title={`${s.nav.projects} · patrick jeuniaux`} description={s.siteDescription} sourcePath={sourcePath}>
+  <section class="section">
+    <div class="container">
+      <div class="prose prose-wide">
+        <p class="eyebrow">{page.eyebrow}</p>
+        <h1 class="page-title page-title-icon" data-icon="⚙">{cleanTitle}</h1>
+        <p class="lead">{page.lead}</p>
+        <div class="note"><strong>{page.noteTitle}</strong><br />{page.noteText}</div>
+        <Content />
+      </div>
+
+      <div class="publication-toolbar card compact-toolbar">
+        <div>
+          <label for="filter-year">{s.projectFilters?.startYear || 'Début'}</label>
+          <select id="filter-year">
+            <option value="all">{s.projectFilters?.allYears || 'Toutes les années'}</option>
+            {years.map((y) => <option value={y}>{y}</option>)}
+          </select>
+        </div>
+        <div>
+          <label for="filter-domain">{s.projectFilters?.domain || 'Domaine'}</label>
+          <select id="filter-domain">
+            <option value="all">{s.projectFilters?.allDomains || 'Tous les domaines'}</option>
+            {domains.map((d) => <option value={d}>{d}</option>)}
+          </select>
+        </div>
+        <div>
+          <label for="filter-status">{s.projectFilters?.status || 'Statut'}</label>
+          <select id="filter-status">
+            <option value="all">{s.projectFilters?.allStatus || 'Tous les statuts'}</option>
+            {statuses.map((st) => <option value={st}>{st}</option>)}
+          </select>
+        </div>
+        <div>
+          <label for="filter-funder">{s.projectFilters?.funder || 'Bailleur'}</label>
+          <select id="filter-funder">
+            <option value="all">{s.projectFilters?.allFunders || 'Tous les bailleurs'}</option>
+            {funders.map((f) => <option value={f}>{f}</option>)}
+          </select>
+        </div>
+        <div class="toolbar-actions">
+          <button id="reset-project-filters" type="button" class="button tertiary reset-button">
+            {s.projectFilters?.reset || 'Réinitialiser'}
+          </button>
+        </div>
+      </div>
+
+      <div class="card publication-summary">
+        <p><strong>{s.projectFilters?.totalEntries || 'Entrées retenues'} :</strong> <span id="project-count">{projects.length}</span></p>
+      </div>
+
+      <div class="publication-groups" id="project-groups">
+        <div class="publication-list">
+          {projects.map((project) => (
+            <article
+              class="card publication-card project-card"
+              data-year={project.data.startYear || 'undated'}
+              data-domain={project.data.domain || ''}
+              data-status={project.data.status || ''}
+              data-funder={project.data.funder || 'other'}
+              data-role={project.data.role || 'other'}
+            >
+              <div class="publication-card-header">
+                <div>
+                  <h4><a class="project-link" href={localizePath(locale, `/${project.data.routeSlug.toLowerCase()}/`)}>{project.data.title}</a></h4>
+                  <p class="meta">
+                    {project.data.startYear} – {project.data.endYear || '...'}
+                    {project.data.funder && ` · ${project.data.funder}`}
+                    {project.data.role && ` · ${project.data.role}`}
+                  </p>
+                </div>
+                <div class="pill-group publication-badges compact-badges">
+                  {project.data.status === 'En cours'
+                    ? <span class="pill pill-selected">{project.data.status}</span>
+                    : (project.data.status && <span class="pill pill-language">{project.data.status}</span>)}
+                  {project.data.domain && <span class={`pill ${pillClass(project.data.domain)}`}>{project.data.domain}</span>}
+                </div>
+              </div>
+              <p>{project.data.summary}</p>
+              {project.data.keywords.length > 0 && (
+                <p class="meta publication-context">{project.data.keywords.join(' · ')}</p>
+              )}
+            </article>
+          ))}
+        </div>
+        <p class="meta" id="project-no-results" style="display:none; margin-top:1.5rem; text-align:center;">—</p>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline>
+    (function () {
+      const yearSelect   = document.getElementById('filter-year');
+      const domainSelect = document.getElementById('filter-domain');
+      const statusSelect = document.getElementById('filter-status');
+      const funderSelect = document.getElementById('filter-funder');
+      const resetBtn     = document.getElementById('reset-project-filters');
+      const countEl      = document.getElementById('project-count');
+      const noResultsEl  = document.getElementById('project-no-results');
+
+      function applyFilters() {
+        const y = yearSelect   ? yearSelect.value   : 'all';
+        const d = domainSelect ? domainSelect.value : 'all';
+        const st = statusSelect ? statusSelect.value : 'all';
+        const f = funderSelect ? funderSelect.value : 'all';
+
+        let visible = 0;
+        document.querySelectorAll('.project-card').forEach(function(card) {
+          const show =
+            (y  === 'all' || card.getAttribute('data-year')   === y)  &&
+            (d  === 'all' || card.getAttribute('data-domain') === d)  &&
+            (st === 'all' || card.getAttribute('data-status') === st) &&
+            (f  === 'all' || card.getAttribute('data-funder') === f);
+          card.style.display = show ? '' : 'none';
+          if (show) visible++;
+        });
+
+        if (countEl)     countEl.textContent = String(visible);
+        if (noResultsEl) noResultsEl.style.display = visible === 0 ? '' : 'none';
+      }
+
+      function resetFilters() {
+        if (yearSelect)   yearSelect.value   = 'all';
+        if (domainSelect) domainSelect.value = 'all';
+        if (statusSelect) statusSelect.value = 'all';
+        if (funderSelect) funderSelect.value = 'all';
+        applyFilters();
+      }
+
+      yearSelect   && yearSelect.addEventListener('change',   applyFilters);
+      domainSelect && domainSelect.addEventListener('change', applyFilters);
+      statusSelect && statusSelect.addEventListener('change', applyFilters);
+      funderSelect && funderSelect.addEventListener('change', applyFilters);
+      resetBtn     && resetBtn.addEventListener('click',      resetFilters);
+    })();
+  </script>
+</BaseLayout>

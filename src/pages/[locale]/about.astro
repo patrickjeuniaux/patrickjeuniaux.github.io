@@ -1,0 +1,9 @@
+---
+import AboutPage from '../../components/pages/AboutPage.astro';
+import { locales, type Locale, normalizeLocale } from '../../i18n/ui';
+export function getStaticPaths() {
+  return locales.map((locale) => ({ params: { locale } }));
+}
+const locale = normalizeLocale(Astro.params.locale) as Locale;
+---
+<AboutPage locale={locale} />
