@@ -12,7 +12,7 @@ export default defineConfig({
     locales: ['fra', 'nld', 'eng', 'deu', 'ita', 'spa', 'por', 'zho', 'rus', 'jpn', 'hin', 'ara'],
     defaultLocale: 'fra',
     routing: {
-      prefixDefaultLocale: true,
+      prefixDefaultLocale: false,
     },
   },
   integrations: [mdx(), sitemap()],

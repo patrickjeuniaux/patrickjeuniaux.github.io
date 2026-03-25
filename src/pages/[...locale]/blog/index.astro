@@ -2,7 +2,7 @@
 import { locales } from '../../../i18n/ui';
 
 export function getStaticPaths() {
-  return locales.map((locale) => ({ params: { locale } }));
+  return [...locales.map((locale) => ({ params: { locale } })), { params: { locale: undefined } }];
 }
 
 const locale = Astro.params.locale;

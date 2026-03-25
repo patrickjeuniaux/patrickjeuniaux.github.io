@@ -159,6 +159,7 @@ export function normalizeLocale(locale: string | undefined): Locale {
 export function localizePath(locale: Locale, path: string) {
   const normalizedPath = path.startsWith('/') ? path : `/${path}`;
   const cleanPath = normalizedPath === '/' ? '/' : normalizedPath.replace(/\/+$/, '/');
+  if (locale === defaultLocale) return cleanPath;
   return `/${locale}${cleanPath === '/' ? '/' : cleanPath}`.replace(/\/+/g, '/');
 }
 

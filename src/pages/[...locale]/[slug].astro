@@ -10,7 +10,9 @@ export async function getStaticPaths() {
   const pages = await getCollection('pages');
   const explicitlyRouted = ['home', 'about', 'work', 'projects', 'notes', 'contact', 'collaborations'];
 
-  const projectPaths = locales.flatMap((locale) =>
+  const extendedLocales = [...locales, undefined];
+
+  const projectPaths = extendedLocales.flatMap((locale) =>
     projects.map((project) => ({
       params: { locale, slug: project.data.routeSlug.toLowerCase() },
       props: { type: 'project', slug: project.data.routeSlug.toLowerCase() },
@@ -24,7 +26,7 @@ export async function getStaticPaths() {
       .filter((slug) => slug && !explicitlyRouted.includes(slug))
   );
 
-  const pagePaths = locales.flatMap((locale) =>
+  const pagePaths = extendedLocales.flatMap((locale) =>
     [...pageSlugSet].map((pageSlug) => ({
       params: { locale, slug: pageSlug },
       props: { type: 'page', slug: pageSlug },

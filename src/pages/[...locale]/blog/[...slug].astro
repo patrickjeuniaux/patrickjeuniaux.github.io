@@ -6,7 +6,8 @@ import { getLocalizedBlogGroups } from '../../../lib/blog';
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
   const filtered = posts.filter((post) => !post.data.draft);
-  return locales.flatMap((locale) => getLocalizedBlogGroups(filtered, locale).map((post) => ({
+  const extendedLocales = [...locales, undefined];
+  return extendedLocales.flatMap((locale) => getLocalizedBlogGroups(filtered, locale).map((post) => ({
     params: { locale, slug: post.slug },
   })));
 }
@@ -14,5 +15,6 @@ export async function getStaticPaths() {
 const locale = Astro.params.locale;
 const slugParam = Astro.params.slug;
 const slug = Array.isArray(slugParam) ? slugParam.join('/') : slugParam || '';
-return Astro.redirect(`/${locale}/notes/${slug}/`);
+const redirectPath = locale ? `/${locale}/notes/${slug}/` : `/notes/${slug}/`;
+return Astro.redirect(redirectPath);
 ---
