@@ -11,6 +11,7 @@ const blog = defineCollection({
     locale: z.string().default('fra'),
     translationKey: z.string().optional(),
     canonical: z.boolean().default(false),
+    tags: z.array(z.string()).default([]),
   }),
 });
 
