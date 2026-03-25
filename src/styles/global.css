@@ -217,7 +217,7 @@ h4 a,
   min-height: clamp(12rem, 24vw, 19rem);
   background-image:
     linear-gradient(to bottom, rgba(34, 28, 23, 0.18), rgba(34, 28, 23, 0.30)),
-    url('https://patrickjeuniaux.github.io/img/Ubi_bene_ibi_patria_logo.jpg');
+    url('/img/Ubi_bene_ibi_patria_logo.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
