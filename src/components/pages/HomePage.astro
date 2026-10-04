@@ -28,7 +28,7 @@ const formatDate = (date: Date) =>
 
 const sourcePath = homeEntry.filePath ? path.resolve(process.cwd(), homeEntry.filePath) : undefined;
 ---
-<BaseLayout locale={locale} title="patrick jeuniaux" description={s.siteDescription} sourcePath={sourcePath}>
+<BaseLayout locale={locale} title="patrick jeuniaux" description={s.siteDescription} sourcePath={sourcePath} autoTranslated={homeEntry.data.autoTranslated} publishedAt={homeEntry.data.publishedAt} updatedAt={homeEntry.data.updatedAt}>
   <section class="hero hero-banner">
     <div class="hero-banner-image" role="img" aria-label="ubi bene, ibi patria. a tree canopy reflected in water, with leaves and light."></div>
     <div class="container hero-grid">

@@ -19,7 +19,7 @@ translationKey: "about"
 
 我的职业生涯使我曾在比利时、美国、加拿大和意大利工作。
 
-我在 [UCLouvain](/zho/uclouvain/) 接受了**认知心理学**教育和**统计学**补充培训，随后在 [KU Leuven](/zho/kuleuven/) 接受了**人工智能**补充培训。 
+我在 [UCLouvain](/zho/uclouvain/) 接受了**认知心理学**教育和**统计学**补充培训，随后在 [KU Leuven](/zho/ku-leuven/) 接受了**人工智能**补充培训。
 
 之后，我在 [孟菲斯大学](/zho/uofm/) 获得了**心理语言学博士学位**。 
 

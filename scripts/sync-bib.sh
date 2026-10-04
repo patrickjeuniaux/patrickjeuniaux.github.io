@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-SOURCE="${1:-/home/pjeuniaux/Documents/study/BibTeX/merged.bib}"
+SOURCE="${1:-/home/pjeuniaux/Documents/study/library.bib}"
 TARGET_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/data"
 TARGET="$TARGET_DIR/index.bib"
 

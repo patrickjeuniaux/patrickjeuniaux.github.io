@@ -19,7 +19,7 @@ Sou também **colaborador de investigação** na [UCLouvain](/por/uclouvain/).
 
 O meu percurso profissional levou-me a trabalhar na Bélgica, nos Estados Unidos, no Canadá e na Itália.
 
-Fiz a minha formação em **psicologia cognitiva** e uma formação complementar em **estatística** na [UCLouvain](/por/uclouvain/), seguida de uma formação complementar em **inteligência artificial** na [KU Leuven](/por/kuleuven/). 
+Fiz a minha formação em **psicologia cognitiva** e uma formação complementar em **estatística** na [UCLouvain](/por/uclouvain/), seguida de uma formação complementar em **inteligência artificial** na [KU Leuven](/por/ku-leuven/).
 
 Obtive depois um **doutoramento em psicolinguística** na [Universidade de Memphis](/por/uofm/). 
 

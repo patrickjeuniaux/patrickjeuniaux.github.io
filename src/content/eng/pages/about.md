@@ -19,7 +19,7 @@ I am also a **research collaborator** at [UCLouvain](/eng/uclouvain/).
 
 My professional path has led me to work in Belgium, the United States, Canada, and Italy.
 
-I trained in **cognitive psychology** and received additional training in **statistics** at [UCLouvain](/eng/uclouvain/), then additional training in **artificial intelligence** at [KU Leuven](/eng/kuleuven/). 
+I trained in **cognitive psychology** and received additional training in **statistics** at [UCLouvain](/eng/uclouvain/), then additional training in **artificial intelligence** at [KU Leuven](/eng/ku-leuven/).
 
 I then obtained a **PhD in psycholinguistics** at the [University of Memphis](/eng/uofm/). 
 

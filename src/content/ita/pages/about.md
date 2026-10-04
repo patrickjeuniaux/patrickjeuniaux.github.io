@@ -19,7 +19,7 @@ Sono inoltre **collaboratore di ricerca** presso l'[UCLouvain](/ita/uclouvain/).
 
 Il mio percorso professionale mi ha portato a lavorare in Belgio, negli Stati Uniti, in Canada e in Italia.
 
-Ho seguito una formazione in **psicologia cognitiva** e una formazione complementale in **statistica** presso l'[UCLouvain](/ita/uclouvain/), seguite da una formazione complementare in **intelligenza artificiale** presso la [KU Leuven](/ita/kuleuven/). 
+Ho seguito una formazione in **psicologia cognitiva** e una formazione complementale in **statistica** presso l'[UCLouvain](/ita/uclouvain/), seguite da una formazione complementare in **intelligenza artificiale** presso la [KU Leuven](/ita/ku-leuven/).
 
 Successivamente, ho conseguito un **dottorato in psicolinguistica** presso l'[Università di Memphis](/ita/uofm/). 
 

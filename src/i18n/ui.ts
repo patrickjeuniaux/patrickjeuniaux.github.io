@@ -1,8 +1,9 @@
 export type Locale = 'fra' | 'nld' | 'eng' | 'deu' | 'ita' | 'spa' | 'por' | 'zho' | 'rus' | 'jpn' | 'hin' | 'ara';
 
-export const locales: Locale[] = ['fra', 'nld', 'eng', 'deu', 'ita', 'spa', 'por', 'zho', 'rus', 'jpn', 'hin', 'ara'];
-export const defaultLocale: Locale = 'fra';
-export const fallbackLocales: Locale[] = ['eng', 'fra'];
+import { locales as configuredLocales, defaultLocale as configuredDefault, fallbackLocales as configuredFallbacks } from './config.mjs';
+export const locales = configuredLocales as Locale[];
+export const defaultLocale = configuredDefault as Locale;
+export const fallbackLocales = configuredFallbacks as Locale[];
 
 export const localeLabels: Record<Locale, string> = {
   fra: 'FRA', nld: 'NLD', eng: 'ENG', deu: 'DEU', ita: 'ITA',

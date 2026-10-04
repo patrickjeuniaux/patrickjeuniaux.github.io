@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="570" height="600" viewBox="0 0 570 600" role="img" aria-label="DAT - en-tête vectoriel avec filets dorés">
+<title>DAT - en-tête vectoriel avec filets dorés</title>
+<polygon points="285.0,55.0 500.0,162.8 452.7,427.4 285.0,545.0 117.3,427.4 70.0,162.8" fill="#F8F6EF" stroke="#2F343B" stroke-width="18" stroke-linejoin="round"/>
+<polygon points="285.0,71.0 484.0,171.1 440.2,416.8 285.0,526.0 129.8,416.8 86.0,171.1" fill="none" stroke="#D2A64A" stroke-width="24" stroke-linejoin="round"/>
+<line x1="199.0" y1="236.3" x2="371.0" y2="236.3" stroke="#C9CFD7" stroke-width="42"/>
+<line x1="199.0" y1="236.3" x2="285.0" y2="398.0" stroke="#C9CFD7" stroke-width="42"/>
+<line x1="371.0" y1="236.3" x2="285.0" y2="398.0" stroke="#C9CFD7" stroke-width="42"/>
+<circle cx="199.0" cy="236.3" r="62.349999999999994" fill="#15579A"/>
+<circle cx="199.0" cy="236.3" r="51.126999999999995" fill="none" stroke="#FFFFFF" stroke-opacity="0.23" stroke-width="2.18225"/>
+<path d="M573 1202V291H711Q947 291 1071.5 408.0Q1196 525 1196 748Q1196 970 1072.0 1086.0Q948 1202 711 1202ZM188 1493H594Q934 1493 1100.5 1444.5Q1267 1396 1386 1280Q1491 1179 1542.0 1047.0Q1593 915 1593 748Q1593 579 1542.0 446.5Q1491 314 1386 213Q1266 97 1098.0 48.5Q930 0 594 0H188Z" fill="#FFFFFF" transform="translate(170.017,255.229) scale(0.034098,-0.034098)"/>
+<circle cx="371.0" cy="236.3" r="62.349999999999994" fill="#B32128"/>
+<circle cx="371.0" cy="236.3" r="51.126999999999995" fill="none" stroke="#FFFFFF" stroke-opacity="0.23" stroke-width="2.18225"/>
+<path d="M1094 272H492L397 0H10L563 1493H1022L1575 0H1188ZM588 549H997L793 1143Z" fill="#FFFFFF" transform="translate(343.978,255.229) scale(0.034098,-0.034098)"/>
+<circle cx="285.0" cy="398.0" r="62.349999999999994" fill="#2F7D45"/>
+<circle cx="285.0" cy="398.0" r="51.126999999999995" fill="none" stroke="#FFFFFF" stroke-opacity="0.23" stroke-width="2.18225"/>
+<path d="M10 1493H1386V1202H891V0H506V1202H10Z" fill="#FFFFFF" transform="translate(261.183,416.929) scale(0.034098,-0.034098)"/>
+</svg>

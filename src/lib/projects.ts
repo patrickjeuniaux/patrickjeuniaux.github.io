@@ -1,15 +1,8 @@
 import type { CollectionEntry } from 'astro:content';
-import { defaultLocale, normalizeLocale, type Locale } from '../i18n/ui';
+import { defaultLocale, type Locale } from '../i18n/ui';
+import { localeOrder } from '../i18n/config.mjs';
 
 export type ProjectEntry = CollectionEntry<'projects'>;
-
-const localeOrder = (locale: Locale): Locale[] => {
-  const wanted = normalizeLocale(locale);
-  const order: Locale[] = [wanted];
-  if (wanted !== 'eng') order.push('eng');
-  if (wanted !== defaultLocale) order.push(defaultLocale);
-  return [...new Set(order)] as Locale[];
-};
 
 const translationKeyOf = (entry: ProjectEntry) => {
   if (entry.data.translationKey) return entry.data.translationKey;

@@ -16,7 +16,7 @@ const { Content } = await render(aboutEntry);
 const cleanTitle = String(about.title || '').replace(/^[^\p{L}\p{N}]+/u, '').trim();
 const sourcePath = aboutEntry.filePath ? path.resolve(process.cwd(), aboutEntry.filePath) : undefined;
 ---
-<BaseLayout locale={locale} title={`${about.eyebrow} · patrick jeuniaux`} description={s.siteDescription} sourcePath={sourcePath}>
+<BaseLayout locale={locale} title={`${about.eyebrow} · patrick jeuniaux`} description={s.siteDescription} sourcePath={sourcePath} autoTranslated={aboutEntry.data.autoTranslated} publishedAt={aboutEntry.data.publishedAt} updatedAt={aboutEntry.data.updatedAt}>
   <section class="section"><div class="container"><div class="prose prose-wide">
     <p class="eyebrow">{about.eyebrow}</p>
     <h1 class="page-title page-title-icon" data-icon="♞">{cleanTitle}</h1>

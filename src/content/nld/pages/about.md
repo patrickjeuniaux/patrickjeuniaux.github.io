@@ -19,7 +19,7 @@ Ik ben ook **onderzoeksmedewerker** aan de [UCLouvain](/nld/uclouvain/).
 
 Mijn professionele traject heeft me geleid naar werk in België, de Verenigde Staten, Canada en Italië.
 
-Ik volgde een opleiding in de **cognitieve psychologie** en een aanvullende opleiding in de **statistiek** aan de [UCLouvain](/nld/uclouvain/), gevolgd door een aanvullende opleiding in de **kunstmatige intelligentie** aan de [KU Leuven](/nld/kuleuven/). 
+Ik volgde een opleiding in de **cognitieve psychologie** en een aanvullende opleiding in de **statistiek** aan de [UCLouvain](/nld/uclouvain/), gevolgd door een aanvullende opleiding in de **kunstmatige intelligentie** aan de [KU Leuven](/nld/ku-leuven/).
 
 Vervolgens behaalde ik een **doctoraat in de psycholinguïstiek** aan de [University of Memphis](/nld/uofm/). 
 

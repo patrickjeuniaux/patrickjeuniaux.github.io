@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { t, type Locale, normalizeLocale } from '../../i18n/ui';
+import { type Locale, normalizeLocale } from '../../i18n/ui';
 import { render } from 'astro:content';
 import { getLocalizedPage } from '../../lib/content';
 
@@ -8,7 +8,6 @@ import path from 'node:path';
 
 interface Props { locale: Locale }
 const locale = normalizeLocale(Astro.props.locale);
-const s = t(locale);
 
 const entry = await getLocalizedPage(locale, 'collaborations');
 if (!entry) throw new Error('collaborations page content not found');
@@ -17,7 +16,7 @@ const { Content } = await render(entry);
 const cleanTitle = String(page.title || '').replace(/^[^\p{L}\p{N}]+/u, '').trim();
 const sourcePath = entry.filePath ? path.resolve(process.cwd(), entry.filePath) : undefined;
 ---
-<BaseLayout locale={locale} title={page.title || 'Collaborations'} description={page.lead} sourcePath={sourcePath}>
+<BaseLayout locale={locale} title={page.title || 'Collaborations'} description={page.lead} sourcePath={sourcePath} autoTranslated={entry.data.autoTranslated} publishedAt={entry.data.publishedAt} updatedAt={entry.data.updatedAt}>
   <header class="section">
     <div class="container">
       <p class="eyebrow">{page.eyebrow}</p>

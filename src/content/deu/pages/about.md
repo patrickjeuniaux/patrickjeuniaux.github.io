@@ -19,7 +19,7 @@ Ich bin außerdem **Forschungsmitarbeiter** an der [UCLouvain](/deu/uclouvain/).
 
 Mein beruflicher Weg hat mich dazu geführt, in Belgien, den USA, Kanada und Italien zu arbeiten.
 
-Ich habe ein Studium der **kognitiven Psychologie** und eine Zusatzausbildung in **Statistik** an der [UCLouvain](/deu/uclouvain/) absolviert, gefolgt von einer Zusatzausbildung in **künstlicher Intelligenz** an der [KU Leuven](/deu/kuleuven/). 
+Ich habe ein Studium der **kognitiven Psychologie** und eine Zusatzausbildung in **Statistik** an der [UCLouvain](/deu/uclouvain/) absolviert, gefolgt von einer Zusatzausbildung in **künstlicher Intelligenz** an der [KU Leuven](/deu/ku-leuven/).
 
 Anschließend promovierte ich in **Psycholinguistik** an der [University of Memphis](/deu/uofm/). 
 

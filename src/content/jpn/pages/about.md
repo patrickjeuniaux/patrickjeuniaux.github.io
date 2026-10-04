@@ -19,7 +19,7 @@ translationKey: "about"
 
 私の職業的な経歴は、ベルギー、アメリカ合衆国、カナダ、イタリアでの勤務に及びます。
 
-[UCLouvain](/jpn/uclouvain/)で**認知心理学**の教育を受け、**統計学**の追加訓練を修了した後、[KU Leuven](/jpn/kuleuven/)で**人工知能**の追加訓練を受けました。 
+[UCLouvain](/jpn/uclouvain/)で**認知心理学**の教育を受け、**統計学**の追加訓練を修了した後、[KU Leuven](/jpn/ku-leuven/)で**人工知能**の追加訓練を受けました。
 
 その後、[メンフィス大学](/jpn/uofm/)で**心理言語学の博士号**を取得しました。 
 

@@ -1,5 +1,6 @@
 import type { CollectionEntry } from 'astro:content';
-import { defaultLocale, normalizeLocale, locales, type Locale } from '../i18n/ui';
+import { locales, type Locale, localizePath } from '../i18n/ui';
+import { localeOrder } from '../i18n/config.mjs';
 
 export type BlogEntry = CollectionEntry<'blog'>;
 
@@ -26,21 +27,13 @@ export function slugOf(entry: BlogEntry): string {
 
 export function getTranslationsForPost(allPosts: BlogEntry[], post: BlogEntry) {
   const key = translationKeyOf(post).toLowerCase();
-  const translations = allPosts.filter(p => translationKeyOf(p).toLowerCase() === key);
+  const translations = allPosts.filter(p => !p.data.draft && translationKeyOf(p).toLowerCase() === key);
   const map: Record<string, string> = {};
   translations.forEach(t => {
-    map[t.data.locale] = `/${t.data.locale}/notes/${slugOf(t)}/`.replace(/\/+/g, '/');
+    map[t.data.locale] = localizePath(t.data.locale, `/notes/${slugOf(t)}/`);
   });
   return map;
 }
-
-const localeOrder = (locale: Locale): Locale[] => {
-  const wanted = normalizeLocale(locale);
-  const order: Locale[] = [wanted];
-  if (wanted !== 'eng') order.push('eng');
-  if (wanted !== defaultLocale) order.push(defaultLocale);
-  return [...new Set(order)] as Locale[];
-};
 
 const translationKeyOf = (entry: BlogEntry) =>
   entry.data.translationKey || slugOf(entry);
@@ -48,8 +41,8 @@ const translationKeyOf = (entry: BlogEntry) =>
 export function pickLocalizedPost(entries: BlogEntry[], locale: Locale, keyOrSlug: string) {
   const normalizedKey = keyOrSlug.toLowerCase();
   const candidates = entries.filter((entry) =>
-    translationKeyOf(entry).toLowerCase() === normalizedKey ||
-    slugOf(entry).toLowerCase() === normalizedKey,
+    !entry.data.draft && (translationKeyOf(entry).toLowerCase() === normalizedKey ||
+    slugOf(entry).toLowerCase() === normalizedKey),
   );
   if (candidates.length === 0) return undefined;
   for (const wanted of localeOrder(locale)) {

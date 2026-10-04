@@ -1,20 +1,20 @@
 ---
 import { getCollection } from 'astro:content';
-import { locales } from '../../../i18n/ui';
-import { getLocalizedBlogGroups } from '../../../lib/blog';
+import { locales, localizePath, normalizeLocale } from '../../../i18n/ui';
+import { getLocalizedBlogGroups, slugOf } from '../../../lib/blog';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
   const filtered = posts.filter((post) => !post.data.draft);
   const extendedLocales = [...locales, undefined];
-  return extendedLocales.flatMap((locale) => getLocalizedBlogGroups(filtered, locale).map((post) => ({
-    params: { locale, slug: post.slug },
+  return extendedLocales.flatMap((locale) => getLocalizedBlogGroups(filtered, normalizeLocale(locale)).map((post) => ({
+    params: { locale, slug: slugOf(post) },
   })));
 }
 
 const locale = Astro.params.locale;
 const slugParam = Astro.params.slug;
 const slug = Array.isArray(slugParam) ? slugParam.join('/') : slugParam || '';
-const redirectPath = locale ? `/${locale}/notes/${slug}/` : `/notes/${slug}/`;
+const redirectPath = localizePath(normalizeLocale(locale), `/notes/${slug}/`);
 return Astro.redirect(redirectPath);
 ---

@@ -17,7 +17,7 @@ const translations = getTranslationsForPost(entries, post);
 const { Content } = await render(post);
 const sourcePath = post.filePath ? path.resolve(process.cwd(), post.filePath) : undefined;
 ---
-<BaseLayout locale={locale} title={`${post.data.title} · patrick jeuniaux`} description={post.data.description} translations={translations} sourcePath={sourcePath}>
+<BaseLayout locale={locale} title={`${post.data.title} · patrick jeuniaux`} description={post.data.description} translations={translations} sourcePath={sourcePath} autoTranslated={post.data.autoTranslated} publishedAt={post.data.date} updatedAt={post.data.updatedAt}>
   <section class="section"><div class="container prose prose-wide">
     <p class="meta">{post.data.date.toLocaleDateString(localeDateFormat(locale))}</p>
     <h1 class="page-title">{post.data.title}</h1>

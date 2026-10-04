@@ -9,7 +9,7 @@ export async function getStaticPaths() {
   const filtered = posts.filter((post) => !post.data.draft);
   const extendedLocales = [...locales, undefined];
   return extendedLocales.flatMap((locale) =>
-    getLocalizedBlogGroups(filtered, locale).map((post) => ({
+    getLocalizedBlogGroups(filtered, normalizeLocale(locale)).map((post) => ({
       params: { locale, slug: slugOf(post) },
       props: { slug: slugOf(post) },
     }))

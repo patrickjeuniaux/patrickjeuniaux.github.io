@@ -1,0 +1,9 @@
+---
+import { locales, localizePath, normalizeLocale } from '../../i18n/ui';
+
+export function getStaticPaths() {
+  return [...locales.map((locale) => ({ params: { locale } })), { params: { locale: undefined } }];
+}
+
+return Astro.redirect(localizePath(normalizeLocale(Astro.params.locale), '/work/'));
+---

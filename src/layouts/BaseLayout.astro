@@ -1,7 +1,8 @@
 ---
 import '../styles/global.css';
-import { t, type Locale, localizePath, localizedCurrentPath, localeLabels, locales, normalizeLocale, localeDateFormat } from '../i18n/ui';
+import { t, type Locale, localizePath, localizedCurrentPath, localeLabels, locales, normalizeLocale } from '../i18n/ui';
 import { getFileDates } from '../lib/utils';
+import { getExtraNavigation } from '../lib/content';
 
 interface Props {
   title: string;
@@ -9,9 +10,12 @@ interface Props {
   locale?: Locale;
   translations?: Record<string, string>;
   sourcePath?: string;
+  publishedAt?: Date;
+  updatedAt?: Date;
+  autoTranslated?: boolean;
 }
 
-const { title, locale: rawLocale = 'fra', description, translations, sourcePath } = Astro.props;
+const { title, locale: rawLocale = 'fra', description, translations, sourcePath, publishedAt, updatedAt, autoTranslated = false } = Astro.props;
 const locale = normalizeLocale(rawLocale);
 const s = t(locale);
 const metaDescription = description ?? s.siteDescription;
@@ -22,7 +26,10 @@ const getLink = (targetLocale: Locale) => {
   return localizedCurrentPath(currentPath, targetLocale);
 };
 
-const dates = sourcePath ? getFileDates(sourcePath) : null;
+const fileDates = sourcePath ? getFileDates(sourcePath) : null;
+const publicationDate = publishedAt ?? fileDates?.birthtime;
+const updateDate = updatedAt ?? fileDates?.mtime;
+const extraNavigation = await getExtraNavigation(locale);
 const formatDate = (date: Date) => {
   const y = date.getFullYear();
   const m = String(date.getMonth() + 1).padStart(2, '0');
@@ -53,6 +60,7 @@ const formatDate = (date: Date) => {
             <a href={localizePath(locale, '/work/')}>{s.nav.work}</a>
             <a href={localizePath(locale, '/notes/')}>{s.nav.notes}</a>
             <a href={localizePath(locale, '/contact/')}>{s.nav.contact}</a>
+            {extraNavigation.map((link) => <a href={link.href}>{link.title}</a>)}
           </nav>
         </div>
         <nav class="lang-switcher" aria-label={s.languageNavLabel}>
@@ -75,13 +83,15 @@ const formatDate = (date: Date) => {
         </div>
         <div>
           <p class="meta">
-            {dates && (
+            {(publicationDate || updateDate) && (
               <span class="date-info">
-                {s.originalPublication}: {formatDate(dates.birthtime)} | {s.lastUpdated}: {formatDate(dates.mtime)}
+                {publicationDate && <span>{s.originalPublication}: {formatDate(publicationDate)}</span>}
+                {publicationDate && updateDate && ' | '}
+                {updateDate && <span>{s.lastUpdated}: {formatDate(updateDate)}</span>}
                 <br />
               </span>
             )}
-            {s.autoTranslated && (
+            {autoTranslated && s.autoTranslated && (
               <span class="auto-translated">
                 {s.autoTranslated}
                 <br />

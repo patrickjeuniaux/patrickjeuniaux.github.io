@@ -6,17 +6,35 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "npm run check:content && astro build && npm run check:links",
     "preview": "astro preview",
-    "check": "astro check",
-    "sync-bib": "echo \"The publications page reads directly from data/index.bib; save the file and Astro will rebuild the page.\""
+    "check": "npm run check:content && astro check",
+    "sync-bib": "bash scripts/sync-bib.sh",
+    "check:content": "node scripts/check-content.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "new:page": "node scripts/content.mjs pages",
+    "new:project": "node scripts/content.mjs projects",
+    "new:note": "node scripts/content.mjs blog",
+    "translate:prompt": "node scripts/content.mjs prompt",
+    "translations": "node scripts/content.mjs translations",
+    "test": "node --test scripts/content.test.mjs"
   },
   "dependencies": {
-    "astro": "^6.0.0",
-    "@astrojs/mdx": "^5.0.2",
-    "@astrojs/sitemap": "^3.7.1",
-    "remark-math": "^6.0.0",
+    "@astrojs/markdown-remark": "^7.3.1",
+    "@astrojs/mdx": "^8.0.2",
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.3.5",
+    "katex": "^0.16.11",
     "rehype-katex": "^7.0.0",
-    "katex": "^0.16.11"
+    "remark-math": "^6.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "js-yaml": "^5.4.2",
+    "parse5": "^8.0.1",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22.12.0"
   }
 }

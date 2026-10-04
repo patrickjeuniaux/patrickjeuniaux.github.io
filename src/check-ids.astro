@@ -1,3 +1,4 @@
+---
 import { getCollection } from 'astro:content';
 
 export async function checkIds() {
@@ -9,3 +10,4 @@ export async function checkIds() {
   console.log('--- BLOG ---');
   blog.slice(0, 5).forEach(b => console.log(`ID: "${b.id}"`));
 }
+---

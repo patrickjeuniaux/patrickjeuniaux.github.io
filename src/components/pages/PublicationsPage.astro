@@ -44,7 +44,7 @@ import path from 'node:path';
 
 const sourcePath = pageEntry.filePath ? path.resolve(process.cwd(), pageEntry.filePath) : undefined;
 ---
-<BaseLayout locale={locale} title={`${s.nav.work} · patrick jeuniaux`} description={s.siteDescription} sourcePath={sourcePath}>
+<BaseLayout locale={locale} title={`${s.nav.work} · patrick jeuniaux`} description={s.siteDescription} sourcePath={sourcePath} autoTranslated={pageEntry.data.autoTranslated} publishedAt={pageEntry.data.publishedAt} updatedAt={pageEntry.data.updatedAt}>
   <section class="section">
     <div class="container">
       <div class="prose prose-wide">
