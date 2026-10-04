@@ -1,27 +1,29 @@
 ---
-eyebrow: "Contact"
-title: "Contact"
-lead: "For professional questions, research collaborations, or exchanges related to my activities, you can contact me by email."
-noteTitle: "Contact Details"
-noteText: "I prefer clear requests, directly related to research, data, projects, or publications."
-locale: "eng"
-translationKey: "contact"
+eyebrow: 'Contact'
+title: 'Contact'
+lead: 'You can write to me to discuss a research project, a collaboration or a question related to data and artificial intelligence.'
+noteTitle: 'Contact details'
+noteText: 'A few lines about your question or project will help me understand the context of your message.'
+locale: 'eng'
+translationKey: 'contact'
+canonical: false
+autoTranslated: true
+sourceHash: '00aaa36c84888254a711451f956291b9ef1737d3fc559bbf2cebc2d735ccb65d'
 ---
 
-## Contact Details
+## Contact details
 
-The easiest way to contact me is by email.
+Email is the easiest way to reach me.
 
 ✦ **Email**: [patrick.jeuniaux@protonmail.com](mailto:patrick.jeuniaux@protonmail.com)
 
-## Types of requests
+## Topics for discussion
 
-I respond as a priority to messages related to:
+You can contact me, in particular, about:
 
-- research;
-- projects;
-- data and their governance;
-- publications;
-- academic or institutional exchanges.
+- a scientific collaboration or joint project;
+- knowledge graphs, artificial intelligence or data governance;
+- a question about my publications, methods or tools;
+- a discussion about teaching or supervision.
 
 <div class="finis">❧</div>

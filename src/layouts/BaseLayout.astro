@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 import { t, type Locale, localizePath, localizedCurrentPath, localeLabels, locales, normalizeLocale } from '../i18n/ui';
-import { getFileDates } from '../lib/utils';
+import { getContentDates, formatFooterDate } from '../lib/utils';
 import { getExtraNavigation } from '../lib/content';
 
 interface Props {
@@ -10,12 +10,13 @@ interface Props {
   locale?: Locale;
   translations?: Record<string, string>;
   sourcePath?: string;
+  sourcePaths?: string[];
   publishedAt?: Date;
   updatedAt?: Date;
   autoTranslated?: boolean;
 }
 
-const { title, locale: rawLocale = 'fra', description, translations, sourcePath, publishedAt, updatedAt, autoTranslated = false } = Astro.props;
+const { title, locale: rawLocale = 'fra', description, translations, sourcePath, sourcePaths = [], publishedAt, updatedAt, autoTranslated = false } = Astro.props;
 const locale = normalizeLocale(rawLocale);
 const s = t(locale);
 const metaDescription = description ?? s.siteDescription;
@@ -26,16 +27,12 @@ const getLink = (targetLocale: Locale) => {
   return localizedCurrentPath(currentPath, targetLocale);
 };
 
-const fileDates = sourcePath ? getFileDates(sourcePath) : null;
+const fileDates = getContentDates(sourcePath, sourcePaths);
 const publicationDate = publishedAt ?? fileDates?.birthtime;
 const updateDate = updatedAt ?? fileDates?.mtime;
 const extraNavigation = await getExtraNavigation(locale);
-const formatDate = (date: Date) => {
-  const y = date.getFullYear();
-  const m = String(date.getMonth() + 1).padStart(2, '0');
-  const d = String(date.getDate()).padStart(2, '0');
-  return `${y}-${m}-${d}`;
-};
+const datNavigation = extraNavigation.find((link) => link.href === localizePath(locale, '/dat/'));
+const otherNavigation = extraNavigation.filter((link) => link !== datNavigation);
 ---
 <!doctype html>
 <html lang={locale} dir={locale === 'ara' ? 'rtl' : 'ltr'}>
@@ -55,12 +52,13 @@ const formatDate = (date: Date) => {
           </a>
           <nav class="nav" aria-label={s.primaryNavLabel}>
             <a href={localizePath(locale, '/about/')}>{s.nav.about}</a>
+            {datNavigation && <a href={datNavigation.href}>{datNavigation.title}</a>}
             <a href={localizePath(locale, '/projects/')}>{s.nav.projects}</a>
             <a href={localizePath(locale, '/collaborations/')}>{s.nav.collaborations}</a>
             <a href={localizePath(locale, '/work/')}>{s.nav.work}</a>
             <a href={localizePath(locale, '/notes/')}>{s.nav.notes}</a>
             <a href={localizePath(locale, '/contact/')}>{s.nav.contact}</a>
-            {extraNavigation.map((link) => <a href={link.href}>{link.title}</a>)}
+            {otherNavigation.map((link) => <a href={link.href}>{link.title}</a>)}
           </nav>
         </div>
         <nav class="lang-switcher" aria-label={s.languageNavLabel}>
@@ -85,9 +83,9 @@ const formatDate = (date: Date) => {
           <p class="meta">
             {(publicationDate || updateDate) && (
               <span class="date-info">
-                {publicationDate && <span>{s.originalPublication}: {formatDate(publicationDate)}</span>}
+                {publicationDate && <span>{s.originalPublication}: <time datetime={publicationDate.toISOString()}>{formatFooterDate(publicationDate)}</time></span>}
                 {publicationDate && updateDate && ' | '}
-                {updateDate && <span>{s.lastUpdated}: {formatDate(updateDate)}</span>}
+                {updateDate && <span>{s.lastUpdated}: <time datetime={updateDate.toISOString()}>{formatFooterDate(updateDate, !updatedAt)}</time></span>}
                 <br />
               </span>
             )}

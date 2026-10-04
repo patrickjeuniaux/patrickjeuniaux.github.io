@@ -1,30 +1,33 @@
 ---
-title: "Kognition, Forschung, Daten"
-kicker: "Home"
-lead: "Ich bin Forscher und Chief Data Officer. Meine Arbeit konzentriert sich auf Strafjustizdaten, Wissensgraphen, Datengovernance und den Einsatz von künstlicher Intelligenz in der Strafjustiz."
-axesTitle: "Strukturierende Achsen"
-axis1Title: "✦ Strafjustiz"
-axis1Text: "Untersuchung von Strafjustizdaten, Rückfall, kriminellen Karrieren und bestimmten Fragen im Zusammenhang mit Radikalisierung."
-axis2Title: "✦ Wissensgraphen"
-axis2Text: "Entwurf von Wissensgraphen und Datenstrukturen zur Integration heterogener Quellen und zur Verknüpfung von Entitäten."
-axis3Title: "✦ Datengovernance"
-axis3Text: "Arbeit an Dateninventaren, Audits, Governance-Strategie und den Bedingungen für eine zuverlässigere Nutzung öffentlicher Daten."
-axis4Title: "✦ Künstliche Intelligenz"
-axis4Text: "Erkundung von KI-Methoden, insbesondere großen Sprachmodellen, in einem auf Qualität, Rückverfolgbarkeit und institutionellen Nutzen ausgerichteten Rahmen."
-axis5Title: "✦ Forschungsinfrastruktur"
-axis5Text: "Entwicklung von Datenbanken, Skripten und Werkzeugen zur Strukturierung komplexer Informationen und zur Unterstützung von Forschungsprozessen."
-newsTitle: "Neuigkeiten"
-newsLink: "Alle Notizen anzeigen →"
-navTitle: "Navigation"
-aboutText: "Werdegang, aktuelle Funktionen, Kompetenzen und Arbeitslinie."
-projectsText: "Forschungs- und Infrastrukturprojekte, mit Schwerpunkt auf KG4J, FAR und IIHA."
-workText: "Artikel, Kapitel, Berichte, Arbeiten und andere Beiträge, bei denen ich als Mitautor aufgeführt bin."
-notesText: "Arbeitsnotizen, methodische Texte und kurze Essays."
-collaborationsText: "Partnerinstitutionen, akademischer Werdegang und Forschungskooperationen."
-contactText: "E-mail für berufliche Anfragen im Zusammenhang mit Forschung oder Projekten."
-editorial: "Über die Website"
-editorialText: "Diese Website stellt meine Aktivitäten in den Bereichen Forschung, Datengovernance und Werkzeugentwicklung vor. Sie wurde so konzipiert, dass sie schlicht und einfach zu aktualisieren ist."
-locale: "deu"
-translationKey: "home"
+title: 'Kognition, Daten und Transformation'
+kicker: 'Startseite'
+lead: 'Als Kognitionswissenschaftler arbeite ich an der Schnittstelle von Daten, künstlicher Intelligenz und der Transformation von Organisationen. Ich leite das Labor [Data, Artificial Intelligence & Transformation (DAT)](/deu/dat/) am NICC und bin dort auch Chief Data Officer. Meine Arbeit nutzt Statistik, Wissensgraphen und Sprachtechnologien, um Forschung, Entscheidungen und Wissenstransfer insbesondere im Justizbereich zu unterstützen.'
+axesTitle: 'Schwerpunkte'
+axis1Title: '✦ Strafjustiz'
+axis1Text: 'Untersuchung von Strafjustizdaten, Rückfälligkeit und kriminellen Karrieren. [IIHA](/deu/iiha/) veranschaulicht die Zusammenführung digitaler Archive zur Analyse strafrechtlicher Verläufe.'
+axis2Title: '✦ Wissensgraphen'
+axis2Text: 'Entwicklung von Wissensgraphen zur Integration heterogener Quellen und Verknüpfung von Entitäten. [KG4J](/deu/kg4j/) untersucht ihren Beitrag zur Analyse von Justizdaten.'
+axis3Title: '✦ Datengovernance'
+axis3Text: 'Arbeit an Inventaren, Audits und einer Strategie für Datengovernance. Das Labor [DAT](/deu/dat/) unterstützt die Organisation und Nutzung der Informationsressourcen des NICC.'
+axis4Title: '✦ Künstliche Intelligenz'
+axis4Text: 'Erkundung von KI-Methoden, insbesondere großen Sprachmodellen, mit Augenmerk auf Qualität und Nachvollziehbarkeit. [KG4J](/deu/kg4j/) soll unter anderem Wissen aus Dokumenten gewinnen.'
+axis5Title: '✦ Forschungsinfrastruktur'
+axis5Text: 'Entwicklung von Datenbanken, Skripten und Werkzeugen für die Forschung. [GovIntel](/deu/govintel/) soll Verwaltungsdaten von DNA-Datenbanken für operative und wissenschaftliche Zwecke strukturieren.'
+newsTitle: 'Neuigkeiten'
+newsLink: 'Alle Notizen ansehen →'
+navTitle: 'Navigation'
+aboutText: 'Werdegang, aktuelle Aufgaben, Kompetenzen und Arbeitsgebiete.'
+datText: 'Aufgaben des Labors Data, Artificial Intelligence & Transformation am NICC.'
+projectsText: 'Forschungs- und Infrastrukturprojekte, darunter KG4J, IIHA und das von mir koordinierte europäische Konsortium PIES.'
+workText: 'Artikel, Kapitel, Berichte, Studien und weitere Beiträge, an denen ich als Autor beteiligt bin.'
+notesText: 'Arbeitsnotizen, methodische Texte und kurze Essays.'
+collaborationsText: 'Partnerinstitutionen, akademischer Werdegang und Forschungskooperationen.'
+contactText: 'E-Mail für berufliche Anfragen zu Forschung oder Projekten.'
+editorial: 'Über die Website'
+editorialText: 'Diese Website stellt meine Tätigkeiten in Forschung, Datengovernance und Organisationstransformation sowie die zugehörigen Methoden und Werkzeuge vor. Sie ist schlicht gestaltet und leicht zu aktualisieren.'
+locale: 'deu'
+translationKey: 'home'
+canonical: false
+autoTranslated: true
+sourceHash: '176d4d099765adbbfaa70bbc66ca92b6296a5a841ce1345f7151b85cb3fdbf86'
 ---
-

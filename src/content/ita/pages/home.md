@@ -1,30 +1,33 @@
 ---
-title: "Cognizione, ricerca, dati"
-kicker: "Home"
-lead: "Sono un ricercatore e direttore dei dati. Il mio lavoro si concentra sui dati della giustizia penale, i grafi di conoscenza, la governance dei dati e l'uso dell'intelligenza artificiale nella giustizia penale."
-axesTitle: "Assi portanti"
-axis1Title: "✦ Giustizia penale"
-axis1Text: "Studio dei dati della giustizia penale, della recidiva, delle carriere criminali e di alcune questioni legate alla radicalizzazione."
-axis2Title: "✦ Grafi di conoscenza"
-axis2Text: "Progettazione di grafi di conoscenza e strutture dati che permettono di integrare fonti eterogenee e collegare entità."
-axis3Title: "✦ Governance dei dati"
-axis3Text: "Lavoro su inventari di dati, audit, strategia di governance e condizioni per un uso più affidabile dei dati pubblici."
-axis4Title: "✦ Intelligenza artificiale"
-axis4Text: "Esplorazione di metodi di IA, in particolare di modelli linguistici di grandi dimensioni, in un quadro orientato alla qualità, alla tracciabilità e all'utilità istituzionale."
-axis5Title: "✦ Infrastruttura di ricerca"
-axis5Text: "Sviluppo di database, script e strumenti per strutturare informazioni complesse e supportare i processi di ricerca."
-newsTitle: "Novità"
-newsLink: "Vedi tutte le note →"
-navTitle: "Navigazione"
-aboutText: "Percorso, funzioni attuali, competenze e linea di lavoro."
-projectsText: "Progetti di ricerca e di infrastruttura, con particolare attenzione a KG4J, FAR e IIHA."
-workText: "Articoli, capitoli, rapporti, lavori e altri contributi in cui figuro tra gli autori."
-notesText: "Note di lavoro, testi metodologici e brevi saggi."
-collaborationsText: "Istituzioni partner, percorso accademico e collaborazioni di ricerca."
-contactText: "E-mail per richieste professionali legate alla ricerca o ai progetti."
-editorial: "Sul sito"
-editorialText: "Questo sito presenta le mie attività di ricerca, di governance dei dati e di sviluppo di strumenti. È stato progettato per essere sobrio e facile da aggiornare."
-locale: "ita"
-translationKey: "home"
+title: 'Cognizione, dati e trasformazione'
+kicker: 'Home'
+lead: 'Come ricercatore in scienze cognitive, lavoro all’intersezione tra dati, intelligenza artificiale e trasformazione delle organizzazioni. Dirigo il laboratorio [Data, Artificial Intelligence & Transformation (DAT)](/ita/dat/) presso l’INCC, dove ricopro anche il ruolo di Chief Data Officer. Il mio lavoro impiega statistica, grafi di conoscenza e tecnologie del linguaggio per sostenere la ricerca, le decisioni e la trasmissione delle conoscenze, soprattutto nell’ambito della giustizia.'
+axesTitle: 'Ambiti principali'
+axis1Title: '✦ Giustizia penale'
+axis1Text: 'Studio dei dati della giustizia penale, della recidiva e delle carriere criminali. [IIHA](/ita/iiha/) illustra l’integrazione di archivi digitali per analizzare le traiettorie penali.'
+axis2Title: '✦ Grafi di conoscenza'
+axis2Text: 'Progettazione di grafi di conoscenza per integrare fonti eterogenee e collegare entità. [KG4J](/ita/kg4j/) ne esplora il contributo all’analisi dei dati della giustizia.'
+axis3Title: '✦ Governance dei dati'
+axis3Text: 'Lavoro su inventari, audit e strategia di governance dei dati. Il laboratorio [DAT](/ita/dat/) accompagna l’organizzazione e la valorizzazione delle risorse informative dell’INCC.'
+axis4Title: '✦ Intelligenza artificiale'
+axis4Text: 'Esplorazione di metodi di IA, in particolare grandi modelli linguistici, con attenzione alla qualità e alla tracciabilità. [KG4J](/ita/kg4j/) mira, tra l’altro, a estrarre conoscenze dai documenti.'
+axis5Title: '✦ Infrastruttura di ricerca'
+axis5Text: 'Sviluppo di banche dati, script e strumenti a sostegno della ricerca. [GovIntel](/ita/govintel/) mira a strutturare i dati amministrativi delle banche dati del DNA per usi operativi e scientifici.'
+newsTitle: 'Notizie'
+newsLink: 'Vedi tutte le note →'
+navTitle: 'Navigazione'
+aboutText: 'Percorso, ruoli attuali, competenze e ambiti di lavoro.'
+datText: 'Missioni del laboratorio Data, Artificial Intelligence & Transformation presso l’INCC.'
+projectsText: 'Progetti di ricerca e infrastruttura, tra cui KG4J, IIHA e il consorzio europeo PIES che ho coordinato.'
+workText: 'Articoli, capitoli, rapporti, studi e altri contributi di cui sono tra gli autori.'
+notesText: 'Note di lavoro, testi metodologici e brevi saggi.'
+collaborationsText: 'Istituzioni partner, percorso accademico e collaborazioni di ricerca.'
+contactText: 'E-mail per richieste professionali legate alla ricerca o ai progetti.'
+editorial: 'Informazioni sul sito'
+editorialText: 'Questo sito presenta le mie attività di ricerca, governance dei dati e trasformazione delle organizzazioni, insieme ai metodi e agli strumenti che le sostengono. È stato concepito per essere sobrio e facile da aggiornare.'
+locale: 'ita'
+translationKey: 'home'
+canonical: false
+autoTranslated: true
+sourceHash: '176d4d099765adbbfaa70bbc66ca92b6296a5a841ce1345f7151b85cb3fdbf86'
 ---
-

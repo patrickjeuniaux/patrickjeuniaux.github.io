@@ -1,30 +1,33 @@
 ---
-title: "Cognitie, onderzoek, data"
-kicker: "Home"
-lead: "Ik ben onderzoeker en chief data officer. Mijn werk richt zich op strafrechtgegevens, kennisgrafen, datagovernance en het gebruik van kunstmatige intelligentie in het strafrecht."
-axesTitle: "Strategische assen"
-axis1Title: "✦ Strafrecht"
-axis1Text: "Studie van strafrechtgegevens, recidive, criminele loopbanen en bepaalde kwesties gerelateerd aan radicalisering."
-axis2Title: "✦ Kennisgrafen"
-axis2Text: "Ontwerp van kennisgrafen en datastructuren om heterogene bronnen te integreren en entiteiten te koppelen."
-axis3Title: "✦ Datagovernance"
-axis3Text: "Werk aan data-inventarissen, audits, governancestrategie en de voorwaarden voor een betrouwbaarder gebruik van overheidsdata."
-axis4Title: "✦ Kunstmatige intelligentie"
-axis4Text: "Exploratie van AI-methoden, in het bijzonder grote taalmodellen, binnen een kwaliteitsgericht kader, traceerbaarheid en institutioneel nut."
-axis5Title: "✦ Onderzoeksinfrastructuur"
-axis5Text: "Ontwikkeling van databases, scripts en tools om complexe informatie te structureren en onderzoeksprocessen te ondersteunen."
-newsTitle: "Nieuws"
-newsLink: "Bekijk alle notities →"
-navTitle: "Navigatie"
-aboutText: "Loopbaan, huidige functies, vaardigheden en werklijn."
-projectsText: "Onderzoeks- en infrastructuurprojecten, met de nadruk op KG4J, FAR en IIHA."
-workText: "Artikelen, hoofdstukken, rapporten, werken en andere bijdragen waarvan ik mede-auteur ben."
-notesText: "Werknotities, methodologische teksten en korte essays."
-collaborationsText: "Partnerinstellingen, academisch traject en onderzoekssamenwerkingen."
-contactText: "E-mail voor professionele verzoeken gerelateerd aan onderzoek of projecten."
-editorial: "Over de site"
-editorialText: "Deze site presenteert mijn activiteiten op het gebied van onderzoek, datagovernance en toolontwikkeling. Het is ontworpen om sober en gemakkelijk bij te werken te zijn."
-locale: "nld"
-translationKey: "home"
+title: 'Cognitie, data en transformatie'
+kicker: 'Home'
+lead: 'Als cognitiewetenschapper werk ik op het snijvlak van data, artificiële intelligentie en de transformatie van organisaties. Ik leid het laboratorium [Data, Artificial Intelligence & Transformation (DAT)](/nld/dat/) bij het NICC, waar ik ook Chief Data Officer ben. Mijn werk gebruikt statistiek, kennisgrafen en taaltechnologie om onderzoek, besluitvorming en kennisoverdracht te ondersteunen, met name binnen justitie.'
+axesTitle: 'Kerngebieden'
+axis1Title: '✦ Strafrecht'
+axis1Text: 'Onderzoek naar strafrechtelijke gegevens, recidive en criminele carrières. [IIHA](/nld/iiha/) illustreert hoe digitale archieven worden samengebracht om strafrechtelijke trajecten te analyseren.'
+axis2Title: '✦ Kennisgrafen'
+axis2Text: 'Ontwerp van kennisgrafen om heterogene bronnen te integreren en entiteiten te verbinden. [KG4J](/nld/kg4j/) onderzoekt hun bijdrage aan de analyse van justitiële gegevens.'
+axis3Title: '✦ Datagovernance'
+axis3Text: 'Werk aan inventarissen, audits en een strategie voor datagovernance. Het laboratorium [DAT](/nld/dat/) ondersteunt de organisatie en benutting van de informatiebronnen van het NICC.'
+axis4Title: '✦ Artificiële intelligentie'
+axis4Text: 'Verkenning van AI-methoden, vooral grote taalmodellen, met aandacht voor kwaliteit en traceerbaarheid. [KG4J](/nld/kg4j/) beoogt onder meer kennis uit documenten te halen.'
+axis5Title: '✦ Onderzoeksinfrastructuur'
+axis5Text: 'Ontwikkeling van databanken, scripts en hulpmiddelen voor onderzoek. [GovIntel](/nld/govintel/) beoogt administratieve gegevens van DNA-databanken te structureren voor operationeel en wetenschappelijk gebruik.'
+newsTitle: 'Nieuws'
+newsLink: 'Alle notities bekijken →'
+navTitle: 'Navigatie'
+aboutText: 'Achtergrond, huidige functies, vaardigheden en werkgebieden.'
+datText: 'Taken van het laboratorium Data, Artificial Intelligence & Transformation bij het NICC.'
+projectsText: 'Onderzoeks- en infrastructuurprojecten, waaronder KG4J, IIHA en het Europese consortium PIES dat ik coördineerde.'
+workText: 'Artikelen, hoofdstukken, rapporten, studies en andere bijdragen waarvan ik medeauteur ben.'
+notesText: 'Werknotities, methodologische teksten en korte essays.'
+collaborationsText: 'Partnerinstellingen, academische achtergrond en onderzoekssamenwerkingen.'
+contactText: 'E-mail voor professionele vragen over onderzoek of projecten.'
+editorial: 'Over de site'
+editorialText: 'Deze site presenteert mijn activiteiten op het gebied van onderzoek, datagovernance en organisatietransformatie, en de methoden en hulpmiddelen die deze ondersteunen. De site is sober vormgegeven en eenvoudig bij te werken.'
+locale: 'nld'
+translationKey: 'home'
+canonical: false
+autoTranslated: true
+sourceHash: '176d4d099765adbbfaa70bbc66ca92b6296a5a841ce1345f7151b85cb3fdbf86'
 ---
-

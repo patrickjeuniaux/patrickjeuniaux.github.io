@@ -1,27 +1,26 @@
 ---
 eyebrow: "Contact"
 title: "Contact"
-lead: "Pour les questions professionnelles, les collaborations de recherche ou les échanges liés à mes activités, vous pouvez me contacter par courriel."
+lead: "Pour discuter d’un projet de recherche, d’une collaboration ou d’une question liée aux données et à l’intelligence artificielle, vous pouvez m’écrire."
 noteTitle: "Coordonnées"
-noteText: "Je privilégie les demandes claires, directement liées à la recherche, aux données, aux projets ou aux publications."
+noteText: "Quelques lignes sur votre question ou votre projet m’aideront à comprendre le contexte de votre message."
 locale: "fra"
 translationKey: "contact"
 ---
 
 ## Coordonnées
 
-Le moyen le plus simple de me contacter est le courriel.
+Le courriel est le moyen le plus simple de me joindre.
 
 ✦ **Courriel** : [patrick.jeuniaux@protonmail.com](mailto:patrick.jeuniaux@protonmail.com)
 
-## Types de demandes
+## Sujets d’échange
 
-Je réponds en priorité aux messages liés à :
+Vous pouvez me contacter notamment pour :
 
-- la recherche ;
-- les projets ;
-- les données et leur gouvernance ;
-- les publications ;
-- les échanges académiques ou institutionnels.
+- une collaboration scientifique ou un projet commun ;
+- les graphes de connaissances, l’intelligence artificielle ou la gouvernance des données ;
+- une question sur mes publications, mes méthodes ou mes outils ;
+- un échange sur l’enseignement ou l’encadrement.
 
 <div class="finis">❧</div>

@@ -1,20 +1,27 @@
 ---
-title: "REGUIDE"
-routeSlug: "reguide"
-summary: "مشروع حول إعادة دمج ومرافقة العائدين (returnees) في بلجيكا."
+title: 'REGUIDE'
+routeSlug: 'reguide'
+summary: 'مشروع حول إعادة إدماج العائدين ومرافقتهم في بلجيكا.'
 order: 4
-status: "قيد التنفيذ"
-domain: "علم الجريمة"
-startYear: "2020"
-endYear: "2025"
-funder: "BELSPO"
-role: "باحث"
-budget: "1 002 092 يورو"
-keywords: ["عائدون", "إعادة دمج", "إرهاب", "بلجيكا"]
-locale: "ara"
-translationKey: "project-reguide"
+status: 'منتهٍ'
+domain: 'علم الإجرام'
+startYear: '2020'
+endYear: '2025'
+funder: 'BELSPO'
+role: 'باحث'
+budget: '1 002 092 €'
+keywords:
+  - 'العائدون'
+  - 'إعادة الإدماج'
+  - 'الإرهاب'
+  - 'بلجيكا'
+locale: 'ara'
+translationKey: 'project-reguide'
+canonical: false
+autoTranslated: true
+sourceHash: '223973ddca6a6bef9661b3cbe4b9cd4e797d49690524d35c48e5df7f3f4187af'
 ---
 
-يدرس REGUIDE مسارات إعادة الدمج والآليات المستخدمة حول **العائدين** (returnees) في بلجيكا.
+درس REGUIDE مسارات إعادة الإدماج وآليات مرافقة **العائدين** في بلجيكا.
 
-وفي هذا الإطار، شاركت في أعمال تتعلق بقواعد البيانات، والمسارات الاجتماعية القضائية وإنتاج التقارير والمقالات العلمية مع زملائي في المعهد الوطني للأدلة الجنائية وعلم الجريمة (NICC) والمؤسسات الشريكة.
+في هذا الإطار، شاركت في أعمال حول قواعد البيانات والمسارات الاجتماعية والقضائية وإعداد التقارير والمقالات العلمية مع زملائي في INCC والمؤسسات الشريكة.

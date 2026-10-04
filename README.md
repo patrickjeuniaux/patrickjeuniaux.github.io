@@ -122,6 +122,10 @@ La partie entre les lignes `---` s'appelle **l'en-tête YAML** ou *frontmatter*.
 
 Certaines pages principales utilisent beaucoup de champs dans l'en-tête. **L'accueil est construit à partir de ses champs** (`lead`, `axis1Text`, `newsTitle`, etc.) : ajouter du texte au bas de `home.md` ne l'affichera pas. Sur les autres pages, les champs pilotent les titres et encadrés, et le corps Markdown fournit le texte principal.
 
+Dans `home.md`, les champs `lead` et `axis1Text` à `axis5Text` acceptent les liens Markdown et les mises en forme simples. Garde un seul paragraphe par champ, sans titre ni liste. Par exemple, `"Je dirige le laboratoire [DAT](/dat/) à l’INCC."` rend la mention DAT cliquable dans l’introduction. Les liens vers des pages utilisent les adresses de la langue du contenu ; en français, elles n’ont pas de préfixe.
+
+La liste « Navigation » de l’accueil inclut DAT juste après « À propos ». Le champ facultatif `datText` de `home.md` fournit sa courte description ; le libellé du lien provient de la page DAT dans la langue choisie.
+
 ## 4. Modifier une page existante
 
 Exemple : changer un paragraphe de ta présentation.
@@ -177,7 +181,7 @@ navOrder: 100
 | `navTitle` | Libellé ajouté automatiquement au menu ; supprime ce champ pour une page sans lien dans le menu |
 | `navOrder` | Ordre entre les nouvelles pages du menu : les plus petits nombres passent d'abord |
 
-Les nouvelles entrées apparaissent après le menu principal. Si tu ajoutes beaucoup de pages, garde les entrées essentielles dans le menu et relie les autres depuis le corps des pages.
+Les nouvelles entrées apparaissent après le menu principal. La page DAT fait exception : son lien apparaît en deuxième position, juste après « À propos », dans toutes les langues. Son champ `navOrder` ne modifie pas cette position. Si tu ajoutes beaucoup de pages, garde les entrées essentielles dans le menu et relie les autres depuis le corps des pages.
 
 ### Étape 3 — Afficher la page localement
 
@@ -350,6 +354,12 @@ Le rapport distingue :
 
 Pour mettre une traduction à jour, reprends la procédure avec la nouvelle source et remplace le fichier après relecture. Ne recopie pas simplement une nouvelle empreinte dans une ancienne traduction : cela masquerait le besoin de mise à jour. Les traductions historiques n'ont pas été déclarées à jour artificiellement.
 
+### Reprendre après une interruption
+
+Le suivi ne dépend pas de la session de l’éditeur : `sourceHash` identifie le contenu français exact qui a servi à chaque traduction. Après une interruption, lance `npm run translations` pour retrouver les traductions suivies et celles à revoir. Si le français change pendant une traduction, son empreinte ne correspondra plus à celle enregistrée.
+
+Pour les anciennes traductions sans empreinte, utilise l’historique Git et `git diff --name-only -- src/content/fra/` pour repérer les modifications françaises encore non commitées. Les dates des fichiers ne suffisent pas à établir la version traduite. Compare les textes et, si le point de départ est incertain, traduis à nouveau le français actuel dans son ensemble avant d’enregistrer son empreinte. Un fichier sans empreinte n’est pas automatiquement une traduction périmée.
+
 ## 8. Ajouter une image, un PDF ou une publication
 
 ### Une image ou un PDF
@@ -386,6 +396,10 @@ Les références sont lues directement dans `data/index.bib`. Ajoute une entrée
 
 Remplace les valeurs fictives, notamment le DOI, par les vraies informations. Vérifie `/work/`. Seules les entrées où Patrick Jeuniaux figure parmi les auteurs sont retenues. La sélection met en avant les entrées explicitement marquées ou celles où il est premier auteur. Les références restent dans leur langue originale.
 
+Pour relier une page ou une fiche projet à une référence précise, utilise son ancre sur `/work/` : le préfixe `publication-` suivi de la clé BibTeX en minuscules, avec les suites de caractères autres que les lettres anglaises et les chiffres remplacées par un tiret. Par exemple, `Jeuniaux_2016_final_tech_report_PIES` donne `/work/#publication-jeuniaux-2016-final-tech-report-pies`. Cette ancre est identique dans toutes les langues ; seul le préfixe de langue de la page change. Conserve la clé BibTeX pour garder les liens valides. L’ouverture du lien rend la référence visible et la souligne visuellement, même si des filtres avaient été appliqués.
+
+La sélection commentée se rédige dans `pages/publications.md`. Chaque contribution est entourée de `<div class="card">` et `</div>`, avec des lignes vides autour des balises pour conserver le rendu Markdown. Le conteneur `<div class="stack-gap">` espace les boîtes. Garde ces balises et classes dans les traductions.
+
 Ton fichier bibliographique habituel est `/home/pjeuniaux/Documents/study/library.bib`. Pour mettre le site à jour à partir de ce fichier :
 
 ```bash
@@ -413,7 +427,7 @@ npm run preview
 | Commande | Ce qu'elle fait |
 | --- | --- |
 | `npm run check` | Vérifie les contenus, langues, clés, conflits d'URL et types du code Astro |
-| `npm test` | Teste les outils de création et de suivi des traductions |
+| `npm test` | Teste les outils de création, le suivi des traductions et le calcul automatique des dates |
 | `npm run build` | Valide les contenus, construit le site et vérifie les liens internes du HTML généré |
 | `npm run preview` | Sert la dernière construction, généralement sur `http://localhost:4321` |
 
@@ -457,7 +471,13 @@ updatedAt: 2026-10-05
 
 Pour une note, `date` fournit la date de publication ; `updatedAt` peut préciser sa dernière révision. Les traductions conservent les dates éditoriales de la source.
 
-Sans date explicite, le site utilise le premier et le dernier commit Git touchant le fichier. Ce sont des dates d'historique, qui peuvent différer de la publication réelle. Le workflow récupère l'historique complet pour les conserver après déploiement. Sans historique, aucune date de fichier n'est inventée.
+Sans date explicite, le pied de page calcule automatiquement les dates à chaque construction. La publication utilise le premier commit Git du fichier, en suivant ses renommages ; la dernière mise à jour utilise le dernier commit. Ce sont des dates d’historique, qui peuvent différer de la publication réelle. Le workflow récupère l’historique complet pour les conserver après déploiement.
+
+Sur ton ordinateur, une modification non enregistrée dans Git utilise la date de dernière modification du fichier. Un nouveau fichier peut donc afficher une mise à jour avant son premier commit, sans date de publication inventée. Les fichiers inchangés conservent leur date Git : un téléchargement du dépôt ou une reconstruction ne les fait pas apparaître comme mis à jour. Sans accès à Git, les dates automatiques sont omises.
+
+Le calcul tient aussi compte des contenus affichés : les nouvelles et la page DAT pour l’accueil, les fiches pour la liste des projets, les notes pour leur index et `data/index.bib` pour la page Travaux. La date la plus récente est retenue. Une date `updatedAt` explicite reste prioritaire.
+
+Les mises à jour automatiques affichent la date et l’heure dans le fuseau **Europe/Brussels**, avec le décalage horaire. Les dates éditoriales explicites restent affichées au jour près. Après une modification, relance `npm run build` pour actualiser la version utilisée par `npm run preview`.
 
 ## 11. Résoudre les problèmes courants
 

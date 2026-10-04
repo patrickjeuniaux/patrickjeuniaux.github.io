@@ -1,30 +1,33 @@
 ---
-title: "认知、研究、数据"
-kicker: "首页"
-lead: "我是一名研究员和数据总监。我的工作专注于刑事司法数据、知识图谱、数据治理以及人工智能在刑事司法中的应用。"
-axesTitle: "核心支柱"
-axis1Title: "✦ 刑事司法"
-axis1Text: "研究与刑事司法数据、再犯、犯罪职业轨迹和激进化相关的若干问题。"
-axis2Title: "✦ 知识图谱"
-axis2Text: "设计知识图谱和数据结构，以实现异构来源的整合和实体间的关联。"
-axis3Title: "✦ 数据治理"
-axis3Text: "致力于数据清单、审计、治理战略以及公共数据更可靠使用条件的建立。"
-axis4Title: "✦ 人工智能"
-axis4Text: "在注重质量、可追溯性和组织有用性的框架内，探索 AI 方法（特别是大语言模型）。"
-axis5Title: "✦ 研究基础设施"
-axis5Text: "开发数据库、脚本和工具，以结构化复杂信息并支持研究过程。"
-newsTitle: "新闻"
-newsLink: "查看所有笔记 →"
-navTitle: "导航"
-aboutText: "职业背景、目前职责、能力和工作重心。"
-projectsText: "研究与基础设施项目，特别是 KG4J、FAR 和 IIHA。"
-workText: "我参与撰写的论文、章节、报告、著作和其他贡献。"
-notesText: "工作笔记、方法论文本和短篇随笔。"
-collaborationsText: "合作伙伴机构、学术轨迹和研究合作。"
-contactText: "关于研究或项目的职业咨询电子邮件。"
-editorial: "关于本站"
-editorialText: "本网站介绍我的研究活动、数据治理和工具开发。其设计宗旨是简洁且易于更新。"
-locale: "zho"
-translationKey: "home"
+title: '认知、数据与转型'
+kicker: '首页'
+lead: '作为认知科学研究者，我的工作连接数据、人工智能与组织转型。我在 INCC 领导 [Data, Artificial Intelligence & Transformation（DAT）](/zho/dat/) 实验室，并担任首席数据官。我的研究运用统计学、知识图谱和语言技术，支持科研、决策与知识传递，尤其关注司法领域。'
+axesTitle: '主要方向'
+axis1Title: '✦ 刑事司法'
+axis1Text: '研究刑事司法数据、再犯和犯罪生涯。[IIHA](/zho/iiha/) 项目展示如何整合数字档案，以分析刑事司法轨迹。'
+axis2Title: '✦ 知识图谱'
+axis2Text: '设计知识图谱，整合异构来源并连接实体。[KG4J](/zho/kg4j/) 探索其对司法数据分析的贡献。'
+axis3Title: '✦ 数据治理'
+axis3Text: '开展数据清单、审计和治理战略方面的工作。[DAT](/zho/dat/) 实验室支持 INCC 信息资源的组织与价值发挥。'
+axis4Title: '✦ 人工智能'
+axis4Text: '探索人工智能方法，尤其是大型语言模型，并关注质量与可追溯性。[KG4J](/zho/kg4j/) 的目标之一是从文档中提取知识。'
+axis5Title: '✦ 科研基础设施'
+axis5Text: '开发数据库、脚本和工具以支持研究。[GovIntel](/zho/govintel/) 旨在整理 DNA 数据库中的行政数据，以供业务和科研使用。'
+newsTitle: '动态'
+newsLink: '查看所有笔记 →'
+navTitle: '导航'
+aboutText: '经历、现任职务、技能与工作方向。'
+datText: 'INCC 的 Data, Artificial Intelligence & Transformation 实验室的任务。'
+projectsText: '科研与基础设施项目，包括 KG4J、IIHA，以及我协调的欧洲 PIES 联盟。'
+workText: '我作为作者或共同作者参与的文章、章节、报告、研究及其他成果。'
+notesText: '工作笔记、方法论文本与短文。'
+collaborationsText: '合作机构、学术经历与科研合作。'
+contactText: '关于科研或项目的专业联系邮箱。'
+editorial: '关于本站'
+editorialText: '本站介绍我在科研、数据治理与组织转型方面的活动，以及支持这些活动的方法和工具。网站设计力求简洁且易于更新。'
+locale: 'zho'
+translationKey: 'home'
+canonical: false
+autoTranslated: true
+sourceHash: '176d4d099765adbbfaa70bbc66ca92b6296a5a841ce1345f7151b85cb3fdbf86'
 ---
-

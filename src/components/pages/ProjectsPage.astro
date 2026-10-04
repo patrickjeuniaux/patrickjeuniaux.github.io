@@ -18,6 +18,7 @@ const page = pageEntry.data;
 const { Content } = await render(pageEntry);
 const cleanTitle = String(page.title || '').replace(/^[^\p{L}\p{N}]+/u, '').trim();
 const sourcePath = pageEntry.filePath ? path.resolve(process.cwd(), pageEntry.filePath) : undefined;
+const sourcePaths = projects.flatMap((project) => project.filePath ? [path.resolve(process.cwd(), project.filePath)] : []);
 
 // Calculate filter options
 const statuses = [...new Set(projects.map(p => p.data.status || ''))].filter(Boolean).sort();
@@ -35,7 +36,7 @@ const pillClass = (value: string) => {
 };
 ---
 
-<BaseLayout locale={locale} title={`${s.nav.projects} · patrick jeuniaux`} description={s.siteDescription} sourcePath={sourcePath} autoTranslated={pageEntry.data.autoTranslated} publishedAt={pageEntry.data.publishedAt} updatedAt={pageEntry.data.updatedAt}>
+<BaseLayout locale={locale} title={`${s.nav.projects} · patrick jeuniaux`} description={s.siteDescription} sourcePath={sourcePath} sourcePaths={sourcePaths} autoTranslated={pageEntry.data.autoTranslated} publishedAt={pageEntry.data.publishedAt} updatedAt={pageEntry.data.updatedAt}>
   <section class="section">
     <div class="container">
       <div class="prose prose-wide">

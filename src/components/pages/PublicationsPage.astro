@@ -40,11 +40,12 @@ const languageClass = (value: string) => {
   return key ? `pill-lang-${key}` : 'pill-lang-default';
 };
 const resetLabel = locale === 'fra' ? 'Rétablir les valeurs par défaut' : 'Reset';
+const publicationId = (key: string) => `publication-${key.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 import path from 'node:path';
 
 const sourcePath = pageEntry.filePath ? path.resolve(process.cwd(), pageEntry.filePath) : undefined;
 ---
-<BaseLayout locale={locale} title={`${s.nav.work} · patrick jeuniaux`} description={s.siteDescription} sourcePath={sourcePath} autoTranslated={pageEntry.data.autoTranslated} publishedAt={pageEntry.data.publishedAt} updatedAt={pageEntry.data.updatedAt}>
+<BaseLayout locale={locale} title={`${s.nav.work} · patrick jeuniaux`} description={s.siteDescription} sourcePath={sourcePath} sourcePaths={[path.resolve(process.cwd(), 'data/index.bib')]} autoTranslated={pageEntry.data.autoTranslated} publishedAt={pageEntry.data.publishedAt} updatedAt={pageEntry.data.updatedAt}>
   <section class="section">
     <div class="container">
       <div class="prose prose-wide">
@@ -109,7 +110,7 @@ const sourcePath = pageEntry.filePath ? path.resolve(process.cwd(), pageEntry.fi
                   <h3 class="publication-year-title">{year}</h3>
                   <div class="publication-list">
                     {items.map((item) => (
-                      <article class:list={['card','publication-card', item.selected && 'publication-card-selected']} data-type={item.pubType || 'other'} data-year={item.year || 'undated'} data-language={(item.language || 'UND').toLowerCase()} data-selected={item.selected ? 'true' : 'false'}>
+                      <article id={publicationId(item.key)} class:list={['card','publication-card', item.selected && 'publication-card-selected']} data-type={item.pubType || 'other'} data-year={item.year || 'undated'} data-language={(item.language || 'UND').toLowerCase()} data-selected={item.selected ? 'true' : 'false'}>
                         <div class="publication-card-header">
                           <div>
                             <h4>{item.title}</h4>
@@ -181,12 +182,30 @@ const sourcePath = pageEntry.filePath ? path.resolve(process.cwd(), pageEntry.fi
     yearSelect && yearSelect.addEventListener('change', applyFilters);
     languageSelect && languageSelect.addEventListener('change', applyFilters);
     selectedCheckbox && selectedCheckbox.addEventListener('change', applyFilters);
-    resetPublicationFiltersButton && resetPublicationFiltersButton.addEventListener('click', () => {
+    const resetFilters = () => {
       if (typeSelect && 'value' in typeSelect) typeSelect.value = 'all';
       if (yearSelect && 'value' in yearSelect) yearSelect.value = 'all';
       if (languageSelect && 'value' in languageSelect) languageSelect.value = 'all';
       if (selectedCheckbox && 'checked' in selectedCheckbox) selectedCheckbox.checked = false;
       applyFilters();
-    });
+    };
+    resetPublicationFiltersButton && resetPublicationFiltersButton.addEventListener('click', resetFilters);
+    const revealLinkedPublication = () => {
+      if (!window.location.hash.startsWith('#publication-')) return;
+      const target = document.getElementById(window.location.hash.slice(1));
+      if (!target || !target.classList.contains('publication-card')) return;
+      resetFilters();
+      target.scrollIntoView({ block: 'start' });
+    };
+    window.addEventListener('hashchange', revealLinkedPublication);
+    revealLinkedPublication();
   </script>
+
+  <style>
+    .publication-card:target {
+      scroll-margin-top: 1.5rem;
+      outline: 2px solid var(--accent-blue);
+      outline-offset: 4px;
+    }
+  </style>
 </BaseLayout>

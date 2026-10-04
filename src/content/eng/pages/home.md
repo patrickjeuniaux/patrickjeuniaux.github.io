@@ -1,30 +1,33 @@
 ---
-title: "Cognition, Research, Data"
-kicker: "Home"
-lead: "I am a researcher and chief data officer. My work focuses on criminal justice data, knowledge graphs, data governance, and the use of artificial intelligence in criminal justice."
-axesTitle: "Strategic Axes"
-axis1Title: "✦ Criminal Justice"
-axis1Text: "Study of criminal justice data, recidivism, criminal careers, and certain issues related to radicalization."
-axis2Title: "✦ Knowledge Graphs"
-axis2Text: "Design of knowledge graphs and data structures to integrate heterogeneous sources and link entities."
-axis3Title: "✦ Data Governance"
-axis3Text: "Work on data inventories, audits, governance strategy, and the conditions for a more reliable use of public data."
-axis4Title: "✦ Artificial Intelligence"
-axis4Text: "Exploration of AI methods, particularly large language models, within a quality-oriented framework, traceability, and institutional utility."
-axis5Title: "✦ Research Infrastructure"
-axis5Text: "Development of databases, scripts, and tools to structure complex information and support research processes."
-newsTitle: "News"
-newsLink: "See all notes →"
-navTitle: "Navigation"
-aboutText: "Career path, current roles, skills, and line of work."
-projectsText: "Research and infrastructure projects, with an emphasis on KG4J, FAR and IIHA."
-workText: "Articles, chapters, reports, works, and other contributions where I am among the authors."
-notesText: "Working notes, methodological texts, and brief essays."
-collaborationsText: "Partner institutions, academic path, and research collaborations."
-contactText: "Email for professional requests related to research or projects."
-editorial: "About the site"
-editorialText: "This site presents my research, data governance, and tool development activities. It was designed to be sober and easy to update."
-locale: "eng"
-translationKey: "home"
+title: 'Cognition, data and transformation'
+kicker: 'Home'
+lead: 'As a cognitive scientist, I work at the intersection of data, artificial intelligence and organizational transformation. I lead the [Data, Artificial Intelligence & Transformation (DAT)](/eng/dat/) laboratory at the NICC, where I also serve as Chief Data Officer. My work draws on statistics, knowledge graphs and language technologies to support research, decision-making and knowledge transfer, particularly in justice.'
+axesTitle: 'Core areas'
+axis1Title: '✦ Criminal justice'
+axis1Text: 'Study of criminal justice data, recidivism and criminal careers. [IIHA](/eng/iiha/) illustrates how digital archives can be brought together to analyse criminal justice trajectories.'
+axis2Title: '✦ Knowledge graphs'
+axis2Text: 'Design of knowledge graphs to integrate heterogeneous sources and connect entities. [KG4J](/eng/kg4j/) explores their contribution to the analysis of justice data.'
+axis3Title: '✦ Data governance'
+axis3Text: 'Work on inventories, audits and data governance strategy. The [DAT](/eng/dat/) laboratory supports the organization and use of the NICC’s information resources.'
+axis4Title: '✦ Artificial intelligence'
+axis4Text: 'Exploration of AI methods, particularly large language models, with attention to quality and traceability. [KG4J](/eng/kg4j/) aims, among other things, to extract knowledge from documents.'
+axis5Title: '✦ Research infrastructure'
+axis5Text: 'Development of databases, scripts and tools to support research. [GovIntel](/eng/govintel/) aims to structure the administrative data of DNA databases for operational and scientific use.'
+newsTitle: 'News'
+newsLink: 'See all notes →'
+navTitle: 'Navigation'
+aboutText: 'Background, current roles, skills and areas of work.'
+datText: 'Missions of the Data, Artificial Intelligence & Transformation laboratory at the NICC.'
+projectsText: 'Research and infrastructure projects, including KG4J, IIHA and the European PIES consortium that I coordinated.'
+workText: 'Articles, chapters, reports, studies and other contributions in which I am among the authors.'
+notesText: 'Working notes, methodological texts and short essays.'
+collaborationsText: 'Partner institutions, academic background and research collaborations.'
+contactText: 'Email for professional enquiries related to research or projects.'
+editorial: 'About the site'
+editorialText: 'This site presents my activities in research, data governance and organizational transformation, together with the methods and tools that support them. It was designed to be understated and easy to update.'
+locale: 'eng'
+translationKey: 'home'
+canonical: false
+autoTranslated: true
+sourceHash: '176d4d099765adbbfaa70bbc66ca92b6296a5a841ce1345f7151b85cb3fdbf86'
 ---
-

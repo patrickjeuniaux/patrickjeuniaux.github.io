@@ -1,27 +1,29 @@
 ---
-eyebrow: "連絡先"
-title: "連絡先"
-lead: "職業上の質問、研究協力、または私の活動に関連する交流については、電子メールでお問い合わせください。"
-noteTitle: "連絡先詳細"
-noteText: "研究、データ、プロジェクト、または出版物に直接関連する明確な依頼を優先します。"
-locale: "jpn"
-translationKey: "contact"
+eyebrow: 'お問い合わせ'
+title: 'お問い合わせ'
+lead: '研究プロジェクト、共同研究、データや人工知能に関するご相談は、メールでお寄せください。'
+noteTitle: '連絡先'
+noteText: 'ご質問やプロジェクトについて数行添えていただけると、ご連絡の背景を理解しやすくなります。'
+locale: 'jpn'
+translationKey: 'contact'
+canonical: false
+autoTranslated: true
+sourceHash: '00aaa36c84888254a711451f956291b9ef1737d3fc559bbf2cebc2d735ccb65d'
 ---
 
-## 連絡先詳細
+## 連絡先
 
-私に連絡する最も簡単な方法は電子メールです。
+メールが最も簡単な連絡方法です。
 
-✦ **メール** : [patrick.jeuniaux@protonmail.com](mailto:patrick.jeuniaux@protonmail.com)
+✦ **メール**：[patrick.jeuniaux@protonmail.com](mailto:patrick.jeuniaux@protonmail.com)
 
-## 依頼の種類
+## ご相談いただける内容
 
-以下の内容に関連するメッセージに優先的に回答します。
+特に、次のような内容でご連絡いただけます。
 
-- 研究 ；
-- プロジェクト ；
-- データとそのガバナンス ；
-- 出版物 ；
-- 学術的または機関的な交流。
+- 共同研究や共同プロジェクトについて；
+- 知識グラフ、人工知能、データガバナンスについて；
+- 私の出版物、手法、ツールに関するご質問；
+- 教育や研究指導についての意見交換。
 
 <div class="finis">❧</div>

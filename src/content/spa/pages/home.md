@@ -1,30 +1,33 @@
 ---
-title: "Cognición, investigación, datos"
-kicker: "Inicio"
-lead: "Soy investigador y director de datos. Mi trabajo se centra en los datos de justicia penal, los grafos de conocimiento, la gobernanza de datos y el uso de la inteligencia artificial en la justicia penal."
-axesTitle: "Ejes estructurantes"
-axis1Title: "✦ Justicia penal"
-axis1Text: "Estudio de los datos de justicia penal, la reincidencia, las carreras criminales y algunas cuestiones relacionadas con la radicalización."
-axis2Title: "✦ Grafos de conocimiento"
-axis2Text: "Diseño de grafos de conocimiento y estructuras de datos que permiten integrar fuentes heterogéneas y vincular entidades."
-axis3Title: "✦ Gobernanza de datos"
-axis3Text: "Trabajo sobre inventarios de datos, auditorías, estrategia de gobernanza y condiciones para un uso más fiable de los datos públicos."
-axis4Title: "✦ Inteligencia artificial"
-axis4Text: "Exploración de métodos de IA, en particular de grandes modelos de lenguaje, en un marco orientado a la calidad, la trazabilidad y la utilidad institucional."
-axis5Title: "✦ Infraestructura de investigación"
-axis5Text: "Desarrollo de bases de datos, scripts y herramientas para estructurar información compleja y apoyar los procesos de investigación."
-newsTitle: "Noticias"
-newsLink: "Ver todas las notas →"
-navTitle: "Navegación"
-aboutText: "Trayectoria, funciones actuales, competencias y línea de trabajo."
-projectsText: "Proyectos de investigación y de infraestructura, con énfasis en KG4J, FAR e IIHA."
-workText: "Artículos, capítulos, informes, trabajos y otras contribuciones donde figuro entre los autores."
-notesText: "Notas de trabajo, textos metodológicos y ensayos breves."
-collaborationsText: "Instituciones colaboradoras, trayectoria académica y colaboraciones de investigación."
-contactText: "Correo electrónico para solicitudes profesionales relacionadas con la investigación o los proyectos."
-editorial: "Acerca del sitio"
-editorialText: "Este sitio presenta mis actividades de investigación, gobernanza de datos y desarrollo de herramientas. Ha sido diseñado para ser sobrio y fácil de actualizar."
-locale: "spa"
-translationKey: "home"
+title: 'Cognición, datos y transformación'
+kicker: 'Inicio'
+lead: 'Como investigador en ciencias cognitivas, trabajo en la intersección de los datos, la inteligencia artificial y la transformación de las organizaciones. Dirijo el laboratorio [Data, Artificial Intelligence & Transformation (DAT)](/spa/dat/) en el INCC, donde también ejerzo como director de datos. Mi trabajo recurre a la estadística, los grafos de conocimiento y las tecnologías del lenguaje para apoyar la investigación, la toma de decisiones y la transmisión de conocimientos, especialmente en el ámbito de la justicia.'
+axesTitle: 'Áreas principales'
+axis1Title: '✦ Justicia penal'
+axis1Text: 'Estudio de los datos de justicia penal, la reincidencia y las carreras delictivas. [IIHA](/spa/iiha/) ilustra la integración de archivos digitales para analizar las trayectorias penales.'
+axis2Title: '✦ Grafos de conocimiento'
+axis2Text: 'Diseño de grafos de conocimiento que integran fuentes heterogéneas y conectan entidades. [KG4J](/spa/kg4j/) explora su aportación al análisis de los datos de justicia.'
+axis3Title: '✦ Gobernanza de datos'
+axis3Text: 'Trabajo en inventarios, auditorías y estrategia de gobernanza de datos. El laboratorio [DAT](/spa/dat/) apoya la organización y el aprovechamiento de los recursos de información del INCC.'
+axis4Title: '✦ Inteligencia artificial'
+axis4Text: 'Exploración de métodos de IA, especialmente grandes modelos de lenguaje, con atención a la calidad y la trazabilidad. [KG4J](/spa/kg4j/) busca, entre otras cosas, extraer conocimientos de documentos.'
+axis5Title: '✦ Infraestructura de investigación'
+axis5Text: 'Desarrollo de bases de datos, scripts y herramientas de apoyo a la investigación. [GovIntel](/spa/govintel/) busca estructurar los datos administrativos de las bases de ADN para usos operativos y científicos.'
+newsTitle: 'Noticias'
+newsLink: 'Ver todas las notas →'
+navTitle: 'Navegación'
+aboutText: 'Trayectoria, funciones actuales, competencias y áreas de trabajo.'
+datText: 'Misiones del laboratorio Data, Artificial Intelligence & Transformation en el INCC.'
+projectsText: 'Proyectos de investigación e infraestructura, incluidos KG4J, IIHA y el consorcio europeo PIES que coordiné.'
+workText: 'Artículos, capítulos, informes, estudios y otras contribuciones de las que soy autor o coautor.'
+notesText: 'Notas de trabajo, textos metodológicos y ensayos breves.'
+collaborationsText: 'Instituciones asociadas, trayectoria académica y colaboraciones de investigación.'
+contactText: 'Correo para consultas profesionales sobre investigación o proyectos.'
+editorial: 'Acerca del sitio'
+editorialText: 'Este sitio presenta mis actividades de investigación, gobernanza de datos y transformación de las organizaciones, junto con los métodos y herramientas que las apoyan. Se ha diseñado para ser sobrio y fácil de actualizar.'
+locale: 'spa'
+translationKey: 'home'
+canonical: false
+autoTranslated: true
+sourceHash: '176d4d099765adbbfaa70bbc66ca92b6296a5a841ce1345f7151b85cb3fdbf86'
 ---
-

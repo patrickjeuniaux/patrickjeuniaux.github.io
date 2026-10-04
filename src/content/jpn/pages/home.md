@@ -1,30 +1,33 @@
 ---
-title: "認知、研究、データ"
-kicker: "ホーム"
-lead: "私は研究者であり、データディレクターです。私の仕事は刑事司法データ、ナレッジグラフ、データガバナンス、および刑事司法における人工知能の活用に焦点を当てています。"
-axesTitle: "主要な柱"
-axis1Title: "✦ 刑事司法"
-axis1Text: "刑事司法データ、再犯、犯罪キャリア、および過激化に関連するいくつかの問題の研究。"
-axis2Title: "✦ ナレッジグラフ"
-axis2Text: "異種ソースの統合とエンティティの関連付けを可能にするナレッジグラフとデータ構造の設計。"
-axis3Title: "✦ データガバナンス"
-axis3Text: "データインベントリ、監査、ガバナンス戦略、および公的データのより信頼性の高い活用のための条件に関する仕事。"
-axis4Title: "✦ 人工知能"
-axis4Text: "品質、追跡可能性、および組織的な有用性を重視した枠組みの中での、AI手法（特に大規模言語モデル）の探求。"
-axis5Title: "✦ 研究インフラ"
-axis5Text: "複雑な情報を構造化し、研究プロセスをサポートするためのデータベース、スクリプト、ツールの開発。"
-newsTitle: "ニュース"
-newsLink: "すべてのノートを見る →"
-navTitle: "ナビゲーション"
-aboutText: "経歴、現在の職務、能力、および仕事の方向性。"
-projectsText: "研究およびインフラプロジェクト（特にKG4J、FAR、IIHA）。"
-workText: "私が著者に含まれる論文、章、レポート、著作物、その他の貢献。"
-notesText: "作業ノート、手法に関するテキスト、および短いエッセイ。"
-collaborationsText: "パートナー機関、学術的な歩み、および研究協力。"
-contactText: "研究またはプロジェクトに関連する職業上の問い合わせのための電子メール。"
-editorial: "サイトについて"
-editorialText: "このサイトは、私の研究活動、データガバナンス、およびツールの開発を紹介するものです。簡潔で更新しやすいように設計されています。"
-locale: "jpn"
-translationKey: "home"
+title: '認知、データ、変革'
+kicker: 'ホーム'
+lead: '認知科学の研究者として、データ、人工知能、組織変革を結び付ける仕事に取り組んでいます。INCC で [Data, Artificial Intelligence & Transformation（DAT）](/jpn/dat/) 研究室を率い、最高データ責任者も務めています。統計学、知識グラフ、言語技術を用いて、特に司法分野の研究、意思決定、知識の伝達を支援しています。'
+axesTitle: '主な領域'
+axis1Title: '✦ 刑事司法'
+axis1Text: '刑事司法データ、再犯、犯罪キャリアの研究。[IIHA](/jpn/iiha/) は、刑事司法上の経過を分析するためにデジタル資料を統合する取り組みです。'
+axis2Title: '✦ 知識グラフ'
+axis2Text: '異種の情報源を統合し、実体同士を結び付ける知識グラフの設計。[KG4J](/jpn/kg4j/) は、司法データの分析への貢献を探っています。'
+axis3Title: '✦ データガバナンス'
+axis3Text: 'データの棚卸し、監査、ガバナンス戦略に関する活動。[DAT](/jpn/dat/) 研究室は INCC の情報資源の整理と活用を支援しています。'
+axis4Title: '✦ 人工知能'
+axis4Text: '品質と追跡可能性に配慮しながら、特に大規模言語モデルなどの AI 手法を検討しています。[KG4J](/jpn/kg4j/) は、文書からの知識抽出などを目指しています。'
+axis5Title: '✦ 研究基盤'
+axis5Text: '研究を支えるデータベース、スクリプト、ツールの開発。[GovIntel](/jpn/govintel/) は、DNA データベースの管理データを、業務と研究に活用できるよう構造化することを目指しています。'
+newsTitle: 'ニュース'
+newsLink: 'すべてのノートを見る →'
+navTitle: 'ナビゲーション'
+aboutText: '経歴、現在の役割、技能、仕事の方向性。'
+datText: 'INCC の Data, Artificial Intelligence & Transformation 研究室の任務。'
+projectsText: 'KG4J、IIHA、私が調整を担った欧州の PIES コンソーシアムなどの研究・基盤プロジェクト。'
+workText: '私が著者または共著者として関わった論文、章、報告書、研究などの成果。'
+notesText: '作業ノート、方法論に関する文章、短い論考。'
+collaborationsText: '協力機関、学術的な経歴、研究協力。'
+contactText: '研究やプロジェクトに関する業務上の問い合わせ用メール。'
+editorial: 'このサイトについて'
+editorialText: 'このサイトは、研究、データガバナンス、組織変革に関する私の活動と、それを支える手法やツールを紹介しています。簡潔で更新しやすい設計を目指しました。'
+locale: 'jpn'
+translationKey: 'home'
+canonical: false
+autoTranslated: true
+sourceHash: '176d4d099765adbbfaa70bbc66ca92b6296a5a841ce1345f7151b85cb3fdbf86'
 ---
-

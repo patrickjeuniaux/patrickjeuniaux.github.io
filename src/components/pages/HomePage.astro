@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { createMarkdownProcessor } from '@astrojs/markdown-remark';
 import { t, type Locale, localizePath, normalizeLocale } from '../../i18n/ui';
 import { getLocalizedPage } from '../../lib/content';
 import { getLocalizedBlogGroups, slugOf } from '../../lib/blog';
@@ -11,6 +12,20 @@ const s = t(locale);
 const homeEntry = await getLocalizedPage(locale, 'home');
 if (!homeEntry) throw new Error('home page content not found');
 const home = homeEntry.data;
+const datEntry = await getLocalizedPage(locale, 'dat');
+const markdown = await createMarkdownProcessor({ smartypants: false });
+const renderInline = async (text: unknown) => {
+  const { code } = await markdown.render(String(text ?? ''));
+  return code.trim().replace(/^<p>/, '').replace(/<\/p>$/, '');
+};
+const [leadHtml, ...axisHtml] = await Promise.all([
+  home.lead,
+  home.axis1Text,
+  home.axis2Text,
+  home.axis3Text,
+  home.axis4Text,
+  home.axis5Text,
+].map(renderInline));
 
 // Latest 5 blog posts, reverse-chrono
 const allPosts = await getCollection('blog');
@@ -27,15 +42,16 @@ const formatDate = (date: Date) =>
   date.toLocaleDateString(dateLocale, { day: 'numeric', month: 'short', year: 'numeric' });
 
 const sourcePath = homeEntry.filePath ? path.resolve(process.cwd(), homeEntry.filePath) : undefined;
+const sourcePaths = [datEntry, ...latestPosts].flatMap((entry) => entry?.filePath ? [path.resolve(process.cwd(), entry.filePath)] : []);
 ---
-<BaseLayout locale={locale} title="patrick jeuniaux" description={s.siteDescription} sourcePath={sourcePath} autoTranslated={homeEntry.data.autoTranslated} publishedAt={homeEntry.data.publishedAt} updatedAt={homeEntry.data.updatedAt}>
+<BaseLayout locale={locale} title="patrick jeuniaux" description={s.siteDescription} sourcePath={sourcePath} sourcePaths={sourcePaths} autoTranslated={homeEntry.data.autoTranslated} publishedAt={homeEntry.data.publishedAt} updatedAt={homeEntry.data.updatedAt}>
   <section class="hero hero-banner">
     <div class="hero-banner-image" role="img" aria-label="ubi bene, ibi patria. a tree canopy reflected in water, with leaves and light."></div>
     <div class="container hero-grid">
       <div class="hero-panel">
         <div class="kicker">{home.kicker}</div>
         <h1 class="page-title page-title-icon hero-title" data-icon="⚓">{home.title}</h1>
-        <p class="lead dropcap">{home.lead}</p>
+        <p class="lead dropcap" set:html={leadHtml} />
       </div>
       <aside class="hero-card card-accent-blue">
         <p class="section-mark">{home.newsTitle}</p>
@@ -62,11 +78,11 @@ const sourcePath = homeEntry.filePath ? path.resolve(process.cwd(), homeEntry.fi
     <div class="container">
       <h2>{home.axesTitle}</h2>
       <div class="grid-axes">
-        <article class="card card-accent-brown"><h3>{home.axis1Title}</h3><p>{home.axis1Text}</p></article>
-        <article class="card card-accent-blue"><h3>{home.axis2Title}</h3><p>{home.axis2Text}</p></article>
-        <article class="card card-accent-green"><h3>{home.axis3Title}</h3><p>{home.axis3Text}</p></article>
-        <article class="card card-accent-gold"><h3>{home.axis4Title}</h3><p>{home.axis4Text}</p></article>
-        <article class="card card-accent-brown"><h3>{home.axis5Title}</h3><p>{home.axis5Text}</p></article>
+        <article class="card card-accent-brown"><h3>{home.axis1Title}</h3><p set:html={axisHtml[0]} /></article>
+        <article class="card card-accent-blue"><h3>{home.axis2Title}</h3><p set:html={axisHtml[1]} /></article>
+        <article class="card card-accent-green"><h3>{home.axis3Title}</h3><p set:html={axisHtml[2]} /></article>
+        <article class="card card-accent-gold"><h3>{home.axis4Title}</h3><p set:html={axisHtml[3]} /></article>
+        <article class="card card-accent-brown"><h3>{home.axis5Title}</h3><p set:html={axisHtml[4]} /></article>
       </div>
     </div>
   </section>
@@ -77,6 +93,9 @@ const sourcePath = homeEntry.filePath ? path.resolve(process.cwd(), homeEntry.fi
         <h2>{home.navTitle}</h2>
         <ul class="list-clean nav-list">
           <li><a href={localizePath(locale, '/about/')}>{s.nav.about}</a> <span class="meta">{home.aboutText}</span></li>
+          {datEntry && (
+            <li><a href={localizePath(locale, '/dat/')}>{datEntry.data.navTitle ?? datEntry.data.title}</a> {home.datText && <span class="meta">{home.datText}</span>}</li>
+          )}
           <li><a href={localizePath(locale, '/projects/')}>{s.nav.projects}</a> <span class="meta">{home.projectsText}</span></li>
           <li><a href={localizePath(locale, '/work/')}>{s.nav.work}</a> <span class="meta">{home.workText}</span></li>
           <li><a href={localizePath(locale, '/notes/')}>{s.nav.notes}</a> <span class="meta">{home.notesText}</span></li>

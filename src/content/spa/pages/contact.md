@@ -1,27 +1,29 @@
 ---
-eyebrow: "Contacto"
-title: "Contacto"
-lead: "Para consultas profesionales, colaboraciones de investigación o intercambios relacionados con mis actividades, puede contactarme por correo electrónico."
-noteTitle: "Datos de contacto"
-noteText: "Priorizo las solicitudes claras, directamente relacionadas con la investigación, los datos, los proyectos o las publicaciones."
-locale: "spa"
-translationKey: "contact"
+eyebrow: 'Contacto'
+title: 'Contacto'
+lead: 'Puede escribirme para hablar sobre un proyecto de investigación, una colaboración o una cuestión relacionada con los datos y la inteligencia artificial.'
+noteTitle: 'Datos de contacto'
+noteText: 'Unas líneas sobre su pregunta o proyecto me ayudarán a comprender el contexto de su mensaje.'
+locale: 'spa'
+translationKey: 'contact'
+canonical: false
+autoTranslated: true
+sourceHash: '00aaa36c84888254a711451f956291b9ef1737d3fc559bbf2cebc2d735ccb65d'
 ---
 
 ## Datos de contacto
 
-La forma más sencilla de contactarme es por correo electrónico.
+El correo electrónico es la forma más sencilla de contactarme.
 
 ✦ **Correo electrónico**: [patrick.jeuniaux@protonmail.com](mailto:patrick.jeuniaux@protonmail.com)
 
-## Tipos de solicitudes
+## Temas de conversación
 
-Respondo prioritariamente a mensajes relacionados con:
+Puede contactarme, en particular, para:
 
-- la investigación;
-- los proyectos;
-- los datos y su gobernanza;
-- las publicaciones;
-- los intercambios académicos o institucionales.
+- una colaboración científica o un proyecto conjunto;
+- los grafos de conocimiento, la inteligencia artificial o la gobernanza de datos;
+- una pregunta sobre mis publicaciones, métodos o herramientas;
+- un intercambio sobre docencia o supervisión.
 
 <div class="finis">❧</div>

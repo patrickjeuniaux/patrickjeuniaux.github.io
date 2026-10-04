@@ -1,23 +1,40 @@
 ---
-title: "KG4J — Knowledge Graphs for Justice"
-routeSlug: "kg4j"
-summary: "Research project dedicated to the use of knowledge graphs in the field of justice."
+title: 'KG4J — Knowledge Graphs for Justice'
+routeSlug: 'kg4j'
+summary: 'Research project dedicated to the use of knowledge graphs in justice.'
 order: 1
-status: "In progress"
-domain: "Knowledge Graphs"
-startYear: "2025"
-endYear: "2029"
-funder: "BELSPO"
-role: "Principal Investigator"
-budget: "392,798.60 €"
-keywords: ["justice", "knowledge graphs", "data", "AI"]
-locale: "eng"
-translationKey: "project-kg4j"
+status: 'In progress'
+domain: 'Knowledge graphs'
+startYear: '2025'
+endYear: '2029'
+funder: 'BELSPO'
+role: 'Principal Investigator'
+budget: '392 798,60 €'
+keywords:
+  - 'justice'
+  - 'knowledge graphs'
+  - 'data'
+  - 'AI'
+locale: 'eng'
+translationKey: 'project-kg4j'
+canonical: false
+autoTranslated: true
+sourceHash: '6ddafc5a11345337c599d9e7c52a0fd6f67f8950fd86620087af271caaf941f8'
 ---
 
-KG4J is a project submitted in 2025 as part of the **P4Science** call of the Belgian Federal Science Policy (**BELSPO**). I am the principal investigator and the author of the proposal.
+## Overview
 
-The project aims to explore the contribution of **knowledge graphs** for data integration at the National Institute of Criminalistics and Criminology (NICC), and to improve analytical capabilities.
+At the [National Institute of Criminalistics and Criminology (NICC)](/eng/nicc/), forensic and criminological data come from heterogeneous, often fragmented sources. **KG4J** explores how **knowledge graphs** and **artificial intelligence** can connect them to facilitate queries and strengthen analytical capabilities.
+
+I am the **principal investigator and author of the proposal**, funded by the Belgian Federal Science Policy (**BELSPO**) under the **P4Science** call.
+
+The project pursues three complementary objectives:
+
+- build an infrastructure linking criminological and forensic data;
+- explore use cases for studying criminal justice trajectories, analysing DNA data and extracting knowledge from documents;
+- define a governance framework for reliable and traceable uses of data and AI.
+
+## Consortium
 
 The consortium brings together the following partners:
 
@@ -29,43 +46,44 @@ The consortium brings together the following partners:
 - [Digital Transformation Office, Federal Public Service Justice](https://justice.belgium.be/fr), Federal Public Service Justice, Belgium
 - [Elephant Bird Consulting](https://github.com/elephantbirdconsulting), Elephant Bird Consulting, Belgium
 
-# Official project summary:
+
+## Official project summary
 
 The National Institute of Criminalistics and Criminology (NICC) plays a scientific role in the Belgian criminal justice system. On one hand, it provides forensic expertise in areas such as DNA, toxicology, and drugs. On the other hand, it conducts criminological research, for example on recidivism and criminal careers. To do this, it processes a large amount of data. However, much of this data is fragmented or underutilized. Valuable information remains hidden.
 
-## Proposal
+### Proposal
 
 The Knowledge Graphs for Justice (KG4J) project aims to solve this problem. How? By building and exploiting data analysis systems based on graph theory, knowledge graphs, and artificial intelligence (AI), including large language models (LLMs). And by defining a data and AI governance policy.
 
-### What is graph theory?
+#### What is graph theory?
 
 Graphs are a natural way to represent connected data. Entities become nodes linked by relations. Imagine a subway map: Each station is a node, each line a relation. What is the shortest distance between two stations? Which station is the most connected? Graph theory answers these types of questions.
 
-### What is a knowledge graph?
+#### What is a knowledge graph?
 
 The addition of semantic information — i.e., definitions of meaning — transforms a graph into a knowledge graph. They become machine-readable, interpretable, and searchable. Modern AI systems can then exploit them to answer questions.
 
-### What is a large language model?
+#### What is a large language model?
 
 An LLM is the engine of modern conversational agents. It has been trained to predict human speech from large amounts of text. It can dialogue with us and help accomplish other tasks, such as programming.
 
-## What we will do with this technology
+### What we will do with this technology
 
 The KG4J project will apply graph theory, knowledge graphs, and LLMs to selected use cases, in order to reveal the value of existing data and provide new capabilities.
 
-### Criminological research
+#### Criminological research
 
 The NICC has already used a graph to examine recidivism and criminal careers from disconnected data sources. The goal is now to process this graph to discover new patterns. And to transform it into a knowledge graph enriched by AI. This will allow advanced queries and simpler exploration of criminal trajectories.
 
-### Forensic expertise
+#### Forensic expertise
 
 The NICC generally processes forensic data tactically, without subsequent analysis linking the elements together. For example, DNA databases link DNA profiles between cases, and then stop there. Transforming this data into a graph would reveal co-offending patterns. And discover criminal networks. Linking evidence supports both ongoing investigations and long-term criminal policy.
 
-### Unstructured data
+#### Unstructured data
 
 Transcripts of hearings, expert notes, recordings: the amount of unstructured data is immense. Thanks to AI — and particularly LLMs — it becomes possible to convert them into a knowledge graph. This graph can then answer questions about these contents.
 
-## Objectives
+### Objectives
 
 1. Build a knowledge graph infrastructure (KGI) integrating criminological and forensic data, searchable via an intuitive interface.
 
@@ -75,6 +93,6 @@ Transcripts of hearings, expert notes, recordings: the amount of unstructured da
     
 4. Define a data and AI governance model consistent with institutional values and legal requirements.
 
-## Conclusion
+### Conclusion
 
 The KG4J project will enable the NICC to produce enhanced criminological and forensic intelligence. It links fragmented data, values existing data, develops new capabilities via graphs and AI, and establishes reliable practices in data and AI for justice.

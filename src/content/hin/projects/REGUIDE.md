@@ -1,20 +1,27 @@
 ---
-title: "REGUIDE"
-routeSlug: "reguide"
-summary: "बेल्जियम में वापस आने वाले व्यक्तियों (returnees) के पुनर्वास (reintegration) और निगरानी पर परियोजना।"
+title: 'REGUIDE'
+routeSlug: 'reguide'
+summary: 'बेल्जियम में लौटे हुए व्यक्तियों के पुनर्समावेशन और सहायता पर परियोजना।'
 order: 4
-status: "जारी है"
-domain: "अपराध विज्ञान"
-startYear: "2020"
-endYear: "2025"
-funder: "BELSPO"
-role: "शोधकर्ता"
-budget: "1 002 092 €"
-keywords: ["returnees", "पुनर्वास", "आतंकवाद", "बेल्जियम"]
-locale: "hin"
-translationKey: "project-reguide"
+status: 'समाप्त'
+domain: 'अपराधशास्त्र'
+startYear: '2020'
+endYear: '2025'
+funder: 'BELSPO'
+role: 'शोधकर्ता'
+budget: '1 002 092 €'
+keywords:
+  - 'लौटे हुए व्यक्ति'
+  - 'पुनर्समावेशन'
+  - 'आतंकवाद'
+  - 'बेल्जियम'
+locale: 'hin'
+translationKey: 'project-reguide'
+canonical: false
+autoTranslated: true
+sourceHash: '223973ddca6a6bef9661b3cbe4b9cd4e797d49690524d35c48e5df7f3f4187af'
 ---
 
-REGUIDE बेल्जियम में **वापस आने वाले व्यक्तियों** (returnees) के पुनर्वास की राहों और उनके लिए जुटाए गए तंत्र का अध्ययन करता है। 
+REGUIDE ने बेल्जियम में **लौटे हुए व्यक्तियों** के पुनर्समावेशन के रास्तों और सहायता व्यवस्थाओं का अध्ययन किया।
 
-इस ढांचे के भीतर, मैंने डेटाबेस, सामाजिक-न्यायिक प्रक्षेपवक्र (trajectories) पर काम किया और NICC तथा सहयोगी संस्थानों के मेरे सहयोगियों के साथ मिलकर रिपोर्ट और वैज्ञानिक लेख तैयार किए।
+इस संदर्भ में मैंने NICC और सहयोगी संस्थानों के साथियों के साथ डेटाबेस, सामाजिक-न्यायिक जीवनपथ तथा रिपोर्ट और वैज्ञानिक लेख तैयार करने के काम में भाग लिया।

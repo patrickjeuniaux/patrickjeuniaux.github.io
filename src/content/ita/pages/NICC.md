@@ -1,25 +1,50 @@
 ---
-title: "INCC - Institut National de Criminalistique et de Criminologie"
-locale: "ita"
-translationKey: "institution-nicc"
+title: 'NICC — Istituto nazionale di criminalistica e criminologia'
+locale: 'ita'
+translationKey: 'institution-nicc'
+canonical: false
+autoTranslated: true
+sourceHash: '69d4000ebd3799d73cf75949da25b2d349a2a8504ab02435adb962d21c5382ba'
 ---
 
-Lavoro all'**INCC** dal 2010. Il mio ruolo è duplice, unendo attività di ricerca e responsabilità strategiche.
+Presso l’**Istituto nazionale di criminalistica e criminologia (NICC)**, ho responsabilità in materia di dati e di trasformazione dell’organizzazione, proseguendo al contempo le mie attività di ricerca.
 
-### Ricercatore
+## Direzione del laboratorio DAT
 
-Parallelamente alle mie funzioni di CDO, proseguo i miei lavori di ricerca all'interno della direzione di Criminologia. Le mie ricerche riguardano:
-- L'analisi dei dati della giustizia penale, della recidiva e delle carriere criminali.
-- Il progetto **KG4J** (Knowledge Graph for Justice) volto a strutturare informazioni complesse del dominio penale.
-- L'applicazione ragionata dell'intelligenza artificiale e dei grafi di conoscenza nel settore pubblico.
+Dirigo il laboratorio **[Data, Artificial Intelligence & Transformation (DAT)](/ita/dat/)** all’interno del NICC. La sua attività collega la gestione dei dati, dell’informazione e della conoscenza, la scienza dei dati e l’intelligenza artificiale, e la trasformazione dell’organizzazione.
 
-### Direttore dei dati
+Con i gruppi scientifici, operativi e di supporto, contribuisco a sviluppare le capacità dell’istituto, a migliorare i flussi informativi e a sostenere le decisioni e la trasmissione delle conoscenze. La **[presentazione del laboratorio DAT](/ita/dat/)** descrive queste missioni.
 
-In quanto **Direttore dei dati** (*Chief Data Officer*), sono responsabile della strategia di governance dei dati dell'istituzione. Il mio lavoro consiste nel:
-- Elaborare e implementare una politica di governance dei dati.
-- Realizzare audit dei dati e preparare l'istituzione alle sfide dell'intelligenza artificiale.
-- Progettare infrastrutture di conoscenza che permettano una migliore valorizzazione dei dati forensici e criminologici.
-- Garantir la tracciabilità, la qualità e l'uso etico dei dati all'interno dell'organizzazione.
+## Chief Data Officer
 
+Svolgo la funzione di **Chief Data Officer**. Il mio lavoro comprende la supervisione di audit esterni sulla governance dei dati e sulla preparazione all’intelligenza artificiale, nonché la redazione di una proposta di strategia di governance e di un piano d’inventario dei dati.
 
-L'INCC agisce come un laboratorio che permette di confrontare il rigore scientifico con le esigenze operative di un'istituzione federale.
+Questo lavoro si svolge in collaborazione con la direzione generale e i responsabili dell’informatica, della protezione dei dati e della gestione dei rischi. Mira a migliorare la qualità, la tracciabilità e il riutilizzo delle risorse informative del NICC.
+
+## Dati del DNA e intelligence forense
+
+Le mie ricerche in criminalistica riguardano il **funzionamento e il costo delle analisi del DNA**, l’efficacia delle perizie forensi e l’utilizzo delle banche dati genetiche. Studio in particolare come le corrispondenze tra profili del DNA possano essere rappresentate come reti per analizzare i legami tra casi e le traiettorie criminali.
+
+Ho **coordinato il consorzio europeo [PIES](/ita/pies/)**, dedicato allo scambio di dati del DNA forense nell’ambito di Prüm. Ho anche avviato e diretto **[GovIntel](/ita/govintel/)**, un progetto di sistema informativo per le banche dati nazionali del DNA, destinato a facilitarne l’esplorazione e a sostenere la ricerca e l’intelligence forense.
+
+## Recidiva e traiettorie penali
+
+Con alcuni colleghi ho **cofondato l’unità di ricerca [CReCC](/ita/crecc/)**, dedicata alla recidiva e alle carriere criminali. Il mio lavoro in criminologia riguarda i dati della giustizia penale, i percorsi di condanna e detenzione, nonché la radicalizzazione e il reinserimento.
+
+In **[IIHA](/ita/iiha/)**, ho cofirmato la proposta di finanziamento e partecipato alla direzione scientifica come **co-ricercatore principale**. I miei contributi comprendono lo sviluppo di una banca dati storica integrata a partire dagli archivi digitali della giustizia penale. Ho anche contribuito alle ricerche di **[REGUIDE](/ita/reguide/)** sul reinserimento delle persone che rientrano dalle zone di conflitto.
+
+## Grafi di conoscenza e metodi
+
+Sono il **ricercatore principale e autore della proposta** del progetto **[KG4J — Knowledge Graphs for Justice](/ita/kg4j/)**. Questo progetto esplora il contributo dei grafi di conoscenza e dell’intelligenza artificiale per collegare fonti eterogenee e rafforzare l’analisi dei dati forensi e criminologici.
+
+Il mio lavoro combina la **progettazione di banche dati**, il collegamento dei record per riconoscere le stesse entità in fonti diverse, l’analisi statistica e i metodi basati sui grafi. Utilizzo in particolare **Python, R, SQL, Jupyter e Neo4j**, con attenzione alla documentazione e alla riproducibilità delle elaborazioni. Questi approcci quantitativi sono affiancati anche da lavoro sul campo e interviste.
+
+## Supervisione e lavori correlati
+
+Ho supervisionato tirocini in **criminologia, psicologia e ingegneria biologica**, sulle banche dati del DNA, sul reinserimento delle persone rientrate, sulla radicalizzazione e sull’analisi del discorso.
+
+Alcuni lavori permettono di esplorare questi contributi:
+
+- **[Establishing Networks in a Forensic DNA Database to Gain Operational and Strategic Intelligence](/ita/work/#publication-jeuniaux-et-al-2016-networks)**, sull’utilizzo delle corrispondenze del DNA sotto forma di reti;
+- **[The development of an Integrated Historical Database to study Criminal Careers and Recidivism](/ita/work/#publication-jeuniaux-et-al-2022-talk-iiha-ihd)**, sulla strutturazione dei dati storici della giustizia;
+- **[Vision stratégique « data » : gouvernance des données, gestion de l’information et intelligence artificielle](/ita/work/#publication-jeuniaux-et-al-2026-data-strategy2-fr)**, che presenta una riflessione collettiva sulle capacità informative dell’istituto.

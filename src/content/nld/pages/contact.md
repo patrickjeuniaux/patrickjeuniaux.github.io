@@ -1,27 +1,29 @@
 ---
-eyebrow: "Contact"
-title: "Contact"
-lead: "Voor professionele vragen, onderzoekssamenwerkingen of uitwisselingen gerelateerd aan mijn activiteiten, kunt u contact met mij opnemen via e-mail."
-noteTitle: "Contactgegevens"
-noteText: "Ik geef de voorkeur aan duidelijke verzoeken die direct verband houden met onderzoek, data, projecten of publicaties."
-locale: "nld"
-translationKey: "contact"
+eyebrow: 'Contact'
+title: 'Contact'
+lead: 'U kunt mij schrijven om een onderzoeksproject, een samenwerking of een vraag over data en artificiële intelligentie te bespreken.'
+noteTitle: 'Contactgegevens'
+noteText: 'Enkele regels over uw vraag of project helpen mij de context van uw bericht te begrijpen.'
+locale: 'nld'
+translationKey: 'contact'
+canonical: false
+autoTranslated: true
+sourceHash: '00aaa36c84888254a711451f956291b9ef1737d3fc559bbf2cebc2d735ccb65d'
 ---
 
 ## Contactgegevens
 
-De eenvoudigste manier om contact met mij op te nemen is via e-mail.
+E-mail is de eenvoudigste manier om mij te bereiken.
 
 ✦ **E-mail**: [patrick.jeuniaux@protonmail.com](mailto:patrick.jeuniaux@protonmail.com)
 
-## Soorten verzoeken
+## Gespreksonderwerpen
 
-Ik reageer prioritair op berichten gerelateerd aan:
+U kunt mij onder meer contacteren over:
 
-- onderzoek;
-- projecten;
-- data en hun governance;
-- publicaties;
-- academische of institutionele uitwisselingen.
+- een wetenschappelijke samenwerking of gezamenlijk project;
+- kennisgrafen, artificiële intelligentie of datagovernance;
+- een vraag over mijn publicaties, methoden of hulpmiddelen;
+- onderwijs of begeleiding.
 
 <div class="finis">❧</div>

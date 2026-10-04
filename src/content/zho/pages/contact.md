@@ -1,27 +1,29 @@
 ---
-eyebrow: "联系方式"
-title: "联系方式"
-lead: "如有职业问题、研究合作或与我活动相关的交流，您可以通过电子邮件与我联系。"
-noteTitle: "联系信息"
-noteText: "我优先处理与研究、数据、项目或出版物直接相关的清晰请求。"
-locale: "zho"
-translationKey: "contact"
+eyebrow: '联系'
+title: '联系'
+lead: '如需讨论科研项目、合作，或数据与人工智能相关问题，欢迎给我写信。'
+noteTitle: '联系方式'
+noteText: '请简要介绍您的问题或项目，以帮助我理解邮件的背景。'
+locale: 'zho'
+translationKey: 'contact'
+canonical: false
+autoTranslated: true
+sourceHash: '00aaa36c84888254a711451f956291b9ef1737d3fc559bbf2cebc2d735ccb65d'
 ---
 
-## 联系信息
+## 联系方式
 
-联系我最简单的方式是电子邮件。
+电子邮件是联系我的最简便方式。
 
 ✦ **电子邮件**：[patrick.jeuniaux@protonmail.com](mailto:patrick.jeuniaux@protonmail.com)
 
-## 请求类型
+## 交流主题
 
-我会优先回复与以下内容相关的消息：
+您可以就以下事项联系我：
 
-- 研究；
-- 项目；
-- 数据及其治理；
-- 出版物；
-- 学术或机构交流。
+- 科研合作或共同项目；
+- 知识图谱、人工智能或数据治理；
+- 关于我的出版物、方法或工具的问题；
+- 关于教学或指导的交流。
 
 <div class="finis">❧</div>
