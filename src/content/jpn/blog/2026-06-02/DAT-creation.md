@@ -9,11 +9,11 @@ canonical: false
 tags:
   - 'DAT'
   - 'INCC'
-  - 'gouvernance des données'
-  - 'gestion de l''information'
-  - 'science des données'
-  - 'intelligence artificielle'
-  - 'transformation'
+  - 'データガバナンス'
+  - '情報管理'
+  - 'データサイエンス'
+  - '人工知能'
+  - '変革'
 autoTranslated: true
 sourceHash: '803ef3daaaa4fa012b20fd448b8f8b4731592037474cf76cfa33f7b6d141f6ac'
 ---

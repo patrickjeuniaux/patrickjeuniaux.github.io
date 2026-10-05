@@ -8,11 +8,11 @@ translationKey: 'news-dat-laboratory-creation'
 canonical: false
 tags:
   - 'DAT'
-  - 'INCC'
-  - 'gouvernance des données'
-  - 'gestion de l''information'
-  - 'science des données'
-  - 'intelligence artificielle'
+  - 'NICC'
+  - 'data governance'
+  - 'information management'
+  - 'data science'
+  - 'artificial intelligence'
   - 'transformation'
 autoTranslated: true
 sourceHash: '803ef3daaaa4fa012b20fd448b8f8b4731592037474cf76cfa33f7b6d141f6ac'

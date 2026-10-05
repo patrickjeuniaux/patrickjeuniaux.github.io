@@ -8,11 +8,11 @@ translationKey: 'KG4J-job-offering'
 canonical: false
 tags:
   - 'KG4J'
-  - 'IA'
-  - 'Data Science'
-  - 'Justice'
-  - 'Recherche'
-  - 'Recrutement'
+  - 'الذكاء الاصطناعي'
+  - 'علم البيانات'
+  - 'العدالة'
+  - 'البحث'
+  - 'التوظيف'
 autoTranslated: true
 sourceHash: 'c8e82b991ae78e735ca7acf3e54672f6ab2042bed8eaf5e403f96653dd607827'
 ---
