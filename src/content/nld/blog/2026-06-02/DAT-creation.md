@@ -1,20 +1,25 @@
 ---
-title: "Oprichting van het laboratorium Data, Artificial Intelligence & Transformation (DAT)"
-description: "Oprichting van het laboratorium Data, Artificial Intelligence & Transformation (DAT) bij het NICC op 2 juni 2026 om het beheer en de benutting van gegevens, informatie en kennis te versterken."
-date: "2026-06-02"
-locale: "nld"
-translationKey: "news-dat-laboratory-creation"
+title: 'Oprichting van het DAT-laboratorium bij het NICC'
+description: 'Het laboratorium Data, Artificial Intelligence & Transformation werd op 2 juni 2026 bij het NICC opgericht.'
+date: '2026-06-02'
 draft: false
-tags: ["DAT", "NICC", "datagovernance", "informatiebeheer", "datawetenschap", "artificiële intelligentie", "transformatie"]
+locale: 'nld'
+translationKey: 'news-dat-laboratory-creation'
 canonical: false
+tags:
+  - 'DAT'
+  - 'INCC'
+  - 'gouvernance des données'
+  - 'gestion de l''information'
+  - 'science des données'
+  - 'intelligence artificielle'
+  - 'transformation'
 autoTranslated: true
-sourceHash: "0c7a46d63d6e5c086126c6dae1305c3a1314ea722688a3e4e5c97319df3f80ee"
+sourceHash: '803ef3daaaa4fa012b20fd448b8f8b4731592037474cf76cfa33f7b6d141f6ac'
 ---
 
-<img src="/img/dat-logo-header.svg" alt="Logo van het DAT-laboratorium" width="600" height="200" style="margin: 1.5rem auto;" />
+Het laboratorium **Data, Artificial Intelligence & Transformation (DAT)** werd op **2 juni 2026** bij het **[NICC](/nld/nicc/)** opgericht.
 
-Op 2 juni 2026 werd het laboratorium **Data, Artificial Intelligence & Transformation (DAT)** opgericht bij het [Nationaal Instituut voor Criminalistiek en Criminologie (NICC)](/nld/nicc/). Ik geef er leiding aan. Het wil versterken hoe de instelling haar gegevens, informatie en kennis organiseert, bewaart en benut.
+Het ondersteunt de organisatie van gegevens en kennis, de ontwikkeling van analysetools en de verbetering van werkpraktijken.
 
-Het laboratorium verbindt datagovernance, informatie- en kennisbeheer, datawetenschap en artificiële intelligentie met de ondersteuning van organisatorische transformatie. Het wil de menselijke capaciteiten van het NICC versterken door wetenschappelijke activiteiten te ondersteunen, het dagelijkse werk van de teams te vergemakkelijken en beslissingen te onderbouwen.
-
-**[Ontdek het DAT-laboratorium en zijn opdrachten →](/nld/dat/)**
+[Ontdek de opdrachten van het laboratorium →](/nld/dat/)

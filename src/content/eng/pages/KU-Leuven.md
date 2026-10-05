@@ -1,27 +1,21 @@
 ---
 title: 'KU Leuven'
-lead: 'Education in artificial intelligence, discourse representation and research in natural language processing.'
+lead: 'Artificial intelligence, language processing and the KG4J partnership.'
 locale: 'eng'
 translationKey: 'institution-kuleuven'
 canonical: false
 autoTranslated: true
-sourceHash: 'c2ea29e627156e6ca63d6c4b8fcc3c234516e084d19ae409e673e7e3cdf479e6'
+sourceHash: 'f499b80ad6dbd3dd32d31cdf5524323a458de91afc2fdd15eb3ccd0685f29f07'
 ---
 
-At **KU Leuven**, I undertook complementary studies in **artificial intelligence** and worked in **natural language processing**.
+## Current partnership
 
-## Education and discourse representation
+KU Leuven’s Department of Computer Science is a partner in **[KG4J](/eng/kg4j/)**, which focuses on knowledge graphs and the analysis of justice data.
 
-My thesis, **[Capture of discursive meanings in representations](/eng/work/#publication-jeuniaux-2004-sdrt)**, examined the representation of meaning in discourse and the psychological realism of *Segmented Discourse Representation Theory*. It was supervised by **Walter Schaeken** and **Frank Van Eynde**.
+## Training and research
 
-This work connected my interest in cognitive processes with formal language modelling: how can we represent semantic relationships between elements of a discourse and compare them with human comprehension?
+Patrick Jeuniaux’s background at KU Leuven includes further training in **artificial intelligence** and a research assistant position in Marie-Francine Moens’s **Language Intelligence and Information Retrieval (LIIR)** laboratory.
 
-## Research in language processing
+The dissertation **[Capture of discursive meanings in representations](/eng/work/#publication-jeuniaux-2004-sdrt)** examined the representation of meaning in discourse, supervised by Walter Schaeken and Frank Van Eynde.
 
-I also worked as a **research assistant** in Marie-Francine Moens’s **Language Intelligence and Information Retrieval (LIIR)** laboratory, within the Interdisciplinary Centre for Law and ICT.
-
-My activities included literature reviews, conceptual and data analysis, and development in **PHP**, for projects involving **information extraction from texts** and **coreference resolution** — identifying expressions that refer to the same entity in a text.
-
-## Collaboration on KG4J
-
-The **Department of Computer Science at KU Leuven** is a partner in the **[Knowledge Graphs for Justice (KG4J)](/eng/kg4j/)** project, which I lead at the INCC. This collaboration connects KU Leuven with my current work on knowledge graphs and the use of justice data.
+Research at LIIR addressed information extraction and coreference resolution: recognising expressions that refer to the same entity in a text.

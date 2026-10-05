@@ -1,32 +1,29 @@
 ---
 eyebrow: 'Kooperationen'
-title: 'Kooperationen und Werdegang'
-lead: 'Mein Forschungsweg führte durch Belgien, die Vereinigten Staaten, Kanada und Italien, an Institutionen in Psychologie, Computerlinguistik, künstlicher Intelligenz und Kriminologie.'
-noteTitle: 'Rahmen'
-noteText: 'Diese Seite stellt meine aktuellen Zugehörigkeiten, die Institutionen, an denen ich studiert oder gearbeitet habe, und einige Forschungspartnerschaften vor.'
+title: 'Kooperationen'
+lead: 'Forschungsaffiliationen und Partnerschaften in Belgien und international.'
 locale: 'deu'
 translationKey: 'collaborations'
 canonical: false
 autoTranslated: true
-sourceHash: '5911b26ec724ebe41758c645719456dbe77502d8aadce952a785341b5961d5f5'
+sourceHash: '9b417bb17d3141edc7b2a241560a4ae8f43dedce341f620a5b9cf4d67c4f6806'
 ---
 
-## 🇧🇪 Belgien
+## Aktuelle Affiliationen
 
-- **[NICC](/deu/nicc/)**: Chief Data Officer und Leiter des Labors **[DAT](/deu/dat/)**; Hauptforscher von **[KG4J](/deu/kg4j/)**. Meine Arbeit verbindet forensische DNA-Daten, Kriminologie und Datengovernance.
-- **[UCLouvain](/deu/uclouvain/)**: Forschungsmitarbeiter bei **LouRIM** und Mitglied des **Louvain Interaction Laboratory**. Dort studierte ich auch kognitive Psychologie und Statistik und betreute Kurse zu digitaler Transformation, Programmierung und Informationssystemen an der Louvain School of Management.
-- **[KU Leuven](/deu/ku-leuven/)**: ergänzende Ausbildung in künstlicher Intelligenz und Forschung zu Informationsextraktion und Koreferenzauflösung; Partner von KG4J.
+- **[NICC](/deu/nicc/)**: Leitung des Labors **[DAT](/deu/dat/)** und Funktion als Chief Data Officer.
+- **[UCLouvain](/deu/uclouvain/)**: Forschungskooperation am LouRIM und Beteiligung am Louvain Interaction Laboratory zu Informationssystemen und Mensch-Computer-Interaktion.
 
-## 🇮🇹 Italien
+## Wissenschaftliche Partnerschaften
 
-- **[Universität Pisa](/deu/unipi/)**: Postdoc in Computerlinguistik zu distributionellen semantischen Modellen und graphenbasierter Wissensrepräsentation.
+**[KG4J](/deu/kg4j/)** verbindet das NICC mit UMONS, **[KU Leuven](/deu/ku-leuven/)**, UCLouvain, Polytechnique Montréal, Indiana University Bloomington, dem Digital Transformation Office des FÖD Justiz und Elephant Bird Consulting.
 
-## 🇨🇦 Kanada
+Das europäische Konsortium **[PIES](/deu/pies/)** vereinte Einrichtungen aus Belgien, Frankreich, den Niederlanden und dem Vereinigten Königreich zum Austausch forensischer DNA-Daten.
 
-- **[Université Laval](/deu/ulaval/)**: Postdoc am CO-DOT-Labor zu Kognition und der Bewertung von Entscheidungsunterstützungssystemen in komplexen Umgebungen. Die Forschung erfolgte mit **[DRDC](/deu/drdc/)** und **[Thales](/deu/thales/)**.
+## Frühere Kooperationen
 
-## 🇺🇸 Vereinigte Staaten
+- **[Universität Pisa](/deu/unipi/)**: distributionelle semantische Modelle und Wissensrepräsentation.
+- **[Université Laval](/deu/ulaval/)** mit **[DRDC](/deu/drdc/)** und **[Thales](/deu/thales/)**: Kognition, Koordination und Bewertung von Entscheidungsunterstützungssystemen.
+- **[Universität Memphis](/deu/uofm/)**: Sprache, Kognition und multimodale Kommunikation.
 
-- **[Universität Memphis](/deu/uofm/)**: Promotionsforschung in experimenteller Psychologie und Psycholinguistik zu Sprache, Kognition und multimodaler Kommunikation; Lehre in Forschungsmethodik und kognitiven Prozessen.
-
-<div class="finis">❧</div>
+Das [Profil](/deu/about/) erläutert Ausbildung und Werdegang.

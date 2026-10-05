@@ -1,7 +1,7 @@
 ---
 title: "GovIntel"
 routeSlug: "govintel"
-summary: "Projet interne que j’ai lancé pour développer un système d’information exploitant les données administratives des banques nationales ADN forensiques."
+summary: "Structurer les données administratives des banques ADN pour faciliter leur exploration et la production de rapports."
 order: 6
 status: "En cours"
 domain: "Gouvernance des données"
@@ -15,22 +15,16 @@ locale: "fra"
 translationKey: "project-govintel"
 ---
 
-**GovIntel — Governance & Intelligence** est un projet interne de l’[INCC](/nicc/) consacré au développement et à l’exploitation d’un **système d’information fondé sur les données administratives des banques nationales ADN forensiques**.
-
 ## Question étudiée
 
-Comment valoriser les données administratives des banques ADN pour soutenir à la fois leur fonctionnement, la recherche et le renseignement forensique ? GovIntel vise à organiser ces informations dans un système permettant leur exploration et leur analyse.
+Comment exploiter les données administratives des banques nationales ADN pour soutenir leur fonctionnement, la recherche et le renseignement forensique ?
 
-## Ma contribution
+## Objectifs
 
-J’ai **lancé le projet et obtenu un financement interne de 30 000 €** pour faire intervenir un consultant en appui aux aspects techniques. J’en assure le pilotage, avec l’objectif de relier les besoins opérationnels de l’institution aux usages scientifiques de ses données.
+Le projet interne de l’**[INCC](/nicc/)** vise à développer un système d’information permettant :
 
-## Usages visés
+- l’exploration des données et la production de rapports opérationnels ;
+- l’étude de la récidive et des carrières criminelles ;
+- l’analyse des données à des fins de renseignement forensique.
 
-Le système d’information poursuit trois objectifs complémentaires :
-
-- faciliter l’**exploration des données et la production de rapports opérationnels** ;
-- soutenir les recherches sur la **récidive et les carrières criminelles** ;
-- développer l’exploitation des données à des fins de **renseignement forensique**.
-
-GovIntel prolonge mes travaux sur les données ADN à l’INCC en leur donnant un cadre de structuration et d’exploitation adapté aux besoins de l’institution.
+Un consultant apporte un appui aux aspects techniques.

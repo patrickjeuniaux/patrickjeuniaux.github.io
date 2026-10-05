@@ -1,24 +1,17 @@
 ---
-title: "Inicio efectivo del proyecto KG4J"
-description: "El proyecto de investigación KG4J (Knowledge Graphs for Justice) comienza concretamente."
-date: 2026-03-15
+title: 'Inicio del proyecto KG4J'
+description: 'KG4J comienza en marzo de 2026 con cuatro años de investigación sobre grafos de conocimiento y datos de la justicia.'
+date: '2026-03-15'
 draft: false
-locale: spa
-translationKey: news-kg4j-start
+locale: 'spa'
+translationKey: 'news-kg4j-start'
+canonical: false
+autoTranslated: true
+sourceHash: '087252a4906fed40a0a19e3db956ecebbb526b60575b36251a29be7e5b8153ca'
 ---
 
-El proyecto **KG4J** (*Knowledge Graphs for Justice*) fue presentado oficialmente el 3 de junio de 2025 en respuesta a la convocatoria **P4Science** de la política científica federal (**BELSPO**). 
+**[KG4J — Knowledge Graphs for Justice](/spa/kg4j/)** comienza en marzo de 2026 por **cuatro años**.
 
-Comienza concretamente en este mes de marzo de 2026 por una duración de 4 años.
+Financiado por BELSPO, explora los grafos de conocimiento y la inteligencia artificial para conectar los datos forenses y criminológicos del **[INCC](/spa/nicc/)**.
 
-El proyecto busca esencialmente aumentar la capacidad de análisis de datos del **INCC** a través de sistemas que explotan los grafos de conocimiento y la inteligencia artificial, respetando ciertos principios de buena gobernanza de datos.
-
-El proyecto implica un consorcio internacional que reúne a:
-- El departamento de informática de la **Université de Mons** (UMONS);
-- El departamento de matemáticas e ingeniería industrial de **Polytechnique Montréal**;
-- El departamento de informática de la **KU Leuven**;
-- El departamento de lingüística de la **Indiana University Bloomington**;
-- El Louvain Research Institute in Management and Organizations (LouRIM) en la **UCLouvain**;
-- El **Digital Transformation Office** (DTO) del SPF Justicia.
-
-<div class="finis">✦</div>
+[Objetivos, métodos y socios →](/spa/kg4j/)

@@ -1,36 +1,26 @@
 ---
-title: 'Catholic University of Louvain'
+title: 'UCLouvain'
 locale: 'eng'
 translationKey: 'institution-uclouvain'
+lead: 'Information systems, human–computer interaction and training in psychology and statistics.'
 canonical: false
 autoTranslated: true
-sourceHash: '23eb6919051bd3eb81a1b68aa653fcc52632129bc49495d40b9193a3e33ec96d'
+sourceHash: '934c35cebcc8e54c167e75e0ffcc5c2755c731261cddec35c939b0d6a47d813a'
 ---
 
-At **UCLouvain**, my activities connect cognitive psychology, statistics, information systems and teaching. I am a **research collaborator at the Louvain Research Institute in Management and Organizations (LouRIM)** and a member of the **Louvain Interaction Laboratory (Lilab)**.
+## Current collaboration
 
-## Scientific collaboration
+Patrick Jeuniaux is a **research collaborator at LouRIM** and a member of the **Louvain Interaction Laboratory (Lilab)**. Exchanges address knowledge graphs, data governance and human–computer interaction. LouRIM is a partner in **[KG4J](/eng/kg4j/)**.
 
-Within LouRIM and Lilab, my interests focus on **knowledge graphs**, **data governance**, **artificial intelligence** and **human–computer interaction**. I also maintain links with the **Center in Management Information Systems (CEMIS)**, associated with the Business Information Systems programme at the Louvain School of Management.
+## Training and academic work
 
-These exchanges connect research on information systems and interfaces with the needs I encounter in my role at the [NICC](/eng/nicc/). **LouRIM is a partner in the [KG4J — Knowledge Graphs for Justice](/eng/kg4j/) project**, for which I am principal investigator, focusing on the integration and use of forensic and criminological data.
+A degree in cognitive psychology and a postgraduate diploma in statistics led to two dissertations:
 
-## Education in psychology and statistics
+- [Mental imagery and categorical syllogistic reasoning](/eng/work/#publication-jeuniaux-1999-syllogism), supervised by Jean Costermans.
+- [Conceptual introduction to the LISREL model](/eng/work/#publication-jeuniaux-2000-lisrel), supervised by Michel Mouchart.
 
-I obtained a **licence degree in psychology and educational sciences, specialising in cognitive psychology**, as well as a **postgraduate diploma in statistics**.
+Experimental research addressed psycholinguistics, spatial memory and sensory rehabilitation.
 
-My psychology dissertation, **[Imagerie mentale et raisonnement par syllogisme catégorique](/eng/work/#publication-jeuniaux-1999-syllogism)**, was supervised by **Jean Costermans**. My statistics dissertation, **[Introduction conceptuelle au modèle LISREL, un exercice pédagogique](/eng/work/#publication-jeuniaux-2000-lisrel)**, was supervised by **Michel Mouchart**. These projects combine my interest in human reasoning with an interest in statistical models and how to explain them.
+## Teaching
 
-## Experimental research
-
-At the cognitive psychology laboratory, I helped conduct **computerised psycholinguistic experiments**, under the supervision of **Julie Franck**.
-
-My internships also focused on **spatial memory** at the psychobiology laboratory and **sensory rehabilitation** at the neural rehabilitation engineering laboratory at Cliniques universitaires Saint-Luc. In the latter setting, I contributed to an experiment with blind participants and a literature review on visual prostheses.
-
-## Teaching and support
-
-At the **Louvain School of Management**, I was a teaching assistant for three courses: **Digital Transformation Management**, **Programmation en économie et gestion** and **Informatique en économie et gestion**. I led practical sessions and forums, assessed assignments and provided feedback to students. Activities involved **Python, Odoo, Access, Excel and VBA**, among other tools.
-
-At the Institut d’administration et de gestion, I also designed and developed a **statistics teaching website in PHP and MySQL**, in collaboration with the Institut de statistique et de sciences actuarielles. This work involved creating a platform and learning resources; the website was not deployed because funding was unavailable.
-
-My teaching experience also includes assisting with statistics courses and **tutoring two visually impaired students in economics and management**, preparing adapted materials and supporting their course revision.
+Teaching assistant at the Louvain School of Management for courses in digital transformation, programming and computing in economics and management: practical sessions, student support and assessment.

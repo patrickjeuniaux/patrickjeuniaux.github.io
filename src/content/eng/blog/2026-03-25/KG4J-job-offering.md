@@ -1,101 +1,39 @@
 ---
-title: "Job Offering – Researcher in Data Science & Artificial Intelligence"
-description: "Open position for a researcher (m/f/x) for the KG4J project (Knowledge Graphs for Justice) at NICC."
-date: 2026-03-25
+title: 'KG4J: recruitment in data science and AI'
+description: 'Research position announced at the NICC for KG4J. Application deadline: 8 April 2026.'
+date: '2026-03-25'
 draft: false
-locale: eng
-translationKey: KG4J-job-offering
+locale: 'eng'
+translationKey: 'KG4J-job-offering'
 canonical: false
-tags: ["KG4J", "AI", "Data Science", "Justice", "Research", "Hiring"]
+tags:
+  - 'KG4J'
+  - 'IA'
+  - 'Data Science'
+  - 'Justice'
+  - 'Recherche'
+  - 'Recrutement'
+autoTranslated: true
+sourceHash: 'c8e82b991ae78e735ca7acf3e54672f6ab2042bed8eaf5e403f96653dd607827'
 ---
 
-I am pleased to announce the opening of a new researcher position within the **KG4J** project at the National Institute of Criminalistics and Criminology ([NICC](/eng/nicc/)).
+The **[NICC](/eng/nicc/)** announced a position for a **researcher in data science and artificial intelligence (m/f/x)** for **[KG4J](/eng/kg4j/)**.
 
-This position is part of a research initiative aimed at developing **analysis support infrastructures** in the field of criminal justice, using data science, artificial intelligence, and knowledge graphs.
+## Conditions
 
----
+- **Location**: Brussels.
+- **Contract**: one year, extendable to four years.
+- **Working hours**: full-time, 38 hours per week.
+- **Application deadline**: 8 April 2026.
 
-### 📌 Position Overview
+## Responsibilities
 
-- **Title**: Researcher in Data Science and Artificial Intelligence (m/f/x)  
-- **Project**: *Knowledge Graphs for Justice* ([KG4J](/eng/kg4j/)) 
-- **Contract**: Fixed-term (1 year, renewable up to 4 years)  
-- **Working Hours**: Full-time (38h/week)  
-- **Location**: National Institute of Criminalistics and Criminology ([NICC](/eng/nicc/)), Brussels, Belgium
+Develop a knowledge graph infrastructure, analyse criminological and forensic data, and extract information from documents using AI methods. The position includes contributions to data and AI governance.
 
----
+## Candidate profile
 
-### 🎯 Main Responsibilities
+Master’s degree in mathematics, statistics, data science, computer science, cybersecurity, AI, psychology, linguistics, civil or industrial engineering, or physics. Proficiency in French and English, skills in computing and graph theory, and interest in a **jointly supervised doctorate in computer science at UMONS–KU Leuven**.
 
-The selected candidate will contribute to:
+The position forms part of an international project combining criminology, forensic science and data science.
 
-- The design and development of a **knowledge graph infrastructure for justice**  
-- The analysis of **diverse data (criminological, forensic, DNA, etc.)**  
-- The application of **artificial intelligence methods (LLM, Graph-RAG, etc.)**  
-- The transformation of **unstructured data into structured data (text-to-KG)**  
-- The implementation of **data and AI governance frameworks**  
-
----
-
-### 🧩 Desired Profile
-
-We are looking for someone:
-
-- Holding a Master's degree in one of the disciplines listed below  
-- Fluent in French and English  
-- With skills in **computer science, data science, and graph theory**  
-- Interested in **knowledge graphs, artificial intelligence, and natural language processing**  
-- Capable of working in an **interdisciplinary research environment**  
-- Willing to pursue a **PhD in Computer Science** (joint degree UMons-KU Leuven)
-
----
-
-### 🎓 Disciplines
-
-- Mathematics
-- Statistics 
-- Data Science
-- Computer Science
-- Cybersecurity 
-- Artificial Intelligence
-- Psychology
-- Linguistics
-- Civil or Industrial Engineering
-- Physics 
-
----
-
-### 💼 Offer
-
-- A stimulating research environment at the intersection of **AI, data, and justice**  
-- Collaborations with experts in **criminology, forensic science, and data science**  
-- Participation in an **international research project oriented towards practice**  
-
----
-
-### 📅 Application Deadline
-
-The application deadline is **April 8, 2026**.
-
----
-
-### 🔗 Full Description and Application
-
-👉 The full official job offer is available here:  
-**https://incc.fgov.be/elementor-3291/**  
-
----
-
-### 📣 About KG4J
-
-*Knowledge Graphs for Justice* ([KG4J](/eng/kg4j/)) is a research project aimed at building a **knowledge graph infrastructure** at NICC, integrating data, artificial intelligence, and advanced analytical methods to improve forensic intelligence and criminological research.
-
-The research project involves collaboration with seven partners external to NICC:
-
-- Department of Computer Science, UMONS
-- Departement Computerwetenschappen, KU Leuven
-- Louvain Research Institute in Management and Organizations, UCLouvain
-- Department of Mathematics and Industrial Engineering, Polytechnique Montreal, Canada
-- Department of Linguistics, Indiana University Bloomington, United States
-- Digital Transformation Office, Federal Public Service Justice
-- Elephant Bird Consulting 
+[Official job description and application details](https://incc.fgov.be/elementor-3291/)

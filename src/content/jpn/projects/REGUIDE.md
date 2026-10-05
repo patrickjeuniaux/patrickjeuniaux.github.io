@@ -1,14 +1,14 @@
 ---
 title: 'REGUIDE'
 routeSlug: 'reguide'
-summary: 'ベルギーの帰還者の社会復帰と支援に関するプロジェクト。'
+summary: 'ベルギーで紛争地域から帰還した人々の社会復帰過程を研究する。'
 order: 4
 status: '完了'
 domain: '犯罪学'
 startYear: '2020'
 endYear: '2025'
 funder: 'BELSPO'
-role: '研究者'
+role: '研究員'
 budget: '1 002 092 €'
 keywords:
   - '帰還者'
@@ -19,9 +19,9 @@ locale: 'jpn'
 translationKey: 'project-reguide'
 canonical: false
 autoTranslated: true
-sourceHash: '223973ddca6a6bef9661b3cbe4b9cd4e797d49690524d35c48e5df7f3f4187af'
+sourceHash: '06c60ebad2e3f00a7652bbbb92a0ddbfc8bf723f998fc4c5f90558106a3ab246'
 ---
 
-REGUIDE は、ベルギーにおける**帰還者**の社会復帰の経過と支援の仕組みを研究しました。
+**REGUIDE** は、紛争地域から帰還した人々（*returnees*）の社会復帰過程と支援体制を研究しました。
 
-この枠組みで、NICC および協力機関の同僚とともに、データベース、社会・司法上の経過、報告書と学術論文の作成に関わりました。
+**[INCC](/jpn/nicc/)** と協力機関が、データベースと社会・司法上の経過の分析を、学術報告書と論文の作成に結び付けました。

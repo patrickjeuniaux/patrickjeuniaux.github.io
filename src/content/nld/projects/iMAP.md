@@ -1,20 +1,24 @@
 ---
-title: "iMAP"
-routeSlug: "imap"
-summary: "Doctoraal project over multimodale communicatie bij mensen en agenten."
+title: 'iMAP'
+routeSlug: 'imap'
+summary: 'Multimodale communicatie bij mensen en agents bestuderen.'
 order: 14
-status: "Voltooid"
-domain: "Cognitieve wetenschap"
-startYear: "2004"
-endYear: "2008"
-funder: "NSF"
-role: "Doctoraal onderzoeker"
-budget: "699.949 $"
-keywords: ["multimodale communicatie", "cognitieve wetenschap", "agenten"]
-locale: "nld"
-translationKey: "project-imap"
+status: 'Afgerond'
+domain: 'Cognitieve wetenschap'
+startYear: '2004'
+endYear: '2008'
+funder: 'NSF'
+role: 'Doctoraatsonderzoeker'
+budget: '699 949 $'
+keywords:
+  - 'multimodale communicatie'
+  - 'cognitieve wetenschap'
+  - 'agenten'
+locale: 'nld'
+translationKey: 'project-imap'
+canonical: false
+autoTranslated: true
+sourceHash: '397019d1edfde9161ca698b27a9592ba5aad43d0fd0d3b79c378d3aa59a70eb6'
 ---
 
-iMAP was a project gefinancierd door de **National Science Foundation** in de Verenigde Staten.
-
-Het vormde een belangrijk onderdeel van mijn doctorale omgeving aan de University of Memphis, waar ik werkte aan multimodale communicatie, discours en bepaalde aspecten van belichaamde cognitie.
+Met financiering van de **National Science Foundation** bood **iMAP** een kader voor doctoraatsonderzoek aan de **[Universiteit van Memphis](/nld/uofm/)**. Het werk betrof multimodale communicatie, discours en belichaamde cognitie.

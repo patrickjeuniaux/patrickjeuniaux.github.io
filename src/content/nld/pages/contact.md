@@ -1,29 +1,12 @@
 ---
 eyebrow: 'Contact'
 title: 'Contact'
-lead: 'U kunt mij schrijven om een onderzoeksproject, een samenwerking of een vraag over data en artificiële intelligentie te bespreken.'
-noteTitle: 'Contactgegevens'
-noteText: 'Enkele regels over uw vraag of project helpen mij de context van uw bericht te begrijpen.'
+lead: 'Voor wetenschappelijke samenwerking of vragen over projecten en publicaties.'
 locale: 'nld'
 translationKey: 'contact'
 canonical: false
 autoTranslated: true
-sourceHash: '00aaa36c84888254a711451f956291b9ef1737d3fc559bbf2cebc2d735ccb65d'
+sourceHash: '53a9e3ecca2e2ebb88a0b396c2c864b59a63ced6bd47e0a95960703ef692d9e0'
 ---
 
-## Contactgegevens
-
-E-mail is de eenvoudigste manier om mij te bereiken.
-
-✦ **E-mail**: [patrick.jeuniaux@protonmail.com](mailto:patrick.jeuniaux@protonmail.com)
-
-## Gespreksonderwerpen
-
-U kunt mij onder meer contacteren over:
-
-- een wetenschappelijke samenwerking of gezamenlijk project;
-- kennisgrafen, artificiële intelligentie of datagovernance;
-- een vraag over mijn publicaties, methoden of hulpmiddelen;
-- onderwijs of begeleiding.
-
-<div class="finis">❧</div>
+**E-mail**: [patrick.jeuniaux@protonmail.com](mailto:patrick.jeuniaux@protonmail.com)

@@ -1,32 +1,29 @@
 ---
-eyebrow: '研究協力'
-title: '研究協力と経歴'
-lead: '私の研究歴は、ベルギー、米国、カナダ、イタリアの、心理学、計算言語学、人工知能、犯罪学に取り組む機関で築かれてきました。'
-noteTitle: '対象'
-noteText: '現在の所属、学んだり働いたりした機関、いくつかの研究協力を紹介します。'
+eyebrow: '協力'
+title: '協力'
+lead: 'ベルギーおよび国際的な研究機関との関係と連携。'
 locale: 'jpn'
 translationKey: 'collaborations'
 canonical: false
 autoTranslated: true
-sourceHash: '5911b26ec724ebe41758c645719456dbe77502d8aadce952a785341b5961d5f5'
+sourceHash: '9b417bb17d3141edc7b2a241560a4ae8f43dedce341f620a5b9cf4d67c4f6806'
 ---
 
-## 🇧🇪 ベルギー
+## 現在の所属・関係
 
-- **[INCC](/jpn/nicc/)**：最高データ責任者、**[DAT](/jpn/dat/)** 研究室の責任者、**[KG4J](/jpn/kg4j/)** の研究責任者。法科学 DNA データ、犯罪学、データガバナンスを結び付ける仕事です。
-- **[UCLouvain](/jpn/uclouvain/)**：**LouRIM** の研究協力者、**Louvain Interaction Laboratory** のメンバー。認知心理学と統計学を学び、Louvain School of Management でデジタル変革、プログラミング、情報システムの授業を支援しました。
-- **[KU Leuven](/jpn/ku-leuven/)**：人工知能の補完教育、情報抽出と共参照解析の研究。KG4J の協力機関でもあります。
+- **[INCC](/jpn/nicc/)**：**[DAT](/jpn/dat/)** 研究室の責任者および最高データ責任者。
+- **[UCLouvain](/jpn/uclouvain/)**：LouRIM での研究協力と、情報システムおよび人間・コンピューター相互作用を扱う Louvain Interaction Laboratory への参加。
 
-## 🇮🇹 イタリア
+## 研究連携
 
-- **[ピサ大学](/jpn/unipi/)**：計算言語学の博士研究員として、分布意味モデルとグラフによる知識表現を研究しました。
+**[KG4J](/jpn/kg4j/)** は INCC と UMONS、**[KU Leuven](/jpn/ku-leuven/)**、UCLouvain、Polytechnique Montréal、Indiana University Bloomington、連邦司法公共サービスの Digital Transformation Office、Elephant Bird Consulting を結びます。
 
-## 🇨🇦 カナダ
+欧州 **[PIES](/jpn/pies/)** コンソーシアムは、法科学 DNA データ交換のためベルギー、フランス、オランダ、英国の機関を集めました。
 
-- **[ラヴァル大学](/jpn/ulaval/)**：CO-DOT で、認知と複雑な環境における意思決定支援システムの評価を博士研究員として研究しました。**[DRDC](/jpn/drdc/)** および **[Thales](/jpn/thales/)** との共同研究です。
+## 過去の協力
 
-## 🇺🇸 米国
+- **[ピサ大学](/jpn/unipi/)**：分布意味モデルと知識表現。
+- **[ラヴァル大学](/jpn/ulaval/)**、**[DRDC](/jpn/drdc/)**、**[Thales](/jpn/thales/)**：認知、連携、意思決定支援システム評価。
+- **[メンフィス大学](/jpn/uofm/)**：言語、認知、マルチモーダルコミュニケーション。
 
-- **[メンフィス大学](/jpn/uofm/)**：実験心理学と心理言語学の博士研究として、言語、認知、マルチモーダルなコミュニケーションを研究。研究方法論と認知過程の授業も担当しました。
-
-<div class="finis">❧</div>
+教育と経歴の詳細は[プロフィール](/jpn/about/)をご覧ください。

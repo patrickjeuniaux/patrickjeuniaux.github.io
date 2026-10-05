@@ -1,11 +1,13 @@
 ---
-title: "Università di Pisa"
-locale: "ita"
-translationKey: "institution-unipi"
+title: 'Università di Pisa'
+locale: 'ita'
+translationKey: 'institution-unipi'
+lead: 'Ricerca postdottorale in linguistica computazionale.'
+canonical: false
+autoTranslated: true
+sourceHash: 'cf6dc9239fcac840a3c14fa27692e8d1849aa4bc12dc490d2c1388ff3055dada'
 ---
 
-Ho effettuato un soggiorno post-dottorato presso l'**Università di Pisa** in Italia.
+Il soggiorno postdottorale di Patrick Jeuniaux all’**Università di Pisa** riguardava modelli semantici distribuzionali, che rappresentano il significato attraverso l’uso delle parole nei corpora.
 
-### Ricerca Post-dottorato
-
-Durante questo periodo, i miei lavori si sono concentrati sui **modelli semantici distribuzionali**.
+Questi lavori rientravano nel progetto **[UBIMOL](/ita/ubimol/)**.

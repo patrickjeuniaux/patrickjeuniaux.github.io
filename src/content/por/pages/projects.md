@@ -1,13 +1,10 @@
 ---
-eyebrow: "Projetos"
-title: "Projetos"
-lead: "Esta secção apresenta os principais projetos em que contribuí ou que liderei, nomeadamente nos domínios da justiça penal, dos grafos de conhecimento, dos dados forenses e da governação de dados."
-noteTitle: "Leitura"
-noteText: "Cada ficha de projeto resume o contexto, o meu papel, o período, o financiador e o objetivo principal."
-locale: "por"
-translationKey: "projects"
+eyebrow: 'Projetos'
+title: 'Projetos'
+lead: 'Projetos de investigação e infraestrutura sobre dados da justiça, cognição e métodos de análise.'
+locale: 'por'
+translationKey: 'projects'
+canonical: false
+autoTranslated: true
+sourceHash: 'fab6d04c6834ad9dedb244d796a2a5cf79d0671ebc9d95bcfd105940bafeef9f'
 ---
-
-Os projetos reunidos aqui ligam a investigação, a engenharia de dados e o trabalho institucional. Dizem respeito sobretudo à reincidência, às carreiras criminais, à radicalização, aos dados ADN, aos grafos de conhecimento e ao equipamento de instituições públicas.
-
-<div class="finis">❧</div>

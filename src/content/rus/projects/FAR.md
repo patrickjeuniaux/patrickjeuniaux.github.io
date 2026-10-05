@@ -1,22 +1,27 @@
 ---
-title: "FAR — Folks, Authorities and Radicalism"
-routeSlug: "far"
-summary: "Исследовательский проект по радикализации, государственным органам и процессам поляризации."
+title: 'FAR — Folks, Authorities and Radicalism'
+routeSlug: 'far'
+summary: 'Изучать траектории радикализации и реакции государственных органов.'
 order: 2
-status: "Завершен"
-domain: "Криминология"
-startYear: "2017"
-endYear: "2022"
-funder: "BELSPO"
-role: "Соруководитель (Co-Principal Investigator)"
-budget: "1 159 715 €"
-keywords: ["радикализация", "терроризм", "базы данных", "криминология"]
-locale: "rus"
-translationKey: "project-far"
+status: 'Завершён'
+domain: 'Криминология'
+startYear: '2017'
+endYear: '2022'
+funder: 'BELSPO'
+role: 'Со-руководитель исследования'
+budget: '1 159 715 €'
+keywords:
+  - 'радикализация'
+  - 'терроризм'
+  - 'базы данных'
+  - 'криминология'
+locale: 'rus'
+translationKey: 'project-far'
+canonical: false
+autoTranslated: true
+sourceHash: 'a9ad2a1a2ccd2df57e7c416d82ecfd66811d77b28baec96a00bed6e0eceed447'
 ---
 
-FAR — это проект, финансируемый **BELSPO** и посвященный изучению радикализации. Я работал в нем в качестве **соруководителя** в отделе криминологии NICC.
+**FAR — Folks, Authorities and Radicalism** изучал траектории людей, считающихся радикальными, базы данных властей, а также социальные и институциональные стороны работы с этими людьми.
 
-Проект позволил изучить траектории лиц, считающихся радикалами, базы данных, используемые властями, и некоторые социальные и институциональные аспекты работы с ними.
-
-Он проводился совместно с **ULB** и **KU Leuven**.
+Проект, финансируемый **BELSPO**, проводился в **[INCC](/rus/nicc/)**, в частности с **ULB** и **KU Leuven**.

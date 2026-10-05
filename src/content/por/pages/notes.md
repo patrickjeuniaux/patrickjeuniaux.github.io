@@ -1,13 +1,10 @@
 ---
-eyebrow: "Notas"
-title: "Notas"
-lead: "Esta secção reúne notas de trabalho, notícias e alguns ensaios breves. Complementa as outras páginas do site."
-noteTitle: "Conteúdo"
-noteText: "Aqui encontram-se notícias, observações metodológicas, observações técnicas e reflexões mais livres sobre a investigação, os dados e as instituições."
-locale: "por"
-translationKey: "notes"
+eyebrow: 'Notas'
+title: 'Notas'
+lead: 'Novidades dos projetos e do laboratório, notas metodológicas e observações técnicas.'
+locale: 'por'
+translationKey: 'notes'
+canonical: false
+autoTranslated: true
+sourceHash: 'c4631a4df3131dd33dba48ebce872fcbaa004f0b6b2f13757708d2438b9c5a8c'
 ---
-
-As notas não substituem nem as publicações nem os projetos. Servem sobretudo para precisar um raciocínio, documentar uma ferramenta ou formular uma hipótese de trabalho de forma mais flexível.
-
-<div class="finis">❧</div>

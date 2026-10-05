@@ -1,13 +1,10 @@
 ---
-eyebrow: "Notities"
-title: "Notities"
-lead: "Deze sectie verzamelt werknotities, nieuws en enkele korte essays. Het vult de andere pagina's van de site aan."
-noteTitle: "Inhoud"
-noteText: "Je vindt er nieuws, methodologische opmerkingen, technische observaties en vrijere reflecties over onderzoek, data en instituten."
-locale: "nld"
-translationKey: "notes"
+eyebrow: 'Notities'
+title: 'Notities'
+lead: 'Nieuws over projecten en het laboratorium, methodologische notities en technische observaties.'
+locale: 'nld'
+translationKey: 'notes'
+canonical: false
+autoTranslated: true
+sourceHash: 'c4631a4df3131dd33dba48ebce872fcbaa004f0b6b2f13757708d2438b9c5a8c'
 ---
-
-Notities vervangen geen publicaties of projecten. Ze dienen vooral om een redenering te verduidelijken, een tool te documenteren of een werkhypothese flexibeler te formuleren.
-
-<div class="finis">❧</div>

@@ -1,20 +1,24 @@
 ---
-title: "BE Prüm DNA"
-routeSlug: "beprumadn"
-summary: "Project gerelateerd aan de uitwisseling van DNA-gegevens met de lidstaten van de Europese Unie."
+title: 'BE Prüm ADN'
+routeSlug: 'beprumadn'
+summary: 'De uitwisseling van DNA-gegevens tussen EU-lidstaten ondersteunen.'
 order: 10
-status: "Voltooid"
-domain: "Forensische genetica"
-startYear: "2015"
-endYear: "2018"
-funder: "Europese Commissie"
-role: "Voorbereiding en ondersteuning van het project"
-budget: "700.852 €"
-keywords: ["adn", "prüm", "Europese Unie"]
-locale: "nld"
-translationKey: "project-beprumadn"
+status: 'Afgerond'
+domain: 'Forensische genetica'
+startYear: '2015'
+endYear: '2018'
+funder: 'Europese Commissie'
+role: 'Voorbereiding en ondersteuning van het project'
+budget: '700 852 €'
+keywords:
+  - 'DNA'
+  - 'Prüm'
+  - 'Europese Unie'
+locale: 'nld'
+translationKey: 'project-beprumadn'
+canonical: false
+autoTranslated: true
+sourceHash: 'e1f5e499f5ab523800029c9793edeb137b8943ed6191275747b36255976c4dd8'
 ---
 
-Dit project was gericht op de ondersteuning van de uitwisseling van **DNA-gegevens** in het kader van de **Prüm**-besluiten op Europees niveau.
-
-Ik heb deelgenomen aan de voorbereiding van het project en de logistieke ondersteuning bij de implementatie ervan.
+Het project ondersteunde de invoering van **DNA**-gegevensuitwisseling in het kader van de **Prüm**-besluiten op Europees niveau.

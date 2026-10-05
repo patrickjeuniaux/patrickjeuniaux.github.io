@@ -1,7 +1,7 @@
 ---
 title: "REGUIDE"
 routeSlug: "reguide"
-summary: "Projet sur la réintégration et l'accompagnement des returnees en Belgique."
+summary: "Étudier les parcours de réintégration des personnes revenant de zones de conflit en Belgique."
 order: 4
 status: "Terminé"
 domain: "Criminologie"
@@ -15,6 +15,6 @@ locale: "fra"
 translationKey: "project-reguide"
 ---
 
-REGUIDE a étudié les parcours de réintégration et les dispositifs mobilisés autour des **returnees** en Belgique.
+**REGUIDE** a étudié les parcours de réintégration et les dispositifs d’accompagnement des personnes revenant de zones de conflit (*returnees*).
 
-Dans ce cadre, j'ai participé à des travaux sur les bases de données, les trajectoires socio-judiciaires et la production de rapports et d'articles scientifiques avec mes collègues du NICC et des institutions partenaires.
+Les travaux associaient l’analyse de bases de données et de trajectoires socio-judiciaires à la production de rapports et d’articles scientifiques, avec l’**[INCC](/nicc/)** et les institutions partenaires.

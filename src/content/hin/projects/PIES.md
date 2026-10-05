@@ -1,48 +1,38 @@
 ---
 title: 'PIES'
 routeSlug: 'pies'
-summary: 'Prüm के ढाँचे में फोरेंसिक DNA डेटा के आदान-प्रदान का अध्ययन और उसे मज़बूत करने के लिए मेरे द्वारा समन्वित यूरोपीय संघ।'
+summary: 'Prüm के ढाँचे में यूरोपीय संस्थानों के फोरेंसिक DNA डेटा आदान-प्रदान का मूल्यांकन और सुदृढ़ीकरण।'
 order: 13
-status: 'समाप्त'
+status: 'पूर्ण'
 domain: 'फोरेंसिक आनुवंशिकी'
 startYear: '2012'
 endYear: '2015'
 funder: 'यूरोपीय आयोग'
-role: 'समन्वयक और प्रधान अन्वेषक'
+role: 'समन्वयक, प्रमुख शोधकर्ता और प्रस्ताव के सहलेखक'
 budget: '1 158 846,39 €'
 keywords:
-  - 'Prüm'
-  - 'DNA'
+  - 'प्र्यूम'
+  - 'डीएनए'
   - 'यूरोपीय सहयोग'
-  - 'फोरेंसिक विज्ञान'
+  - 'फोरेंसिक'
 locale: 'hin'
 translationKey: 'project-pies'
 canonical: false
 autoTranslated: true
-sourceHash: 'f00f50488f5f8eae625f1c53e2c9be115cfea80d0c0fa347b1f7489b6383f661'
+sourceHash: '5f79e40382d5b6b8f74dab257416207e6333fd6377cb92e89436250f3c5505e9'
 ---
-
-**PIES** (*Prüm Implementation, Evaluation, and Strengthening of Forensic DNA Data Exchange*) एक यूरोपीय परियोजना थी, जो **Prüm** के ढाँचे में **फोरेंसिक DNA** डेटा के आदान-प्रदान को लागू करने, उसका मूल्यांकन करने और उसे मज़बूत बनाने के लिए समर्पित थी।
 
 ## शोध प्रश्न
 
-फोरेंसिक DNA डेटा का आदान-प्रदान करने वाले संस्थानों के सहयोग को कैसे सुधारा जाए और इस आदान-प्रदान का शोध एवं फोरेंसिक आसूचना में बेहतर उपयोग कैसे हो? परियोजना ने आदान-प्रदान की प्रथाओं के अध्ययन को डेटा विश्लेषण से जोड़ा, विशेषकर सीमा-पार अपराध की पड़ताल के लिए।
-
-## मेरा योगदान
-
-मैंने **वित्तपोषण प्रस्ताव सहलिखा और प्रस्तुत किया**, फिर **समन्वयक और प्रधान अन्वेषक** की भूमिका निभाई। [INCC](/hin/nicc/) में मैंने परियोजना की पूरी अवधि में संघ का समन्वय और वैज्ञानिक नेतृत्व किया।
+फोरेंसिक DNA डेटा का आदान-प्रदान करने वाले संस्थानों का सहयोग कैसे सुधारें और उसे शोध में कैसे उपयोग करें? **PIES** (*Prüm Implementation, Evaluation, and Strengthening of Forensic DNA Data Exchange*) ने आदान-प्रदान प्रक्रियाओं के अध्ययन को सीमा-पार अपराध के विश्लेषण से जोड़ा।
 
 ## संघ
 
-संघ में **चार देशों के सात संस्थान** शामिल थे: बेल्जियम का INCC; फ्रांस का Sous-Direction de la Police Technique et Scientifique; नीदरलैंड के Nederlands Forensisch Instituut, Nederlands Studiecentrum Criminaliteit en Rechtshandhaving और लीडेन विश्वविद्यालय; ब्रिटेन के Northumbria University और Sustainable Criminal Justice Solutions। **Europol** ने भी बिना वित्तपोषण प्राप्त किए सहयोगी के रूप में भाग लिया।
+चार देशों के सात संस्थान: बेल्जियम में **[INCC](/hin/nicc/)**; फ़्रांस में Sous-Direction de la Police Technique et Scientifique; नीदरलैंड में Nederlands Forensisch Instituut, Nederlands Studiecentrum Criminaliteit en Rechtshandhaving और लीडेन विश्वविद्यालय; यूनाइटेड किंगडम में Northumbria University और Sustainable Criminal Justice Solutions।
 
-इस सहयोग ने DNA डेटा के आदान-प्रदान और उपयोग के लिए फोरेंसिक विज्ञान, अपराधशास्त्र और न्यायिक सहयोग की विशेषज्ञता को जोड़ा।
+**Europol** वित्तपोषण न पाने वाले साझेदार के रूप में शामिल था।
 
-## कार्य और परिणाम
+## उत्पाद
 
-मेरे योगदानों में तकनीकी प्रगति और समापन रिपोर्ट, तथा अंतरराष्ट्रीय सहयोग और संगठित या सीमा-पार अपराध के अध्ययन में DNA डेटा के उपयोग पर प्रस्तुतियाँ शामिल हैं।
-
-इन दो योगदानों से इस काम को समझा जा सकता है:
-
-- **[PIES की Final technical implementation report](/hin/work/#publication-jeuniaux-2016-final-tech-report-pies)**, जो परियोजना के क्रियान्वयन को प्रस्तुत करती है;
-- प्रस्तुति **[Exploiting Forensic DNA data to draw pictures of organized or transnational crime(s)](/hin/work/#publication-jeuniaux-et-al-2015-stockholm-networks)**, जो अपराध के इन रूपों के अध्ययन में DNA डेटा के उपयोग पर केंद्रित है।
+- [PIES की अंतिम तकनीकी रिपोर्ट](/hin/work/#publication-jeuniaux-2016-final-tech-report-pies)।
+- [संगठित या सीमा-पार अपराध के अध्ययन में DNA डेटा के उपयोग की प्रस्तुति](/hin/work/#publication-jeuniaux-et-al-2015-stockholm-networks)।

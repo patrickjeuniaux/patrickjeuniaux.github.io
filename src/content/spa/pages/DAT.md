@@ -1,31 +1,29 @@
 ---
-title: "Laboratorio Data, Artificial Intelligence & Transformation (DAT)"
-locale: "spa"
-translationKey: "laboratory-dat"
+title: 'Laboratorio DAT'
+locale: 'spa'
+translationKey: 'laboratory-dat'
 draft: false
-navTitle: "DAT"
+navTitle: 'DAT'
 navOrder: 100
 canonical: false
 autoTranslated: true
-sourceHash: "f9561ea337482533e2edf8d25fec93784b4c49eb543c23ec7ad5d16e3bc5d842"
+sourceHash: '82c7efb6c1b56da77e5c2f2ab19e0e0c5e9b39bb3e2d350e0a58369f66b90f37'
 ---
 
-<img src="/img/dat-logo-header.svg" alt="Logotipo del laboratorio DAT" width="600" height="200" style="margin: 1.5rem auto;" />
+<img src="/img/dat-logo-header.svg" alt="Data, Artificial Intelligence & Transformation" width="600" height="200" style="margin: 1.5rem auto;" />
 
-Creado el **2 de junio de 2026** en el [Instituto Nacional de Criminalística y Criminología (INCC)](/spa/nicc/), el laboratorio **Data, Artificial Intelligence & Transformation (DAT)** acompaña a la institución en la gestión y la valorización de su patrimonio informativo, el desarrollo y la supervisión de la inteligencia artificial y la transformación de su organización.
+El laboratorio **Data, Artificial Intelligence & Transformation (DAT)** apoya al [INCC](/spa/nicc/) en la organización de sus datos, el desarrollo de herramientas de análisis y la mejora de las prácticas de trabajo.
 
-Su actividad se basa en tres dimensiones complementarias e interdependientes.
+## Organizar datos y conocimientos
 
-## Datos, información y conocimiento
+Documentar, preservar y conectar los recursos de la institución; aclarar responsabilidades y normas de gestión. El objetivo es mejorar la calidad y reutilización de los datos, preservar la experiencia y facilitar su transmisión, respetando la seguridad y la confidencialidad.
 
-DAT contribuye a organizar, documentar, preservar y conectar los recursos informativos de la institución. Apoya la definición de responsabilidades y normas de gestión para mejorar la calidad, la accesibilidad y la reutilización de los datos, respetando los requisitos de seguridad y confidencialidad. Este enfoque también busca preservar el saber práctico y facilitar la transmisión del conocimiento.
+## Desarrollar herramientas de análisis
 
-## Ciencia de datos e inteligencia artificial
+Utilizar estadística, grafos de conocimiento e IA para analizar fuentes heterogéneas y explorar documentos. Estos usos se basan en la calidad de los resultados, la trazabilidad del tratamiento y la supervisión humana.
 
-El laboratorio desarrolla métodos y herramientas para analizar información compleja, explorar documentos y relacionar fuentes heterogéneas. Recurre en particular a la estadística, los grafos de conocimiento y la inteligencia artificial para apoyar la investigación, facilitar determinadas tareas y fundamentar las decisiones. Contribuye a regular estos usos velando por la calidad de los resultados, la trazabilidad de los tratamientos y la supervisión humana. La preservación de la autonomía, el criterio y la experiencia de los colaboradores guía este enfoque.
+## Mejorar las prácticas de trabajo
 
-## Transformación de la organización
+Con los equipos, simplificar los circuitos de información, reducir la introducción duplicada de datos y desarrollar herramientas adecuadas a las necesidades. Este apoyo incluye experimentación, formación y organización de proyectos según las prioridades y los recursos disponibles.
 
-DAT acompaña la evolución de los procesos, las prácticas y las formas de colaboración. Junto con los equipos y servicios implicados, busca simplificar los flujos de información, reducir la introducción duplicada de datos y la carga cognitiva innecesaria y desarrollar herramientas adaptadas a las necesidades. También contribuye a estructurar el inicio y la gestión de los proyectos teniendo en cuenta las prioridades y los recursos disponibles. La escucha, la experimentación, el desarrollo de competencias y la apropiación de las herramientas forman parte integral de este acompañamiento.
-
-A través de estas tres dimensiones, DAT contribuye a convertir al INCC en una organización que aprende, capaz de preservar sus conocimientos, transmitirlos y extraer enseñanzas de sus experiencias. Su ambición es permitir que los colaboradores dediquen más tiempo a las actividades que requieren su experiencia y reforzar de forma duradera las capacidades de la institución al servicio de la ciencia y la justicia.
+[Creación del laboratorio el 2 de junio de 2026 →](/spa/notes/2026-06-02/dat-creation/)

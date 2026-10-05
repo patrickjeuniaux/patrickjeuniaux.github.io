@@ -1,20 +1,24 @@
 ---
-title: "UBIMOL"
-routeSlug: "ubimol"
-summary: "ピサ大学での博士研究員としての研究に資金を提供したトスカーナ州の地域プロジェクト。"
+title: 'UBIMOL'
+routeSlug: 'ubimol'
+summary: '情報抽出と意味表現に関する計算言語学研究。'
 order: 12
-status: "完了"
-domain: "計算言語学"
-startYear: "2014"
-endYear: "2020"
-funder: "トスカーナ州"
-role: "博士研究員"
-budget: "1 200 000 €"
-keywords: ["ピサ", "計算言語学", "学習"]
-locale: "jpn"
-translationKey: "project-ubimol"
+status: '完了'
+domain: '計算言語学'
+startYear: '2014'
+endYear: '2020'
+funder: 'トスカーナ州'
+role: '博士研究員'
+budget: '1 200 000 €'
+keywords:
+  - 'ピサ'
+  - '計算言語学'
+  - '学習'
+locale: 'jpn'
+translationKey: 'project-ubimol'
+canonical: false
+autoTranslated: true
+sourceHash: 'b79b96d85da0df9708e94b4d477ee04e0d43b51240dde4b6f497a2b309e700af'
 ---
 
-UBIMOLは、ピサ大学の**計算言語学**研究室での私の博士研究員としての期間に資金を提供した地域プロジェクトです。
-
-そこでは、大規模コーパスからの言語情報の抽出、分布意味論モデル、およびナレッジグラフに関連する初期開発に従事しました。
+トスカーナ地方の **UBIMOL** プロジェクトは **[ピサ大学](/jpn/unipi/)** の博士研究員による研究を助成し、大規模コーパスからの情報抽出、分布意味モデル、知識グラフを扱いました。

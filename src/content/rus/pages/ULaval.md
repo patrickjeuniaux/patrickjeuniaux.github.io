@@ -1,31 +1,24 @@
 ---
-title: 'Université Laval'
-lead: 'Познание, координация и оценка систем поддержки принятия решений в сложных условиях.'
+title: 'Университет Лаваля'
+lead: 'Постдокторские исследования когнитивных процессов, координации и поддержки решений.'
 locale: 'rus'
 translationKey: 'institution-ulaval'
 canonical: false
 autoTranslated: true
-sourceHash: '5b4f720a9c5ded7b7e63efc1ecdfa842fa0e5fa5efb6f2c5d0400bbc2affb97f'
+sourceHash: '608c6f630bee1e38cb20584cdf87c4fae8ccc029e365e9cecb69dd7f4e8ae8ba'
 ---
 
-Я занимался **постдокторскими исследованиями** в лаборатории **Cognition–Distribution–Organisation–Technologies (CO-DOT)** Себастьена Трамбле в Школе психологии **Université Laval** в Квебеке.
+Постдокторская работа Patrick Jeuniaux в лаборатории **Cognition–Distribution–Organisation–Technologies (CO-DOT)** Sébastien Tremblay касалась решений и координации в сложных средах.
 
-## Познание и поддержка принятия решений
+## Исследования
 
-Мои исследования были посвящены тому, как операторы понимают сложную ситуацию, координируют свои действия и используют инструменты поддержки принятия решений. Они сочетали эксперименты в моделируемых условиях с анализом поведения и последовательностей действий.
+Эксперименты в моделируемых средах и анализ поведения касались:
 
-В частности, я работал над:
+- системы поддержки решений для военных операций совместно с **[DRDC](/rus/drdc/)**;
+- координации пожарных подразделений;
+- мобильной системы поддержки ситуационной осведомлённости в моделируемом бою совместно с **[Thales](/rus/thales/)**.
 
-- оценкой системы поддержки принятия решений для сложных военных операций совместно с **[DRDC](/rus/drdc/)**;
-- анализом симуляции, в которой пожарные подразделения должны были координировать свои действия;
-- оценкой мобильной системы поддержки ситуационной осведомлённости в трёхмерной моделируемой боевой среде совместно с **[Thales](/rus/thales/)**.
+## Связанные публикации
 
-## Методы и сотрудничество
-
-Моя работа включала проведение экспериментов, статистический анализ данных и изучение последовательностей действий для понимания процессов принятия решений. Для организации и анализа данных я использовал, в частности, **MySQL** и **SPSS**.
-
-Сотрудничество с DRDC и Thales осуществлялось в рамках этих постдокторских исследований. Оно позволяло изучать вклад информационных систем в понимание ситуаций и координацию между операторами.
-
-## Связанные работы
-
-Статья **[A cognitive prosthesis for complex decision-making](/rus/work/#publication-tremblay-et-al-2017-prosthesis)** представляет исследование когнитивной поддержки принятия сложных решений. Другая работа, **[A multi-perspective approach to the evaluation of a portable situation awareness support system in a simulated infantry operation](/rus/work/#publication-tremblay-et-al-2011-awareness)**, посвящена оценке мобильной системы поддержки ситуационной осведомлённости.
+- [A cognitive prosthesis for complex decision-making](/rus/work/#publication-tremblay-et-al-2017-prosthesis).
+- [A multi-perspective approach to the evaluation of a portable situation awareness support system in a simulated infantry operation](/rus/work/#publication-tremblay-et-al-2011-awareness).

@@ -1,20 +1,24 @@
 ---
-title: "BE Prüm DNA"
-routeSlug: "beprumadn"
-summary: "مشروع متعلق بتبادل بيانات الحمض النووي مع الدول الأعضاء في الاتحاد الأوروبي."
+title: 'BE Prüm ADN'
+routeSlug: 'beprumadn'
+summary: 'دعم تبادل بيانات الحمض النووي بين الدول الأعضاء في الاتحاد الأوروبي.'
 order: 10
-status: "مكتمل"
-domain: "علم الوراثة الجنائي"
-startYear: "2015"
-endYear: "2018"
-funder: "المفوضية الأوروبية"
-role: "إعداد ودعم المشروع"
-budget: "700,852 يورو"
-keywords: ["حمض نووي", "بروم", "اتحاد أوروبي"]
-locale: "ara"
-translationKey: "project-beprumadn"
+status: 'مكتمل'
+domain: 'الوراثة الجنائية'
+startYear: '2015'
+endYear: '2018'
+funder: 'المفوضية الأوروبية'
+role: 'إعداد المشروع ودعمه'
+budget: '700 852 €'
+keywords:
+  - 'الحمض النووي'
+  - 'بروم'
+  - 'الاتحاد الأوروبي'
+locale: 'ara'
+translationKey: 'project-beprumadn'
+canonical: false
+autoTranslated: true
+sourceHash: 'e1f5e499f5ab523800029c9793edeb137b8943ed6191275747b36255976c4dd8'
 ---
 
-يهدف هذا المشروع إلى دعم تبادل بيانات **الحمض النووي** في إطار قرارات **بروم** على المستوى الأوروبي.
-
-شاركت في إعداد المشروع والدعم اللوجستي المتعلق بتنفيذه.
+دعم المشروع تنفيذ تبادل بيانات **الحمض النووي** في إطار قرارات **Prüm** على المستوى الأوروبي.

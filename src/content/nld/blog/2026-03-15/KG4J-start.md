@@ -1,24 +1,17 @@
 ---
-title: "Effectieve start van het KG4J-project"
-description: "Het onderzoeksproject KG4J (Knowledge Graphs for Justice) gaat concreet van start."
-date: 2026-03-15
+title: 'Start van KG4J'
+description: 'KG4J start in maart 2026 met vier jaar onderzoek naar kennisgrafen en justitiegegevens.'
+date: '2026-03-15'
 draft: false
-locale: nld
-translationKey: news-kg4j-start
+locale: 'nld'
+translationKey: 'news-kg4j-start'
+canonical: false
+autoTranslated: true
+sourceHash: '087252a4906fed40a0a19e3db956ecebbb526b60575b36251a29be7e5b8153ca'
 ---
 
-Het project **KG4J** (*Knowledge Graphs for Justice*) werd officieel ingediend op 3 juni 2025 in antwoord op de **P4Science**-oproep van het federale wetenschapsbeleid (**BELSPO**). 
+**[KG4J — Knowledge Graphs for Justice](/nld/kg4j/)** start in maart 2026 voor **vier jaar**.
 
-Het gaat concreet van start in deze maand maart 2026 voor een duur van 4 jaar.
+Met financiering van BELSPO onderzoekt het kennisgrafen en artificiële intelligentie om forensische en criminologische gegevens van het **[NICC](/nld/nicc/)** te verbinden.
 
-Het project beoogt essentieel de capaciteit voor data-analyse van het **NICC** te vergroten via systemen die gebruikmaken van kennisgrafen en kunstmatige intelligentie, en die bepaalde principes van goed datagovernance respecteren.
-
-Het project omvat een internationaal consortium bestaande uit:
-- De vakgroep informatica van de **Université de Mons** (UMONS);
-- De vakgroep wiskunde en industriële techniek van **Polytechnique Montréal**;
-- De vakgroep informatica van de **KU Leuven**;
-- De vakgroep taalkunde van de **Indiana University Bloomington**;
-- Het Louvain Research Institute in Management and Organizations (LouRIM) aan de **UCLouvain**;
-- Het **Digital Transformation Office** (DTO) van de FOD Justitie.
-
-<div class="finis">✦</div>
+[Doelstellingen, methoden en partners →](/nld/kg4j/)

@@ -1,13 +1,10 @@
 ---
-eyebrow: "プロジェクト"
-title: "プロジェクト"
-lead: "このセクションでは、私が貢献した、あるいは主導した主要なプロジェクトを紹介します。特に刑事司法、ナレッジグラフ、科学捜査データ、およびデータガバナンスの分野に焦点を当てています。"
-noteTitle: "閲覧"
-noteText: "各プロジェクトカードには、背景、私の役割、期間、資金提供者、および主要な目的の要約が記載されています。"
-locale: "jpn"
-translationKey: "projects"
+eyebrow: 'プロジェクト'
+title: 'プロジェクト'
+lead: '司法データ、認知、分析方法に関する研究・基盤プロジェクト。'
+locale: 'jpn'
+translationKey: 'projects'
+canonical: false
+autoTranslated: true
+sourceHash: 'fab6d04c6834ad9dedb244d796a2a5cf79d0671ebc9d95bcfd105940bafeef9f'
 ---
-
-ここに集められたプロジェクトは、研究、データエンジニアリング、および組織的な仕事を公的なものとして結びつけています。主に再犯、犯罪キャリア、過激化、DNAデータ、ナレッジグラフ、および公共機関の科学的設備に関連しています。
-
-<div class="finis">❧</div>

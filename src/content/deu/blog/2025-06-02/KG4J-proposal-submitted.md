@@ -1,24 +1,17 @@
 ---
-title: "KG4J-Forschungsvorschlag bei Belspo eingereicht"
-description: "Das KG4J-Project (Knowledge Graphs for Justice) wurde 2025 im Rahmen des P4Science-Aufrufs von BELSPO eingereicht. Budget: 392.798,60 €."
-date: 2025-06-02
+title: 'KG4J: Antrag bei BELSPO eingereicht'
+description: 'Einreichung des Projekts zu Wissensgraphen für die Justiz im Rahmen der BELSPO-Ausschreibung P4Science.'
+date: '2025-06-02'
 draft: false
-locale: deu
-translationKey: news-kg4j-proposal-submitted
+locale: 'deu'
+translationKey: 'news-kg4j-proposal-submitted'
+canonical: false
+autoTranslated: true
+sourceHash: 'bb022d986d74cd51d8c20a65ee47e86f995faab6ee2885f9dfb0a5c5ddae0723'
 ---
 
-Das Projekt **KG4J** (*Knowledge Graphs for Justice*) wurde offiziell am 3. Juni 2025 als Antwort auf den **P4Science**-Aufruf des föderalen Wissenschaftspolitik (**BELSPO**) eingereicht. 
+Der Antrag **[KG4J — Knowledge Graphs for Justice](/deu/kg4j/)** wurde im Juni 2025 zur BELSPO-Ausschreibung **P4Science** eingereicht.
 
-Das Projekt zielt im Wesentlichen darauf ab, die Datenanalysekapazität des **INCC** durch Systeme zu erhöhen, die Wissensgraphen und künstliche Intelligenz nutzen und bestimmte Prinzipien einer guten Datengovernance respektieren.
+Er betrifft die Integration forensischer und kriminologischer Daten des **[NICC](/deu/nicc/)** mithilfe von Wissensgraphen und künstlicher Intelligenz. Das beantragte Budget betrug **392 798,60 €**.
 
-Das Projekt umfasst ein internationales Konsortium bestehend aus:
-- der Informatikabteilung der **Université de Mons** (UMONS);
-- der Abteilung für Mathematik und industrielles Engineering der **Polytechnique Montréal**;
-- der Informatikabteilung der **KU Leuven**;
-- der Linguistikabteilung der **Indiana University Bloomington**;
-- dem Louvain Research Institute in Management and Organizations (LouRIM) an der **UCLouvain**;
-- dem **Digital Transformation Office** (DTO) des FÖD Justiz.
-
-Das beantragte Budget beträgt **392.798,60 €**.
-
-<div class="finis">✦</div>
+[Projekt und Konsortium →](/deu/kg4j/)

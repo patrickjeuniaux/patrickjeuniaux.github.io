@@ -1,20 +1,25 @@
 ---
-title: "Data, Artificial Intelligence & Transformation（DAT）实验室成立"
-description: "Data, Artificial Intelligence & Transformation（DAT）实验室于2026年6月2日在INCC成立，旨在加强数据、信息和知识的管理与价值发挥。"
-date: "2026-06-02"
-locale: "zho"
-translationKey: "news-dat-laboratory-creation"
+title: 'INCC 成立 DAT 实验室'
+description: 'Data, Artificial Intelligence & Transformation 实验室于2026年6月2日在 INCC 成立。'
+date: '2026-06-02'
 draft: false
-tags: ["DAT", "INCC", "数据治理", "信息管理", "数据科学", "人工智能", "转型"]
+locale: 'zho'
+translationKey: 'news-dat-laboratory-creation'
 canonical: false
+tags:
+  - 'DAT'
+  - 'INCC'
+  - 'gouvernance des données'
+  - 'gestion de l''information'
+  - 'science des données'
+  - 'intelligence artificielle'
+  - 'transformation'
 autoTranslated: true
-sourceHash: "0c7a46d63d6e5c086126c6dae1305c3a1314ea722688a3e4e5c97319df3f80ee"
+sourceHash: '803ef3daaaa4fa012b20fd448b8f8b4731592037474cf76cfa33f7b6d141f6ac'
 ---
 
-<img src="/img/dat-logo-header.svg" alt="DAT实验室标志" width="600" height="200" style="margin: 1.5rem auto;" />
+**Data, Artificial Intelligence & Transformation（DAT）**实验室于**2026年6月2日**在 **[INCC](/zho/nicc/)** 成立。
 
-2026年6月2日，**Data, Artificial Intelligence & Transformation（DAT）**实验室在[国家刑事科学与犯罪学研究所（INCC）](/zho/nicc/)成立，由我负责领导。其目标是加强研究所在组织、保存以及发挥数据、信息和知识价值方面的能力。
+实验室支持数据与知识的组织、分析工具的开发以及工作实践的改进。
 
-实验室将数据治理、信息与知识管理、数据科学和人工智能与组织转型支持相结合。它旨在通过支持科研活动、方便团队的日常工作并为决策提供依据，增强INCC人员的能力。
-
-**[了解DAT实验室及其使命 →](/zho/dat/)**
+[了解实验室的任务 →](/zho/dat/)

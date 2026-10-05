@@ -1,24 +1,17 @@
 ---
-title: "Исследовательское предложение KG4J представлено в Belspo"
-description: "Проект KG4J (Knowledge Graphs for Justice) был представлен в 2025 году в рамках конкурса P4Science организации BELSPO. Бюджет: 392 798,60 €."
-date: 2025-06-02
+title: 'KG4J: заявка подана в BELSPO'
+description: 'Подача проекта о графах знаний для правосудия на конкурс P4Science BELSPO.'
+date: '2025-06-02'
 draft: false
-locale: rus
-translationKey: news-kg4j-proposal-submitted
+locale: 'rus'
+translationKey: 'news-kg4j-proposal-submitted'
+canonical: false
+autoTranslated: true
+sourceHash: 'bb022d986d74cd51d8c20a65ee47e86f995faab6ee2885f9dfb0a5c5ddae0723'
 ---
 
-Проект **KG4J** (*Knowledge Graphs for Justice*) был официально представлен 3 июня 2025 года в ответ на конкурс **P4Science** федеральной научной политики (**BELSPO**). 
+Заявка **[KG4J — Knowledge Graphs for Justice](/rus/kg4j/)** подана в июне 2025 года на конкурс **P4Science** BELSPO.
 
-Проект направлен на повышение потенциала **INCC** в области анализа данных с помощью систем, использующих графы знаний и искусственный интеллект, с соблюдением принципов надлежащего управления данными.
+Она посвящена интеграции криминалистических и криминологических данных **[INCC](/rus/nicc/)** с помощью графов знаний и искусственного интеллекта. Запрошенный бюджет — **392 798,60 €**.
 
-В проекте участвует международный консорциум, объединяющий:
-- Факультет информатики **Université de Mons** (UMONS);
-- Факультет математики и промышленной инженерии **Polytechnique Montréal**;
-- Факультет информатики **KU Leuven**;
-- Факультет лингвистики **Indiana University Bloomington**;
-- Louvain Research Institute in Management and Organizations (LouRIM) в **UCLouvain**;
-- **Digital Transformation Office** (DTO) организации SPF Justice.
-
-Запрошенный бюджет составляет **392 798,60 €**.
-
-<div class="finis">✦</div>
+[Описание проекта и консорциума →](/rus/kg4j/)

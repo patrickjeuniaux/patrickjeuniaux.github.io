@@ -1,29 +1,12 @@
 ---
 eyebrow: 'Contact'
 title: 'Contact'
-lead: 'You can write to me to discuss a research project, a collaboration or a question related to data and artificial intelligence.'
-noteTitle: 'Contact details'
-noteText: 'A few lines about your question or project will help me understand the context of your message.'
+lead: 'For scientific collaboration or enquiries about projects and publications.'
 locale: 'eng'
 translationKey: 'contact'
 canonical: false
 autoTranslated: true
-sourceHash: '00aaa36c84888254a711451f956291b9ef1737d3fc559bbf2cebc2d735ccb65d'
+sourceHash: '53a9e3ecca2e2ebb88a0b396c2c864b59a63ced6bd47e0a95960703ef692d9e0'
 ---
 
-## Contact details
-
-Email is the easiest way to reach me.
-
-✦ **Email**: [patrick.jeuniaux@protonmail.com](mailto:patrick.jeuniaux@protonmail.com)
-
-## Topics for discussion
-
-You can contact me, in particular, about:
-
-- a scientific collaboration or joint project;
-- knowledge graphs, artificial intelligence or data governance;
-- a question about my publications, methods or tools;
-- a discussion about teaching or supervision.
-
-<div class="finis">❧</div>
+**Email**: [patrick.jeuniaux@protonmail.com](mailto:patrick.jeuniaux@protonmail.com)

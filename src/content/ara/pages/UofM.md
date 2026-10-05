@@ -1,31 +1,26 @@
 ---
 title: 'جامعة ممفيس'
-lead: 'بحث دكتوراه في علم النفس التجريبي وعلم اللغة النفسي، والتواصل متعدد الوسائط، وتدريس العلوم المعرفية.'
+lead: 'دكتوراه في علم اللغة النفسي، وأبحاث التواصل متعدد الوسائط، والتدريس.'
 locale: 'ara'
 translationKey: 'institution-uofm'
 canonical: false
 autoTranslated: true
-sourceHash: 'fd707814320aeefba19c18ab175f83be456748ae3242e4545a248d9c0be8e6b5'
+sourceHash: '0bd6e66fefcba0be5be9be73c8f7b17bb01ec2e735d0465c1598fafd40ac923c'
 ---
 
-في **جامعة ممفيس** (*University of Memphis*) بالولايات المتحدة، أجريت أبحاث الدكتوراه في العلوم المعرفية ضمن **Institute for Intelligent Systems** و**قسم علم النفس**، ولا سيما في مختبر **Multimodal Aspects of Discourse** التابع لـMax Louwerse.
+## الدكتوراه والبحث
 
-## الدكتوراه وتعلّم اللغة
+حصل Patrick Jeuniaux على **دكتوراه في علم النفس التجريبي، بتخصص في علم اللغة النفسي**، في Institute for Intelligent Systems وقسم علم النفس.
 
-حصلت على **دكتوراه في علم النفس التجريبي، مع تخصص في علم اللغة النفسي**. وتناولت أطروحتي، **[The role of feedback in learning form-meaning mappings](/ara/work/#publication-jeuniaux-2009-feedback-dissertation)**، التي أُنجزت بإشراف **Max Louwerse**، دور التغذية الراجعة في تعلّم العلاقات بين الأشكال والمعاني.
+درست الأطروحة **[The role of feedback in learning form-meaning mappings](/ara/work/#publication-jeuniaux-2009-feedback-dissertation)**، بإشراف Max Louwerse، دور التغذية الراجعة في تعلم العلاقات بين الأشكال والمعاني.
 
-جمع هذا العمل بين الدراسة التجريبية لتعلّم اللغة وتحليل البيانات والنمذجة الحاسوبية.
-
-## الإدراك والخطاب والتواصل
-
-تناولت أبحاثي أيضاً **تماسك الخطاب**، والنماذج الدلالية مثل **Latent Semantic Analysis**، و**الإدراك المتجسد**، و**التواصل متعدد الوسائط**. ودرست خصوصاً التنسيق بين المتحاورين والعلاقات بين اللغة والإدراك الحسي والسلوك.
-
-استخدمت التجارب تسجيلات صوتية ومرئية، وتتبّع حركات الفأرة، وقياسات حركات العين، إلى جانب التحليلات الإحصائية والحاسوبية.
+تناولت أبحاث أخرى اتساق الخطاب والنماذج الدلالية والإدراك المتجسد والتنسيق بين المتحاورين. جمعت التجارب والتسجيلات الصوتية والمرئية وقياس حركة العين والتحليل الإحصائي.
 
 ## التدريس
 
-في قسم علم النفس، صممت ودرّست مقررين: **Introduction to Psychological Research** و**Thinking and Cognitive Processes**. وجمعا بين المفاهيم النظرية وتمارين تحليل البيانات باستخدام **R** وتقييمات محوسبة طُوّرت باستخدام **PHP** و**MySQL**.
+تصميم وتدريس **Introduction to Psychological Research** و**Thinking and Cognitive Processes**، مع تمارين تحليل البيانات باستخدام R.
 
-## أعمال ذات صلة
+## منشورات ذات صلة
 
-يدرس مقال **[The linguistic and embodied nature of conceptual processing](/ara/work/#publication-louwerse-jeuniaux-2010-conceptual)** الأبعاد اللغوية والمتجسدة لمعالجة المفاهيم. ويتناول **[Behavior Matching in Multimodal Communication Is Synchronized](/ara/work/#publication-louwerse-et-al-2012-multimodal)** تزامن السلوكيات في التواصل متعدد الوسائط.
+- [The linguistic and embodied nature of conceptual processing](/ara/work/#publication-louwerse-jeuniaux-2010-conceptual).
+- [Behavior Matching in Multimodal Communication Is Synchronized](/ara/work/#publication-louwerse-et-al-2012-multimodal).

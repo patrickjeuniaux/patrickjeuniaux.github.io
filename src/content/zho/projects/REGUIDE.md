@@ -1,7 +1,7 @@
 ---
 title: 'REGUIDE'
 routeSlug: 'reguide'
-summary: '研究比利时回返人员重新融入社会及相关支持的项目。'
+summary: '研究比利时从冲突地区返回人员的社会重返历程。'
 order: 4
 status: '已完成'
 domain: '犯罪学'
@@ -11,17 +11,17 @@ funder: 'BELSPO'
 role: '研究员'
 budget: '1 002 092 €'
 keywords:
-  - '回返人员'
-  - '重新融入社会'
+  - '回国人员'
+  - '重新融入'
   - '恐怖主义'
   - '比利时'
 locale: 'zho'
 translationKey: 'project-reguide'
 canonical: false
 autoTranslated: true
-sourceHash: '223973ddca6a6bef9661b3cbe4b9cd4e797d49690524d35c48e5df7f3f4187af'
+sourceHash: '06c60ebad2e3f00a7652bbbb92a0ddbfc8bf723f998fc4c5f90558106a3ab246'
 ---
 
-REGUIDE 研究了比利时**回返人员**重新融入社会的路径与相关支持机制。
+**REGUIDE** 研究从冲突地区返回人员（*returnees*）的社会重返历程与支持措施。
 
-在此框架下，我与 NICC 及合作机构的同事共同开展了数据库、社会司法轨迹方面的工作，并参与编写报告和学术文章。
+研究结合数据库和社会司法历程分析，以及学术报告与论文编写，由 **[INCC](/zho/nicc/)** 与合作机构共同开展。

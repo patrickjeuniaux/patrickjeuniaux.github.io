@@ -1,13 +1,14 @@
 ---
-eyebrow: "Institución"
-title: "🏛 DRDC - Investigación y Desarrollo para la Defensa de Canadá"
-lead: "Investigación aplicada sobre la conciencia de la situación (situation awareness) y el apoyo a la decisión en entornos complejos."
-locale: "spa"
-translationKey: "drdc"
+eyebrow: 'Institución'
+title: 'DRDC — Investigación y Desarrollo para la Defensa de Canadá'
+lead: 'Colaboración de investigación sobre conciencia situacional y apoyo a la decisión.'
+locale: 'spa'
+translationKey: 'drdc'
+canonical: false
+autoTranslated: true
+sourceHash: 'c0160435c5543faeb199bc37f330922ba74c8c9e0320e725ce2cf600df5f5322'
 ---
 
-Mis actividades en **Investigación y Desarrollo para la Defensa de Canadá** (DRDC) se centraron en el estudio de los procesos de decisión y la percepción de situaciones complejas. 
+La colaboración con **DRDC**, durante el posdoctorado en la **[Université Laval](/spa/ulaval/)**, evaluaba un sistema de apoyo a la decisión para operaciones militares complejas.
 
-Este trabajo se inscribió en un enfoque de investigación aplicada, destinado a modelar y apoyar el rendimiento cognitivo en contextos operativos exigentes.
-
-<div class="finis">✦</div>
+Los trabajos combinaban experimentos en entornos simulados y análisis del comportamiento para comprender cómo los operadores interpretan la información y coordinan sus acciones.

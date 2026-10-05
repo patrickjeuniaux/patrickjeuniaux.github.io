@@ -1,20 +1,25 @@
 ---
-title: "SAFER-EU"
-routeSlug: "safereu"
-summary: "European project on the prevention of terrorism, violent extremism, and radicalization."
+title: 'SAFER-EU'
+routeSlug: 'safereu'
+summary: 'Study approaches to preventing terrorism, violent extremism and radicalisation.'
 order: 8
-status: "Ongoing"
-domain: "Criminology"
-startYear: "2025"
-endYear: "2027"
-funder: "European Commission"
-role: "Co-promoteur"
-budget: "343,901 €"
-keywords: ["terrorism", "violent extremism", "radicalization", "cooperation"]
-locale: "eng"
-translationKey: "project-safereu"
+status: 'Ongoing'
+domain: 'Criminology'
+startYear: '2025'
+endYear: '2027'
+funder: 'European Commission'
+role: 'Co-promoter'
+budget: '343 901 €'
+keywords:
+  - 'terrorism'
+  - 'violent extremism'
+  - 'radicalisation'
+  - 'cooperation'
+locale: 'eng'
+translationKey: 'project-safereu'
+canonical: false
+autoTranslated: true
+sourceHash: '128417815e9bd0391e898290c2509f3518fbe84618e383749b558dc514648a71'
 ---
 
-SAFER-EU is a European project dedicated to evidence-based approaches for the prevention of **terrorism**, **violent extremism**, and **radicalization**.
-
-I contribute to it within a framework of international cooperation with several academic and institutional partners.
+**SAFER-EU** is a European project on evidence-based approaches to preventing terrorism, violent extremism and radicalisation. It brings together academic and institutional partners in international cooperation.

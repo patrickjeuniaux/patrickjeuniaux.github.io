@@ -1,7 +1,7 @@
 ---
 title: "DOT — Database on Offender Trajectories"
 routeSlug: "dot"
-summary: "Projet d'infrastructure de données consacré aux trajectoires de délinquance."
+summary: "Développer une infrastructure de données pour l’étude des trajectoires de délinquance."
 order: 5
 status: "En cours"
 domain: "Criminologie"
@@ -15,6 +15,4 @@ locale: "fra"
 translationKey: "project-dot"
 ---
 
-DOT vise à développer une infrastructure de données orientée vers l'étude des **trajectoires de délinquance**.
-
-Le projet prolonge des travaux engagés sur la récidive et les carrières criminelles, avec un accent particulier sur la structuration des données et leur exploitation scientifique à long terme.
+**DOT — Database on Offender Trajectories** vise à structurer des données pour l’analyse à long terme des trajectoires de délinquance. Il prolonge les recherches sur la récidive et les carrières criminelles.

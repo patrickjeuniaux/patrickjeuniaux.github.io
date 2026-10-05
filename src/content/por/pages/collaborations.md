@@ -1,32 +1,29 @@
 ---
 eyebrow: 'Colaborações'
-title: 'Colaborações e percurso'
-lead: 'O meu percurso de investigação desenvolveu-se entre a Bélgica, os Estados Unidos, o Canadá e a Itália, em instituições de psicologia, linguística computacional, inteligência artificial e criminologia.'
-noteTitle: 'Enquadramento'
-noteText: 'Esta página apresenta as minhas afiliações atuais, as instituições onde estudei ou trabalhei e algumas parcerias de investigação.'
+title: 'Colaborações'
+lead: 'Afiliações e parcerias de investigação na Bélgica e internacionalmente.'
 locale: 'por'
 translationKey: 'collaborations'
 canonical: false
 autoTranslated: true
-sourceHash: '5911b26ec724ebe41758c645719456dbe77502d8aadce952a785341b5961d5f5'
+sourceHash: '9b417bb17d3141edc7b2a241560a4ae8f43dedce341f620a5b9cf4d67c4f6806'
 ---
 
-## 🇧🇪 Bélgica
+## Afiliações atuais
 
-- **[INCC](/por/nicc/)**: diretor de dados e do laboratório **[DAT](/por/dat/)**; investigador principal de **[KG4J](/por/kg4j/)**. O meu trabalho liga dados de ADN forense, criminologia e governação dos dados.
-- **[UCLouvain](/por/uclouvain/)**: colaborador de investigação no **LouRIM** e membro do **Louvain Interaction Laboratory**. Também estudei ali psicologia cognitiva e estatística e apoiei cursos de transformação digital, programação e sistemas de informação na Louvain School of Management.
-- **[KU Leuven](/por/ku-leuven/)**: formação complementar em inteligência artificial e investigação em extração de informação e resolução de correferências; parceiro de KG4J.
+- **[INCC](/por/nicc/)**: direção do laboratório **[DAT](/por/dat/)** e função de diretor de dados.
+- **[UCLouvain](/por/uclouvain/)**: colaboração de investigação no LouRIM e participação no Louvain Interaction Laboratory, sobre sistemas de informação e interação pessoa-computador.
 
-## 🇮🇹 Itália
+## Parcerias científicas
 
-- **[Universidade de Pisa](/por/unipi/)**: pós-doutoramento em linguística computacional sobre modelos semânticos distribucionais e representação do conhecimento através de grafos.
+**[KG4J](/por/kg4j/)** associa o INCC à UMONS, **[KU Leuven](/por/ku-leuven/)**, UCLouvain, Polytechnique Montréal, Indiana University Bloomington, Digital Transformation Office do SPF Justice e Elephant Bird Consulting.
 
-## 🇨🇦 Canadá
+O consórcio europeu **[PIES](/por/pies/)** reuniu instituições da Bélgica, França, Países Baixos e Reino Unido para o intercâmbio de dados de ADN forense.
 
-- **[Université Laval](/por/ulaval/)**: pós-doutoramento no CO-DOT sobre cognição e avaliação de sistemas de apoio à decisão em ambientes complexos. Estas investigações foram realizadas com **[DRDC](/por/drdc/)** e **[Thales](/por/thales/)**.
+## Colaborações anteriores
 
-## 🇺🇸 Estados Unidos
+- **[Universidade de Pisa](/por/unipi/)**: modelos semânticos distribucionais e representação do conhecimento.
+- **[Université Laval](/por/ulaval/)**, com **[DRDC](/por/drdc/)** e **[Thales](/por/thales/)**: cognição, coordenação e avaliação de sistemas de apoio à decisão.
+- **[Universidade de Memphis](/por/uofm/)**: linguagem, cognição e comunicação multimodal.
 
-- **[Universidade de Memphis](/por/uofm/)**: investigação doutoral em psicologia experimental e psicolinguística sobre linguagem, cognição e comunicação multimodal; ensino de metodologia da investigação e processos cognitivos.
-
-<div class="finis">❧</div>
+O [perfil](/por/about/) detalha a formação e o percurso.

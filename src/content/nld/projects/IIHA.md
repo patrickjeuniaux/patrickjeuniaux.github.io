@@ -1,14 +1,14 @@
 ---
 title: 'IIHA — It Is Happening Again'
 routeSlug: 'iiha'
-summary: 'Project dat ik mede leidde om recidive en criminele carrières te onderzoeken door digitale strafrechtelijke archieven samen te brengen.'
+summary: 'Gegevens over veroordelingen en detentie verbinden voor onderzoek naar recidive en criminele carrières.'
 order: 3
 status: 'Afgerond'
 domain: 'Strafrecht'
 startYear: '2020'
 endYear: '2023'
 funder: 'BELSPO'
-role: 'Medehoofdonderzoeker'
+role: 'Co-hoofdonderzoeker en medeauteur van het voorstel'
 budget: '441 572 €'
 keywords:
   - 'recidive'
@@ -19,29 +19,19 @@ locale: 'nld'
 translationKey: 'project-iiha'
 canonical: false
 autoTranslated: true
-sourceHash: 'b149c4c6178bed0e0656e28654dc543114ef4c45d3fd304fa53b3dce2b81e010'
+sourceHash: '7597bb374ebf2bd058f1fa4104b4a46bd9a5a76877fabbfddbf333c623f9e576'
 ---
-
-**IIHA — It Is Happening Again** is een project bij het [NICC](/nld/nicc/) om recidive en criminele carrières te onderzoeken aan de hand van digitale strafrechtelijke archieven.
 
 ## Onderzoeksvraag
 
-Hoe kunnen administratieve gegevens, verzameld voor de werking van justitie, worden gebruikt om strafrechtelijke trajecten te onderzoeken? Het project wilde aanvullende bronnen samenbrengen als basis voor onderzoek naar recidive en criminele carrières.
-
-## Mijn bijdrage
-
-Ik heb **de financieringsaanvraag mee geschreven** en bijgedragen aan de **wetenschappelijke leiding** als **medehoofdonderzoeker** (*co-PI*). Mijn bijdragen omvatten de ontwikkeling van een **geïntegreerde historische databank** en de presentatie van methoden om gegevens te structureren voor de studie van strafrechtelijke trajecten.
+Hoe kunnen digitale archieven, verzameld voor de werking van justitie, worden gebruikt om strafrechtelijke trajecten te bestuderen?
 
 ## Gegevens en methoden
 
-Het werk gebruikte gegevens uit het **Centraal Strafregister** en de **penitentiaire databank SIDIS-Griffie**. Deze bronnen bieden aanvullende informatie over veroordelingen en detentietrajecten.
+Het project bij het **[NICC](/nld/nicc/)** verbond gegevens van het **Centraal Strafregister** en de **penitentiaire databank SIDIS-Griffie**. Het onderzocht een geïntegreerde historische databank op basis van grafen, die veroordelingen en detentietrajecten verbindt.
 
-Hun integratie vraagt inzicht in de structuur, documentatie van de informatie en organisatie van de relaties tussen gegevens. Het onderzoek verkende onder meer een **geïntegreerde historische databank op basis van grafen** om de analyse van criminele carrières en recidive te ondersteunen.
+## Resultaten
 
-## Werken en resultaten
-
-Bij het project horen onder meer:
-
-- het rapport **[La base de données du Casier judiciaire central](/nld/work/#publication-huynen-et-al-2024-tech-report-iiha-cjcs-documentation)**;
-- het rapport **[SIDIS-Griffie databank](/nld/work/#publication-maes-et-al-2024-tech-report-iiha-sidis-greffe-documentation)**;
-- de presentatie **[The development of an Integrated Historical Database to study Criminal Careers and Recidivism](/nld/work/#publication-jeuniaux-et-al-2022-talk-iiha-ihd)**, over de ontwikkeling van de geïntegreerde historische databank.
+- [Documentatie van de databank van het Centraal Strafregister](/nld/work/#publication-huynen-et-al-2024-tech-report-iiha-cjcs-documentation).
+- [Documentatie van SIDIS-Griffie](/nld/work/#publication-maes-et-al-2024-tech-report-iiha-sidis-greffe-documentation).
+- [Presentatie van de ontwikkeling van de geïntegreerde historische databank](/nld/work/#publication-jeuniaux-et-al-2022-talk-iiha-ihd).

@@ -1,7 +1,7 @@
 ---
 title: "Be-Gen"
 routeSlug: "be-gen"
-summary: "Projet sur les implications opérationnelles, stratégiques et politiques de la banque nationale de données génétiques."
+summary: "Étudier les usages et les implications opérationnelles, stratégiques et politiques de la banque nationale de données génétiques."
 order: 11
 status: "Terminé"
 domain: "Génétique forensique"
@@ -15,6 +15,4 @@ locale: "fra"
 translationKey: "project-begen"
 ---
 
-Be-Gen portait sur les usages, les effets et les implications de la **banque nationale de données génétiques**.
-
-J'ai contribué à la rédaction de la proposition et aux travaux menés avec les partenaires académiques et institutionnels du projet.
+**Be-Gen** portait sur les usages et les effets de la **banque nationale de données génétiques**. Le projet associait des partenaires académiques et institutionnels.

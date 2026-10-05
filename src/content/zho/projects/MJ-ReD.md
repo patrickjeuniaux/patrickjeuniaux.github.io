@@ -1,20 +1,24 @@
 ---
-title: "MJ-ReD"
-routeSlug: "mj-red"
-summary: "关于比利时法语区司法支持中心（houses of justice）及应用研究的项目。"
+title: 'MJ-ReD'
+routeSlug: 'mj-red'
+summary: '发展围绕比利时法语区司法中心的合作研究。'
 order: 7
-status: "进行中"
-domain: "犯罪学"
-startYear: "2024"
-endYear: "2028"
-funder: "瓦隆-布鲁塞尔联邦"
-role: "共同发起人"
-budget: "800 000 €"
-keywords: ["司法支持中心", "犯罪学", "比利时法语区"]
-locale: "zho"
-translationKey: "project-mjred"
+status: '进行中'
+domain: '犯罪学'
+startYear: '2024'
+endYear: '2028'
+funder: '瓦隆-布鲁塞尔联邦'
+role: '共同项目负责人'
+budget: '800 000 €'
+keywords:
+  - '司法之家'
+  - '犯罪学'
+  - '比利时法语区'
+locale: 'zho'
+translationKey: 'project-mjred'
+canonical: false
+autoTranslated: true
+sourceHash: '5c76190d1fe4abdf7419b36baac06e6483746d2258bb4438a197876bc3803878'
 ---
 
-MJ-ReD 项目的设立旨在围绕比利时法语区的**司法支持中心**开展协作研究。
-
-它延续了对刑事轨迹、机构实践以及该领域数据可能用途的长期关注。
+**MJ-ReD** 研究比利时法语区**司法中心**中的刑事司法历程、机构实践与数据应用。

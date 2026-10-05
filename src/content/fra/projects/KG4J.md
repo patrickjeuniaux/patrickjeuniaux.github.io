@@ -1,35 +1,34 @@
 ---
 title: "KG4J — Knowledge Graphs for Justice"
 routeSlug: "kg4j"
-summary: "Projet de recherche consacré à l'usage des graphes de connaissances dans le domaine de la justice."
+summary: "Relier les données forensiques et criminologiques grâce aux graphes de connaissances et à l’intelligence artificielle."
 order: 1
 status: "En cours"
 domain: "Graphes de connaissances"
 startYear: "2025"
 endYear: "2029"
 funder: "BELSPO"
-role: "Principal Investigator"
+role: "Chercheur principal et auteur de la proposition"
 budget: "392 798,60 €"
 keywords: ["justice", "graphes de connaissances", "données", "IA"]
 locale: "fra"
 translationKey: "project-kg4j"
 ---
 
-## Aperçu
+## Question étudiée
 
-À l’[Institut National de Criminalistique et de Criminologie (INCC)](/nicc/), les données forensiques et criminologiques proviennent de sources hétérogènes, souvent fragmentées. **KG4J** explore comment les relier au moyen de **graphes de connaissances** et de l’**intelligence artificielle**, afin de faciliter leur interrogation et de renforcer les capacités d’analyse.
+Comment rapprocher les sources de données de l’**[INCC](/nicc/)** pour faciliter leur interrogation et leur analyse ? KG4J explore l’intégration de données structurées et d’informations extraites de documents.
 
-J’en suis le **chercheur principal et l’auteur de la proposition**, financée par la Politique scientifique fédérale belge (**BELSPO**) dans le cadre de l’appel **P4Science**.
+## Méthodes et objectifs
 
-Le projet poursuit trois objectifs complémentaires :
+- Construire une infrastructure de graphes de connaissances reliant les données criminologiques et forensiques.
+- Évaluer des usages pour l’étude des trajectoires pénales et l’analyse des correspondances ADN.
+- Explorer l’extraction de connaissances à partir de textes, notamment avec les grands modèles de langage.
+- Définir un cadre de gouvernance des données et de l’IA, avec des traitements fiables et traçables.
 
-- construire une infrastructure reliant les données criminologiques et forensiques ;
-- explorer des cas d’usage pour l’étude des trajectoires pénales, l’analyse des données ADN et l’extraction de connaissances à partir de documents ;
-- définir un cadre de gouvernance pour des usages fiables et traçables des données et de l’IA.
+Le projet est financé dans le cadre de l’appel **P4Science** de BELSPO.
 
 ## Consortium
-
-Le consortium réunit les partenaires suivants :
 
 - [Département d'Informatique](https://web.umons.ac.be/fs-informatique/en/home/), UMONS, Belgique
 - [Departement Computerwetenschappen](https://wms.cs.kuleuven.be/cs), KU Leuven, Belgique
@@ -39,7 +38,8 @@ Le consortium réunit les partenaires suivants :
 - [Digital Transformation Office, Service Public Fédéral Justice](https://justice.belgium.be/fr), Service Public Fédéral Justice, Belgique
 - [Elephant Bird Consulting](https://github.com/elephantbirdconsulting), Elephant Bird Consulting, Belgique
 
-## Résumé officiel du projet
+<details>
+<summary>Résumé officiel du projet</summary>
 
 L’Institut National de Criminalistique et de Criminologie (INCC) joue un rôle scientifique dans le système de justice pénale belge. D’une part, il fournit une expertise forensique dans des domaines tels que l’ADN, la toxicologie et les drogues. D’autre part, il mène des recherches criminologiques, par exemple sur la récidive et les carrières criminelles. Pour cela, il traite une grande quantité de données. Pourtant, beaucoup de ces données sont fragmentées ou sous-utilisées. Des informations précieuses restent cachées.
 
@@ -88,3 +88,5 @@ Transcriptions d’auditions, notes d’experts, enregistrements : la quantité 
 ### Conclusion
 
 Le projet KG4J permettra à l’INCC de produire un renseignement criminologique et forensique renforcé. Il relie les données fragmentées, valorise les données existantes, développe de nouvelles capacités via graphes et IA, et établit des pratiques fiables en matière de données et d’IA au service de la justice.
+
+</details>

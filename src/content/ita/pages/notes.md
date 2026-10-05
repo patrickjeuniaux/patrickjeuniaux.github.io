@@ -1,13 +1,10 @@
 ---
-eyebrow: "Note"
-title: "Note"
-lead: "Questa sezione raccoglie note di lavoro, notizie e alcuni brevi saggi. Completa le altre pagine del sito."
-noteTitle: "Contenuto"
-noteText: "Vi si trovano notizie, osservazioni metodologiche, note tecniche e riflessioni più libere sulla ricerca, i dati e le istituzioni."
-locale: "ita"
-translationKey: "notes"
+eyebrow: 'Note'
+title: 'Note'
+lead: 'Notizie dei progetti e del laboratorio, note metodologiche e osservazioni tecniche.'
+locale: 'ita'
+translationKey: 'notes'
+canonical: false
+autoTranslated: true
+sourceHash: 'c4631a4df3131dd33dba48ebce872fcbaa004f0b6b2f13757708d2438b9c5a8c'
 ---
-
-Le note non sostituiscono né le pubblicazioni né i progetti. Servono soprattutto a precisare un ragionamento, documentare uno strumento o formulare un'ipotesi di lavoro in modo più flessibile.
-
-<div class="finis">❧</div>

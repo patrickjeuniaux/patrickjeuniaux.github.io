@@ -1,29 +1,12 @@
 ---
 eyebrow: 'संपर्क'
 title: 'संपर्क'
-lead: 'किसी शोध परियोजना, सहयोग या डेटा और कृत्रिम बुद्धिमत्ता से जुड़े प्रश्न पर चर्चा करने के लिए आप मुझे लिख सकते हैं।'
-noteTitle: 'संपर्क विवरण'
-noteText: 'अपने प्रश्न या परियोजना के बारे में कुछ पंक्तियाँ लिखने से मुझे आपके संदेश का संदर्भ समझने में मदद मिलेगी।'
+lead: 'वैज्ञानिक सहयोग या परियोजनाओं और प्रकाशनों से जुड़े प्रश्नों के लिए।'
 locale: 'hin'
 translationKey: 'contact'
 canonical: false
 autoTranslated: true
-sourceHash: '00aaa36c84888254a711451f956291b9ef1737d3fc559bbf2cebc2d735ccb65d'
+sourceHash: '53a9e3ecca2e2ebb88a0b396c2c864b59a63ced6bd47e0a95960703ef692d9e0'
 ---
 
-## संपर्क विवरण
-
-ईमेल मुझसे संपर्क करने का सबसे सरल तरीका है।
-
-✦ **ईमेल**: [patrick.jeuniaux@protonmail.com](mailto:patrick.jeuniaux@protonmail.com)
-
-## चर्चा के विषय
-
-आप विशेष रूप से इन विषयों पर संपर्क कर सकते हैं:
-
-- वैज्ञानिक सहयोग या संयुक्त परियोजना;
-- ज्ञान ग्राफ़, कृत्रिम बुद्धिमत्ता या डेटा शासन;
-- मेरे प्रकाशनों, तरीकों या उपकरणों के बारे में प्रश्न;
-- शिक्षण या मार्गदर्शन पर बातचीत।
-
-<div class="finis">❧</div>
+**ईमेल**: [patrick.jeuniaux@protonmail.com](mailto:patrick.jeuniaux@protonmail.com)

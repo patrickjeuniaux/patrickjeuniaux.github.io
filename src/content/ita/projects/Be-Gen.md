@@ -1,20 +1,24 @@
 ---
-title: "Be-Gen"
-routeSlug: "be-gen"
-summary: "Progetto sulle implicazioni operative, strategiche e politiche della banca dati genetica nazionale."
+title: 'Be-Gen'
+routeSlug: 'be-gen'
+summary: 'Studiare gli usi e le implicazioni operative, strategiche e politiche della banca nazionale di dati genetici.'
 order: 11
-status: "Terminato"
-domain: "Genetica forense"
-startYear: "2014"
-endYear: "2018"
-funder: "BELSPO"
-role: "Co-auteur de la proposition"
-budget: "857 170 €"
-keywords: ["dna", "banca dati", "politica scientifica"]
-locale: "ita"
-translationKey: "project-begen"
+status: 'Concluso'
+domain: 'Genetica forense'
+startYear: '2014'
+endYear: '2018'
+funder: 'BELSPO'
+role: 'Coautore della proposta'
+budget: '857 170 €'
+keywords:
+  - 'DNA'
+  - 'banca dati'
+  - 'politica scientifica'
+locale: 'ita'
+translationKey: 'project-begen'
+canonical: false
+autoTranslated: true
+sourceHash: '00f635c8c95dc04da3ea3d9a39d6d27c2d55885cb6afbd283d8abe71045a3c2e'
 ---
 
-Be-Gen riguardava gli utilizzi, gli effetti e le implicazioni della **banca dati genetica nazionale**.
-
-Ho contribuito alla stesura della proposta e ai lavori condotti con i partner accademici e istituzionali del progetto.
+**Be-Gen** riguardava gli usi e gli effetti della **banca nazionale di dati genetici**. Il progetto associava partner accademici e istituzionali.

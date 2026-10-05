@@ -1,22 +1,27 @@
 ---
-title: "FAR — Folks, Authorities and Radicalism"
-routeSlug: "far"
-summary: "कट्टरपंथ (radicalization), सार्वजनिक अधिकारियों और ध्रुवीकरण (polarization) की प्रक्रियाओं पर शोध परियोजना।"
+title: 'FAR — Folks, Authorities and Radicalism'
+routeSlug: 'far'
+summary: 'कट्टरपंथीकरण के जीवनक्रम और सार्वजनिक प्राधिकारियों की प्रतिक्रियाओं का अध्ययन।'
 order: 2
-status: "पूरा हो गया"
-domain: "अपराध विज्ञान"
-startYear: "2017"
-endYear: "2022"
-funder: "BELSPO"
-role: "Co-Principal Investigator"
-budget: "1 159 715 €"
-keywords: ["कट्टरपंथ", "आतंकवाद", "डेटाबेस", "अपराध विज्ञान"]
-locale: "hin"
-translationKey: "project-far"
+status: 'पूर्ण'
+domain: 'अपराधशास्त्र'
+startYear: '2017'
+endYear: '2022'
+funder: 'BELSPO'
+role: 'सहप्रमुख शोधकर्ता'
+budget: '1 159 715 €'
+keywords:
+  - 'कट्टरपंथीकरण'
+  - 'आतंकवाद'
+  - 'डेटाबेस'
+  - 'अपराधशास्त्र'
+locale: 'hin'
+translationKey: 'project-far'
+canonical: false
+autoTranslated: true
+sourceHash: 'a9ad2a1a2ccd2df57e7c416d82ecfd66811d77b28baec96a00bed6e0eceed447'
 ---
 
-FAR **BELSPO** द्वारा वित्त-पोषित एक परियोजना है जो कट्टरपंथ के अध्ययन को समर्पित है। मैंने इसमें NICC के अपराध विज्ञान विभाग में **सह-PI** के रूप में काम किया।
+**FAR — Folks, Authorities and Radicalism** ने कट्टर माने गए व्यक्तियों के जीवनक्रम, प्राधिकारियों के डेटाबेस और उनके प्रबंधन के सामाजिक तथा संस्थागत आयामों का अध्ययन किया।
 
-परियोजना ने कट्टरपंथी माने जाने वाले व्यक्तियों के प्रक्षेपवक्र, अधिकारियों द्वारा उपयोग किए जाने वाले डेटाबेस और उनकी देखभाल के कुछ सामाजिक और संस्थागत पहलुओं का अध्ययन करने की अनुमति दी।
-
-यह मुख्य रूप से **ULB** और **KU Leuven** के साथ मिलकर किया गया था।
+**BELSPO** से वित्तपोषित परियोजना **[INCC](/hin/nicc/)** में, विशेष रूप से **ULB** और **KU Leuven** के साथ चलाई गई।

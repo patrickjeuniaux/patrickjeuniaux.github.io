@@ -1,31 +1,29 @@
 ---
-title: "Laboratório Data, Artificial Intelligence & Transformation (DAT)"
-locale: "por"
-translationKey: "laboratory-dat"
+title: 'Laboratório DAT'
+locale: 'por'
+translationKey: 'laboratory-dat'
 draft: false
-navTitle: "DAT"
+navTitle: 'DAT'
 navOrder: 100
 canonical: false
 autoTranslated: true
-sourceHash: "f9561ea337482533e2edf8d25fec93784b4c49eb543c23ec7ad5d16e3bc5d842"
+sourceHash: '82c7efb6c1b56da77e5c2f2ab19e0e0c5e9b39bb3e2d350e0a58369f66b90f37'
 ---
 
-<img src="/img/dat-logo-header.svg" alt="Logótipo do laboratório DAT" width="600" height="200" style="margin: 1.5rem auto;" />
+<img src="/img/dat-logo-header.svg" alt="Data, Artificial Intelligence & Transformation" width="600" height="200" style="margin: 1.5rem auto;" />
 
-Criado em **2 de junho de 2026** no [Instituto Nacional de Criminalística e Criminologia (INCC)](/por/nicc/), o laboratório **Data, Artificial Intelligence & Transformation (DAT)** acompanha a instituição na gestão e na valorização do seu património informacional, no desenvolvimento e na supervisão da inteligência artificial e na transformação da sua organização.
+O laboratório **Data, Artificial Intelligence & Transformation (DAT)** apoia o [INCC](/por/nicc/) na organização dos dados, no desenvolvimento de ferramentas de análise e na melhoria das práticas de trabalho.
 
-A sua atividade assenta em três dimensões complementares e interdependentes.
+## Organizar dados e conhecimento
 
-## Dados, informação e conhecimento
+Documentar, preservar e ligar os recursos da instituição; esclarecer responsabilidades e regras de gestão. O objetivo é melhorar a qualidade e reutilização dos dados, preservar competências e facilitar a sua transmissão, respeitando a segurança e a confidencialidade.
 
-O DAT contribui para organizar, documentar, preservar e interligar os recursos informacionais da instituição. Apoia a definição de responsabilidades e regras de gestão para melhorar a qualidade, a acessibilidade e a reutilização dos dados, respeitando os requisitos de segurança e confidencialidade. Esta abordagem visa também preservar o saber prático e facilitar a transmissão do conhecimento.
+## Desenvolver ferramentas de análise
 
-## Ciência de dados e inteligência artificial
+Utilizar estatística, grafos de conhecimento e IA para analisar fontes heterogéneas e explorar documentos. Estes usos assentam na qualidade dos resultados, na rastreabilidade dos tratamentos e na supervisão humana.
 
-O laboratório desenvolve métodos e ferramentas para analisar informação complexa, explorar documentos e relacionar fontes heterogéneas. Recorre, em particular, à estatística, aos grafos de conhecimento e à inteligência artificial para apoiar a investigação, facilitar determinadas tarefas e fundamentar a decisão. Contribui para enquadrar estas utilizações, zelando pela qualidade dos resultados, pela rastreabilidade dos tratamentos e pela supervisão humana. A preservação da autonomia, da capacidade de julgamento e da experiência dos colaboradores orienta esta abordagem.
+## Melhorar as práticas de trabalho
 
-## Transformação da organização
+Com as equipas, simplificar os circuitos de informação, reduzir a introdução duplicada de dados e desenvolver ferramentas adequadas às necessidades. Este apoio inclui experimentação, formação e organização dos projetos segundo prioridades e recursos disponíveis.
 
-O DAT acompanha a evolução dos processos, das práticas e dos modos de colaboração. Com as equipas e os serviços envolvidos, procura simplificar os circuitos de informação, reduzir a introdução duplicada de dados e a carga cognitiva desnecessária e desenvolver ferramentas adequadas às necessidades. Contribui também para estruturar o arranque e a gestão dos projetos, tendo em conta as prioridades e os recursos disponíveis. A escuta, a experimentação, o desenvolvimento de competências e a apropriação das ferramentas fazem parte integrante deste acompanhamento.
-
-Através destas três dimensões, o DAT contribui para fazer do INCC uma organização que aprende, capaz de preservar o seu conhecimento, de o transmitir e de retirar ensinamentos das suas experiências. A sua ambição é permitir que os colaboradores dediquem mais tempo às atividades que mobilizam a sua experiência e reforçar de forma duradoura as capacidades da instituição ao serviço da ciência e da justiça.
+[Criação do laboratório a 2 de junho de 2026 →](/por/notes/2026-06-02/dat-creation/)

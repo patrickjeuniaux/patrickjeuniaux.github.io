@@ -1,13 +1,14 @@
 ---
-eyebrow: "机构"
-title: "🏛 泰雷兹 (Thales)"
-lead: "关于决策辅助系统和人机交互的研究合作。"
-locale: "zho"
-translationKey: "thales"
+eyebrow: '机构'
+title: 'Thales'
+lead: '关于决策支持系统与人机交互的研究合作。'
+locale: 'zho'
+translationKey: 'thales'
+canonical: false
+autoTranslated: true
+sourceHash: '7ba2f9adf80b0e19705f252ec4c4c2b39a2ecc1806faf79ff1cbb7ed2db61b41'
 ---
 
-在与**泰雷兹**（Thales）的合作框架下，我参与了关于决策界面优化以及将认知模型整合到技术系统中的研究项目。
+与 **Thales** 的合作在 **[拉瓦尔大学](/zho/ulaval/)** 博士后研究期间开展，评估模拟战斗环境中的移动态势感知支持系统。
 
-目标是更好地理解人类操作员如何与复杂的信息流进行交互以做出关键决策。
-
-<div class="finis">✦</div>
+目标是研究如何利用复杂信息理解情境并协调操作人员。

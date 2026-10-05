@@ -1,20 +1,25 @@
 ---
-title: "SAFEREU"
-routeSlug: "safereu"
-summary: "关于打击恐怖主义和激进化的欧洲合作与信息交换项目。"
+title: 'SAFER-EU'
+routeSlug: 'safereu'
+summary: '研究预防恐怖主义、暴力极端主义和激进化的方法。'
 order: 8
-status: "已完成"
-domain: "犯罪学"
-startYear: "2019"
-endYear: "2022"
-funder: "欧盟委员会"
-role: "共同主要研究者 (Co-PI)"
-budget: "1 200 000 €"
-keywords: ["恐怖主义", "激进化", "欧洲", "安全"]
-locale: "zho"
-translationKey: "project-safereu"
+status: '进行中'
+domain: '犯罪学'
+startYear: '2025'
+endYear: '2027'
+funder: '欧盟委员会'
+role: '共同项目负责人'
+budget: '343 901 €'
+keywords:
+  - '恐怖主义'
+  - '暴力极端主义'
+  - '激进化'
+  - '合作'
+locale: 'zho'
+translationKey: 'project-safereu'
+canonical: false
+autoTranslated: true
+sourceHash: '128417815e9bd0391e898290c2509f3518fbe84618e383749b558dc514648a71'
 ---
 
-SAFEREU 是一个促进信息交换和合作以打击恐怖主义和激进化的欧洲项目。
-
-我参与了其中的研究和战略分析工作。
+**SAFER-EU** 是研究循证方法以预防恐怖主义、暴力极端主义和激进化的欧洲项目，汇集学术和机构伙伴开展国际合作。

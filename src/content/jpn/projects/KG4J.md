@@ -1,14 +1,14 @@
 ---
 title: 'KG4J — Knowledge Graphs for Justice'
 routeSlug: 'kg4j'
-summary: '司法分野における知識グラフの活用を研究するプロジェクト。'
+summary: '知識グラフと人工知能で法科学・犯罪学データを関連付ける。'
 order: 1
 status: '進行中'
 domain: '知識グラフ'
 startYear: '2025'
 endYear: '2029'
 funder: 'BELSPO'
-role: '研究責任者'
+role: '研究代表者・提案執筆者'
 budget: '392 798,60 €'
 keywords:
   - '司法'
@@ -19,35 +19,34 @@ locale: 'jpn'
 translationKey: 'project-kg4j'
 canonical: false
 autoTranslated: true
-sourceHash: '6ddafc5a11345337c599d9e7c52a0fd6f67f8950fd86620087af271caaf941f8'
+sourceHash: '4f20b228beacf7c08d150b1b2a37fe4c39a3e8ef180093671e0250cbd45fd18d'
 ---
 
-## 概要
+## 研究課題
 
-[国立刑事科学・犯罪学研究所（INCC）](/jpn/nicc/) では、法科学と犯罪学のデータが、異種でしばしば分散した情報源に由来しています。**KG4J** は、**知識グラフ**と**人工知能**でこれらを結び付け、検索を容易にし、分析能力を高める方法を探っています。
+**[INCC](/jpn/nicc/)** のデータ源を、検索と分析を容易にするためどう関連付けるか。KG4J は構造化データと文書から抽出した情報の統合を探ります。
 
-私は**研究責任者および申請書の執筆者**です。プロジェクトは、ベルギー連邦科学政策局（**BELSPO**）の **P4Science** 公募によって資金提供されています。
+## 方法と目標
 
-プロジェクトには、互いを補う三つの目標があります。
+- 犯罪学と法科学のデータを結ぶ知識グラフ基盤を構築する。
+- 刑事司法上の経過の研究と DNA 一致分析への応用を評価する。
+- 特に大規模言語モデルを用い、文章からの知識抽出を検討する。
+- 信頼性と追跡可能性を備えた処理のためのデータ・AI ガバナンスを定める。
 
-- 犯罪学と法科学のデータを結ぶ基盤を構築する；
-- 刑事司法上の経過の研究、DNA データ分析、文書からの知識抽出の利用例を検討する；
-- データと AI の信頼できる追跡可能な利用のために、ガバナンスの枠組みを定める。
+BELSPO の **P4Science** 公募により助成されています。
 
 ## コンソーシアム
 
-コンソーシアムには、次の協力機関が参加しています。
-
-- [計算機科学科](https://web.umons.ac.be/fs-informatique/en/home/)、モンス大学（UMONS）、ベルギー
-- [計算機科学科](https://wms.cs.kuleuven.be/cs)、ルーヴェン・カトリック大学（KU Leuven）、ベルギー
-- [ルーヴェン・マネジメント・組織研究所](https://www.uclouvain.be/en/research-institutes/lourim)、ルーヴェン・カトリック大学（UCLouvain）、ベルギー
-- [数学・産業工学科](https://www.polymtl.ca/magi/)、モントリオール理工科大学（Polytechnique Montréal）、カナダ
-- [言語学科](https://linguistics.indiana.edu/index.html)、インディアナ大学ブルーミントン校、アメリカ合衆国
-- [デジタル変革室、連邦公共サービス司法省](https://justice.belgium.be/fr)、連邦公共サービス司法省、ベルギー
+- [情報科学部門](https://web.umons.ac.be/fs-informatique/en/home/)、UMONS、ベルギー
+- [Departement Computerwetenschappen](https://wms.cs.kuleuven.be/cs)、KU Leuven、ベルギー
+- [Louvain Research Institute in Management and Organizations](https://www.uclouvain.be/en/research-institutes/lourim)、UCLouvain、ベルギー
+- [Department of Mathematics and Industrial Engineering](https://www.polymtl.ca/magi/)、Polytechnique Montréal、カナダ
+- [Department of Linguistics](https://linguistics.indiana.edu/index.html)、Indiana University Bloomington、米国
+- [Digital Transformation Office、連邦司法公共サービス](https://justice.belgium.be/fr)、連邦司法公共サービス、ベルギー
 - [Elephant Bird Consulting](https://github.com/elephantbirdconsulting)、Elephant Bird Consulting、ベルギー
 
-
-## プロジェクトの公式概要
+<details>
+<summary>プロジェクトの公式概要</summary>
 
 国立犯罪学・刑事司法研究所（INCC）は、ベルギーの刑事司法制度において科学的な役割を担っています。一方で、DNA、毒物学、薬物などの分野でフォレンジック（科学捜査）の専門知識を提供し、他方で、再犯や犯罪経歴などの犯罪学研究を行っています。そのために膨大なデータを処理していますが、データの多くは断片的であったり、十分に活用されていなかったりします。貴重な情報が隠れたままになっています。
 
@@ -96,3 +95,5 @@ INCCは通常、フォレンジックデータを戦術的に処理しており�
 ### 結論
 
 KG4Jプロジェクトにより、INCCは強化された犯罪学およびフォレンジックインテリジェンスを生成できるようになります。断片化されたデータを結びつけ、既存データの価値を高め、グラフとAIを通じて新しい能力を開発し、司法に資するデータとAIの信頼できる慣行を確立します。
+
+</details>

@@ -1,13 +1,14 @@
 ---
-eyebrow: "Istituzione"
-title: "🏛 Thales"
-lead: "Collaborazione di ricerca sui sistemi di supporto alle decisioni e l'interazione uomo-macchina."
-locale: "ita"
-translationKey: "thales"
+eyebrow: 'Istituzione'
+title: 'Thales'
+lead: 'Collaborazione di ricerca sui sistemi di supporto alle decisioni e sull’interazione persona-computer.'
+locale: 'ita'
+translationKey: 'thales'
+canonical: false
+autoTranslated: true
+sourceHash: '7ba2f9adf80b0e19705f252ec4c4c2b39a2ecc1806faf79ff1cbb7ed2db61b41'
 ---
 
-Nell'ambito delle collaborazioni con **Thales**, ho contribuito a progetti di ricerca riguardanti l'ottimizzazione delle interfacce decisionali e l'integrazione di modelli cognitivi in sistemi tecnologici. 
+La collaborazione con **Thales**, durante il postdottorato all’**[Université Laval](/ita/ulaval/)**, riguardava la valutazione di un sistema mobile di supporto alla consapevolezza situazionale in un ambiente di combattimento simulato.
 
-L'obiettivo era comprendere meglio come gli operatori umani interagiscono con flussi di informazioni complessi per prendere decisioni critiche.
-
-<div class="finis">✦</div>
+L’obiettivo era studiare l’uso di informazioni complesse per comprendere le situazioni e coordinare gli operatori.

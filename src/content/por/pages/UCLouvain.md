@@ -1,36 +1,26 @@
 ---
-title: 'Universidade Católica de Lovaina'
+title: 'UCLouvain'
 locale: 'por'
 translationKey: 'institution-uclouvain'
+lead: 'Sistemas de informação, interação pessoa-computador e formação em psicologia e estatística.'
 canonical: false
 autoTranslated: true
-sourceHash: '23eb6919051bd3eb81a1b68aa653fcc52632129bc49495d40b9193a3e33ec96d'
+sourceHash: '934c35cebcc8e54c167e75e0ffcc5c2755c731261cddec35c939b0d6a47d813a'
 ---
 
-Na **UCLouvain**, as minhas atividades ligam a psicologia cognitiva, a estatística, os sistemas de informação e o ensino. Sou **colaborador de investigação no Louvain Research Institute in Management and Organizations (LouRIM)** e membro do **Louvain Interaction Laboratory (Lilab)**.
+## Colaboração atual
 
-## Colaboração científica
+Patrick Jeuniaux é **colaborador de investigação no LouRIM** e membro do **Louvain Interaction Laboratory (Lilab)**. Os intercâmbios abordam grafos de conhecimento, governação de dados e interação pessoa-computador. LouRIM é parceiro de **[KG4J](/por/kg4j/)**.
 
-No LouRIM e no Lilab, os meus interesses centram-se nos **grafos de conhecimento**, na **governação de dados**, na **inteligência artificial** e na **interação humano-computador**. Mantenho também ligações com o **Center in Management Information Systems (CEMIS)**, associado ao programa Business Information Systems da Louvain School of Management.
+## Formação e trabalhos
 
-Estas trocas aproximam a investigação sobre sistemas de informação e interfaces das necessidades que encontro nas minhas funções no [INCC](/por/nicc/). **O LouRIM é parceiro do projeto [KG4J — Knowledge Graphs for Justice](/por/kg4j/)**, do qual sou investigador principal, dedicado à integração e à utilização de dados forenses e criminológicos.
+Uma licence em psicologia cognitiva e um diploma de estudos complementares em estatística deram origem a duas dissertações:
 
-## Formação em psicologia e estatística
+- [Imagética mental e raciocínio por silogismo categórico](/por/work/#publication-jeuniaux-1999-syllogism), orientada por Jean Costermans.
+- [Introdução conceptual ao modelo LISREL](/por/work/#publication-jeuniaux-2000-lisrel), orientada por Michel Mouchart.
 
-Obtive uma **licence em psicologia e ciências da educação, com especialização em psicologia cognitiva**, assim como um **diploma de estudos complementares em estatística**.
+A investigação experimental abordou psicolinguística, memória espacial e reabilitação sensorial.
 
-A minha dissertação em psicologia, **[Imagerie mentale et raisonnement par syllogisme catégorique](/por/work/#publication-jeuniaux-1999-syllogism)**, foi realizada sob a orientação de **Jean Costermans**. A minha dissertação em estatística, **[Introduction conceptuelle au modèle LISREL, un exercice pédagogique](/por/work/#publication-jeuniaux-2000-lisrel)**, foi realizada sob a orientação de **Michel Mouchart**. Estes trabalhos associam o meu interesse pelo raciocínio humano ao interesse pelos modelos estatísticos e pela sua explicação.
+## Ensino
 
-## Investigação experimental
-
-No laboratório de psicologia cognitiva, participei na realização de **experiências psicolinguísticas informatizadas**, sob a supervisão de **Julie Franck**.
-
-Os meus estágios também incidiram sobre a **memória espacial** no laboratório de psicobiologia e a **reabilitação sensorial** no laboratório de engenharia da reabilitação neural das Cliniques universitaires Saint-Luc. Neste último contexto, contribuí para uma experiência com participantes cegos e para uma revisão da literatura sobre próteses visuais.
-
-## Ensino e acompanhamento
-
-Na **Louvain School of Management**, fui assistente em três disciplinas: **Digital Transformation Management**, **Programmation en économie et gestion** e **Informatique en économie et gestion**. Orientei sessões práticas e fóruns, avaliei trabalhos e dei feedback aos estudantes. As atividades recorriam, nomeadamente, a **Python, Odoo, Access, Excel e VBA**.
-
-Também concebi e desenvolvi, no Institut d’administration et de gestion, um **site pedagógico de estatística em PHP e MySQL**, em colaboração com o Institut de statistique et de sciences actuarielles. Este trabalho envolveu a criação de uma plataforma e de recursos de aprendizagem; o site não foi disponibilizado por falta de financiamento.
-
-A minha experiência pedagógica inclui ainda funções de assistente em estatística e a **tutoria de dois estudantes com deficiência visual em economia e gestão**, com a preparação de materiais adaptados e o acompanhamento na revisão das disciplinas.
+Assistência docente na Louvain School of Management em transformação digital, programação e informática em economia e gestão: aulas práticas, acompanhamento dos estudantes e avaliação.

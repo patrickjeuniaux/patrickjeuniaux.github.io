@@ -1,7 +1,7 @@
 ---
 title: "iMAP"
 routeSlug: "imap"
-summary: "Projet doctoral sur la communication multimodale chez les humains et les agents."
+summary: "Étudier la communication multimodale chez les humains et les agents."
 order: 14
 status: "Terminé"
 domain: "Science cognitive"
@@ -15,6 +15,4 @@ locale: "fra"
 translationKey: "project-imap"
 ---
 
-iMAP était un projet financé par la **National Science Foundation** aux États-Unis.
-
-Il a constitué une part importante de mon environnement doctoral à la University of Memphis, où j'ai travaillé sur la communication multimodale, le discours et certains aspects de la cognition incarnée.
+Financé par la **National Science Foundation**, **iMAP** constituait un cadre de recherche doctorale à l’**[Université de Memphis](/uofm/)**. Les travaux portaient sur la communication multimodale, le discours et la cognition incarnée.

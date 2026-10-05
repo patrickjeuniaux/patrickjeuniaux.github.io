@@ -18,14 +18,25 @@ const renderInline = async (text: unknown) => {
   const { code } = await markdown.render(String(text ?? ''));
   return code.trim().replace(/^<p>/, '').replace(/<\/p>$/, '');
 };
+const axisColors = ['brown', 'blue', 'green', 'gold', 'brown'];
+const axes = axisColors.map((color, index) => ({
+  color,
+  title: home[`axis${index + 1}Title`],
+  text: home[`axis${index + 1}Text`],
+})).filter((axis) => axis.title && axis.text);
 const [leadHtml, ...axisHtml] = await Promise.all([
   home.lead,
-  home.axis1Text,
-  home.axis2Text,
-  home.axis3Text,
-  home.axis4Text,
-  home.axis5Text,
+  ...axes.map((axis) => axis.text),
 ].map(renderInline));
+const navigation = [
+  { href: '/about/', title: s.nav.about, text: home.aboutText },
+  ...(datEntry ? [{ href: '/dat/', title: datEntry.data.navTitle ?? datEntry.data.title, text: home.datText }] : []),
+  { href: '/projects/', title: s.nav.projects, text: home.projectsText },
+  { href: '/work/', title: s.nav.work, text: home.workText },
+  { href: '/notes/', title: s.nav.notes, text: home.notesText },
+  { href: '/collaborations/', title: s.nav.collaborations, text: home.collaborationsText },
+  { href: '/contact/', title: s.nav.contact, text: home.contactText },
+].filter((link) => link.text);
 
 // Latest 5 blog posts, reverse-chrono
 const allPosts = await getCollection('blog');
@@ -44,9 +55,9 @@ const formatDate = (date: Date) =>
 const sourcePath = homeEntry.filePath ? path.resolve(process.cwd(), homeEntry.filePath) : undefined;
 const sourcePaths = [datEntry, ...latestPosts].flatMap((entry) => entry?.filePath ? [path.resolve(process.cwd(), entry.filePath)] : []);
 ---
-<BaseLayout locale={locale} title="patrick jeuniaux" description={s.siteDescription} sourcePath={sourcePath} sourcePaths={sourcePaths} autoTranslated={homeEntry.data.autoTranslated} publishedAt={homeEntry.data.publishedAt} updatedAt={homeEntry.data.updatedAt}>
+<BaseLayout locale={locale} title="patrick jeuniaux" description={home.lead || s.siteDescription} sourcePath={sourcePath} sourcePaths={sourcePaths} autoTranslated={homeEntry.data.autoTranslated} publishedAt={homeEntry.data.publishedAt} updatedAt={homeEntry.data.updatedAt}>
   <section class="hero hero-banner">
-    <div class="hero-banner-image" role="img" aria-label="ubi bene, ibi patria. a tree canopy reflected in water, with leaves and light."></div>
+    <div class="hero-banner-image" role="img" aria-label={s.heroImageDescription}></div>
     <div class="container hero-grid">
       <div class="hero-panel">
         <div class="kicker">{home.kicker}</div>
@@ -78,35 +89,27 @@ const sourcePaths = [datEntry, ...latestPosts].flatMap((entry) => entry?.filePat
     <div class="container">
       <h2>{home.axesTitle}</h2>
       <div class="grid-axes">
-        <article class="card card-accent-brown"><h3>{home.axis1Title}</h3><p set:html={axisHtml[0]} /></article>
-        <article class="card card-accent-blue"><h3>{home.axis2Title}</h3><p set:html={axisHtml[1]} /></article>
-        <article class="card card-accent-green"><h3>{home.axis3Title}</h3><p set:html={axisHtml[2]} /></article>
-        <article class="card card-accent-gold"><h3>{home.axis4Title}</h3><p set:html={axisHtml[3]} /></article>
-        <article class="card card-accent-brown"><h3>{home.axis5Title}</h3><p set:html={axisHtml[4]} /></article>
+        {axes.map((axis, index) => (
+          <article class={`card card-accent-${axis.color}`}><h3>{axis.title}</h3><p set:html={axisHtml[index]} /></article>
+        ))}
       </div>
     </div>
   </section>
 
   <section class="section">
     <div class="container stack-gap">
-      <div>
+      {navigation.length > 0 && <div>
         <h2>{home.navTitle}</h2>
         <ul class="list-clean nav-list">
-          <li><a href={localizePath(locale, '/about/')}>{s.nav.about}</a> <span class="meta">{home.aboutText}</span></li>
-          {datEntry && (
-            <li><a href={localizePath(locale, '/dat/')}>{datEntry.data.navTitle ?? datEntry.data.title}</a> {home.datText && <span class="meta">{home.datText}</span>}</li>
-          )}
-          <li><a href={localizePath(locale, '/projects/')}>{s.nav.projects}</a> <span class="meta">{home.projectsText}</span></li>
-          <li><a href={localizePath(locale, '/work/')}>{s.nav.work}</a> <span class="meta">{home.workText}</span></li>
-          <li><a href={localizePath(locale, '/notes/')}>{s.nav.notes}</a> <span class="meta">{home.notesText}</span></li>
-          <li><a href={localizePath(locale, '/collaborations/')}>{s.nav.collaborations}</a> <span class="meta">{home.collaborationsText}</span></li>
-          <li><a href={localizePath(locale, '/contact/')}>{s.nav.contact}</a> <span class="meta">{home.contactText}</span></li>
+          {navigation.map((link) => (
+            <li><a href={localizePath(locale, link.href)}>{link.title}</a> <span class="meta">{link.text}</span></li>
+          ))}
         </ul>
-      </div>
-      <div class="card card-accent-gold">
+      </div>}
+      {home.editorialText && <div class="card card-accent-gold">
         <p class="section-mark">{home.editorial}</p>
         <p>{home.editorialText}</p>
-      </div>
+      </div>}
     </div>
   </section>
 </BaseLayout>

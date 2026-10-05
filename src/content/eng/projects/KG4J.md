@@ -1,14 +1,14 @@
 ---
 title: 'KG4J — Knowledge Graphs for Justice'
 routeSlug: 'kg4j'
-summary: 'Research project dedicated to the use of knowledge graphs in justice.'
+summary: 'Connect forensic and criminological data using knowledge graphs and artificial intelligence.'
 order: 1
-status: 'In progress'
+status: 'Ongoing'
 domain: 'Knowledge graphs'
 startYear: '2025'
 endYear: '2029'
 funder: 'BELSPO'
-role: 'Principal Investigator'
+role: 'Principal investigator and author of the proposal'
 budget: '392 798,60 €'
 keywords:
   - 'justice'
@@ -19,35 +19,34 @@ locale: 'eng'
 translationKey: 'project-kg4j'
 canonical: false
 autoTranslated: true
-sourceHash: '6ddafc5a11345337c599d9e7c52a0fd6f67f8950fd86620087af271caaf941f8'
+sourceHash: '4f20b228beacf7c08d150b1b2a37fe4c39a3e8ef180093671e0250cbd45fd18d'
 ---
 
-## Overview
+## Research question
 
-At the [National Institute of Criminalistics and Criminology (NICC)](/eng/nicc/), forensic and criminological data come from heterogeneous, often fragmented sources. **KG4J** explores how **knowledge graphs** and **artificial intelligence** can connect them to facilitate queries and strengthen analytical capabilities.
+How can data sources at the **[NICC](/eng/nicc/)** be connected to facilitate queries and analysis? KG4J explores the integration of structured data and information extracted from documents.
 
-I am the **principal investigator and author of the proposal**, funded by the Belgian Federal Science Policy (**BELSPO**) under the **P4Science** call.
+## Methods and objectives
 
-The project pursues three complementary objectives:
+- Build a knowledge graph infrastructure connecting criminological and forensic data.
+- Evaluate uses for studying criminal justice trajectories and analysing DNA matches.
+- Explore knowledge extraction from texts, particularly using large language models.
+- Define a data and AI governance framework with reliable, traceable processing.
 
-- build an infrastructure linking criminological and forensic data;
-- explore use cases for studying criminal justice trajectories, analysing DNA data and extracting knowledge from documents;
-- define a governance framework for reliable and traceable uses of data and AI.
+The project is funded under BELSPO’s **P4Science** call.
 
 ## Consortium
-
-The consortium brings together the following partners:
 
 - [Department of Computer Science](https://web.umons.ac.be/fs-informatique/en/home/), UMONS, Belgium
 - [Departement Computerwetenschappen](https://wms.cs.kuleuven.be/cs), KU Leuven, Belgium
 - [Louvain Research Institute in Management and Organizations](https://www.uclouvain.be/en/research-institutes/lourim), UCLouvain, Belgium
 - [Department of Mathematics and Industrial Engineering](https://www.polymtl.ca/magi/), Polytechnique Montréal, Canada
-- [Department of Linguistics](https://linguistics.indiana.edu/index.html), Indiana University Bloomington, USA
+- [Department of Linguistics](https://linguistics.indiana.edu/index.html), Indiana University Bloomington, United States
 - [Digital Transformation Office, Federal Public Service Justice](https://justice.belgium.be/fr), Federal Public Service Justice, Belgium
 - [Elephant Bird Consulting](https://github.com/elephantbirdconsulting), Elephant Bird Consulting, Belgium
 
-
-## Official project summary
+<details>
+<summary>Official project summary</summary>
 
 The National Institute of Criminalistics and Criminology (NICC) plays a scientific role in the Belgian criminal justice system. On one hand, it provides forensic expertise in areas such as DNA, toxicology, and drugs. On the other hand, it conducts criminological research, for example on recidivism and criminal careers. To do this, it processes a large amount of data. However, much of this data is fragmented or underutilized. Valuable information remains hidden.
 
@@ -96,3 +95,5 @@ Transcripts of hearings, expert notes, recordings: the amount of unstructured da
 ### Conclusion
 
 The KG4J project will enable the NICC to produce enhanced criminological and forensic intelligence. It links fragmented data, values existing data, develops new capabilities via graphs and AI, and establishes reliable practices in data and AI for justice.
+
+</details>

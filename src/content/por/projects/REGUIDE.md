@@ -1,7 +1,7 @@
 ---
 title: 'REGUIDE'
 routeSlug: 'reguide'
-summary: 'Projeto sobre a reintegração e o acompanhamento de pessoas regressadas na Bélgica.'
+summary: 'Estudar percursos de reintegração de pessoas que regressam de zonas de conflito na Bélgica.'
 order: 4
 status: 'Concluído'
 domain: 'Criminologia'
@@ -19,9 +19,9 @@ locale: 'por'
 translationKey: 'project-reguide'
 canonical: false
 autoTranslated: true
-sourceHash: '223973ddca6a6bef9661b3cbe4b9cd4e797d49690524d35c48e5df7f3f4187af'
+sourceHash: '06c60ebad2e3f00a7652bbbb92a0ddbfc8bf723f998fc4c5f90558106a3ab246'
 ---
 
-O REGUIDE estudou os percursos de reintegração e os mecanismos de acompanhamento das **pessoas regressadas** na Bélgica.
+**REGUIDE** estudou percursos de reintegração e mecanismos de acompanhamento de pessoas que regressam de zonas de conflito (*returnees*).
 
-Neste âmbito, participei em trabalhos sobre bases de dados, trajetórias sociojudiciais e produção de relatórios e artigos científicos com colegas do INCC e das instituições parceiras.
+Os trabalhos combinavam análise de bases de dados e trajetórias sociojudiciais com relatórios e artigos científicos, com o **[INCC](/por/nicc/)** e as instituições parceiras.

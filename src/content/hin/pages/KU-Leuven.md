@@ -1,27 +1,21 @@
 ---
 title: 'KU Leuven'
-lead: 'कृत्रिम बुद्धिमत्ता में शिक्षा, विमर्श का निरूपण और प्राकृतिक भाषा प्रसंस्करण में शोध।'
+lead: 'कृत्रिम बुद्धिमत्ता, भाषा प्रसंस्करण और KG4J में साझेदारी।'
 locale: 'hin'
 translationKey: 'institution-kuleuven'
 canonical: false
 autoTranslated: true
-sourceHash: 'c2ea29e627156e6ca63d6c4b8fcc3c234516e084d19ae409e673e7e3cdf479e6'
+sourceHash: 'f499b80ad6dbd3dd32d31cdf5524323a458de91afc2fdd15eb3ccd0685f29f07'
 ---
 
-**KU Leuven** में मैंने **कृत्रिम बुद्धिमत्ता** में पूरक शिक्षा प्राप्त की और **प्राकृतिक भाषा प्रसंस्करण** के क्षेत्र में काम किया।
+## वर्तमान साझेदारी
 
-## शिक्षा और विमर्श का निरूपण
+KU Leuven का कंप्यूटर विज्ञान विभाग ज्ञान ग्राफ और न्याय संबंधी डेटा के विश्लेषण पर केंद्रित **[KG4J](/hin/kg4j/)** का साझेदार है।
 
-मेरा शोधप्रबंध **[Capture of discursive meanings in representations](/hin/work/#publication-jeuniaux-2004-sdrt)** विमर्श में अर्थ के निरूपण और *Segmented Discourse Representation Theory* की मनोवैज्ञानिक यथार्थपरकता पर केंद्रित था। यह **Walter Schaeken** और **Frank Van Eynde** के मार्गदर्शन में तैयार किया गया था।
+## शिक्षा और शोध
 
-यह काम संज्ञानात्मक प्रक्रियाओं में मेरी रुचि को भाषा के औपचारिक मॉडलन से जोड़ता था: किसी विमर्श के तत्वों के बीच अर्थ संबंधों को कैसे निरूपित करें और उनकी तुलना मानव समझ से कैसे करें?
+KU Leuven में Patrick Jeuniaux की पृष्ठभूमि में **कृत्रिम बुद्धिमत्ता** का अतिरिक्त प्रशिक्षण और Marie-Francine Moens की **Language Intelligence and Information Retrieval (LIIR)** प्रयोगशाला में शोध सहायक का पद शामिल है।
 
-## भाषा प्रसंस्करण में शोध
+शोधप्रबंध **[Capture of discursive meanings in representations](/hin/work/#publication-jeuniaux-2004-sdrt)** ने Walter Schaeken और Frank Van Eynde के निर्देशन में विमर्श में अर्थ के निरूपण का अध्ययन किया।
 
-मैंने Interdisciplinary Centre for Law and ICT के अंतर्गत Marie-Francine Moens की **Language Intelligence and Information Retrieval (LIIR)** प्रयोगशाला में **शोध सहायक** के रूप में भी काम किया।
-
-मेरी गतिविधियों में साहित्य समीक्षा, वैचारिक और डेटा विश्लेषण तथा **PHP** में विकास शामिल था। ये काम **पाठों से सूचना निष्कर्षण** और **सह-संदर्भ समाधान** की परियोजनाओं के लिए थे — अर्थात किसी पाठ में एक ही इकाई का उल्लेख करने वाली अभिव्यक्तियों की पहचान करना।
-
-## KG4J के अंतर्गत सहयोग
-
-**KU Leuven का कंप्यूटर विज्ञान विभाग** **[Knowledge Graphs for Justice (KG4J)](/hin/kg4j/)** परियोजना का भागीदार है, जिसका नेतृत्व मैं INCC में करता हूँ। यह सहयोग KU Leuven को ज्ञान ग्राफ और न्याय संबंधी डेटा के उपयोग पर मेरे वर्तमान काम से जोड़ता है।
+LIIR का शोध जानकारी निकालने और सहसंदर्भ सुलझाने पर था: पाठ में एक ही इकाई को दर्शाने वाली अभिव्यक्तियाँ पहचानना।

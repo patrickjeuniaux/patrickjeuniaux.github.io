@@ -1,7 +1,7 @@
 ---
 title: "UBIMOL"
 routeSlug: "ubimol"
-summary: "Projet régional toscan ayant financé mes travaux postdoctoraux à l'Université de Pise."
+summary: "Recherche en linguistique computationnelle sur l’extraction d’information et la représentation du sens."
 order: 12
 status: "Terminé"
 domain: "Linguistique computationnelle"
@@ -15,6 +15,4 @@ locale: "fra"
 translationKey: "project-ubimol"
 ---
 
-UBIMOL est le projet régional qui a financé ma période postdoctorale au laboratoire de **linguistique computationnelle** de l'Université de Pise.
-
-J'y ai travaillé sur l'extraction d'information linguistique à partir de grands corpus, les modèles sémantiques distributionnels et les premiers développements liés aux graphes de connaissances.
+Le projet régional toscan **UBIMOL** a financé des travaux postdoctoraux à l’**[Université de Pise](/unipi/)**. Les recherches portaient sur l’extraction d’information à partir de grands corpus, les modèles sémantiques distributionnels et les graphes de connaissances.

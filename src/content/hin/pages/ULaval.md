@@ -1,31 +1,24 @@
 ---
-title: 'Université Laval'
-lead: 'जटिल परिवेशों में संज्ञान, समन्वय और निर्णय सहायता प्रणालियों का मूल्यांकन।'
+title: 'लावाल विश्वविद्यालय'
+lead: 'संज्ञान, समन्वय और निर्णय सहायता पर पोस्टडॉक्टोरल शोध।'
 locale: 'hin'
 translationKey: 'institution-ulaval'
 canonical: false
 autoTranslated: true
-sourceHash: '5b4f720a9c5ded7b7e63efc1ecdfa842fa0e5fa5efb6f2c5d0400bbc2affb97f'
+sourceHash: '608c6f630bee1e38cb20584cdf87c4fae8ccc029e365e9cecb69dd7f4e8ae8ba'
 ---
 
-मैंने क्यूबेक शहर स्थित **Université Laval** के मनोविज्ञान स्कूल में Sébastien Tremblay की **Cognition–Distribution–Organisation–Technologies (CO-DOT)** प्रयोगशाला में **पोस्टडॉक्टरल शोध** किया।
+Sébastien Tremblay की **Cognition–Distribution–Organisation–Technologies (CO-DOT)** प्रयोगशाला में Patrick Jeuniaux का पोस्टडॉक्टोरल शोध जटिल वातावरणों में निर्णय और समन्वय पर था।
 
-## संज्ञान और निर्णय सहायता
+## शोध
 
-मेरा शोध इस बात पर केंद्रित था कि ऑपरेटर जटिल परिस्थितियों को कैसे समझते हैं, अपनी कार्रवाइयों का समन्वय कैसे करते हैं और निर्णय सहायता उपकरणों का उपयोग कैसे करते हैं। इसमें सिमुलेटेड परिवेशों के प्रयोगों को व्यवहार और कार्रवाई के क्रमों के विश्लेषण से जोड़ा गया था।
+अनुकरणित वातावरणों के प्रयोग और व्यवहार विश्लेषण इन विषयों पर थे:
 
-मैंने विशेष रूप से इन विषयों पर काम किया:
+- **[DRDC](/hin/drdc/)** के साथ सैन्य अभियानों की निर्णय सहायता प्रणाली;
+- अग्निशमन इकाइयों का समन्वय;
+- **[Thales](/hin/thales/)** के साथ अनुकरणित युद्ध में मोबाइल परिस्थिति-जागरूकता सहायता प्रणाली।
 
-- **[DRDC](/hin/drdc/)** के सहयोग से जटिल सैन्य अभियानों के लिए निर्णय सहायता प्रणाली का मूल्यांकन;
-- एक ऐसे सिमुलेशन का विश्लेषण जिसमें अग्निशमन इकाइयों को अपनी कार्रवाइयों का समन्वय करना था;
-- **[Thales](/hin/thales/)** के सहयोग से त्रिआयामी सिमुलेटेड युद्ध परिवेश में परिस्थिति की जागरूकता को सहारा देने वाली मोबाइल प्रणाली का मूल्यांकन।
+## संबंधित प्रकाशन
 
-## विधियाँ और सहयोग
-
-मेरे काम में प्रयोग करना, डेटा का सांख्यिकीय विश्लेषण और निर्णय प्रक्रियाओं को समझने के लिए कार्रवाई के क्रमों का अध्ययन शामिल था। डेटा को व्यवस्थित करने और उसका विश्लेषण करने के लिए मैं **MySQL** और **SPSS** जैसे उपकरणों का उपयोग करता था।
-
-DRDC और Thales के साथ सहयोग इसी पोस्टडॉक्टरल शोध का हिस्सा था। इससे यह अध्ययन करना संभव हुआ कि सूचना प्रणालियाँ परिस्थितियों को समझने और ऑपरेटरों के बीच समन्वय में कैसे योगदान देती हैं।
-
-## संबंधित शोध
-
-लेख **[A cognitive prosthesis for complex decision-making](/hin/work/#publication-tremblay-et-al-2017-prosthesis)** जटिल निर्णय लेने में संज्ञानात्मक सहायता पर शोध प्रस्तुत करता है। एक अन्य योगदान, **[A multi-perspective approach to the evaluation of a portable situation awareness support system in a simulated infantry operation](/hin/work/#publication-tremblay-et-al-2011-awareness)**, परिस्थिति की जागरूकता को सहारा देने वाली मोबाइल प्रणाली के मूल्यांकन से संबंधित है।
+- [A cognitive prosthesis for complex decision-making](/hin/work/#publication-tremblay-et-al-2017-prosthesis).
+- [A multi-perspective approach to the evaluation of a portable situation awareness support system in a simulated infantry operation](/hin/work/#publication-tremblay-et-al-2011-awareness).

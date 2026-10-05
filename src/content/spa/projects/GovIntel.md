@@ -1,14 +1,14 @@
 ---
 title: 'GovIntel'
 routeSlug: 'govintel'
-summary: 'Proyecto interno que inicié para desarrollar un sistema de información basado en los datos administrativos de las bases nacionales de ADN forense.'
+summary: 'Estructurar los datos administrativos de las bases de ADN para facilitar su exploración y los informes.'
 order: 6
 status: 'En curso'
 domain: 'Gobernanza de datos'
 startYear: '2025'
 endYear: '2026'
 funder: 'INCC — financiación interna'
-role: 'Promotor y responsable del proyecto'
+role: 'Impulsor y responsable'
 budget: '30 000 €'
 keywords:
   - 'gobernanza de datos'
@@ -18,25 +18,19 @@ locale: 'spa'
 translationKey: 'project-govintel'
 canonical: false
 autoTranslated: true
-sourceHash: 'cec63ba176bf179eaf4d6277f800bbeb25ccc9e4566258f1b47a8d7cb4b6db07'
+sourceHash: '78dd1cbcfd47304ff2f48fc60ed80518225c0ad5aed0e036ca2c3816820606fb'
 ---
-
-**GovIntel — Governance & Intelligence** es un proyecto interno del [INCC](/spa/nicc/) dedicado al desarrollo y uso de un **sistema de información basado en los datos administrativos de las bases nacionales de ADN forense**.
 
 ## Pregunta de investigación
 
-¿Cómo aprovechar los datos administrativos de las bases de ADN para apoyar su funcionamiento, la investigación y la inteligencia forense? GovIntel busca organizar esta información en un sistema que permita su exploración y análisis.
+¿Cómo utilizar los datos administrativos de las bases nacionales de ADN para apoyar su funcionamiento, la investigación y la inteligencia forense?
 
-## Mi contribución
+## Objetivos
 
-**Inicié el proyecto y obtuve 30 000 € de financiación interna** para incorporar a un consultor de apoyo técnico. Dirijo el proyecto con el objetivo de relacionar las necesidades operativas de la institución con los usos científicos de sus datos.
+El proyecto interno del **[INCC](/spa/nicc/)** busca desarrollar un sistema de información que permita:
 
-## Usos previstos
+- la exploración de datos y la producción de informes operativos;
+- el estudio de la reincidencia y las carreras delictivas;
+- el análisis de datos para inteligencia forense.
 
-El sistema de información persigue tres objetivos complementarios:
-
-- facilitar la **exploración de datos y la elaboración de informes operativos**;
-- apoyar la investigación sobre **reincidencia y carreras delictivas**;
-- desarrollar el uso de los datos para la **inteligencia forense**.
-
-GovIntel prolonga mi trabajo sobre datos de ADN en el INCC, ofreciendo un marco de estructuración y uso adaptado a las necesidades de la institución.
+Un consultor apoya los aspectos técnicos.

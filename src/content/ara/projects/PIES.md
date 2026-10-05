@@ -1,17 +1,17 @@
 ---
 title: 'PIES'
 routeSlug: 'pies'
-summary: 'تحالف أوروبي توليت تنسيقه لدراسة تبادل بيانات الحمض النووي الجنائي وتعزيزه في إطار Prüm.'
+summary: 'تقييم وتعزيز تبادل بيانات الحمض النووي الجنائية بين المؤسسات الأوروبية في إطار Prüm.'
 order: 13
-status: 'منتهٍ'
+status: 'مكتمل'
 domain: 'الوراثة الجنائية'
 startYear: '2012'
 endYear: '2015'
 funder: 'المفوضية الأوروبية'
-role: 'المنسق والباحث الرئيسي'
+role: 'منسق وباحث رئيسي ومؤلف مشارك للمقترح'
 budget: '1 158 846,39 €'
 keywords:
-  - 'Prüm'
+  - 'بروم'
   - 'الحمض النووي'
   - 'التعاون الأوروبي'
   - 'العلوم الجنائية'
@@ -19,30 +19,20 @@ locale: 'ara'
 translationKey: 'project-pies'
 canonical: false
 autoTranslated: true
-sourceHash: 'f00f50488f5f8eae625f1c53e2c9be115cfea80d0c0fa347b1f7489b6383f661'
+sourceHash: '5f79e40382d5b6b8f74dab257416207e6333fd6377cb92e89436250f3c5505e9'
 ---
 
-كان **PIES** (*Prüm Implementation, Evaluation, and Strengthening of Forensic DNA Data Exchange*) مشروعًا أوروبيًا مخصصًا لتنفيذ تبادل بيانات **الحمض النووي الجنائي** وتقييمه وتعزيزه في إطار **Prüm**.
+## السؤال البحثي
 
-## سؤال البحث
+كيف نحسن التعاون بين المؤسسات التي تتبادل بيانات الحمض النووي الجنائية ونستفيد من التبادل في البحث؟ جمع **PIES** (*Prüm Implementation, Evaluation, and Strengthening of Forensic DNA Data Exchange*) دراسة ممارسات التبادل وتحليل الجريمة العابرة للحدود.
 
-كيف يمكن تحسين التعاون بين المؤسسات التي تتبادل بيانات الحمض النووي الجنائي والاستفادة من هذه التبادلات بصورة أفضل في البحث والاستخبارات الجنائية؟ جمع المشروع بين دراسة ممارسات التبادل وتحليل البيانات، ولا سيما لاستكشاف الجريمة العابرة للحدود.
+## الائتلاف
 
-## مساهمتي
+سبع مؤسسات في أربع دول: **[INCC](/ara/nicc/)** في بلجيكا؛ Sous-Direction de la Police Technique et Scientifique في فرنسا؛ Nederlands Forensisch Instituut وNederlands Studiecentrum Criminaliteit en Rechtshandhaving وجامعة لايدن في هولندا؛ Northumbria University وSustainable Criminal Justice Solutions في المملكة المتحدة.
 
-**شاركت في كتابة مقترح التمويل وقدمته**، ثم توليت مهام **المنسق والباحث الرئيسي**. في [INCC](/ara/nicc/)، توليت تنسيق التحالف والقيادة العلمية طوال مدة المشروع.
+شارك **Europol** كشريك غير مستفيد من التمويل.
 
-## التحالف
+## المخرجات
 
-ضم التحالف **سبع مؤسسات في أربع دول**: INCC في بلجيكا؛ وSous-Direction de la Police Technique et Scientifique في فرنسا؛ وNederlands Forensisch Instituut وNederlands Studiecentrum Criminaliteit en Rechtshandhaving وجامعة لايدن في هولندا؛ وNorthumbria University وSustainable Criminal Justice Solutions في المملكة المتحدة. وشاركت **Europol** أيضًا كشريك لا يتلقى تمويلًا.
-
-جمع هذا التعاون خبرات في العلوم الجنائية وعلم الإجرام والتعاون القضائي حول تبادل بيانات الحمض النووي والاستفادة منها.
-
-## الأعمال والمخرجات
-
-تشمل مساهماتي تقارير تقنية للمتابعة والإغلاق، وعروضًا حول التعاون الدولي واستخدام بيانات الحمض النووي لدراسة الجريمة المنظمة أو العابرة للحدود.
-
-تتيح مساهمتان التعرف على هذه الأعمال:
-
-- **[Final technical implementation report الخاص بـ PIES](/ara/work/#publication-jeuniaux-2016-final-tech-report-pies)**، الذي يعرض تنفيذ المشروع؛
-- العرض **[Exploiting Forensic DNA data to draw pictures of organized or transnational crime(s)](/ara/work/#publication-jeuniaux-et-al-2015-stockholm-networks)**، حول استخدام بيانات الحمض النووي لدراسة هذه الأشكال من الجريمة.
+- [التقرير التقني النهائي لـPIES](/ara/work/#publication-jeuniaux-2016-final-tech-report-pies).
+- [عرض استخدام بيانات الحمض النووي لدراسة الجريمة المنظمة أو العابرة للحدود](/ara/work/#publication-jeuniaux-et-al-2015-stockholm-networks).

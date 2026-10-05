@@ -1,20 +1,24 @@
 ---
-title: "UBIMOL"
-routeSlug: "ubimol"
-summary: "Toscaans regionaal project dat mijn postdoctorale werk aan de Universiteit van Pisa financierde."
+title: 'UBIMOL'
+routeSlug: 'ubimol'
+summary: 'Onderzoek in computationele taalkunde naar informatie-extractie en betekenisrepresentatie.'
 order: 12
-status: "Voltooid"
-domain: "Computationele taalkunde"
-startYear: "2014"
-endYear: "2020"
-funder: "Regio Toscane"
-role: "Postdoctoral onderzoeker"
-budget: "1.200.000 €"
-keywords: ["pisa", "computationele taalkunde", "leren"]
-locale: "nld"
-translationKey: "project-ubimol"
+status: 'Afgerond'
+domain: 'Computationele taalkunde'
+startYear: '2014'
+endYear: '2020'
+funder: 'Regio Toscane'
+role: 'Postdoctoraal onderzoeker'
+budget: '1 200 000 €'
+keywords:
+  - 'Pisa'
+  - 'computationele taalkunde'
+  - 'leren'
+locale: 'nld'
+translationKey: 'project-ubimol'
+canonical: false
+autoTranslated: true
+sourceHash: 'b79b96d85da0df9708e94b4d477ee04e0d43b51240dde4b6f497a2b309e700af'
 ---
 
-UBIMOL is het regionale project dat mijn postdoctorale periode aan het laboratorium voor **computationele taalkunde** van de Universiteit van Pisa heeft gefinancierd.
-
-Ik heb daar gewerkt aan de extractie van linguïstische informatie uit grote corpora, distributionele semantische modellen en de eerste ontwikkelingen gerelateerd aan kennisgrafen.
+Het Toscaanse regionale project **UBIMOL** financierde postdoctoraal onderzoek aan de **[Universiteit van Pisa](/nld/unipi/)**. Het betrof informatie-extractie uit grote corpora, distributionele semantische modellen en kennisgrafen.

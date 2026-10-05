@@ -1,31 +1,26 @@
 ---
-title: 'Университет Мемфиса'
-lead: 'Докторские исследования в области экспериментальной психологии и психолингвистики, мультимодальная коммуникация и преподавание когнитивных наук.'
+title: 'Мемфисский университет'
+lead: 'Докторантура по психолингвистике, исследования мультимодальной коммуникации и преподавание.'
 locale: 'rus'
 translationKey: 'institution-uofm'
 canonical: false
 autoTranslated: true
-sourceHash: 'fd707814320aeefba19c18ab175f83be456748ae3242e4545a248d9c0be8e6b5'
+sourceHash: '0bd6e66fefcba0be5be9be73c8f7b17bb01ec2e735d0465c1598fafd40ac923c'
 ---
 
-В **Университете Мемфиса** (*University of Memphis*) в США я проводил докторские исследования в области когнитивных наук в **Institute for Intelligent Systems** и на **кафедре психологии**, в частности в лаборатории **Multimodal Aspects of Discourse** под руководством Max Louwerse.
+## Докторантура и исследования
 
-## Докторская степень и освоение языка
+Patrick Jeuniaux получил **докторскую степень по экспериментальной психологии со специализацией в психолингвистике** в Institute for Intelligent Systems и на факультете психологии.
 
-Я получил **докторскую степень по экспериментальной психологии со специализацией в психолингвистике**. Моя диссертация, **[The role of feedback in learning form-meaning mappings](/rus/work/#publication-jeuniaux-2009-feedback-dissertation)**, выполненная под руководством **Max Louwerse**, посвящена роли обратной связи в усвоении связей между формами и значениями.
+Диссертация **[The role of feedback in learning form-meaning mappings](/rus/work/#publication-jeuniaux-2009-feedback-dissertation)**, под руководством Max Louwerse, исследовала роль обратной связи при усвоении отношений между формой и смыслом.
 
-Эта работа сочетала экспериментальное изучение освоения языка с анализом данных и вычислительным моделированием.
-
-## Когнитивные процессы, дискурс и коммуникация
-
-Мои исследования также касались **связности дискурса**, семантических моделей, таких как **Latent Semantic Analysis**, **воплощённого познания** и **мультимодальной коммуникации**. В частности, я изучал координацию между собеседниками и связи между языком, восприятием и поведением.
-
-В экспериментах использовались аудио- и видеозаписи, отслеживание движений мыши и измерения движений глаз в сочетании со статистическим и вычислительным анализом.
+Другие исследования касались связности дискурса, семантических моделей, воплощённого познания и координации собеседников. Они сочетали эксперименты, аудио- и видеозаписи, отслеживание взгляда и статистический анализ.
 
 ## Преподавание
 
-На кафедре психологии я разработал и преподавал два курса: **Introduction to Psychological Research** и **Thinking and Cognitive Processes**. Они сочетали теоретические понятия с упражнениями по анализу данных в **R** и компьютеризированными оценочными заданиями, разработанными на **PHP** и **MySQL**.
+Разработка и преподавание **Introduction to Psychological Research** и **Thinking and Cognitive Processes**, с упражнениями по анализу данных в R.
 
-## Связанные работы
+## Связанные публикации
 
-Статья **[The linguistic and embodied nature of conceptual processing](/rus/work/#publication-louwerse-jeuniaux-2010-conceptual)** исследует языковые и воплощённые аспекты обработки понятий. **[Behavior Matching in Multimodal Communication Is Synchronized](/rus/work/#publication-louwerse-et-al-2012-multimodal)** посвящена синхронизации поведения в мультимодальной коммуникации.
+- [The linguistic and embodied nature of conceptual processing](/rus/work/#publication-louwerse-jeuniaux-2010-conceptual).
+- [Behavior Matching in Multimodal Communication Is Synchronized](/rus/work/#publication-louwerse-et-al-2012-multimodal).

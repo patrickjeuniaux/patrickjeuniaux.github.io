@@ -1,11 +1,13 @@
 ---
-title: "ピサ大学 (University of Pisa)"
-locale: "jpn"
-translationKey: "institution-unipi"
+title: 'ピサ大学'
+locale: 'jpn'
+translationKey: 'institution-unipi'
+lead: '計算言語学に関する博士研究員としての研究。'
+canonical: false
+autoTranslated: true
+sourceHash: 'cf6dc9239fcac840a3c14fa27692e8d1849aa4bc12dc490d2c1388ff3055dada'
 ---
 
-私はイタリアの**ピサ大学**（Università di Pisa）で博士研究員（ポストドク）として滞在しました。
+Patrick Jeuniaux の**ピサ大学**での研究は、コーパス内の語の使用に基づいて意味を表現する分布意味モデルを扱いました。
 
-### 博士研究員としての研究
-
-この期間中、私の仕事は**分布意味論モデル**（distributional semantic models）に焦点を当てていました。
+これらの研究は **[UBIMOL](/jpn/ubimol/)** の一部です。

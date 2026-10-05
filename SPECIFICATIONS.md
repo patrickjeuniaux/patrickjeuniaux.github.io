@@ -27,7 +27,7 @@ Les outils vérifient le format et la cohérence des identifiants. Leur sens ang
 
 - La nouvelle de création est conservée à `/notes/2026-06-02/dat-creation/`.
 - La présentation des missions est une page ordinaire dans `pages/DAT.md`, à `/dat/`, au même niveau d’URL que `/nicc/`. DAT est un laboratoire de l’INCC.
-- La nouvelle renvoie vers `/dat/`, qui renvoie vers `/nicc/`. Les pages INCC, À propos et Collaborations mentionnent la direction du laboratoire et donnent accès à sa présentation.
+- La nouvelle renvoie vers `/dat/`, qui renvoie vers `/nicc/`. Les pages INCC, Profil et Collaborations mentionnent la direction du laboratoire et donnent accès à sa présentation.
 - Le lien `DAT` dans le menu utilise la page de présentation. Ces liens restent dans la langue de chaque version.
 
 ### Collections et langues

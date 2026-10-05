@@ -1,7 +1,7 @@
 ---
 title: "MJ-ReD"
 routeSlug: "mj-red"
-summary: "Projet portant sur les maisons de justice et la recherche appliquée dans le contexte francophone belge."
+summary: "Développer la recherche collaborative autour des maisons de justice francophones de Belgique."
 order: 7
 status: "En cours"
 domain: "Criminologie"
@@ -15,6 +15,4 @@ locale: "fra"
 translationKey: "project-mjred"
 ---
 
-MJ-ReD est un projet monté avec l'objectif de développer la recherche collaborative autour des **maisons de justice** francophones de Belgique.
-
-Il prolonge un intérêt ancien pour les trajectoires pénales, les pratiques institutionnelles et les usages possibles des données dans ce domaine.
+**MJ-ReD** porte sur les trajectoires pénales, les pratiques institutionnelles et les usages des données dans les **maisons de justice** francophones de Belgique.

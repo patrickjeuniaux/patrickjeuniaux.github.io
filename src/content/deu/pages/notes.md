@@ -1,13 +1,10 @@
 ---
-eyebrow: "Notizen"
-title: "Notizen"
-lead: "Dieser Bereich sammelt Arbeitsnotizen, Neuigkeiten und einige kurze Essays. Er ergänzt die anderen Seiten der Website."
-noteTitle: "Inhalt"
-noteText: "Hier finden Sie Neuigkeiten, methodische Anmerkungen, technische Beobachtungen und freiere Überlegungen zu Forschung, Daten und Institutionen."
-locale: "deu"
-translationKey: "notes"
+eyebrow: 'Notizen'
+title: 'Notizen'
+lead: 'Nachrichten aus Projekten und Labor, methodische Notizen und technische Beobachtungen.'
+locale: 'deu'
+translationKey: 'notes'
+canonical: false
+autoTranslated: true
+sourceHash: 'c4631a4df3131dd33dba48ebce872fcbaa004f0b6b2f13757708d2438b9c5a8c'
 ---
-
-Notizen ersetzen weder Publikationen noch Projekte. Sie dienen vor allem dazu, Argumentationen zu präzisieren, ein Werkzeug zu dokumentieren oder eine Arbeitshypothese flexibler zu formulieren.
-
-<div class="finis">❧</div>

@@ -1,20 +1,24 @@
 ---
-title: "BE Prüm DNA"
-routeSlug: "beprumadn"
-summary: "Project related to the exchange of DNA data with European Union member states."
+title: 'BE Prüm ADN'
+routeSlug: 'beprumadn'
+summary: 'Support DNA data exchange between European Union Member States.'
 order: 10
-status: "Completed"
-domain: "Forensic Genetics"
-startYear: "2015"
-endYear: "2018"
-funder: "European Commission"
-role: "Project preparation and support"
-budget: "700,852 €"
-keywords: ["dna", "prüm", "European Union"]
-locale: "eng"
-translationKey: "project-beprumadn"
+status: 'Completed'
+domain: 'Forensic genetics'
+startYear: '2015'
+endYear: '2018'
+funder: 'European Commission'
+role: 'Project preparation and support'
+budget: '700 852 €'
+keywords:
+  - 'DNA'
+  - 'Prüm'
+  - 'European Union'
+locale: 'eng'
+translationKey: 'project-beprumadn'
+canonical: false
+autoTranslated: true
+sourceHash: 'e1f5e499f5ab523800029c9793edeb137b8943ed6191275747b36255976c4dd8'
 ---
 
-This project aimed to support the exchange of **DNA** data within the framework of the **Prüm** decisions at the European level.
-
-I participated in the project's preparation and the logistical support related to its implementation.
+The project supported the implementation of **DNA** data exchange under the **Prüm** decisions at European level.

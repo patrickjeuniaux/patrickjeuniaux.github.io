@@ -1,22 +1,27 @@
 ---
-title: "FAR — Folks, Authorities and Radicalism"
-routeSlug: "far"
-summary: "Onderzoeksproject naar radicalisering, overheidsinstanties en polarisatieprocessen."
+title: 'FAR — Folks, Authorities and Radicalism'
+routeSlug: 'far'
+summary: 'Radicaliseringstrajecten en reacties van overheden bestuderen.'
 order: 2
-status: "Voltooid"
-domain: "Criminologie"
-startYear: "2017"
-endYear: "2022"
-funder: "BELSPO"
-role: "Co-Principal Investigator"
-budget: "1.159.715 €"
-keywords: ["radicalisering", "terrorisme", "databases", "criminologie"]
-locale: "nld"
-translationKey: "project-far"
+status: 'Afgerond'
+domain: 'Criminologie'
+startYear: '2017'
+endYear: '2022'
+funder: 'BELSPO'
+role: 'Co-hoofdonderzoeker'
+budget: '1 159 715 €'
+keywords:
+  - 'radicalisering'
+  - 'terrorisme'
+  - 'databanken'
+  - 'criminologie'
+locale: 'nld'
+translationKey: 'project-far'
+canonical: false
+autoTranslated: true
+sourceHash: 'a9ad2a1a2ccd2df57e7c416d82ecfd66811d77b28baec96a00bed6e0eceed447'
 ---
 
-FAR is een door **BELSPO** gefinancierd project gewijd aan de studie van radicalisering. Ik heb er gewerkt als **co-PI** binnen de afdeling criminologie van het NICC.
+**FAR — Folks, Authorities and Radicalism** onderzocht trajecten van personen die als radicaal worden beschouwd, de databanken van overheden en de sociale en institutionele aspecten van hun begeleiding.
 
-Het project maakte het mogelijk om de trajecten te bestuderen van personen die als radicaal worden beschouwd, de databases die door de autoriteiten worden gebruikt en bepaalde sociale en institutionele dimensies van de opvang.
-
-Het werd onder meer uitgevoerd met de **ULB** en de **KU Leuven**.
+Het door **BELSPO** gefinancierde project werd uitgevoerd bij het **[NICC](/nld/nicc/)**, onder meer met **ULB** en **KU Leuven**.

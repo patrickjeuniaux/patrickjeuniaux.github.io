@@ -1,20 +1,24 @@
 ---
-title: "MJ-ReD"
-routeSlug: "mj-red"
-summary: "ベルギーのフランス語圏における司法支援センター（houses of justice）および応用研究に関するプロジェクト。"
+title: 'MJ-ReD'
+routeSlug: 'mj-red'
+summary: 'ベルギーのフランス語圏司法センターに関する共同研究を進める。'
 order: 7
-status: "進行中"
-domain: "犯罪学"
-startYear: "2024"
-endYear: "2028"
-funder: "ベルギー・フランス語共同体（Fédération Wallonie-Bruxelles）"
-role: "共同推進者"
-budget: "800 000ユーロ"
-keywords: ["司法支援センター", "犯罪学", "フランス語圏ベルギー"]
-locale: "jpn"
-translationKey: "project-mjred"
+status: '進行中'
+domain: '犯罪学'
+startYear: '2024'
+endYear: '2028'
+funder: 'ワロン・ブリュッセル連合'
+role: '共同プロジェクト責任者'
+budget: '800 000 €'
+keywords:
+  - '司法の家'
+  - '犯罪学'
+  - 'ベルギーのフランス語圏'
+locale: 'jpn'
+translationKey: 'project-mjred'
+canonical: false
+autoTranslated: true
+sourceHash: '5c76190d1fe4abdf7419b36baac06e6483746d2258bb4438a197876bc3803878'
 ---
 
-MJ-ReDは、ベルギーのフランス語圏の**司法支援センター**をめぐる共同研究を発展させることを目的として立ち上げられたプロジェクトです。
-
-これは、司法の軌跡、組織的実践、およびこの分野におけるデータの可能な活用に対する長年の関心を継続するものです。
+**MJ-ReD** は、ベルギーのフランス語圏**司法センター**における刑事司法上の経過、制度的実践、データ利用を研究します。

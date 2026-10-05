@@ -1,13 +1,10 @@
 ---
-eyebrow: "Projecten"
-title: "Projecten"
-lead: "Deze sectie presenteert de belangrijkste projecten waaraan ik heb bijgedragen of die ik heb geleid, in het bijzonder op het gebied van strafrecht, kennisgrafen, forensische gegevens en datagovernance."
-noteTitle: "Leeswijzer"
-noteText: "Elke projectfiche vat de context, mijn rol, de periode, de financier en de hoofddoelstelling samen."
-locale: "nld"
-translationKey: "projects"
+eyebrow: 'Projecten'
+title: 'Projecten'
+lead: 'Onderzoeks- en infrastructuurprojecten over justitiegegevens, cognitie en analysemethoden.'
+locale: 'nld'
+translationKey: 'projects'
+canonical: false
+autoTranslated: true
+sourceHash: 'fab6d04c6834ad9dedb244d796a2a5cf79d0671ebc9d95bcfd105940bafeef9f'
 ---
-
-De hier verzamelde projecten verbinden onderzoek, data-engineering en institutioneel werk. Ze hebben met name betrekking op recidive, criminele loopbanen, radicalisering, DNA-gegevens, kennisgrafen en de instrumentatie van overheidsinstellingen.
-
-<div class="finis">❧</div>

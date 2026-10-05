@@ -1,32 +1,29 @@
 ---
 eyebrow: 'Samenwerkingen'
-title: 'Samenwerkingen en achtergrond'
-lead: 'Mijn onderzoekscarrière ontwikkelde zich in België, de Verenigde Staten, Canada en Italië, bij instellingen op het gebied van psychologie, computationele taalkunde, artificiële intelligentie en criminologie.'
-noteTitle: 'Kader'
-noteText: 'Deze pagina presenteert mijn huidige affiliaties, de instellingen waar ik studeerde of werkte en enkele onderzoekspartnerschappen.'
+title: 'Samenwerkingen'
+lead: 'Onderzoeksaffiliaties en partnerschappen in België en internationaal.'
 locale: 'nld'
 translationKey: 'collaborations'
 canonical: false
 autoTranslated: true
-sourceHash: '5911b26ec724ebe41758c645719456dbe77502d8aadce952a785341b5961d5f5'
+sourceHash: '9b417bb17d3141edc7b2a241560a4ae8f43dedce341f620a5b9cf4d67c4f6806'
 ---
 
-## 🇧🇪 België
+## Huidige affiliaties
 
-- **[NICC](/nld/nicc/)**: Chief Data Officer en hoofd van het laboratorium **[DAT](/nld/dat/)**; hoofdonderzoeker van **[KG4J](/nld/kg4j/)**. Mijn werk bij de instelling verbindt forensische DNA-gegevens, criminologie en datagovernance.
-- **[UCLouvain](/nld/uclouvain/)**: onderzoeksmedewerker bij **LouRIM** en lid van het **Louvain Interaction Laboratory**. Ik studeerde er ook cognitieve psychologie en statistiek en ondersteunde cursussen in digitale transformatie, programmeren en informatiesystemen aan de Louvain School of Management.
-- **[KU Leuven](/nld/ku-leuven/)**: aanvullende opleiding in artificiële intelligentie en onderzoek naar informatie-extractie en coreferentieresolutie; partner van KG4J.
+- **[NICC](/nld/nicc/)**: leiding van het laboratorium **[DAT](/nld/dat/)** en functie van datadirecteur.
+- **[UCLouvain](/nld/uclouvain/)**: onderzoekssamenwerking bij LouRIM en deelname aan het Louvain Interaction Laboratory, rond informatiesystemen en mens-computerinteractie.
 
-## 🇮🇹 Italië
+## Wetenschappelijke partnerschappen
 
-- **[Universiteit van Pisa](/nld/unipi/)**: postdoctoraal onderzoek in computationele taalkunde naar distributionele semantische modellen en kennisrepresentatie met grafen.
+**[KG4J](/nld/kg4j/)** verbindt het NICC met UMONS, **[KU Leuven](/nld/ku-leuven/)**, UCLouvain, Polytechnique Montréal, Indiana University Bloomington, het Digital Transformation Office van de FOD Justitie en Elephant Bird Consulting.
 
-## 🇨🇦 Canada
+Het Europese consortium **[PIES](/nld/pies/)** bracht instellingen uit België, Frankrijk, Nederland en het Verenigd Koninkrijk samen voor de uitwisseling van forensische DNA-gegevens.
 
-- **[Université Laval](/nld/ulaval/)**: postdoctoraal onderzoek bij CO-DOT naar cognitie en de evaluatie van beslissingsondersteunende systemen in complexe omgevingen. Dit onderzoek vond plaats met **[DRDC](/nld/drdc/)** en **[Thales](/nld/thales/)**.
+## Eerdere samenwerkingen
 
-## 🇺🇸 Verenigde Staten
+- **[Universiteit van Pisa](/nld/unipi/)**: distributionele semantische modellen en kennisrepresentatie.
+- **[Université Laval](/nld/ulaval/)**, met **[DRDC](/nld/drdc/)** en **[Thales](/nld/thales/)**: cognitie, coördinatie en evaluatie van beslissingsondersteunende systemen.
+- **[Universiteit van Memphis](/nld/uofm/)**: taal, cognitie en multimodale communicatie.
 
-- **[Universiteit van Memphis](/nld/uofm/)**: doctoraal onderzoek in experimentele psychologie en psycholinguïstiek naar taal, cognitie en multimodale communicatie; onderwijs in onderzoeksmethodologie en cognitieve processen.
-
-<div class="finis">❧</div>
+Het [profiel](/nld/about/) beschrijft de opleiding en loopbaan.

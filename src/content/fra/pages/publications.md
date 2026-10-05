@@ -1,16 +1,12 @@
 ---
-eyebrow: "Travaux"
-title: "✒ Travaux"
-lead: "Une sélection commentée présente quelques contributions à mes domaines de recherche. Elle est suivie de la bibliographie complète des travaux où je figure parmi les auteurs, avec les titres et références dans leur langue originale."
-noteTitle: "Source"
-noteText: "La liste est générée à partir d'un fichier BibTeX et peut inclure articles, chapitres, rapports, présentations, manuscrits et autres travaux."
+eyebrow: "Communications"
+title: "Communications"
+lead: "Articles, rapports et présentations sur le langage, la cognition et les données de justice."
 locale: "fra"
 translationKey: "publications"
 ---
 
-## Quelques contributions
-
-Ces travaux donnent un aperçu de mes recherches sur le langage et la cognition, les données forensiques et les trajectoires pénales. Ils ont été réalisés avec les collègues indiqués dans chaque référence.
+## Contributions sélectionnées
 
 <div class="stack-gap">
 
@@ -20,27 +16,27 @@ Ces travaux donnent un aperçu de mes recherches sur le langage et la cognition,
 
 **Lenci et al. — [A comprehensive comparative evaluation and analysis of Distributional Semantic Models](https://doi.org/10.1007/s10579-021-09575-z)**
 
-Cette étude compare des modèles sémantiques distributionnels, qui représentent le sens à partir des usages des mots dans les corpus. Elle contribue à l’évaluation des méthodes de représentation du langage, au croisement de la linguistique et de la modélisation computationnelle.
+Comparaison de modèles qui représentent le sens à partir des usages des mots dans les corpus.
 
 </div>
 
 <div class="card">
 
-### Exploiter les relations dans les données ADN
+### Analyser les relations dans les données ADN
 
 **Jeuniaux et al. — [Establishing networks in a forensic DNA database to gain operational and strategic intelligence](https://doi.org/10.1057/sj.2015.31)**
 
-Ce travail étudie la constitution de réseaux à partir d’une banque de données ADN forensiques, pour en tirer un renseignement opérationnel et stratégique. Il illustre l’intérêt d’analyser les relations entre les données pour exploiter ces ressources à l’échelle d’un réseau.
+Analyse des correspondances ADN sous forme de réseaux pour produire un renseignement opérationnel et stratégique.
 
 </div>
 
 <div class="card">
 
-### Étudier la récidive à partir des données de justice
+### Étudier la récidive
 
 **Mine et al. — [Recidivism among people convicted of terrorism: A survival analysis based on Belgian Central Criminal Record](https://doi.org/10.1080/09546553.2025.2458241)**
 
-Cette recherche mobilise les données du Casier judiciaire central belge et l’analyse de survie pour étudier la récidive de personnes condamnées pour terrorisme. Elle montre comment des données administratives peuvent soutenir l’étude des trajectoires pénales.
+Analyse de survie appliquée aux données du Casier judiciaire central belge pour étudier la récidive des personnes condamnées pour terrorisme.
 
 </div>
 
@@ -50,17 +46,17 @@ Cette recherche mobilise les données du Casier judiciaire central belge et l’
 
 **Louwerse et al. — [Behavior Matching in Multimodal Communication Is Synchronized](https://doi.org/10.1111/j.1551-6709.2012.01269.x)**
 
-Cette étude porte sur la synchronisation des comportements dans la communication multimodale. Elle s’inscrit dans mes recherches en sciences cognitives sur la coordination entre personnes au cours de leurs interactions.
+Étude de la synchronisation des comportements entre interlocuteurs au cours de leurs interactions.
 
 </div>
 
 <div class="card">
 
-### Soutenir la décision dans les systèmes complexes
+### Évaluer l’aide à la décision
 
 **Tremblay et al. — [A cognitive prosthesis for complex decision-making](https://doi.org/10.1016/j.apergo.2016.07.009)**
 
-Ce travail examine un système d’aide cognitive à la décision complexe. Il relie l’étude des processus cognitifs à la conception et à l’évaluation d’outils destinés à soutenir les opérateurs humains.
+Évaluation d’un système d’aide cognitive à la décision dans des situations complexes.
 
 </div>
 
@@ -68,4 +64,4 @@ Ce travail examine un système d’aide cognitive à la décision complexe. Il r
 
 ## Bibliographie complète
 
-Les filtres ci-dessous permettent de parcourir les entrées par type, année ou langue. Les liens vers les DOI, sites éditeurs ou PDF publics sont affichés lorsqu’ils sont disponibles dans les métadonnées. Le filtre de sélection repose sur les métadonnées bibliographiques et peut inclure d’autres travaux que les cinq contributions présentées ci-dessus.
+Filtrer par type, année ou langue. Les références proposent un DOI, un lien éditeur ou un PDF lorsqu’il est disponible.

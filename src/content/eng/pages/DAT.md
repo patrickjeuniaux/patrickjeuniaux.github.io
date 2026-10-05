@@ -1,31 +1,29 @@
 ---
-title: "Data, Artificial Intelligence & Transformation (DAT) laboratory"
-locale: "eng"
-translationKey: "laboratory-dat"
+title: 'DAT laboratory'
+locale: 'eng'
+translationKey: 'laboratory-dat'
 draft: false
-navTitle: "DAT"
+navTitle: 'DAT'
 navOrder: 100
 canonical: false
 autoTranslated: true
-sourceHash: "f9561ea337482533e2edf8d25fec93784b4c49eb543c23ec7ad5d16e3bc5d842"
+sourceHash: '82c7efb6c1b56da77e5c2f2ab19e0e0c5e9b39bb3e2d350e0a58369f66b90f37'
 ---
 
-<img src="/img/dat-logo-header.svg" alt="DAT laboratory logo" width="600" height="200" style="margin: 1.5rem auto;" />
+<img src="/img/dat-logo-header.svg" alt="Data, Artificial Intelligence & Transformation" width="600" height="200" style="margin: 1.5rem auto;" />
 
-Established on **2 June 2026** at the [National Institute of Forensic Science and Criminology (NICC)](/eng/nicc/), the **Data, Artificial Intelligence & Transformation (DAT)** laboratory supports the institution in managing and making effective use of its information assets, developing and overseeing artificial intelligence, and transforming its organisation.
+The **Data, Artificial Intelligence & Transformation (DAT)** laboratory supports the [NICC](/eng/nicc/) in organising its data, developing analytical tools and improving working practices.
 
-Its work rests on three complementary and interdependent dimensions.
+## Organise data and knowledge
 
-## Data, information and knowledge
+Document, preserve and connect the institute’s resources; clarify responsibilities and management rules. The aim is to improve data quality and reuse, preserve expertise and facilitate its transfer, while respecting security and confidentiality.
 
-DAT helps organise, document, preserve and connect the institution’s information resources. It supports the definition of responsibilities and management rules to improve data quality, accessibility and reuse while meeting security and confidentiality requirements. This approach also aims to preserve know-how and facilitate the transfer of knowledge.
+## Develop analytical tools
 
-## Data science and artificial intelligence
+Use statistics, knowledge graphs and AI to analyse heterogeneous sources and explore documents. These uses rely on the quality of results, traceable processing and human oversight.
 
-The laboratory develops methods and tools to analyse complex information, explore documents and connect heterogeneous sources. It draws in particular on statistics, knowledge graphs and artificial intelligence to support research, facilitate certain tasks and inform decision-making. It helps oversee these uses by attending to the quality of results, the traceability of processing and human supervision. Preserving staff autonomy, judgement and expertise guides this approach.
+## Improve working practices
 
-## Organisational transformation
+Work with teams to simplify information flows, reduce duplicate data entry and develop tools suited to their needs. This support includes experimentation, training and project organisation according to priorities and available resources.
 
-DAT supports changes in processes, practices and ways of working together. With the teams and departments concerned, it seeks to simplify information flows, reduce duplicate data entry and unnecessary cognitive load, and develop tools suited to their needs. It also helps structure the launch and management of projects, taking priorities and available resources into account. Listening, experimentation, skills development and the adoption of tools are integral to this support.
-
-Through these three dimensions, DAT helps NICC become a learning organisation capable of preserving its knowledge, passing it on and learning from its experiences. Its ambition is to enable staff to devote more time to activities that draw on their expertise and to strengthen the institution’s capabilities over the long term in the service of science and justice.
+[Creation of the laboratory on 2 June 2026 →](/eng/notes/2026-06-02/dat-creation/)

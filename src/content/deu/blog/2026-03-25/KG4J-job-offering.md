@@ -1,101 +1,39 @@
 ---
-title: "Stellenangebot – Forscher in Data Science & Künstliche Intelligenz"
-description: "Ausschreibung einer Forscherstelle (m/w/x) für das KG4J-Projekt (Knowledge Graphs for Justice) am NICC."
-date: 2026-03-25
+title: 'KG4J: Stelle in Datenwissenschaft und KI'
+description: 'Forschungsstelle am NICC für KG4J. Bewerbungsfrist: 8. April 2026.'
+date: '2026-03-25'
 draft: false
-locale: deu
-translationKey: KG4J-job-offering
+locale: 'deu'
+translationKey: 'KG4J-job-offering'
 canonical: false
-tags: ["KG4J", "KI", "Data Science", "Justiz", "Forschung", "Rekrutierung"]
+tags:
+  - 'KG4J'
+  - 'IA'
+  - 'Data Science'
+  - 'Justice'
+  - 'Recherche'
+  - 'Recrutement'
+autoTranslated: true
+sourceHash: 'c8e82b991ae78e735ca7acf3e54672f6ab2042bed8eaf5e403f96653dd607827'
 ---
 
-Ich freue mich, die Ausschreibung einer neuen Forscherstelle im Rahmen des **KG4J**-Projekts am Nationalen Institut für Kriminalistik und Kriminologie ([NICC](/deu/nicc/)) bekannt zu geben.
+Das **[NICC](/deu/nicc/)** hat eine Stelle für eine **Forschungskraft in Datenwissenschaft und künstlicher Intelligenz (m/w/d)** für **[KG4J](/deu/kg4j/)** ausgeschrieben.
 
-Diese Stelle ist Teil einer Forschungsinitiative zur Entwicklung von **Infrastrukturen zur Analyseunterstützung** im Bereich der Strafjustiz unter Einsatz von Data Science, Künstlicher Intelligenz und Wissensgraphen.
+## Bedingungen
 
----
+- **Ort**: Brüssel.
+- **Vertrag**: ein Jahr, verlängerbar auf vier Jahre.
+- **Arbeitszeit**: Vollzeit, 38 Stunden pro Woche.
+- **Bewerbungsfrist**: 8. April 2026.
 
-### 📌 Stellenübersicht
+## Aufgaben
 
-- **Stellenbezeichnung**: Forscher in Data Science und Künstliche Intelligenz (m/w/x)  
-- **Projekt**: *Knowledge Graphs for Justice* ([KG4J](/deu/kg4j/)) 
-- **Vertrag**: Befristet (1 Jahr, verlängerbar auf bis zu 4 Jahre)  
-- **Arbeitszeit**: Vollzeit (38 Std./Woche)  
-- **Ort**: Nationales Institut für Kriminalistik und Kriminologie ([NICC](/deu/nicc/)), Brüssel, Belgien
+Eine Wissensgrapheninfrastruktur entwickeln, kriminologische und forensische Daten analysieren und Informationen mit KI aus Dokumenten extrahieren. Die Stelle umfasst Beiträge zur Daten- und KI-Governance.
 
----
+## Gesuchtes Profil
 
-### 🎯 Hauptverantwortlichkeiten
+Masterabschluss in Mathematik, Statistik, Datenwissenschaft, Informatik, Cybersicherheit, KI, Psychologie, Linguistik, Ingenieurwissenschaften (ingénieur civil oder industriel) oder Physik. Französisch- und Englischkenntnisse, Kompetenzen in Informatik und Graphentheorie sowie Interesse an einer **gemeinsam betreuten Promotion in Informatik an UMONS–KU Leuven**.
 
-Der ausgewählte Kandidat wird insbesondere beitragen zu:
+Die Stelle gehört zu einem internationalen Projekt, das Kriminologie, Forensik und Datenwissenschaft verbindet.
 
-- Entwurf und Entwicklung einer **Wissensgraph-Infrastruktur für die Justiz**  
-- Analyse **vielfältiger Daten (kriminologisch, forensisch, DNA usw.)**  
-- Anwendung von **Methoden der Künstlichen Intelligenz (LLM, Graph-RAG usw.)**  
-- Transformation von **unstrukturierten Daten in strukturierte Daten (text-to-KG)**  
-- Aufbau von **Rahmenbedingungen für Daten- und KI-Governance**  
-
----
-
-### 🧩 Gesuchtes Profil
-
-Wir suchen eine Person, die:
-
-- Einen Master-Abschluss in einer der unten aufgeführten Disziplinen besitzt  
-- Französisch und Englisch spricht  
-- Über Kompetenzen in **Informatik, Data Science und Graphentheorie** verfügt  
-- Interessiert ist an **Wissensgraphen, Künstlicher Intelligenz und natürlicher Sprachverarbeitung**  
-- In der Lage ist, in einem **interdisziplinären Forschungsumfeld** zu arbeiten  
-- Motiviert ist, eine **Promotion in Informatik** (Joint Degree UMons-KU Leuven) zu absolvieren
-
----
-
-### 🎓 Disziplinen
-
-- Mathematik
-- Statistik 
-- Data Science
-- Informatik
-- Cybersicherheit 
-- Künstliche Intelligenz
-- Psychologie
-- Linguistik
-- Bau- oder Wirtschaftsingenieurwesen
-- Physik 
-
----
-
-### 💼 Angebot
-
-- Ein stimulierendes Forschungsumfeld an der Schnittstelle von **KI, Daten und Justiz**  
-- Zusammenarbeit mit Experten aus **Kriminologie, Forensik und Data Science**  
-- Teilnahme an einem **internationalen, praxisorientierten Forschungsprojekt**  
-
----
-
-### 📅 Bewerbungsfrist
-
-Die Bewerbungsfrist endet am **8. April 2026**.
-
----
-
-### 🔗 Vollständige Beschreibung und Bewerbung
-
-👉 Die vollständige offizielle Stellenausschreibung finden Sie hier:  
-**https://incc.fgov.be/elementor-3291/**  
-
----
-
-### 📣 Über KG4J
-
-*Knowledge Graphs for Justice* ([KG4J](/deu/kg4j/)) ist ein Forschungsprojekt zum Aufbau einer **Wissensgraph-Infrastruktur** am NICC, das Daten, Künstliche Intelligenz und fortgeschrittene Analysemethoden integriert, um die forensische Intelligenz und die kriminologische Forschung zu verbessern.
-
-Das Forschungsprojekt umfasst die Zusammenarbeit mit sieben externen Partnern des NICC:
-
-- Département d'Informatique, UMONS
-- Departement Computerwetenschappen, KU Leuven
-- Louvain Research Institute in Management and Organizations, UCLouvain
-- Département de mathématiques et de génie industriel, Polytechnique Montréal, Kanada
-- Department of Linguistics, Indiana University Bloomington, USA
-- Digital Transformation Office, Föderaler Öffentlicher Dienst Justiz
-- Elephant Bird Consulting 
+[Offizielle Stellenbeschreibung und Bewerbungsverfahren](https://incc.fgov.be/elementor-3291/)

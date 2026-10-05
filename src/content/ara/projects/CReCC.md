@@ -1,20 +1,24 @@
 ---
-title: "CReCC"
-routeSlug: "crecc"
-summary: "وحدة بحثية مخصصة للعودة إلى الإجرام والمسارات الإجرامية."
+title: 'CReCC'
+routeSlug: 'crecc'
+summary: 'وحدة بحث في العود إلى الجريمة والمسارات الإجرامية.'
 order: 9
-status: "قيد التنفيذ"
-domain: "علم الجريمة"
-startYear: "2021"
-endYear: "Present"
-funder: "وزارة العدل الاتحادية"
-role: "مؤسس مشارك"
-budget: "هيكل دائم"
-keywords: ["عودة إلى الإجرام", "مسارات إجرامية", "بحث"]
-locale: "ara"
-translationKey: "project-crecc"
+status: 'جارٍ'
+domain: 'علم الإجرام'
+startYear: '2021'
+endYear: 'الحاضر'
+funder: 'خدمة العدل الاتحادية'
+role: 'مؤسس مشارك'
+budget: 'هيكل دائم'
+keywords:
+  - 'العود إلى الجريمة'
+  - 'المسارات الإجرامية'
+  - 'البحث'
+locale: 'ara'
+translationKey: 'project-crecc'
+canonical: false
+autoTranslated: true
+sourceHash: '79cf525043546deec6c17710b778c6a9e6d3964b1a87b5495c9bb5e2c18e87b6'
 ---
 
-تم تأسيس **وحدة البحث في العودة إلى الإجرام والمسارات الإجرامية** (Recidivism and Criminal Careers Research Unit) بالاشتراك مع زملاء لهيكلة الأبحاث طويلة المدى حول العودة إلى الإجرام والمسارات الإجرامية.
-
-وهي تعمل كإطار للعديد من المشاريع ومجموعات البيانات والتحليلات التي يتم إجراؤها في المعهد الوطني للأدلة الجنائية وعلم الجريمة (NICC).
+تنظم وحدة **Recidivism and Criminal Careers Research Unit (CReCC)** في **[INCC](/ara/nicc/)** أبحاثاً طويلة الأمد حول العود إلى الجريمة والمسارات الإجرامية. وتوفر إطاراً لمشاريع ومجموعات بيانات وتحليلات.

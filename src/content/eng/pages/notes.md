@@ -1,13 +1,10 @@
 ---
-eyebrow: "Notes"
-title: "Notes"
-lead: "This section gathers working notes, news, and brief essays. It complements the other pages of the site."
-noteTitle: "Content"
-noteText: "It contains news, methodological remarks, technical observations, and freer reflections on research, data, and institutions."
-locale: "eng"
-translationKey: "notes"
+eyebrow: 'Notes'
+title: 'Notes'
+lead: 'Project and laboratory news, methodological notes and technical observations.'
+locale: 'eng'
+translationKey: 'notes'
+canonical: false
+autoTranslated: true
+sourceHash: 'c4631a4df3131dd33dba48ebce872fcbaa004f0b6b2f13757708d2438b9c5a8c'
 ---
-
-Notes do not replace publications or projects. They mainly serve to clarify reasoning, document a tool, or formulate a working hypothesis more flexibly.
-
-<div class="finis">❧</div>

@@ -1,29 +1,12 @@
 ---
 eyebrow: 'التواصل'
 title: 'التواصل'
-lead: 'يمكنكم مراسلتي لمناقشة مشروع بحثي أو تعاون أو مسألة تتعلق بالبيانات والذكاء الاصطناعي.'
-noteTitle: 'بيانات الاتصال'
-noteText: 'ستساعدني بضعة أسطر عن سؤالكم أو مشروعكم على فهم سياق الرسالة.'
+lead: 'للتعاون العلمي أو الأسئلة المتعلقة بالمشاريع والمنشورات.'
 locale: 'ara'
 translationKey: 'contact'
 canonical: false
 autoTranslated: true
-sourceHash: '00aaa36c84888254a711451f956291b9ef1737d3fc559bbf2cebc2d735ccb65d'
+sourceHash: '53a9e3ecca2e2ebb88a0b396c2c864b59a63ced6bd47e0a95960703ef692d9e0'
 ---
 
-## بيانات الاتصال
-
-البريد الإلكتروني هو أبسط وسيلة للتواصل معي.
-
-✦ **البريد الإلكتروني**: [patrick.jeuniaux@protonmail.com](mailto:patrick.jeuniaux@protonmail.com)
-
-## مواضيع النقاش
-
-يمكنكم التواصل معي، خصوصًا بشأن:
-
-- تعاون علمي أو مشروع مشترك؛
-- رسوم المعرفة أو الذكاء الاصطناعي أو حوكمة البيانات؛
-- سؤال عن منشوراتي أو أساليبي أو أدواتي؛
-- تبادل الآراء حول التدريس أو الإشراف.
-
-<div class="finis">❧</div>
+**البريد الإلكتروني**: [patrick.jeuniaux@protonmail.com](mailto:patrick.jeuniaux@protonmail.com)

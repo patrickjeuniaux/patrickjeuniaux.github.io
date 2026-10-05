@@ -1,24 +1,17 @@
 ---
-title: "KG4Jプロジェクトの実質的な開始"
-description: "研究プロジェクトKG4J (Knowledge Graphs for Justice) が具体的に始動します。"
-date: 2026-03-15
+title: 'KG4J プロジェクト開始'
+description: 'KG4J は2026年3月に開始し、知識グラフと司法データについて4年間研究します。'
+date: '2026-03-15'
 draft: false
-locale: jpn
-translationKey: news-kg4j-start
+locale: 'jpn'
+translationKey: 'news-kg4j-start'
+canonical: false
+autoTranslated: true
+sourceHash: '087252a4906fed40a0a19e3db956ecebbb526b60575b36251a29be7e5b8153ca'
 ---
 
-**KG4J** (*Knowledge Graphs for Justice*) プロジェクトは、連邦科学政策局（**BELSPO**）の **P4Science** 公募への回答として、2025年6月3日に正式に提出されました。 
+**[KG4J — Knowledge Graphs for Justice](/jpn/kg4j/)** は2026年3月に開始し、期間は**4年間**です。
 
-この2026年3月に、4年間の期間で具体的に始動します。
+BELSPO の助成により、知識グラフと人工知能を用いて **[INCC](/jpn/nicc/)** の法科学・犯罪学データを関連付ける方法を探ります。
 
-このプロジェクトは、主にナレッジグラフと人工知能を活用し、データガバナンスの原則を遵守するシステムを通じて、**INCC**のデータ分析能力を高めることを目的としています。
-
-プロジェクトには、以下を含む国際的なコンソーシアムが関与しています：
-- **モンス大学**（UMONS）のコンピュータサイエンス部門 ；
-- **ポリテクニーク・モントリオール**の数学および経営工学部門 ；
-- **ルーヴァン・カトリック大学**（KU Leuven）のコンピュータサイエンス部門 ；
-- **インディアナ大学ブルーミントン校**の言語学部門 ；
-- **UCLouvain**のルーヴァン・マネジメント・組織研究所（LouRIM） ；
-- SPF Justiceの**デジタル変革局**（DTO）。
-
-<div class="finis">✦</div>
+[目標、方法、協力機関 →](/jpn/kg4j/)

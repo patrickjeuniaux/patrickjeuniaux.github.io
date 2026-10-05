@@ -1,7 +1,7 @@
 ---
 title: 'REGUIDE'
 routeSlug: 'reguide'
-summary: 'Projekt zur Reintegration und Begleitung von Rückkehrenden in Belgien.'
+summary: 'Wiedereingliederungswege von Rückkehrenden aus Konfliktgebieten in Belgien untersuchen.'
 order: 4
 status: 'Abgeschlossen'
 domain: 'Kriminologie'
@@ -11,7 +11,7 @@ funder: 'BELSPO'
 role: 'Forscher'
 budget: '1 002 092 €'
 keywords:
-  - 'Rückkehrende'
+  - 'Rückkehrer'
   - 'Reintegration'
   - 'Terrorismus'
   - 'Belgien'
@@ -19,9 +19,9 @@ locale: 'deu'
 translationKey: 'project-reguide'
 canonical: false
 autoTranslated: true
-sourceHash: '223973ddca6a6bef9661b3cbe4b9cd4e797d49690524d35c48e5df7f3f4187af'
+sourceHash: '06c60ebad2e3f00a7652bbbb92a0ddbfc8bf723f998fc4c5f90558106a3ab246'
 ---
 
-REGUIDE untersuchte Reintegrationsverläufe und Unterstützungsangebote für **Rückkehrende** in Belgien.
+**REGUIDE** untersuchte Wiedereingliederungswege und Unterstützungsangebote für Rückkehrende aus Konfliktgebieten (*returnees*).
 
-In diesem Rahmen beteiligte ich mich mit Kolleginnen und Kollegen des NICC und der Partnerinstitutionen an Arbeiten zu Datenbanken, sozialjustiziellen Verläufen sowie an Berichten und wissenschaftlichen Artikeln.
+Die Arbeiten verbanden die Analyse von Datenbanken und sozialrechtlichen Verläufen mit wissenschaftlichen Berichten und Artikeln, gemeinsam mit dem **[NICC](/deu/nicc/)** und Partnerinstitutionen.

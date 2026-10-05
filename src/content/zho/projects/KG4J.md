@@ -1,14 +1,14 @@
 ---
 title: 'KG4J — Knowledge Graphs for Justice'
 routeSlug: 'kg4j'
-summary: '研究知识图谱在司法领域应用的项目。'
+summary: '通过知识图谱和人工智能关联法证与犯罪学数据。'
 order: 1
 status: '进行中'
 domain: '知识图谱'
 startYear: '2025'
 endYear: '2029'
 funder: 'BELSPO'
-role: '首席研究员'
+role: '首席研究员及方案作者'
 budget: '392 798,60 €'
 keywords:
   - '司法'
@@ -19,35 +19,34 @@ locale: 'zho'
 translationKey: 'project-kg4j'
 canonical: false
 autoTranslated: true
-sourceHash: '6ddafc5a11345337c599d9e7c52a0fd6f67f8950fd86620087af271caaf941f8'
+sourceHash: '4f20b228beacf7c08d150b1b2a37fe4c39a3e8ef180093671e0250cbd45fd18d'
 ---
 
-## 概览
+## 研究问题
 
-在[国家刑事科学与犯罪学研究所（INCC）](/zho/nicc/)，法证与犯罪学数据来自异构且常常分散的来源。**KG4J** 探索如何通过**知识图谱**和**人工智能**将其连接起来，以方便查询并增强分析能力。
+如何关联 **[INCC](/zho/nicc/)** 的数据来源，便于查询与分析？KG4J 探索结构化数据与从文档提取的信息的整合。
 
-我是**首席研究员及申请书作者**。项目由比利时联邦科学政策机构（**BELSPO**）在 **P4Science** 计划下资助。
+## 方法与目标
 
-项目有三个相互补充的目标：
+- 构建关联犯罪学与法证数据的知识图谱基础设施。
+- 评估刑事司法历程研究与 DNA 匹配分析的应用。
+- 探索从文本提取知识，尤其是使用大型语言模型。
+- 建立数据与人工智能治理框架，确保处理可靠且可追溯。
 
-- 建设连接犯罪学与法证数据的基础设施；
-- 探索刑事司法轨迹研究、DNA 数据分析以及从文档中提取知识的应用场景；
-- 确立治理框架，以支持可靠、可追溯的数据和人工智能使用。
+项目通过 BELSPO 的 **P4Science** 项目征集获得资助。
 
 ## 联盟
 
-联盟包括以下合作方：
+- [计算机科学系](https://web.umons.ac.be/fs-informatique/en/home/)，UMONS，比利时
+- [Departement Computerwetenschappen](https://wms.cs.kuleuven.be/cs)，KU Leuven，比利时
+- [Louvain Research Institute in Management and Organizations](https://www.uclouvain.be/en/research-institutes/lourim)，UCLouvain，比利时
+- [Department of Mathematics and Industrial Engineering](https://www.polymtl.ca/magi/)，Polytechnique Montréal，加拿大
+- [Department of Linguistics](https://linguistics.indiana.edu/index.html)，Indiana University Bloomington，美国
+- [Digital Transformation Office，比利时联邦司法公共服务部门](https://justice.belgium.be/fr)，比利时联邦司法公共服务部门，比利时
+- [Elephant Bird Consulting](https://github.com/elephantbirdconsulting)，Elephant Bird Consulting，比利时
 
-- [计算机科学系](https://web.umons.ac.be/fs-informatique/en/home/), UMONS, 比利时
-- [计算机科学系](https://wms.cs.kuleuven.be/cs), KU Leuven, 比利时
-- [鲁汶管理与组织研究所](https://www.uclouvain.be/en/research-institutes/lourim), UCLouvain, 比利时
-- [数学与工业工程系](https://www.polymtl.ca/magi/), 蒙特利尔理工学院 (Polytechnique Montréal), 加拿大
-- [语言学系](https://linguistics.indiana.edu/index.html), 印第安纳大学布卢明顿分校 (Indiana University Bloomington), 美国
-- [联邦司法部数字化转型办公室](https://justice.belgium.be/fr), 联邦司法部 (SPF Justice), 比利时
-- [Elephant Bird Consulting](https://github.com/elephantbirdconsulting), Elephant Bird Consulting, 比利时
-
-
-## 项目官方摘要
+<details>
+<summary>项目官方摘要</summary>
 
 国家刑事技术与犯罪学研究所 (INCC) 在比利时刑事司法系统中发挥着科学作用。一方面，它在 DNA、毒理学和毒品等领域提供法医药科学鉴定。另一方面，它进行犯罪学研究，例如有关累犯和犯罪生涯的研究。为此，它需要处理大量数据。然而，这些数据中的许多都是支离破碎或未被充分利用的。有价值的信息仍然处于隐藏状态。
 
@@ -96,3 +95,5 @@ INCC 通常以战术方式处理法医数据，而没有进行后续的元素间
 ### 结论
 
 KG4J 项目将使 INCC 能够生成增强的犯罪学和法医药科学情报。它连接了碎片化的数据，发掘了现有数据的价值，通过图和 AI 开发了新的能力，并建立了服务于司法的可靠数据和 AI 实践。
+
+</details>

@@ -1,13 +1,10 @@
 ---
-eyebrow: "ノート"
-title: "ノート"
-lead: "このセクションでは、作業ノート、ニュース、およびいくつかの短いエッセイをまとめています。サイトの他のページを補完するものです。"
-noteTitle: "内容"
-noteText: "ニュース、手法に関する備考、技術的な観察、および研究、データ、機関に関するより自由な考察が含まれています。"
-locale: "jpn"
-translationKey: "notes"
+eyebrow: 'ノート'
+title: 'ノート'
+lead: 'プロジェクト・研究室のお知らせ、方法論のノート、技術的な考察。'
+locale: 'jpn'
+translationKey: 'notes'
+canonical: false
+autoTranslated: true
+sourceHash: 'c4631a4df3131dd33dba48ebce872fcbaa004f0b6b2f13757708d2438b9c5a8c'
 ---
-
-ノートは、出版物やプロジェクトに代わるものではありません。主に論理を明確にしたり、ツールを文書化したり、あるいは作業仮説をより柔軟な形で定式化したりするために使用されます。
-
-<div class="finis">❧</div>

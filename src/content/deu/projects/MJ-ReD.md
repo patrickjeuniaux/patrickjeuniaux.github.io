@@ -1,20 +1,24 @@
 ---
-title: "MJ-ReD"
-routeSlug: "mj-red"
-summary: "Projekt zu Justizhäusern und angewandter Forschung im frankophonen belgischen Kontext."
+title: 'MJ-ReD'
+routeSlug: 'mj-red'
+summary: 'Kooperative Forschung zu den französischsprachigen Justizhäusern Belgiens entwickeln.'
 order: 7
-status: "Laufend"
-domain: "Kriminologie"
-startYear: "2024"
-endYear: "2028"
-funder: "Föderation Wallonie-Brüssel"
-role: "Mit-Promotor"
-budget: "800.000 €"
-keywords: ["Justizhäuser", "Kriminologie", "frankophones Belgien"]
-locale: "deu"
-translationKey: "project-mjred"
+status: 'Laufend'
+domain: 'Kriminologie'
+startYear: '2024'
+endYear: '2028'
+funder: 'Föderation Wallonie-Brüssel'
+role: 'Ko-Projektverantwortlicher'
+budget: '800 000 €'
+keywords:
+  - 'Justizhäuser'
+  - 'Kriminologie'
+  - 'französischsprachiges Belgien'
+locale: 'deu'
+translationKey: 'project-mjred'
+canonical: false
+autoTranslated: true
+sourceHash: '5c76190d1fe4abdf7419b36baac06e6483746d2258bb4438a197876bc3803878'
 ---
 
-MJ-ReD ist ein Projekt, das mit dem Ziel ins Leben gerufen wurde, die kooperative Forschung rund um die frankophonen **Justizhäuser** in Belgien zu entwickeln.
-
-Es führt ein langjähriges Interesse an strafrechtlichen Werdegängen, institutionellen Praktiken und den möglichen Nutzungsmöglichkeiten von Daten in diesem Bereich fort.
+**MJ-ReD** befasst sich mit strafrechtlichen Verläufen, institutionellen Praktiken und Datennutzung in den französischsprachigen **Justizhäusern** Belgiens.

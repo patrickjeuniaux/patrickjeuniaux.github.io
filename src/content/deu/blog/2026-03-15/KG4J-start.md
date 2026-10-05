@@ -1,24 +1,17 @@
 ---
-title: "Effektiver Start des KG4J-Projekts"
-description: "Konkreter Start des Forschungsprojekts KG4J (Knowledge Graphs for Justice)."
-date: 2026-03-15
+title: 'Start des Projekts KG4J'
+description: 'KG4J beginnt im März 2026 mit vier Jahren Forschung zu Wissensgraphen und Justizdaten.'
+date: '2026-03-15'
 draft: false
-locale: deu
-translationKey: news-kg4j-start
+locale: 'deu'
+translationKey: 'news-kg4j-start'
+canonical: false
+autoTranslated: true
+sourceHash: '087252a4906fed40a0a19e3db956ecebbb526b60575b36251a29be7e5b8153ca'
 ---
 
-Das Projekt **KG4J** (*Knowledge Graphs for Justice*) wurde offiziell am 3. Juni 2025 als Antwort auf den **P4Science**-Aufruf des föderalen Wissenschaftspolitik (**BELSPO**) eingereicht. 
+**[KG4J — Knowledge Graphs for Justice](/deu/kg4j/)** beginnt im März 2026 für **vier Jahre**.
 
-Es startet konkret in diesem Monat März 2026 für eine Dauer von 4 Jahren.
+Das von BELSPO finanzierte Projekt untersucht Wissensgraphen und künstliche Intelligenz zur Verknüpfung forensischer und kriminologischer Daten des **[NICC](/deu/nicc/)**.
 
-Das Projekt zielt im Wesentlichen darauf ab, die Datenanalysekapazität des **INCC** durch Systeme zu erhöhen, die Wissensgraphen und künstliche Intelligenz nutzen und bestimmte Prinzipien einer guten Datengovernance respektieren.
-
-Das Projekt umfasst ein internationales Konsortium bestehend aus:
-- der Informatikabteilung der **Université de Mons** (UMONS);
-- der Abteilung für Mathematik und industrielles Engineering der **Polytechnique Montréal**;
-- der Informatikabteilung der **KU Leuven**;
-- der Linguistikabteilung der **Indiana University Bloomington**;
-- dem Louvain Research Institute in Management and Organizations (LouRIM) an der **UCLouvain**;
-- dem **Digital Transformation Office** (DTO) des FÖD Justiz.
-
-<div class="finis">✦</div>
+[Ziele, Methoden und Partner →](/deu/kg4j/)

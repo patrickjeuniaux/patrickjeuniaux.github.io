@@ -1,24 +1,17 @@
 ---
-title: "BELSPOに提出されたKG4J研究プロポーザル"
-description: "KG4J (Knowledge Graphs for Justice) プロジェクトは、BELSPOのP4Science公募の枠組みで2025年に提出されました。予算：392,798.60ユーロ。"
-date: 2025-06-02
+title: 'KG4J：BELSPO に研究提案を提出'
+description: '司法のための知識グラフ研究プロジェクトを BELSPO の P4Science 公募に提出。'
+date: '2025-06-02'
 draft: false
-locale: jpn
-translationKey: news-kg4j-proposal-submitted
+locale: 'jpn'
+translationKey: 'news-kg4j-proposal-submitted'
+canonical: false
+autoTranslated: true
+sourceHash: 'bb022d986d74cd51d8c20a65ee47e86f995faab6ee2885f9dfb0a5c5ddae0723'
 ---
 
-**KG4J** (*Knowledge Graphs for Justice*) プロジェクトは、連邦科学政策局（**BELSPO**）の **P4Science** 公募への回答として、2025年6月3日に正式に提出されました。 
+**[KG4J — Knowledge Graphs for Justice](/jpn/kg4j/)** の提案は、2025年6月に BELSPO の **P4Science** 公募に提出されました。
 
-このプロジェクトは、主にナレッジグラフと人工知能を活用し、データガバナンスの原則を遵守するシステムを通じて、**INCC**のデータ分析能力を高めることを目的としています。
+知識グラフと人工知能を用いて **[INCC](/jpn/nicc/)** の法科学・犯罪学データを統合する提案です。申請予算は **392 798,60 €** でした。
 
-プロジェクトには、以下を含む国際的なコンソーシアムが関与しています：
-- **モンス大学**（UMONS）のコンピュータサイエンス部門 ；
-- **ポリテクニーク・モントリオール**の数学および経営工学部門 ；
-- **ルーヴァン・カトリック大学**（KU Leuven）のコンピュータサイエンス部門 ；
-- **インディアナ大学ブルーミントン校**の言語学部門 ；
-- **UCLouvain**のルーヴァン・マネジメント・組織研究所（LouRIM） ；
-- SPF Justiceの**デジタル変革局**（DTO）。
-
-申請された予算は **392,798.60ユーロ** です。
-
-<div class="finis">✦</div>
+[プロジェクトとコンソーシアムの概要 →](/jpn/kg4j/)

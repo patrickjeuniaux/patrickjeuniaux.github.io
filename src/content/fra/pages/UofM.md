@@ -1,28 +1,23 @@
 ---
 title: "Université de Memphis"
-lead: "Recherche doctorale en psychologie expérimentale et psycholinguistique, communication multimodale et enseignement des sciences cognitives."
+lead: "Doctorat en psycholinguistique, recherche sur la communication multimodale et enseignement."
 locale: "fra"
 translationKey: "institution-uofm"
 ---
 
-À l’**Université de Memphis** (*University of Memphis*), aux États-Unis, j’ai mené mes recherches doctorales en sciences cognitives au sein de l’**Institute for Intelligent Systems** et du **département de psychologie**, notamment dans le laboratoire **Multimodal Aspects of Discourse** de Max Louwerse.
+## Doctorat et recherche
 
-## Doctorat et apprentissage du langage
+Patrick Jeuniaux a obtenu un **doctorat en psychologie expérimentale, spécialisé en psycholinguistique**, au sein de l’Institute for Intelligent Systems et du département de psychologie.
 
-J’y ai obtenu un **doctorat en psychologie expérimentale, avec une spécialisation en psycholinguistique**. Ma thèse, **[The role of feedback in learning form-meaning mappings](/work/#publication-jeuniaux-2009-feedback-dissertation)**, réalisée sous la supervision de **Max Louwerse**, portait sur le rôle du feedback dans l’apprentissage des relations entre formes et significations.
+La thèse **[The role of feedback in learning form-meaning mappings](/work/#publication-jeuniaux-2009-feedback-dissertation)**, dirigée par Max Louwerse, étudiait le rôle du feedback dans l’apprentissage des relations entre formes et significations.
 
-Ce travail associait l’étude expérimentale de l’apprentissage du langage à l’analyse des données et à la modélisation computationnelle.
-
-## Cognition, discours et communication
-
-Mes recherches ont également porté sur la **cohérence du discours**, les modèles sémantiques comme la **Latent Semantic Analysis**, la **cognition incarnée** et la **communication multimodale**. J’étudiais notamment la coordination entre interlocuteurs et les relations entre langage, perception et comportements.
-
-Les expériences mobilisaient des enregistrements audio et vidéo, le suivi des mouvements de la souris et des mesures oculométriques, associés à des analyses statistiques et computationnelles.
+Les autres recherches portaient sur la cohérence du discours, les modèles sémantiques, la cognition incarnée et la coordination entre interlocuteurs. Elles associaient expériences, enregistrements audio et vidéo, oculométrie et analyses statistiques.
 
 ## Enseignement
 
-Au département de psychologie, j’ai conçu et enseigné deux cours : **Introduction to Psychological Research** et **Thinking and Cognitive Processes**. Ils associaient les notions théoriques à des exercices d’analyse de données en **R** et à des évaluations informatisées développées en **PHP** et **MySQL**.
+Conception et enseignement des cours **Introduction to Psychological Research** et **Thinking and Cognitive Processes**, avec des exercices d’analyse de données en R.
 
-## Travaux associés
+## Publications associées
 
-L’article **[The linguistic and embodied nature of conceptual processing](/work/#publication-louwerse-jeuniaux-2010-conceptual)** étudie les dimensions linguistiques et incarnées du traitement conceptuel. **[Behavior Matching in Multimodal Communication Is Synchronized](/work/#publication-louwerse-et-al-2012-multimodal)** porte sur la synchronisation des comportements dans la communication multimodale.
+- [The linguistic and embodied nature of conceptual processing](/work/#publication-louwerse-jeuniaux-2010-conceptual).
+- [Behavior Matching in Multimodal Communication Is Synchronized](/work/#publication-louwerse-et-al-2012-multimodal).

@@ -1,20 +1,24 @@
 ---
-title: "BE-Prüm ADN"
-routeSlug: "beprumadn"
-summary: "评估比利时根据 Prüm 条约进行 DNA 交换的影响。"
-order: 14
-status: "已完成"
-domain: "法庭遗传学"
-startYear: "2010"
-endYear: "2012"
-funder: "联邦司法部 (SPF Justice)"
-role: "主要研究者 (PI)"
-budget: "300 000 €"
-keywords: ["Prüm", "DNA", "比利时", "司法"]
-locale: "zho"
-translationKey: "project-beprumadn"
+title: 'BE Prüm ADN'
+routeSlug: 'beprumadn'
+summary: '支持欧盟成员国之间的 DNA 数据交换。'
+order: 10
+status: '已完成'
+domain: '法证遗传学'
+startYear: '2015'
+endYear: '2018'
+funder: '欧盟委员会'
+role: '项目准备与支持'
+budget: '700 852 €'
+keywords:
+  - 'DNA'
+  - '普吕姆'
+  - '欧盟'
+locale: 'zho'
+translationKey: 'project-beprumadn'
+canonical: false
+autoTranslated: true
+sourceHash: 'e1f5e499f5ab523800029c9793edeb137b8943ed6191275747b36255976c4dd8'
 ---
 
-BE-Prüm ADN 项目旨在分析比利时根据 Prüm 条约进行 DNA 数据交换的影响和结果。
-
-这包括对技术、法律和运营层面的评估。
+项目支持在欧洲层面依据 **Prüm** 决定实施 **DNA** 数据交换。

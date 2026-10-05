@@ -1,31 +1,26 @@
 ---
 title: 'Università di Memphis'
-lead: 'Ricerca dottorale in psicologia sperimentale e psicolinguistica, comunicazione multimodale e insegnamento delle scienze cognitive.'
+lead: 'Dottorato in psicolinguistica, ricerca sulla comunicazione multimodale e insegnamento.'
 locale: 'ita'
 translationKey: 'institution-uofm'
 canonical: false
 autoTranslated: true
-sourceHash: 'fd707814320aeefba19c18ab175f83be456748ae3242e4545a248d9c0be8e6b5'
+sourceHash: '0bd6e66fefcba0be5be9be73c8f7b17bb01ec2e735d0465c1598fafd40ac923c'
 ---
 
-All’**Università di Memphis** (*University of Memphis*), negli Stati Uniti, ho svolto le mie ricerche dottorali in scienze cognitive presso l’**Institute for Intelligent Systems** e il **dipartimento di psicologia**, in particolare nel laboratorio **Multimodal Aspects of Discourse** di Max Louwerse.
+## Dottorato e ricerca
 
-## Dottorato e apprendimento del linguaggio
+Patrick Jeuniaux ha ottenuto un **dottorato in psicologia sperimentale, specializzato in psicolinguistica**, presso l’Institute for Intelligent Systems e il dipartimento di psicologia.
 
-Ho conseguito un **dottorato in psicologia sperimentale, con specializzazione in psicolinguistica**. La mia tesi, **[The role of feedback in learning form-meaning mappings](/ita/work/#publication-jeuniaux-2009-feedback-dissertation)**, svolta sotto la supervisione di **Max Louwerse**, riguardava il ruolo del feedback nell’apprendimento delle relazioni tra forme e significati.
+La tesi **[The role of feedback in learning form-meaning mappings](/ita/work/#publication-jeuniaux-2009-feedback-dissertation)**, diretta da Max Louwerse, studiava il ruolo del feedback nell’apprendimento delle relazioni tra forme e significati.
 
-Questo lavoro associava lo studio sperimentale dell’apprendimento del linguaggio all’analisi dei dati e alla modellazione computazionale.
-
-## Cognizione, discorso e comunicazione
-
-Le mie ricerche hanno riguardato anche la **coerenza del discorso**, modelli semantici come la **Latent Semantic Analysis**, la **cognizione incarnata** e la **comunicazione multimodale**. Studiavo in particolare il coordinamento tra interlocutori e le relazioni tra linguaggio, percezione e comportamento.
-
-Gli esperimenti utilizzavano registrazioni audio e video, tracciamento dei movimenti del mouse e misure oculometriche, insieme ad analisi statistiche e computazionali.
+Le altre ricerche riguardavano coerenza del discorso, modelli semantici, cognizione incarnata e coordinamento tra interlocutori. Associavano esperimenti, registrazioni audio e video, oculometria e analisi statistiche.
 
 ## Insegnamento
 
-Nel dipartimento di psicologia ho progettato e insegnato due corsi: **Introduction to Psychological Research** e **Thinking and Cognitive Processes**. Univo concetti teorici a esercizi di analisi dei dati in **R** e a valutazioni informatizzate sviluppate in **PHP** e **MySQL**.
+Progettazione e insegnamento di **Introduction to Psychological Research** e **Thinking and Cognitive Processes**, con esercizi di analisi dei dati in R.
 
-## Lavori correlati
+## Pubblicazioni correlate
 
-L’articolo **[The linguistic and embodied nature of conceptual processing](/ita/work/#publication-louwerse-jeuniaux-2010-conceptual)** studia le dimensioni linguistiche e incarnate dell’elaborazione concettuale. **[Behavior Matching in Multimodal Communication Is Synchronized](/ita/work/#publication-louwerse-et-al-2012-multimodal)** riguarda la sincronizzazione dei comportamenti nella comunicazione multimodale.
+- [The linguistic and embodied nature of conceptual processing](/ita/work/#publication-louwerse-jeuniaux-2010-conceptual).
+- [Behavior Matching in Multimodal Communication Is Synchronized](/ita/work/#publication-louwerse-et-al-2012-multimodal).

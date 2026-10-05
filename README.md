@@ -67,7 +67,7 @@ src/content/
 | Tu souhaites modifier… | Fichier ou dossier |
 | --- | --- |
 | L'accueil | `src/content/fra/pages/home.md` |
-| Ton parcours | `src/content/fra/pages/about.md` |
+| Le profil et le parcours | `src/content/fra/pages/about.md` |
 | Tes coordonnées | `src/content/fra/pages/contact.md` |
 | Les collaborations | `src/content/fra/pages/collaborations.md` |
 | La présentation et les missions du laboratoire DAT | `src/content/fra/pages/DAT.md` |
@@ -85,7 +85,7 @@ src/content/
 
 Le français s'affiche sans préfixe : `/about/`. L'anglais utilise `/eng/about/`, le néerlandais `/nld/about/`. Les anciennes adresses `/fra/.../` restent disponibles. `/blog/` redirige vers `/notes/` et `/publications/` vers `/work/`.
 
-Le laboratoire DAT dispose de deux textes distincts : une **nouvelle datée** à `/notes/2026-06-02/dat-creation/` pour annoncer sa création, et une **page de présentation** à `/dat/` pour décrire ses missions. La page `/dat/` se trouve au même niveau d'URL que `/nicc/`, et précise que le laboratoire appartient à l'INCC. La nouvelle renvoie vers cette présentation ; les pages INCC, À propos et Collaborations y donnent également accès. Pour faire évoluer les missions du laboratoire, modifie `pages/DAT.md`, puis ses traductions après autorisation.
+Le laboratoire DAT dispose de deux textes distincts : une **nouvelle datée** à `/notes/2026-06-02/dat-creation/` pour annoncer sa création, et une **page de présentation** à `/dat/` pour décrire ses missions. La page `/dat/` se trouve au même niveau d'URL que `/nicc/`, et précise que le laboratoire appartient à l'INCC. La nouvelle renvoie vers cette présentation ; les pages INCC, Profil et Collaborations y donnent également accès. Pour faire évoluer les missions du laboratoire, modifie `pages/DAT.md`, puis ses traductions après autorisation.
 
 Les fichiers des pages DAT, DRDC et Thales s'appellent respectivement `DAT.md`, `DRDC.md` et `Thales.md`. Leurs adresses restent en minuscules : `/dat/`, `/drdc/` et `/thales/`. Toute création ou modification d'une traduction nécessite un feu vert explicite.
 
@@ -122,9 +122,25 @@ La partie entre les lignes `---` s'appelle **l'en-tête YAML** ou *frontmatter*.
 
 Certaines pages principales utilisent beaucoup de champs dans l'en-tête. **L'accueil est construit à partir de ses champs** (`lead`, `axis1Text`, `newsTitle`, etc.) : ajouter du texte au bas de `home.md` ne l'affichera pas. Sur les autres pages, les champs pilotent les titres et encadrés, et le corps Markdown fournit le texte principal.
 
-Dans `home.md`, les champs `lead` et `axis1Text` à `axis5Text` acceptent les liens Markdown et les mises en forme simples. Garde un seul paragraphe par champ, sans titre ni liste. Par exemple, `"Je dirige le laboratoire [DAT](/dat/) à l’INCC."` rend la mention DAT cliquable dans l’introduction. Les liens vers des pages utilisent les adresses de la langue du contenu ; en français, elles n’ont pas de préfixe.
+Dans `home.md`, les champs `lead` et `axis1Text` à `axis5Text` acceptent les liens Markdown et les mises en forme simples. Garde un seul paragraphe par champ, sans titre ni liste. Par exemple, `"Le laboratoire [DAT](/dat/) accompagne la gestion des données à l’INCC."` rend la mention DAT cliquable. Les liens vers des pages utilisent les adresses de la langue du contenu ; en français, elles n’ont pas de préfixe.
 
-La liste « Navigation » de l’accueil inclut DAT juste après « À propos ». Le champ facultatif `datText` de `home.md` fournit sa courte description ; le libellé du lien provient de la page DAT dans la langue choisie.
+L’accueil présente trois activités avec les paires `axis1Title` / `axis1Text` à `axis3Title` / `axis3Text`. Les quatrième et cinquième paires restent disponibles : une carte apparaît seulement si son titre et son texte sont renseignés.
+
+La liste « Explorer » de l’accueil affiche les liens dont la description est renseignée (`aboutText`, `datText`, `projectsText`, `workText`, `notesText`, `collaborationsText`, `contactText`). Supprimer un de ces champs retire le lien de cette liste, sans modifier le menu principal. Le libellé DAT provient de sa page dans la langue choisie. L’encadré de présentation du site est facultatif : supprimer `editorialText` le masque.
+
+Les encadrés des pages principales sont également facultatifs. Supprimer `noteText` masque l’encadré ; dans le profil, supprimer `note` produit le même effet.
+
+### Ligne éditoriale française
+
+- Commencer par la question étudiée, l’activité ou l’usage concret.
+- Limiter les introductions à une ou deux phrases ; supprimer les explications du type « Cette section présente… ».
+- Réserver les fonctions et la formation au profil, et les missions du laboratoire à DAT.
+- Dans les projets, indiquer le rôle une fois dans `role`, puis décrire la question, les méthodes, les productions ou objectifs et les partenaires. Adapter la longueur aux informations disponibles.
+- Distinguer les résultats obtenus des objectifs et des usages encore explorés.
+- Dans les actualités, annoncer l’événement et renvoyer vers la fiche du projet ou du laboratoire pour les détails permanents.
+- Le résumé officiel de KG4J est conservé dans un bloc `<details>` : modifier la présentation courte sans réécrire ce document de référence.
+
+Les libellés français « Profil », « Communications » et « Notes » conservent les adresses `/about/`, `/work/` et `/notes/`. Les versions traduites reprennent cette structure et les mêmes chemins après le préfixe de langue. Toute mise à jour des traductions nécessite une autorisation explicite.
 
 ## 4. Modifier une page existante
 
@@ -181,7 +197,7 @@ navOrder: 100
 | `navTitle` | Libellé ajouté automatiquement au menu ; supprime ce champ pour une page sans lien dans le menu |
 | `navOrder` | Ordre entre les nouvelles pages du menu : les plus petits nombres passent d'abord |
 
-Les nouvelles entrées apparaissent après le menu principal. La page DAT fait exception : son lien apparaît en deuxième position, juste après « À propos », dans toutes les langues. Son champ `navOrder` ne modifie pas cette position. Si tu ajoutes beaucoup de pages, garde les entrées essentielles dans le menu et relie les autres depuis le corps des pages.
+Les nouvelles entrées apparaissent après le menu principal. La page DAT fait exception : son lien apparaît en deuxième position, juste après le profil, dans toutes les langues. Son champ `navOrder` ne modifie pas cette position. Si tu ajoutes beaucoup de pages, garde les entrées essentielles dans le menu et relie les autres depuis le corps des pages.
 
 ### Étape 3 — Afficher la page localement
 
@@ -288,7 +304,7 @@ sourceHash: "…l'empreinte de 64 caractères fournie dans la consigne…"
 
 Ce bloc est une illustration : **garde la vraie empreinte fournie dans la consigne**, pas les points de suspension.
 
-`autoTranslated: true` affiche une mention de traduction automatique. Mets `false` pour un texte rédigé directement par une personne. `canonical: false`, demandé dans les traductions, indique que ce fichier n'est pas la version de référence des notes ou projets ; ce champ ne définit pas une balise SEO.
+Les versions du site dans les autres langues affichent une simple mention de traduction automatique depuis le français, dans le pied de page. Aucun encadré de politique de traduction n’est affiché dans les notes. Le champ `autoTranslated: true` et l’empreinte `sourceHash` restent enregistrés dans les traductions pour leur suivi. `canonical: false`, demandé dans les traductions, indique que ce fichier n'est pas la version de référence des notes ou projets ; ce champ ne définit pas une balise SEO.
 
 ### Étape 4 — Relire
 
@@ -475,7 +491,7 @@ Sans date explicite, le pied de page calcule automatiquement les dates à chaque
 
 Sur ton ordinateur, une modification non enregistrée dans Git utilise la date de dernière modification du fichier. Un nouveau fichier peut donc afficher une mise à jour avant son premier commit, sans date de publication inventée. Les fichiers inchangés conservent leur date Git : un téléchargement du dépôt ou une reconstruction ne les fait pas apparaître comme mis à jour. Sans accès à Git, les dates automatiques sont omises.
 
-Le calcul tient aussi compte des contenus affichés : les nouvelles et la page DAT pour l’accueil, les fiches pour la liste des projets, les notes pour leur index et `data/index.bib` pour la page Travaux. La date la plus récente est retenue. Une date `updatedAt` explicite reste prioritaire.
+Le calcul tient aussi compte des contenus affichés : les nouvelles et la page DAT pour l’accueil, les fiches pour la liste des projets, les notes pour leur index et `data/index.bib` pour la page Communications. La date la plus récente est retenue. Une date `updatedAt` explicite reste prioritaire.
 
 Les mises à jour automatiques affichent la date et l’heure dans le fuseau **Europe/Brussels**, avec le décalage horaire. Les dates éditoriales explicites restent affichées au jour près. Après une modification, relance `npm run build` pour actualiser la version utilisée par `npm run preview`.
 

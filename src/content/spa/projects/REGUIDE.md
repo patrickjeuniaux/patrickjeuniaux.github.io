@@ -1,7 +1,7 @@
 ---
 title: 'REGUIDE'
 routeSlug: 'reguide'
-summary: 'Proyecto sobre la reintegración y el acompañamiento de personas retornadas en Bélgica.'
+summary: 'Estudiar las trayectorias de reintegración de personas que regresan de zonas de conflicto en Bélgica.'
 order: 4
 status: 'Finalizado'
 domain: 'Criminología'
@@ -11,7 +11,7 @@ funder: 'BELSPO'
 role: 'Investigador'
 budget: '1 002 092 €'
 keywords:
-  - 'personas retornadas'
+  - 'retornados'
   - 'reintegración'
   - 'terrorismo'
   - 'Bélgica'
@@ -19,9 +19,9 @@ locale: 'spa'
 translationKey: 'project-reguide'
 canonical: false
 autoTranslated: true
-sourceHash: '223973ddca6a6bef9661b3cbe4b9cd4e797d49690524d35c48e5df7f3f4187af'
+sourceHash: '06c60ebad2e3f00a7652bbbb92a0ddbfc8bf723f998fc4c5f90558106a3ab246'
 ---
 
-REGUIDE estudió las trayectorias de reintegración y los dispositivos de acompañamiento de las **personas retornadas** en Bélgica.
+**REGUIDE** estudió trayectorias de reintegración y dispositivos de apoyo a personas que regresan de zonas de conflicto (*returnees*).
 
-En este marco participé en trabajos sobre bases de datos, trayectorias sociojudiciales y elaboración de informes y artículos científicos con colegas del INCC y de las instituciones asociadas.
+Los trabajos combinaban análisis de bases de datos y trayectorias sociojudiciales con informes y artículos científicos, junto al **[INCC](/spa/nicc/)** y las instituciones asociadas.

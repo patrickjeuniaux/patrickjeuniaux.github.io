@@ -1,11 +1,13 @@
 ---
-title: "Universidade de Pisa"
-locale: "por"
-translationKey: "institution-unipi"
+title: 'Universidade de Pisa'
+locale: 'por'
+translationKey: 'institution-unipi'
+lead: 'Investigação pós-doutoral em linguística computacional.'
+canonical: false
+autoTranslated: true
+sourceHash: 'cf6dc9239fcac840a3c14fa27692e8d1849aa4bc12dc490d2c1388ff3055dada'
 ---
 
-Realizei um estágio pós-doutoral na **Universidade de Pisa** (Università di Pisa), em Itália.
+A estadia pós-doutoral de Patrick Jeuniaux na **Universidade de Pisa** abordava modelos semânticos distribucionais, que representam o significado a partir do uso de palavras em corpora.
 
-### Investigação Pós-doutoral
-
-Durante este período, os meus trabalhos concentraram-nos nos **modelos semânticos distributivos**.
+Estes trabalhos integravam **[UBIMOL](/por/ubimol/)**.

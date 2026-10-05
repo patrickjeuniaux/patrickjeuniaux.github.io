@@ -1,20 +1,25 @@
 ---
-title: "Creazione del laboratorio Data, Artificial Intelligence & Transformation (DAT)"
-description: "Creazione del laboratorio Data, Artificial Intelligence & Transformation (DAT) presso l’INCC il 2 giugno 2026, per rafforzare la gestione e la valorizzazione dei dati, delle informazioni e delle conoscenze."
-date: "2026-06-02"
-locale: "ita"
-translationKey: "news-dat-laboratory-creation"
+title: 'Creazione del laboratorio DAT all’INCC'
+description: 'Il laboratorio Data, Artificial Intelligence & Transformation è stato creato all’INCC il 2 giugno 2026.'
+date: '2026-06-02'
 draft: false
-tags: ["DAT", "INCC", "governance dei dati", "gestione dell’informazione", "scienza dei dati", "intelligenza artificiale", "trasformazione"]
+locale: 'ita'
+translationKey: 'news-dat-laboratory-creation'
 canonical: false
+tags:
+  - 'DAT'
+  - 'INCC'
+  - 'gouvernance des données'
+  - 'gestion de l''information'
+  - 'science des données'
+  - 'intelligence artificielle'
+  - 'transformation'
 autoTranslated: true
-sourceHash: "0c7a46d63d6e5c086126c6dae1305c3a1314ea722688a3e4e5c97319df3f80ee"
+sourceHash: '803ef3daaaa4fa012b20fd448b8f8b4731592037474cf76cfa33f7b6d141f6ac'
 ---
 
-<img src="/img/dat-logo-header.svg" alt="Logo del laboratorio DAT" width="600" height="200" style="margin: 1.5rem auto;" />
+Il laboratorio **Data, Artificial Intelligence & Transformation (DAT)** è stato creato il **2 giugno 2026** all’**[INCC](/ita/nicc/)**.
 
-Il 2 giugno 2026 è stato creato il laboratorio **Data, Artificial Intelligence & Transformation (DAT)** presso l’[Istituto nazionale di criminalistica e criminologia (INCC)](/ita/nicc/). Ne sono il direttore. La sua ambizione è rafforzare il modo in cui l’istituzione organizza, preserva e valorizza i propri dati, le proprie informazioni e le proprie conoscenze.
+Sostiene l’organizzazione dei dati e delle conoscenze, lo sviluppo di strumenti di analisi e il miglioramento delle pratiche di lavoro.
 
-Il laboratorio integra la governance dei dati, la gestione dell’informazione e delle conoscenze, la scienza dei dati e l’intelligenza artificiale con l’accompagnamento della trasformazione organizzativa. Mira a rafforzare le capacità umane dell’INCC sostenendo le attività scientifiche, facilitando il lavoro quotidiano dei gruppi e orientando le decisioni.
-
-**[Scopri il laboratorio DAT e le sue missioni →](/ita/dat/)**
+[Scoprire le missioni del laboratorio →](/ita/dat/)

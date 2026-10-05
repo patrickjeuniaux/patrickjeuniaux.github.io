@@ -1,20 +1,24 @@
 ---
-title: "UBIMOL"
-routeSlug: "ubimol"
-summary: "Progetto regionale toscano che ha finanziato i miei lavori post-dottorato presso l'Università di Pisa."
+title: 'UBIMOL'
+routeSlug: 'ubimol'
+summary: 'Ricerca in linguistica computazionale sull’estrazione di informazioni e sulla rappresentazione del significato.'
 order: 12
-status: "Terminato"
-domain: "Linguistica computazionale"
-startYear: "2014"
-endYear: "2020"
-funder: "Regione Toscana"
-role: "Ricercatore post-dottorato"
-budget: "1 200 000 €"
-keywords: ["pisa", "linguistica computazionale", "apprendimento"]
-locale: "ita"
-translationKey: "project-ubimol"
+status: 'Concluso'
+domain: 'Linguistica computazionale'
+startYear: '2014'
+endYear: '2020'
+funder: 'Regione Toscana'
+role: 'Ricercatore postdottorale'
+budget: '1 200 000 €'
+keywords:
+  - 'Pisa'
+  - 'linguistica computazionale'
+  - 'apprendimento'
+locale: 'ita'
+translationKey: 'project-ubimol'
+canonical: false
+autoTranslated: true
+sourceHash: 'b79b96d85da0df9708e94b4d477ee04e0d43b51240dde4b6f497a2b309e700af'
 ---
 
-UBIMOL è il progetto regionale che ha finanziato il mio periodo post-dottorato presso il laboratorio di **linguistica computazionale** dell'Università di Pisa.
-
-Vi ho lavorato sull'estrazione di informazioni linguistiche da grandi corpora, sui modelli semantici distribuzionali e sui primi sviluppi legati ai grafi di conoscenza.
+Il progetto regionale toscano **UBIMOL** ha finanziato lavori postdottorali all’**[Università di Pisa](/ita/unipi/)**. Le ricerche riguardavano estrazione di informazioni da grandi corpora, modelli semantici distribuzionali e grafi di conoscenza.

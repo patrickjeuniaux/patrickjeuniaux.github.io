@@ -2,10 +2,9 @@
 title: "Université de Pise"
 locale: "fra"
 translationKey: "institution-unipi"
+lead: "Recherche postdoctorale en linguistique computationnelle."
 ---
 
-J'ai effectué un séjour postdoctoral à l'**Université de Pise** (Università di Pisa), en Italie.
+Le séjour postdoctoral de Patrick Jeuniaux à l’**Université de Pise** portait sur les modèles sémantiques distributionnels, qui représentent le sens à partir des usages des mots dans les corpus.
 
-### Recherche Postdoctorale
-
-Durant cette période, mes travaux se sont concentrés sur les **modèles sémantiques distributionnels**.
+Ces travaux s’inscrivaient dans le projet **[UBIMOL](/ubimol/)**.

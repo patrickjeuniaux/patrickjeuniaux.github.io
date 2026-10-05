@@ -1,24 +1,17 @@
 ---
-title: "Propuesta de investigación KG4J presentada a Belspo"
-description: "El proyecto KG4J (Knowledge Graphs for Justice) fue presentado en 2025 en el marco de la convocatoria P4Science de BELSPO. Presupuesto: 392 798,60 €."
-date: 2025-06-02
+title: 'KG4J: propuesta presentada a BELSPO'
+description: 'Presentación del proyecto sobre grafos de conocimiento para la justicia a la convocatoria P4Science de BELSPO.'
+date: '2025-06-02'
 draft: false
-locale: spa
-translationKey: news-kg4j-proposal-submitted
+locale: 'spa'
+translationKey: 'news-kg4j-proposal-submitted'
+canonical: false
+autoTranslated: true
+sourceHash: 'bb022d986d74cd51d8c20a65ee47e86f995faab6ee2885f9dfb0a5c5ddae0723'
 ---
 
-El proyecto **KG4J** (*Knowledge Graphs for Justice*) fue presentado oficialmente el 3 de junio de 2025 en respuesta a la convocatoria **P4Science** de la política científica federal (**BELSPO**). 
+La propuesta **[KG4J — Knowledge Graphs for Justice](/spa/kg4j/)** se presentó en junio de 2025 a la convocatoria **P4Science** de BELSPO.
 
-El proyecto busca esencialmente aumentar la capacidad de análisis de datos del **INCC** a través de sistemas que explotan los grafos de conocimiento y la inteligencia artificial, respetando ciertos principios de buena gobernanza de datos.
+Aborda la integración de datos forenses y criminológicos del **[INCC](/spa/nicc/)** mediante grafos de conocimiento e inteligencia artificial. El presupuesto solicitado fue de **392 798,60 €**.
 
-El proyecto implica un consorcio internacional que reúne a:
-- El departamento de informática de la **Université de Mons** (UMONS);
-- El departamento de matemáticas e ingeniería industrial de **Polytechnique Montréal**;
-- El departamento de informática de la **KU Leuven**;
-- El departamento de lingüística de la **Indiana University Bloomington**;
-- El Louvain Research Institute in Management and Organizations (LouRIM) en la **UCLouvain**;
-- El **Digital Transformation Office** (DTO) del SPF Justicia.
-
-El presupuesto solicitado asciende a **392 798,60 €**.
-
-<div class="finis">✦</div>
+[Presentación del proyecto y del consorcio →](/spa/kg4j/)

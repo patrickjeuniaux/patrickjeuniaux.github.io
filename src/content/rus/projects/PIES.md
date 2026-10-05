@@ -1,14 +1,14 @@
 ---
 title: 'PIES'
 routeSlug: 'pies'
-summary: 'Европейский консорциум, который я координировал для изучения и укрепления обмена криминалистическими данными ДНК в рамках Прюмского сотрудничества.'
+summary: 'Оценить и укрепить обмен криминалистическими данными ДНК между европейскими организациями в рамках Prüm.'
 order: 13
 status: 'Завершён'
-domain: 'Криминалистическая генетика'
+domain: 'Судебная генетика'
 startYear: '2012'
 endYear: '2015'
 funder: 'Европейская комиссия'
-role: 'Координатор и главный исследователь'
+role: 'Координатор, главный исследователь и соавтор заявки'
 budget: '1 158 846,39 €'
 keywords:
   - 'Прюм'
@@ -19,30 +19,20 @@ locale: 'rus'
 translationKey: 'project-pies'
 canonical: false
 autoTranslated: true
-sourceHash: 'f00f50488f5f8eae625f1c53e2c9be115cfea80d0c0fa347b1f7489b6383f661'
+sourceHash: '5f79e40382d5b6b8f74dab257416207e6333fd6377cb92e89436250f3c5505e9'
 ---
-
-**PIES** (*Prüm Implementation, Evaluation, and Strengthening of Forensic DNA Data Exchange*) был европейским проектом по внедрению, оценке и укреплению обмена **криминалистическими данными ДНК** в рамках **Прюмского сотрудничества**.
 
 ## Исследовательский вопрос
 
-Как улучшить сотрудничество между учреждениями, обменивающимися криминалистическими данными ДНК, и эффективнее использовать обмен для исследований и криминалистической аналитики? Проект сочетал изучение практик обмена с анализом данных, в частности для исследования трансграничной преступности.
-
-## Мой вклад
-
-Я **совместно написал и подал заявку на финансирование**, а затем выполнял обязанности **координатора и главного исследователя**. В [NICC](/rus/nicc/) я обеспечивал координацию консорциума и научное руководство на всём протяжении проекта.
+Как улучшить сотрудничество организаций, обменивающихся криминалистическими данными ДНК, и использовать обмен для исследований? **PIES** (*Prüm Implementation, Evaluation, and Strengthening of Forensic DNA Data Exchange*) сочетал изучение практик обмена с анализом трансграничной преступности.
 
 ## Консорциум
 
-Консорциум объединял **семь учреждений в четырёх странах**: NICC в Бельгии; Sous-Direction de la Police Technique et Scientifique во Франции; Nederlands Forensisch Instituut, Nederlands Studiecentrum Criminaliteit en Rechtshandhaving и Лейденский университет в Нидерландах; Northumbria University и Sustainable Criminal Justice Solutions в Великобритании. **Europol** также участвовал как партнёр без финансирования.
+Семь организаций в четырёх странах: **[INCC](/rus/nicc/)** в Бельгии; Sous-Direction de la Police Technique et Scientifique во Франции; Nederlands Forensisch Instituut, Nederlands Studiecentrum Criminaliteit en Rechtshandhaving и Лейденский университет в Нидерландах; Northumbria University и Sustainable Criminal Justice Solutions в Великобритании.
 
-Сотрудничество объединяло компетенции в криминалистике, криминологии и судебном взаимодействии вокруг обмена и использования данных ДНК.
+**Europol** участвовал как партнёр, не получающий финансирования.
 
-## Работы и результаты
+## Результаты
 
-Мои вклады включают технические промежуточные и итоговые отчёты, а также доклады о международном сотрудничестве и использовании данных ДНК для изучения организованной или трансграничной преступности.
-
-Два материала позволяют познакомиться с этой работой:
-
-- **[Final technical implementation report проекта PIES](/rus/work/#publication-jeuniaux-2016-final-tech-report-pies)**, представляющий реализацию проекта;
-- доклад **[Exploiting Forensic DNA data to draw pictures of organized or transnational crime(s)](/rus/work/#publication-jeuniaux-et-al-2015-stockholm-networks)** об использовании данных ДНК для исследования этих форм преступности.
+- [Итоговый технический отчёт PIES](/rus/work/#publication-jeuniaux-2016-final-tech-report-pies).
+- [Презентация об использовании данных ДНК для изучения организованной или трансграничной преступности](/rus/work/#publication-jeuniaux-et-al-2015-stockholm-networks).

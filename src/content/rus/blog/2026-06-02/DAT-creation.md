@@ -1,20 +1,25 @@
 ---
-title: "Создание лаборатории Data, Artificial Intelligence & Transformation (DAT)"
-description: "Создание лаборатории Data, Artificial Intelligence & Transformation (DAT) в INCC 2 июня 2026 года для укрепления управления данными, информацией и знаниями и повышения эффективности их использования."
-date: "2026-06-02"
-locale: "rus"
-translationKey: "news-dat-laboratory-creation"
+title: 'Создание лаборатории DAT в INCC'
+description: 'Лаборатория Data, Artificial Intelligence & Transformation создана в INCC 2 июня 2026 года.'
+date: '2026-06-02'
 draft: false
-tags: ["DAT", "INCC", "управление данными", "управление информацией", "наука о данных", "искусственный интеллект", "трансформация"]
+locale: 'rus'
+translationKey: 'news-dat-laboratory-creation'
 canonical: false
+tags:
+  - 'DAT'
+  - 'INCC'
+  - 'gouvernance des données'
+  - 'gestion de l''information'
+  - 'science des données'
+  - 'intelligence artificielle'
+  - 'transformation'
 autoTranslated: true
-sourceHash: "0c7a46d63d6e5c086126c6dae1305c3a1314ea722688a3e4e5c97319df3f80ee"
+sourceHash: '803ef3daaaa4fa012b20fd448b8f8b4731592037474cf76cfa33f7b6d141f6ac'
 ---
 
-<img src="/img/dat-logo-header.svg" alt="Логотип лаборатории DAT" width="600" height="200" style="margin: 1.5rem auto;" />
+Лаборатория **Data, Artificial Intelligence & Transformation (DAT)** создана **2 июня 2026 года** в **[INCC](/rus/nicc/)**.
 
-2 июня 2026 года в [Национальном институте криминалистики и криминологии (INCC)](/rus/nicc/) была создана лаборатория **Data, Artificial Intelligence & Transformation (DAT)**. Я руковожу ею. Её цель — укрепить подходы института к организации, сохранению и эффективному использованию данных, информации и знаний.
+Она поддерживает организацию данных и знаний, разработку инструментов анализа и совершенствование рабочих практик.
 
-Лаборатория объединяет управление данными, информацией и знаниями, науку о данных и искусственный интеллект с поддержкой организационной трансформации. Она стремится укрепить возможности сотрудников INCC, поддерживая научную деятельность, облегчая повседневную работу команд и обеспечивая информационную основу для принятия решений.
-
-**[Познакомиться с лабораторией DAT и её задачами →](/rus/dat/)**
+[Задачи лаборатории →](/rus/dat/)

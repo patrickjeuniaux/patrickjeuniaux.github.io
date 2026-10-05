@@ -1,20 +1,24 @@
 ---
-title: "iMAP"
-routeSlug: "imap"
-summary: "आपराधिक प्रक्षेपवक्र (trajectories) के मानचित्रण (mapping) और विश्लेषण के लिए एक उपकरण का विकास।"
-order: 10
-status: "जारी है"
-domain: "डेटा साइंस"
-startYear: "2020"
-endYear: "Present"
-funder: "NICC"
-role: "नेतृत्व"
-budget: "आंतरिक"
-keywords: ["मानचित्रण", "प्रक्षेपवक्र", "विश्लेषण", "डेटा साइंस"]
-locale: "hin"
-translationKey: "project-imap"
+title: 'iMAP'
+routeSlug: 'imap'
+summary: 'मनुष्यों और एजेंटों में बहुमाध्यम संचार का अध्ययन।'
+order: 14
+status: 'पूर्ण'
+domain: 'संज्ञानात्मक विज्ञान'
+startYear: '2004'
+endYear: '2008'
+funder: 'NSF'
+role: 'डॉक्टरेट शोधकर्ता'
+budget: '699 949 $'
+keywords:
+  - 'बहुमाध्यमीय संचार'
+  - 'संज्ञानात्मक विज्ञान'
+  - 'एजेंट'
+locale: 'hin'
+translationKey: 'project-imap'
+canonical: false
+autoTranslated: true
+sourceHash: '397019d1edfde9161ca698b27a9592ba5aad43d0fd0d3b79c378d3aa59a70eb6'
 ---
 
-iMAP परियोजना का उद्देश्य आपराधिक प्रक्षेपवक्र को मानचित्रित करने और उनका विश्लेषण करने के लिए एक इंटरैक्टिव उपकरण विकसित करना है। 
-
-यह शोधकर्ताओं को जटिल डेटा को बेहतर ढंग से समझने में सहायता करता है।
+**National Science Foundation** से वित्तपोषित **iMAP**, **[मेम्फिस विश्वविद्यालय](/hin/uofm/)** में डॉक्टरेट शोध का ढाँचा था। कार्य बहुमाध्यम संचार, विमर्श और देहाधारित संज्ञान पर था।

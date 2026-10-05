@@ -15,6 +15,4 @@ locale: "fra"
 translationKey: "project-crecc"
 ---
 
-La **Recidivism and Criminal Careers Research Unit** a été cofondée avec des collègues pour structurer des recherches de long terme sur la récidive et les carrières criminelles.
-
-Elle sert de cadre à plusieurs projets, jeux de données et analyses menés au NICC.
+L’unité **Recidivism and Criminal Careers Research Unit (CReCC)**, à l’**[INCC](/nicc/)**, structure des recherches de long terme sur la récidive et les carrières criminelles. Elle sert de cadre à plusieurs projets, jeux de données et analyses.

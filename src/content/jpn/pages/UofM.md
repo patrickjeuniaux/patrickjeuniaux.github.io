@@ -1,31 +1,26 @@
 ---
 title: 'メンフィス大学'
-lead: '実験心理学・心理言語学の博士研究、マルチモーダル・コミュニケーション、認知科学の教育。'
+lead: '心理言語学の博士研究、マルチモーダルコミュニケーション研究、教育。'
 locale: 'jpn'
 translationKey: 'institution-uofm'
 canonical: false
 autoTranslated: true
-sourceHash: 'fd707814320aeefba19c18ab175f83be456748ae3242e4545a248d9c0be8e6b5'
+sourceHash: '0bd6e66fefcba0be5be9be73c8f7b17bb01ec2e735d0465c1598fafd40ac923c'
 ---
 
-米国の**メンフィス大学**（*University of Memphis*）では、**Institute for Intelligent Systems**と**心理学部門**で認知科学の博士研究を行い、特にMax Louwerseの**Multimodal Aspects of Discourse**研究室で活動しました。
+## 博士号と研究
 
-## 博士研究と言語学習
+Patrick Jeuniaux は Institute for Intelligent Systems と心理学部門で、**心理言語学を専門とする実験心理学博士号**を取得しました。
 
-私は**実験心理学の博士号（心理言語学専攻）**を取得しました。博士論文**[The role of feedback in learning form-meaning mappings](/jpn/work/#publication-jeuniaux-2009-feedback-dissertation)**は、**Max Louwerse**の指導の下で、形式と意味の関係を学習する際のフィードバックの役割を研究したものです。
+博士論文 **[The role of feedback in learning form-meaning mappings](/jpn/work/#publication-jeuniaux-2009-feedback-dissertation)** は、Max Louwerse の指導の下、形式と意味の関係を学ぶ際のフィードバックを研究しました。
 
-この研究は、言語学習の実験的研究をデータ分析と計算モデルの構築に結び付けました。
-
-## 認知、談話、コミュニケーション
-
-研究では、**談話の一貫性**、**Latent Semantic Analysis（潜在意味解析）**などの意味モデル、**身体化された認知**、**マルチモーダル・コミュニケーション**も扱いました。特に、対話者間の協調や、言語・知覚・行動の関係を研究しました。
-
-実験では、音声・映像の記録、マウスの動きの追跡、視線計測を用い、統計分析と計算による分析を組み合わせました。
+その他の研究では談話の一貫性、意味モデル、身体化認知、会話参加者間の調整を扱い、実験、音声・動画記録、眼球運動測定、統計分析を組み合わせました。
 
 ## 教育
 
-心理学部門では、**Introduction to Psychological Research**と**Thinking and Cognitive Processes**の2科目を設計し、担当しました。理論的な概念を**R**によるデータ分析の演習と結び付け、**PHP**と**MySQL**で開発したコンピュータによる評価も取り入れました。
+**Introduction to Psychological Research** と **Thinking and Cognitive Processes** を設計・担当し、R によるデータ分析演習を実施しました。
 
-## 関連する研究
+## 関連出版物
 
-論文**[The linguistic and embodied nature of conceptual processing](/jpn/work/#publication-louwerse-jeuniaux-2010-conceptual)**は、概念処理の言語的側面と身体化された側面を研究しています。**[Behavior Matching in Multimodal Communication Is Synchronized](/jpn/work/#publication-louwerse-et-al-2012-multimodal)**は、マルチモーダル・コミュニケーションにおける行動の同期を扱っています。
+- [The linguistic and embodied nature of conceptual processing](/jpn/work/#publication-louwerse-jeuniaux-2010-conceptual).
+- [Behavior Matching in Multimodal Communication Is Synchronized](/jpn/work/#publication-louwerse-et-al-2012-multimodal).

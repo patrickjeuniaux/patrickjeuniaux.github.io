@@ -1,20 +1,25 @@
 ---
-title: "DOT — Database on Offender Trajectories"
-routeSlug: "dot"
-summary: "आपराधिक प्रक्षेपवक्र (trajectories of delinquency) को समर्पित डेटा बुनियादी ढांचा परियोजना।"
+title: 'DOT — Database on Offender Trajectories'
+routeSlug: 'dot'
+summary: 'अपराध के जीवनक्रम का अध्ययन करने के लिए डेटा का आधारभूत ढाँचा विकसित करना।'
 order: 5
-status: "जारी है"
-domain: "अपराध विज्ञान"
-startYear: "2023"
-endYear: "2027"
-funder: "BELSPO"
-role: "प्रस्ताव के सह-लेखक"
-budget: "757 546 €"
-keywords: ["trajectories", "बुनियादी ढांचा", "डेटाबेस", "अपराध विज्ञान"]
-locale: "hin"
-translationKey: "project-dot"
+status: 'जारी'
+domain: 'अपराधशास्त्र'
+startYear: '2023'
+endYear: '2027'
+funder: 'BELSPO'
+role: 'प्रस्ताव के सहलेखक'
+budget: '757 546 €'
+keywords:
+  - 'प्रक्षेपपथ'
+  - 'अवसंरचना'
+  - 'डेटाबेस'
+  - 'अपराधशास्त्र'
+locale: 'hin'
+translationKey: 'project-dot'
+canonical: false
+autoTranslated: true
+sourceHash: '823b0f8e37fb0672488d4f2f8b2dd3930fb1f7113ebb2529dc1d4bd2d296ef75'
 ---
 
-DOT का उद्देश्य आपराधिक **प्रक्षेपवक्र** (trajectories) के अध्ययन के लिए एक डेटा बुनियादी ढांचा विकसित करना है।
-
-यह परियोजना अपराध की पुनरावृत्ति और आपराधिक करियर पर शुरू किए गए कार्यों को आगे बढ़ाती है, जिसमें डेटा की संरचना और उनके दीर्घकालिक वैज्ञानिक उपयोग पर विशेष जोर दिया गया है।
+**DOT — Database on Offender Trajectories** अपराध के जीवनक्रम के दीर्घकालिक विश्लेषण के लिए डेटा व्यवस्थित करने का लक्ष्य रखता है। यह पुनरावृत्ति और आपराधिक जीवनक्रम पर शोध को आगे बढ़ाता है।

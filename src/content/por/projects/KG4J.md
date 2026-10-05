@@ -1,14 +1,14 @@
 ---
 title: 'KG4J — Knowledge Graphs for Justice'
 routeSlug: 'kg4j'
-summary: 'Projeto de investigação dedicado ao uso de grafos de conhecimento no domínio da justiça.'
+summary: 'Ligar dados forenses e criminológicos através de grafos de conhecimento e inteligência artificial.'
 order: 1
 status: 'Em curso'
 domain: 'Grafos de conhecimento'
 startYear: '2025'
 endYear: '2029'
 funder: 'BELSPO'
-role: 'Investigador principal'
+role: 'Investigador principal e autor da proposta'
 budget: '392 798,60 €'
 keywords:
   - 'justiça'
@@ -19,35 +19,34 @@ locale: 'por'
 translationKey: 'project-kg4j'
 canonical: false
 autoTranslated: true
-sourceHash: '6ddafc5a11345337c599d9e7c52a0fd6f67f8950fd86620087af271caaf941f8'
+sourceHash: '4f20b228beacf7c08d150b1b2a37fe4c39a3e8ef180093671e0250cbd45fd18d'
 ---
 
-## Visão geral
+## Questão estudada
 
-No [Instituto Nacional de Criminalística e Criminologia (INCC)](/por/nicc/), os dados forenses e criminológicos provêm de fontes heterogéneas, muitas vezes fragmentadas. **KG4J** explora como ligá-las através de **grafos de conhecimento** e **inteligência artificial**, para facilitar as consultas e reforçar as capacidades de análise.
+Como ligar as fontes de dados do **[INCC](/por/nicc/)** para facilitar consultas e análises? KG4J explora a integração de dados estruturados e informações extraídas de documentos.
 
-Sou o **investigador principal e autor da proposta**, financiada pela Política Científica Federal belga (**BELSPO**) no âmbito do concurso **P4Science**.
+## Métodos e objetivos
 
-O projeto tem três objetivos complementares:
+- Construir uma infraestrutura de grafos de conhecimento que ligue dados criminológicos e forenses.
+- Avaliar usos para estudar trajetórias penais e analisar correspondências de ADN.
+- Explorar a extração de conhecimento de textos, sobretudo com grandes modelos de linguagem.
+- Definir um quadro de governação de dados e IA com tratamentos fiáveis e rastreáveis.
 
-- construir uma infraestrutura que ligue dados criminológicos e forenses;
-- explorar casos de uso para estudar trajetórias penais, analisar dados de ADN e extrair conhecimento de documentos;
-- definir um quadro de governação para usos fiáveis e rastreáveis dos dados e da IA.
+O projeto é financiado no âmbito da chamada **P4Science** da BELSPO.
 
 ## Consórcio
-
-O consórcio reúne os seguintes parceiros:
 
 - [Departamento de Informática](https://web.umons.ac.be/fs-informatique/en/home/), UMONS, Bélgica
 - [Departement Computerwetenschappen](https://wms.cs.kuleuven.be/cs), KU Leuven, Bélgica
 - [Louvain Research Institute in Management and Organizations](https://www.uclouvain.be/en/research-institutes/lourim), UCLouvain, Bélgica
 - [Department of Mathematics and Industrial Engineering](https://www.polymtl.ca/magi/), Polytechnique Montréal, Canadá
-- [Department of Linguistics](https://linguistics.indiana.edu/index.html), Indiana University Bloomington, EUA
-- [Digital Transformation Office, Serviço Público Federal Justiça](https://justice.belgium.be/fr), Serviço Público Federal Justiça, Bélgica
+- [Department of Linguistics](https://linguistics.indiana.edu/index.html), Indiana University Bloomington, Estados Unidos
+- [Digital Transformation Office, Serviço Público Federal de Justiça](https://justice.belgium.be/fr), Serviço Público Federal de Justiça, Bélgica
 - [Elephant Bird Consulting](https://github.com/elephantbirdconsulting), Elephant Bird Consulting, Bélgica
 
-
-## Resumo oficial do projeto
+<details>
+<summary>Resumo oficial do projeto</summary>
 
 O Instituto Nacional de Criminalística e Criminologia (INCC) desempenha um papel científico no sistema de justiça penal belga. Por um lado, fornece competência forense em áreas como o ADN, a toxicologia e as drogas. Por outro lado, realiza investigação criminológica, por exemplo, sobre a reincidência e as carreiras criminosas. Para isso, processa uma grande quantidade de dados. No entanto, muitos destes dados estão fragmentados ou subutilizados. Informações valiosas permanecem ocultas.
 
@@ -96,3 +95,5 @@ Transcrições de audiências, notas de peritos, gravações: a quantidade de da
 ### Conclusão
 
 O projeto KG4J permitirá ao INCC produzir uma inteligência criminológica e forense reforçada. Liga os dados fragmentados, valoriza os dados existentes, desenvolve novas capacidades através de grafos e IA, e estabelece práticas fiáveis em matéria de dados e IA ao serviço da justiça.
+
+</details>

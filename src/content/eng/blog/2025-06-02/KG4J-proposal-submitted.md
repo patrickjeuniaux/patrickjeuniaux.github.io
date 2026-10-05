@@ -1,24 +1,17 @@
 ---
-title: "KG4J research proposal submitted to Belspo"
-description: "The KG4J (Knowledge Graphs for Justice) project was submitted in 2025 as part of the BELSPO P4Science call. Budget: €392,798.60."
-date: 2025-06-02
+title: 'KG4J: proposal submitted to BELSPO'
+description: 'Submission of the knowledge graphs for justice project to BELSPO’s P4Science call.'
+date: '2025-06-02'
 draft: false
-locale: eng
-translationKey: news-kg4j-proposal-submitted
+locale: 'eng'
+translationKey: 'news-kg4j-proposal-submitted'
+canonical: false
+autoTranslated: true
+sourceHash: 'bb022d986d74cd51d8c20a65ee47e86f995faab6ee2885f9dfb0a5c5ddae0723'
 ---
 
-The **KG4J** (*Knowledge Graphs for Justice*) project was officially submitted on June 3, 2025, in response to the **P4Science** call from the federal science policy (**BELSPO**). 
+The **[KG4J — Knowledge Graphs for Justice](/eng/kg4j/)** proposal was submitted to BELSPO’s **P4Science** call in June 2025.
 
-The project essentially aims to increase the data analysis capacity of the **NICC** through systems exploiting knowledge graphs and artificial intelligence and respecting certain principles of good data governance.
+It addresses the integration of forensic and criminological data at the **[NICC](/eng/nicc/)** using knowledge graphs and artificial intelligence. The requested budget was **392 798,60 €**.
 
-The project involves an international consortium bringing together:
-- The Computer Science Department of the **University of Mons** (UMONS);
-- The Department of Mathematics and Industrial Engineering of **Polytechnique Montréal**;
-- The Computer Science Department of **KU Leuven**;
-- The Linguistics Department of **Indiana University Bloomington**;
-- The Louvain Research Institute in Management and Organizations (LouRIM) at **UCLouvain**;
-- The **Digital Transformation Office** (DTO) of the FPS Justice.
-
-The requested budget amounts to **€392,798.60**.
-
-<div class="finis">✦</div>
+[Project and consortium overview →](/eng/kg4j/)

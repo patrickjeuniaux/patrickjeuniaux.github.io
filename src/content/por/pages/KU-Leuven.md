@@ -1,27 +1,21 @@
 ---
 title: 'KU Leuven'
-lead: 'Formação em inteligência artificial, representação do discurso e investigação em processamento da linguagem natural.'
+lead: 'Inteligência artificial, processamento da linguagem e parceria em KG4J.'
 locale: 'por'
 translationKey: 'institution-kuleuven'
 canonical: false
 autoTranslated: true
-sourceHash: 'c2ea29e627156e6ca63d6c4b8fcc3c234516e084d19ae409e673e7e3cdf479e6'
+sourceHash: 'f499b80ad6dbd3dd32d31cdf5524323a458de91afc2fdd15eb3ccd0685f29f07'
 ---
 
-Na **KU Leuven**, segui uma formação complementar em **inteligência artificial** e trabalhei na área do **processamento da linguagem natural**.
+## Parceria atual
 
-## Formação e representação do discurso
+O departamento de informática da KU Leuven é parceiro de **[KG4J](/por/kg4j/)**, dedicado aos grafos de conhecimento e à análise de dados da justiça.
 
-A minha dissertação, **[Capture of discursive meanings in representations](/por/work/#publication-jeuniaux-2004-sdrt)**, incidia sobre a representação do significado no discurso e o realismo psicológico da *Segmented Discourse Representation Theory*. Foi realizada sob a orientação de **Walter Schaeken** e **Frank Van Eynde**.
+## Formação e investigação
 
-Este trabalho relacionava o meu interesse pelos processos cognitivos com a modelação formal da linguagem: como representar as relações de significado entre os elementos de um discurso e confrontá-las com a compreensão humana?
+O percurso de Patrick Jeuniaux na KU Leuven inclui formação complementar em **inteligência artificial** e uma função de assistente de investigação no laboratório **Language Intelligence and Information Retrieval (LIIR)** de Marie-Francine Moens.
 
-## Investigação em processamento da linguagem
+A dissertação **[Capture of discursive meanings in representations](/por/work/#publication-jeuniaux-2004-sdrt)** estudava a representação do significado no discurso, sob a supervisão de Walter Schaeken e Frank Van Eynde.
 
-Também trabalhei como **assistente de investigação** no laboratório **Language Intelligence and Information Retrieval (LIIR)** de Marie-Francine Moens, no âmbito do Interdisciplinary Centre for Law and ICT.
-
-As minhas atividades incluíam revisões da literatura, análises conceptuais e de dados, bem como desenvolvimento em **PHP**, para projetos de **extração de informação a partir de textos** e de **resolução de correferências** — ou seja, a identificação das expressões que designam a mesma entidade num texto.
-
-## Colaboração no âmbito de KG4J
-
-O **Departamento de Informática da KU Leuven** é parceiro do projeto **[Knowledge Graphs for Justice (KG4J)](/por/kg4j/)**, que dirijo no INCC. Esta colaboração liga a KU Leuven às minhas atividades atuais sobre grafos de conhecimento e a utilização de dados da justiça.
+A investigação no LIIR abordava a extração de informação e a resolução de correferências: reconhecer expressões que designam a mesma entidade num texto.

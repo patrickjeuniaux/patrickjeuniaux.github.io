@@ -1,13 +1,10 @@
 ---
-eyebrow: "Projects"
-title: "Projects"
-lead: "This section presents the main projects I have contributed to or led, particularly in the areas of criminal justice, knowledge graphs, forensic data, and data governance."
-noteTitle: "Reading"
-noteText: "Each project sheet summarizes the context, my role, the period, the funder, and the main objective."
-locale: "eng"
-translationKey: "projects"
+eyebrow: 'Projects'
+title: 'Projects'
+lead: 'Research and infrastructure projects on justice data, cognition and analytical methods.'
+locale: 'eng'
+translationKey: 'projects'
+canonical: false
+autoTranslated: true
+sourceHash: 'fab6d04c6834ad9dedb244d796a2a5cf79d0671ebc9d95bcfd105940bafeef9f'
 ---
-
-The projects gathered here connect research, data engineering, and institutional work. They notably concern recidivism, criminal careers, radicalization, DNA data, knowledge graphs, and the tooling of public institutions.
-
-<div class="finis">❧</div>

@@ -30,7 +30,7 @@ const sourcePath = entry.filePath ? path.resolve(process.cwd(), entry.filePath) 
       <div class="prose prose-wide">
         <Content />
       </div>
-      {(page.noteTitle || page.noteText) && (
+      {page.noteText && (
         <aside style="margin-top: 2rem;">
           <div class="note">
             <h3>{page.noteTitle}</h3>

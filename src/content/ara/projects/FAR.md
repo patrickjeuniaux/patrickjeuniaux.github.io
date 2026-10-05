@@ -1,22 +1,27 @@
 ---
-title: "FAR — Folks, Authorities and Radicalism"
-routeSlug: "far"
-summary: "مشروع بحثي حول الراديكالية والسلطات العامة وعمليات الاستقطاب."
+title: 'FAR — Folks, Authorities and Radicalism'
+routeSlug: 'far'
+summary: 'دراسة مسارات التطرف واستجابات السلطات العامة.'
 order: 2
-status: "مكتمل"
-domain: "علم الجريمة"
-startYear: "2017"
-endYear: "2022"
-funder: "BELSPO"
-role: "باحث رئيسي مشارك (Co-PI)"
-budget: "1,159,715 يورو"
-keywords: ["راديكالية", "إرهاب", "قواعد بيانات", "علم الجريمة"]
-locale: "ara"
-translationKey: "project-far"
+status: 'مكتمل'
+domain: 'علم الإجرام'
+startYear: '2017'
+endYear: '2022'
+funder: 'BELSPO'
+role: 'باحث رئيسي مشارك'
+budget: '1 159 715 €'
+keywords:
+  - 'التطرف'
+  - 'الإرهاب'
+  - 'قواعد البيانات'
+  - 'علم الإجرام'
+locale: 'ara'
+translationKey: 'project-far'
+canonical: false
+autoTranslated: true
+sourceHash: 'a9ad2a1a2ccd2df57e7c416d82ecfd66811d77b28baec96a00bed6e0eceed447'
 ---
 
-FAR هو مشروع ممول من **BELSPO** مخصص لدراسة الراديكالية. عملت فيه كـ **co-PI** ضمن قسم علم الجريمة في المعهد الوطني للأدلة الجنائية وعلم الجريمة (NICC).
+درس **FAR — Folks, Authorities and Radicalism** مسارات أشخاص يُعتبرون متطرفين، وقواعد البيانات التي تستخدمها السلطات، والأبعاد الاجتماعية والمؤسسية للتعامل معهم.
 
-سمح المشروع بدراسة مسارات الأشخاص الذين يعتبرون راديكاليين، وقواعد البيانات التي تستخدمها السلطات، وبعض الأبعاد الاجتماعية والمؤسسية للتكفل.
-
-تم تنفيذه بشكل خاص مع **جامعة بروكسل الحرة (ULB)** و **جامعة لوفان الكاثوليكية (KU Leuven)**.
+بتمويل من **BELSPO**، نُفذ المشروع في **[INCC](/ara/nicc/)**، خصوصاً مع **ULB** و**KU Leuven**.

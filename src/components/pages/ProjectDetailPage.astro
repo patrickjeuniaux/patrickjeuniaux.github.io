@@ -22,10 +22,10 @@ const sourcePath = project.filePath ? path.resolve(process.cwd(), project.filePa
     <h1 class="page-title">{project.data.title}</h1>
     <p class="lead dropcap">{project.data.summary}</p>
     <div class="card publication-summary" style="margin-top: 1.5rem; margin-bottom: 2rem;">
-      {project.data.startYear && <p><strong>{locale === 'fra' ? 'Période' : locale === 'nld' ? 'Periode' : 'Period'} :</strong> {project.data.startYear} – {project.data.endYear || '...'}</p>}
+      {project.data.startYear && <p><strong>{s.projectFilters.period} :</strong> {project.data.startYear} – {project.data.endYear || '...'}</p>}
       {project.data.funder && <p><strong>{s.projectFilters?.funder || 'Bailleur'} :</strong> {project.data.funder}</p>}
       {project.data.role && <p><strong>{s.projectFilters?.role || 'Rôle'} :</strong> {project.data.role}</p>}
-      {project.data.budget && <p><strong>Budget :</strong> {project.data.budget}</p>}
+      {project.data.budget && <p><strong>{s.projectFilters.budget} :</strong> {project.data.budget}</p>}
     </div>
     {project.data.keywords.length > 0 && <p class="meta">{project.data.keywords.join(' · ')}</p>}
     <Content />

@@ -1,36 +1,26 @@
 ---
-title: 'Università cattolica di Lovanio'
+title: 'UCLouvain'
 locale: 'ita'
 translationKey: 'institution-uclouvain'
+lead: 'Sistemi informativi, interazione persona-computer e formazione in psicologia e statistica.'
 canonical: false
 autoTranslated: true
-sourceHash: '23eb6919051bd3eb81a1b68aa653fcc52632129bc49495d40b9193a3e33ec96d'
+sourceHash: '934c35cebcc8e54c167e75e0ffcc5c2755c731261cddec35c939b0d6a47d813a'
 ---
 
-All’**UCLouvain**, le mie attività collegano psicologia cognitiva, statistica, sistemi informativi e insegnamento. Sono **collaboratore di ricerca presso il Louvain Research Institute in Management and Organizations (LouRIM)** e membro del **Louvain Interaction Laboratory (Lilab)**.
+## Collaborazione attuale
 
-## Collaborazione scientifica
+Patrick Jeuniaux è **collaboratore di ricerca al LouRIM** e membro del **Louvain Interaction Laboratory (Lilab)**. Gli scambi riguardano grafi di conoscenza, governance dei dati e interazione persona-computer. LouRIM è partner di **[KG4J](/ita/kg4j/)**.
 
-All’interno di LouRIM e Lilab, i miei interessi riguardano i **grafi di conoscenza**, la **governance dei dati**, l’**intelligenza artificiale** e l’**interazione uomo-computer**. Mantengo inoltre rapporti con il **Center in Management Information Systems (CEMIS)**, associato al programma Business Information Systems della Louvain School of Management.
+## Formazione e lavori
 
-Questi scambi avvicinano la ricerca sui sistemi informativi e sulle interfacce alle esigenze incontrate nel mio ruolo presso l’[INCC](/ita/nicc/). **LouRIM è partner del progetto [KG4J — Knowledge Graphs for Justice](/ita/kg4j/)**, di cui sono il ricercatore principale, dedicato all’integrazione e all’utilizzo dei dati forensi e criminologici.
+Una licence in psicologia cognitiva e un diploma di studi complementari in statistica hanno dato luogo a due tesi:
 
-## Formazione in psicologia e statistica
+- [Immagini mentali e ragionamento per sillogismo categorico](/ita/work/#publication-jeuniaux-1999-syllogism), sotto la direzione di Jean Costermans.
+- [Introduzione concettuale al modello LISREL](/ita/work/#publication-jeuniaux-2000-lisrel), sotto la direzione di Michel Mouchart.
 
-Ho conseguito una **licence in psicologia e scienze dell’educazione, con specializzazione in psicologia cognitiva**, e un **diploma di studi complementari in statistica**.
+Le ricerche sperimentali hanno riguardato psicolinguistica, memoria spaziale e riabilitazione sensoriale.
 
-La mia tesi in psicologia, **[Imagerie mentale et raisonnement par syllogisme catégorique](/ita/work/#publication-jeuniaux-1999-syllogism)**, è stata svolta sotto la supervisione di **Jean Costermans**. La mia tesi in statistica, **[Introduction conceptuelle au modèle LISREL, un exercice pédagogique](/ita/work/#publication-jeuniaux-2000-lisrel)**, è stata svolta sotto la supervisione di **Michel Mouchart**. Questi lavori uniscono il mio interesse per il ragionamento umano a quello per i modelli statistici e la loro spiegazione.
+## Insegnamento
 
-## Ricerca sperimentale
-
-Nel laboratorio di psicologia cognitiva ho partecipato alla conduzione di **esperimenti psicolinguistici informatizzati**, sotto la supervisione di **Julie Franck**.
-
-I miei tirocini hanno riguardato anche la **memoria spaziale** nel laboratorio di psicobiologia e la **riabilitazione sensoriale** nel laboratorio di ingegneria della riabilitazione neurale delle Cliniques universitaires Saint-Luc. In quest’ultimo contesto ho contribuito a un esperimento con partecipanti ciechi e a una rassegna della letteratura sulle protesi visive.
-
-## Insegnamento e accompagnamento
-
-Alla **Louvain School of Management** sono stato assistente per tre corsi: **Digital Transformation Management**, **Programmation en économie et gestion** e **Informatique en économie et gestion**. Ho condotto esercitazioni e forum, valutato i lavori e fornito riscontri agli studenti. Le attività utilizzavano, tra gli altri strumenti, **Python, Odoo, Access, Excel e VBA**.
-
-Ho inoltre progettato e sviluppato, presso l’Institut d’administration et de gestion, un **sito didattico di statistica in PHP e MySQL**, in collaborazione con l’Institut de statistique et de sciences actuarielles. Il lavoro riguardava la creazione di una piattaforma e di risorse di apprendimento; il sito non è stato messo in funzione per mancanza di finanziamenti.
-
-La mia esperienza didattica comprende anche l’assistentato in statistica e il **tutoraggio di due studenti ipovedenti in economia e gestione**, con la preparazione di materiali adattati e l’accompagnamento nel ripasso dei corsi.
+Assistenza didattica alla Louvain School of Management per i corsi di trasformazione digitale, programmazione e informatica in economia e gestione: esercitazioni, accompagnamento degli studenti e valutazione dei lavori.

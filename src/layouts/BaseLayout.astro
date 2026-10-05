@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import { t, type Locale, localizePath, localizedCurrentPath, localeLabels, locales, normalizeLocale } from '../i18n/ui';
+import { t, type Locale, defaultLocale, localizePath, localizedCurrentPath, localeLabels, locales, normalizeLocale } from '../i18n/ui';
 import { getContentDates, formatFooterDate } from '../lib/utils';
 import { getExtraNavigation } from '../lib/content';
 
@@ -77,7 +77,7 @@ const otherNavigation = extraNavigation.filter((link) => link !== datNavigation)
       <div class="container footer-grid">
         <div>
           <p class="footer-title">{s.footerTitle}</p>
-          <p class="meta">{s.footerText}</p>
+          {s.footerText && <p class="meta">{s.footerText}</p>}
         </div>
         <div>
           <p class="meta">
@@ -89,7 +89,7 @@ const otherNavigation = extraNavigation.filter((link) => link !== datNavigation)
                 <br />
               </span>
             )}
-            {autoTranslated && s.autoTranslated && (
+            {(autoTranslated || locale !== defaultLocale) && s.autoTranslated && (
               <span class="auto-translated">
                 {s.autoTranslated}
                 <br />

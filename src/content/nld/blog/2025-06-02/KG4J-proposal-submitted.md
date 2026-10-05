@@ -1,24 +1,17 @@
 ---
-title: "KG4J-onderzoeksvoorstel ingediend bij Belspo"
-description: "Het KG4J-project (Knowledge Graphs for Justice) werd in 2025 ingediend in het kader van de P4Science-oproep van BELSPO. Budget: € 392.798,60."
-date: 2025-06-02
+title: 'KG4J: voorstel ingediend bij BELSPO'
+description: 'Indiening van het project over kennisgrafen voor justitie bij de P4Science-oproep van BELSPO.'
+date: '2025-06-02'
 draft: false
-locale: nld
-translationKey: news-kg4j-proposal-submitted
+locale: 'nld'
+translationKey: 'news-kg4j-proposal-submitted'
+canonical: false
+autoTranslated: true
+sourceHash: 'bb022d986d74cd51d8c20a65ee47e86f995faab6ee2885f9dfb0a5c5ddae0723'
 ---
 
-Het project **KG4J** (*Knowledge Graphs for Justice*) werd officieel ingediend op 3 juni 2025 in antwoord op de **P4Science**-oproep van het federale wetenschapsbeleid (**BELSPO**). 
+Het voorstel **[KG4J — Knowledge Graphs for Justice](/nld/kg4j/)** werd in juni 2025 ingediend bij de **P4Science**-oproep van BELSPO.
 
-Het project beoogt essentieel de capaciteit voor data-analyse van het **NICC** te vergroten via systemen die gebruikmaken van kennisgrafen en kunstmatige intelligentie, en die bepaalde principes van goed datagovernance respecteren.
+Het betreft de integratie van forensische en criminologische gegevens van het **[NICC](/nld/nicc/)** met kennisgrafen en artificiële intelligentie. Het aangevraagde budget bedroeg **392 798,60 €**.
 
-Het project omvat een internationaal consortium bestaande uit:
-- De vakgroep informatica van de **Université de Mons** (UMONS);
-- De vakgroep wiskunde en industriële techniek van **Polytechnique Montréal**;
-- De vakgroep informatica van de **KU Leuven**;
-- De vakgroep taalkunde van de **Indiana University Bloomington**;
-- Het Louvain Research Institute in Management and Organizations (LouRIM) aan de **UCLouvain**;
-- Het **Digital Transformation Office** (DTO) van de FOD Justitie.
-
-Het aangevraagde budget bedraagt **€ 392.798,60**.
-
-<div class="finis">✦</div>
+[Project en consortium →](/nld/kg4j/)

@@ -1,13 +1,14 @@
 ---
-eyebrow: "機関"
-title: "🏛 DRDC - カナダ国防研究開発機構"
-lead: "複雑な環境における状況認識（situation awareness）および意思決定支援に関する応用研究。"
-locale: "jpn"
-translationKey: "drdc"
+eyebrow: '機関'
+title: 'DRDC — カナダ国防研究開発機関'
+lead: '状況認識と意思決定支援に関する研究協力。'
+locale: 'jpn'
+translationKey: 'drdc'
+canonical: false
+autoTranslated: true
+sourceHash: 'c0160435c5543faeb199bc37f330922ba74c8c9e0320e725ce2cf600df5f5322'
 ---
 
-**カナダ国防研究開発機構**（DRDC）における私の活動は、意思決定プロセスと複雑な状況の知覚の研究に焦点を当てていました。 
+**[ラヴァル大学](/jpn/ulaval/)** での博士研究員期間に行った **DRDC** との協力では、複雑な軍事作戦の意思決定支援システムを評価しました。
 
-この仕事は、要求の厳しい運用状況における認知パフォーマンスをモデル化し、支援することを目的とした応用研究アプローチの一環でした。
-
-<div class="finis">✦</div>
+模擬環境での実験と行動分析を組み合わせ、操作担当者が情報を解釈し、行動を調整する過程を調べました。

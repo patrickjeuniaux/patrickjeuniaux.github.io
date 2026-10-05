@@ -1,53 +1,52 @@
 ---
 title: 'KG4J — Knowledge Graphs for Justice'
 routeSlug: 'kg4j'
-summary: 'Onderzoeksproject over het gebruik van kennisgrafen binnen justitie.'
+summary: 'Forensische en criminologische gegevens verbinden met kennisgrafen en artificiële intelligentie.'
 order: 1
 status: 'Lopend'
 domain: 'Kennisgrafen'
 startYear: '2025'
 endYear: '2029'
 funder: 'BELSPO'
-role: 'Hoofdonderzoeker'
+role: 'Hoofdonderzoeker en auteur van het voorstel'
 budget: '392 798,60 €'
 keywords:
   - 'justitie'
   - 'kennisgrafen'
-  - 'data'
+  - 'gegevens'
   - 'AI'
 locale: 'nld'
 translationKey: 'project-kg4j'
 canonical: false
 autoTranslated: true
-sourceHash: '6ddafc5a11345337c599d9e7c52a0fd6f67f8950fd86620087af271caaf941f8'
+sourceHash: '4f20b228beacf7c08d150b1b2a37fe4c39a3e8ef180093671e0250cbd45fd18d'
 ---
 
-## Overzicht
+## Onderzoeksvraag
 
-Bij het [Nationaal Instituut voor Criminalistiek en Criminologie (NICC)](/nld/nicc/) komen forensische en criminologische gegevens uit heterogene, vaak versnipperde bronnen. **KG4J** onderzoekt hoe **kennisgrafen** en **artificiële intelligentie** deze kunnen verbinden om bevraging te vergemakkelijken en analysecapaciteiten te versterken.
+Hoe kunnen gegevensbronnen van het **[NICC](/nld/nicc/)** worden verbonden om bevraging en analyse te vergemakkelijken? KG4J onderzoekt de integratie van gestructureerde gegevens en informatie uit documenten.
 
-Ik ben de **hoofdonderzoeker en auteur van het voorstel**, gefinancierd door het Federaal Wetenschapsbeleid (**BELSPO**) binnen de oproep **P4Science**.
+## Methoden en doelstellingen
 
-Het project heeft drie aanvullende doelen:
+- Een kennisgraafinfrastructuur bouwen die criminologische en forensische gegevens verbindt.
+- Toepassingen evalueren voor onderzoek naar strafrechtelijke trajecten en analyse van DNA-overeenkomsten.
+- Kennisextractie uit teksten verkennen, met name met grote taalmodellen.
+- Een kader voor gegevens- en AI-governance bepalen, met betrouwbare en traceerbare verwerking.
 
-- een infrastructuur bouwen die criminologische en forensische gegevens verbindt;
-- toepassingen verkennen voor strafrechtelijke trajecten, DNA-gegevensanalyse en kennisextractie uit documenten;
-- een governancekader bepalen voor betrouwbaar en traceerbaar gebruik van data en AI.
+Het project wordt gefinancierd via de **P4Science**-oproep van BELSPO.
 
 ## Consortium
-
-Het consortium verenigt de volgende partners:
 
 - [Departement Informatica](https://web.umons.ac.be/fs-informatique/en/home/), UMONS, België
 - [Departement Computerwetenschappen](https://wms.cs.kuleuven.be/cs), KU Leuven, België
 - [Louvain Research Institute in Management and Organizations](https://www.uclouvain.be/en/research-institutes/lourim), UCLouvain, België
 - [Department of Mathematics and Industrial Engineering](https://www.polymtl.ca/magi/), Polytechnique Montréal, Canada
-- [Department of Linguistics](https://linguistics.indiana.edu/index.html), Indiana University Bloomington, VS
-- [Digital Transformation Office, Federale Overheidsdienst Justitie](https://justice.belgium.be/nl), Federale Overheidsdienst Justitie, België
+- [Department of Linguistics](https://linguistics.indiana.edu/index.html), Indiana University Bloomington, Verenigde Staten
+- [Digital Transformation Office, Federale Overheidsdienst Justitie](https://justice.belgium.be/fr), Federale Overheidsdienst Justitie, België
 - [Elephant Bird Consulting](https://github.com/elephantbirdconsulting), Elephant Bird Consulting, België
 
-
-## Officiële projectsamenvatting
+<details>
+<summary>Officiële projectsamenvatting</summary>
 
 Het Nationaal Instituut voor Criminalistiek en Criminologie (NICC) speelt een wetenschappelijke rol in het Belgische strafrechtsysteem. Enerzijds verleent het forensische expertise op gebieden als DNA, toxicologie en drugs. Anderzijds voert het criminologisch onderzoek uit, bijvoorbeeld naar recidive en criminele carrières. Hiervoor verwerkt het een grote hoeveelheid gegevens. Veel van deze gegevens zijn echter gefragmenteerd of onderbenut. Waardevolle informatie blijft verborgen.
 
@@ -96,3 +95,5 @@ Transcripties van verhoren, nota's van deskundigen, opnames: de hoeveelheid onge
 ### Conclusie
 
 Het KG4J-project zal het NICC in staat stellen om versterkte criminologische en forensische intelligentie te produceren. Het verbindt gefragmenteerde gegevens, valoriseert bestaande gegevens, ontwikkelt nieuwe capaciteiten via grafen en AI, en stelt betrouwbare praktijken vast op het gebied van data en AI ten dienste van justitie.
+
+</details>

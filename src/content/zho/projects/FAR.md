@@ -1,22 +1,27 @@
 ---
-title: "FAR — Folks, Authorities and Radicalism"
-routeSlug: "far"
-summary: "关于激进化、公共当局和极化过程的研究项目。"
+title: 'FAR — Folks, Authorities and Radicalism'
+routeSlug: 'far'
+summary: '研究激进化历程及公共机构的应对。'
 order: 2
-status: "已完成"
-domain: "犯罪学"
-startYear: "2017"
-endYear: "2022"
-funder: "BELSPO"
-role: "共同主要研究者 (Co-Principal Investigator)"
-budget: "1 159 715 €"
-keywords: ["激进化", "恐怖主义", "数据库", "犯罪学"]
-locale: "zho"
-translationKey: "project-far"
+status: '已完成'
+domain: '犯罪学'
+startYear: '2017'
+endYear: '2022'
+funder: 'BELSPO'
+role: '共同首席研究员'
+budget: '1 159 715 €'
+keywords:
+  - '激进化'
+  - '恐怖主义'
+  - '数据库'
+  - '犯罪学'
+locale: 'zho'
+translationKey: 'project-far'
+canonical: false
+autoTranslated: true
+sourceHash: 'a9ad2a1a2ccd2df57e7c416d82ecfd66811d77b28baec96a00bed6e0eceed447'
 ---
 
-FAR 是由 **BELSPO** 资助、专门研究激进化的项目。我曾在 NICC 犯罪学部门担任**共同主要研究者 (Co-PI)**。
+**FAR — Folks, Authorities and Radicalism** 研究被认为激进的人员历程、当局使用的数据库，以及其管理与支持的社会和机构层面。
 
-该项目研究了被视为激进分子的轨迹、当局动用的数据库以及安置工作的某些社会和机构维度。
-
-该项目是与 **ULB** 和 **KU Leuven** 等机构合作开展的。
+项目由 **BELSPO** 资助，在 **[INCC](/zho/nicc/)** 开展，并与 **ULB** 和 **KU Leuven** 等机构合作。

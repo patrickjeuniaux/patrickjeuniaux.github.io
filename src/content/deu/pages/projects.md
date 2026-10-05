@@ -1,13 +1,10 @@
 ---
-eyebrow: "Projekte"
-title: "Projekte"
-lead: "Dieser Abschnitt stellt die wichtigsten Projekte vor, an denen ich mitgewirkt oder die ich geleitet habe, insbesondere in den Bereichen Strafjustiz, Wissensgraphen, forensische Daten und Datengovernance."
-noteTitle: "Lesehinweis"
-noteText: "Jedes Projektblatt fasst den Kontext, meine Rolle, den Zeitraum, den Geldgeber und das Hauptziel zusammen."
-locale: "deu"
-translationKey: "projects"
+eyebrow: 'Projekte'
+title: 'Projekte'
+lead: 'Forschungs- und Infrastrukturprojekte zu Justizdaten, Kognition und Analysemethoden.'
+locale: 'deu'
+translationKey: 'projects'
+canonical: false
+autoTranslated: true
+sourceHash: 'fab6d04c6834ad9dedb244d796a2a5cf79d0671ebc9d95bcfd105940bafeef9f'
 ---
-
-Die hier gesammelten Projekte verbinden Forschung, Datentechnik und institutionelle Arbeit. Sie betreffen insbesondere Rückfall, kriminelle Karrieren, Radikalisierung, DNA-Daten, Wissensgraphen und die Ausstattung öffentlicher Institutionen mit Werkzeugen.
-
-<div class="finis">❧</div>

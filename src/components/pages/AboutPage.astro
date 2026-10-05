@@ -16,12 +16,12 @@ const { Content } = await render(aboutEntry);
 const cleanTitle = String(about.title || '').replace(/^[^\p{L}\p{N}]+/u, '').trim();
 const sourcePath = aboutEntry.filePath ? path.resolve(process.cwd(), aboutEntry.filePath) : undefined;
 ---
-<BaseLayout locale={locale} title={`${about.eyebrow} · patrick jeuniaux`} description={s.siteDescription} sourcePath={sourcePath} autoTranslated={aboutEntry.data.autoTranslated} publishedAt={aboutEntry.data.publishedAt} updatedAt={aboutEntry.data.updatedAt}>
+<BaseLayout locale={locale} title={`${about.title} · patrick jeuniaux`} description={about.lead || s.siteDescription} sourcePath={sourcePath} autoTranslated={aboutEntry.data.autoTranslated} publishedAt={aboutEntry.data.publishedAt} updatedAt={aboutEntry.data.updatedAt}>
   <section class="section"><div class="container"><div class="prose prose-wide">
     <p class="eyebrow">{about.eyebrow}</p>
     <h1 class="page-title page-title-icon" data-icon="♞">{cleanTitle}</h1>
     <p class="lead dropcap">{about.lead}</p>
-    <div class="note">{about.note}</div>
+    {about.note && <div class="note">{about.note}</div>}
     <Content />
   </div></div></section>
 </BaseLayout>

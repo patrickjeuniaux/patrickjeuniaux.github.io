@@ -1,7 +1,7 @@
 ---
 title: "BE Prüm ADN"
 routeSlug: "beprumadn"
-summary: "Projet lié à l'échange de données ADN avec les États membres de l'Union européenne."
+summary: "Soutenir l’échange de données ADN entre États membres de l’Union européenne."
 order: 10
 status: "Terminé"
 domain: "Génétique forensique"
@@ -15,6 +15,4 @@ locale: "fra"
 translationKey: "project-beprumadn"
 ---
 
-Ce projet visait à soutenir l'échange de données **ADN** dans le cadre des décisions **Prüm** au niveau européen.
-
-J'ai participé à la préparation du projet et à l'appui logistique lié à sa mise en place.
+Le projet soutenait la mise en œuvre des échanges de données **ADN** dans le cadre des décisions **Prüm** au niveau européen.

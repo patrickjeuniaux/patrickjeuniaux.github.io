@@ -1,48 +1,38 @@
 ---
 title: 'PIES'
 routeSlug: 'pies'
-summary: 'Consórcio europeu que coordenei para estudar e reforçar a troca de dados de ADN forense no quadro de Prüm.'
+summary: 'Avaliar e reforçar o intercâmbio de dados de ADN forense entre instituições europeias no quadro de Prüm.'
 order: 13
 status: 'Concluído'
 domain: 'Genética forense'
 startYear: '2012'
 endYear: '2015'
 funder: 'Comissão Europeia'
-role: 'Coordenador e investigador principal'
+role: 'Coordenador, investigador principal e coautor da proposta'
 budget: '1 158 846,39 €'
 keywords:
   - 'Prüm'
   - 'ADN'
   - 'cooperação europeia'
-  - 'ciências forenses'
+  - 'forense'
 locale: 'por'
 translationKey: 'project-pies'
 canonical: false
 autoTranslated: true
-sourceHash: 'f00f50488f5f8eae625f1c53e2c9be115cfea80d0c0fa347b1f7489b6383f661'
+sourceHash: '5f79e40382d5b6b8f74dab257416207e6333fd6377cb92e89436250f3c5505e9'
 ---
 
-**PIES** (*Prüm Implementation, Evaluation, and Strengthening of Forensic DNA Data Exchange*) foi um projeto europeu dedicado à implementação, avaliação e reforço da troca de dados de **ADN forense** no quadro de **Prüm**.
+## Questão estudada
 
-## Questão de investigação
-
-Como melhorar a cooperação entre instituições que trocam dados de ADN forense e aproveitar melhor essas trocas para a investigação e a inteligência forense? O projeto associava o estudo das práticas de troca à análise dos dados, nomeadamente para explorar a criminalidade transfronteiriça.
-
-## O meu contributo
-
-**Coescrevi e submeti a proposta de financiamento**, exercendo depois as funções de **coordenador e investigador principal**. No [INCC](/por/nicc/), assegurei a coordenação do consórcio e a direção científica ao longo de todo o projeto.
+Como melhorar a cooperação entre instituições que trocam dados de ADN forense e utilizar os intercâmbios para investigação? **PIES** (*Prüm Implementation, Evaluation, and Strengthening of Forensic DNA Data Exchange*) combinava o estudo das práticas de intercâmbio com a análise da criminalidade transfronteiriça.
 
 ## Consórcio
 
-O consórcio reunia **sete instituições em quatro países**: o INCC na Bélgica; a Sous-Direction de la Police Technique et Scientifique em França; o Nederlands Forensisch Instituut, o Nederlands Studiecentrum Criminaliteit en Rechtshandhaving e a Universidade de Leiden nos Países Baixos; Northumbria University e Sustainable Criminal Justice Solutions no Reino Unido. A **Europol** participava também como parceiro sem financiamento.
+Sete instituições em quatro países: o **[INCC](/por/nicc/)** na Bélgica; a Sous-Direction de la Police Technique et Scientifique em França; Nederlands Forensisch Instituut, Nederlands Studiecentrum Criminaliteit en Rechtshandhaving e Universidade de Leiden nos Países Baixos; Northumbria University e Sustainable Criminal Justice Solutions no Reino Unido.
 
-Esta cooperação reunia competências em criminalística, criminologia e cooperação judiciária em torno da troca e utilização de dados de ADN.
+**Europol** participava como parceiro sem beneficiar do financiamento.
 
-## Trabalhos e resultados
+## Produções
 
-Os meus contributos incluem relatórios técnicos de acompanhamento e encerramento, bem como apresentações sobre cooperação internacional e utilização de dados de ADN para estudar criminalidade organizada ou transfronteiriça.
-
-Dois contributos permitem conhecer estes trabalhos:
-
-- o **[Final technical implementation report do PIES](/por/work/#publication-jeuniaux-2016-final-tech-report-pies)**, que apresenta a execução do projeto;
-- a apresentação **[Exploiting Forensic DNA data to draw pictures of organized or transnational crime(s)](/por/work/#publication-jeuniaux-et-al-2015-stockholm-networks)**, sobre o uso de dados de ADN para estudar estas formas de criminalidade.
+- [Relatório técnico final de PIES](/por/work/#publication-jeuniaux-2016-final-tech-report-pies).
+- [Apresentação sobre dados de ADN para estudar criminalidade organizada ou transfronteiriça](/por/work/#publication-jeuniaux-et-al-2015-stockholm-networks).
