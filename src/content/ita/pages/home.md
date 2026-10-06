@@ -1,5 +1,5 @@
 ---
-title: 'Dati e metodi per la ricerca e le decisioni'
+title: 'Cognizione, scienza dei dati e giustizia'
 kicker: 'Home'
 lead: 'Ricerche sui dati della giustizia, sui grafi di conoscenza e sulla governance dei dati. Metodi statistici e di intelligenza artificiale per collegare le fonti, analizzare i percorsi penali e sostenere i gruppi scientifici.'
 axesTitle: 'Attività'
@@ -19,5 +19,5 @@ locale: 'ita'
 translationKey: 'home'
 canonical: false
 autoTranslated: true
-sourceHash: '1c62861157e30ee7c30bc6c87d66fd7acc71516e6e1697b64f69607368053a17'
+sourceHash: '1d82848808ba95a5e122d1edd6db1060b104e02f72e4781b7853167c7d1c0748'
 ---

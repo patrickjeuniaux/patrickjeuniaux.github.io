@@ -1,5 +1,5 @@
 ---
-title: "Données et méthodes pour la recherche et la décision"
+title: "Cognition, science des données et justice"
 kicker: "Accueil"
 lead: "Des recherches sur les données de justice, les graphes de connaissances et la gouvernance des données. Des méthodes statistiques et d’intelligence artificielle pour relier les sources, analyser les trajectoires pénales et soutenir le travail des équipes scientifiques."
 axesTitle: "Activités"

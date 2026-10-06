@@ -1,5 +1,5 @@
 ---
-title: 'Daten und Methoden für Forschung und Entscheidungen'
+title: 'Kognition, Datenwissenschaft und Justiz'
 kicker: 'Startseite'
 lead: 'Forschung zu Justizdaten, Wissensgraphen und Daten-Governance. Statistische und KI-Methoden zur Verknüpfung von Quellen, Analyse strafrechtlicher Verläufe und Unterstützung wissenschaftlicher Teams.'
 axesTitle: 'Tätigkeiten'
@@ -19,5 +19,5 @@ locale: 'deu'
 translationKey: 'home'
 canonical: false
 autoTranslated: true
-sourceHash: '1c62861157e30ee7c30bc6c87d66fd7acc71516e6e1697b64f69607368053a17'
+sourceHash: '1d82848808ba95a5e122d1edd6db1060b104e02f72e4781b7853167c7d1c0748'
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'Dados e métodos para a investigação e a decisão'
+title: 'Cognição, ciência de dados e justiça'
 kicker: 'Início'
 lead: 'Investigação sobre dados da justiça, grafos de conhecimento e governação dos dados. Métodos estatísticos e de inteligência artificial para ligar fontes, analisar trajetórias penais e apoiar equipas científicas.'
 axesTitle: 'Atividades'
@@ -19,5 +19,5 @@ locale: 'por'
 translationKey: 'home'
 canonical: false
 autoTranslated: true
-sourceHash: '1c62861157e30ee7c30bc6c87d66fd7acc71516e6e1697b64f69607368053a17'
+sourceHash: '1d82848808ba95a5e122d1edd6db1060b104e02f72e4781b7853167c7d1c0748'
 ---

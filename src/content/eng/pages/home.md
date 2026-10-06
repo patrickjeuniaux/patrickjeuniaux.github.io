@@ -1,5 +1,5 @@
 ---
-title: 'Data and methods for research and decision-making'
+title: 'Cognition, data science and justice'
 kicker: 'Home'
 lead: 'Research on justice data, knowledge graphs and data governance. Statistical and artificial intelligence methods to connect sources, analyse criminal justice trajectories and support scientific teams.'
 axesTitle: 'Activities'
@@ -19,5 +19,5 @@ locale: 'eng'
 translationKey: 'home'
 canonical: false
 autoTranslated: true
-sourceHash: '1c62861157e30ee7c30bc6c87d66fd7acc71516e6e1697b64f69607368053a17'
+sourceHash: '1d82848808ba95a5e122d1edd6db1060b104e02f72e4781b7853167c7d1c0748'
 ---
