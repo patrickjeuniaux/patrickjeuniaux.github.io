@@ -85,3 +85,15 @@ test('vérification des redirections, fichiers publics et ancres', async (t) => 
   assert.match(result.stderr, /ancre absente/);
   assert.match(result.stderr, /cible absente : \/absent\//);
 });
+
+test('liens absolus du site contrôlés, domaines externes ignorés', async (t) => {
+  const dir = await workspace(t);
+  await mkdir(path.join(dir, 'dist/cible'), { recursive: true });
+  await writeFile(path.join(dir, 'dist/cible/index.html'), '<h1 id="ok">Cible</h1>');
+  await writeFile(path.join(dir, 'dist/index.html'), '<a href="https://patrickjeuniaux.github.io/cible/#ok">Valide</a><a href="https://example.com/absent">Externe</a>');
+  assert.equal(run(linkChecker, [], dir).status, 0);
+  await writeFile(path.join(dir, 'dist/index.html'), '<a href="https://patrickjeuniaux.github.io/absent/">Cassé</a>');
+  const result = run(linkChecker, [], dir);
+  assert.equal(result.status, 1);
+  assert.match(result.stderr, /cible absente/);
+});

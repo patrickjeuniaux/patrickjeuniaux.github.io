@@ -1,6 +1,7 @@
 import { readdir, readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { parse } from 'parse5';
+import { site } from '../src/site.config.mjs';
 
 const root = path.resolve('dist');
 async function walk(dir) {
@@ -36,7 +37,7 @@ try {
   const failures = new Set();
   for (const [file, { links }] of pages) {
     const pathname = '/' + path.relative(root, file).split(path.sep).join('/').replace(/index\.html$/, '');
-    const base = new URL(pathname, 'https://local.invalid');
+    const base = new URL(pathname, site);
     for (const link of links) {
       let url;
       try { url = new URL(link, base); } catch { failures.add(`${pathname} → URL invalide : ${link}`); continue; }

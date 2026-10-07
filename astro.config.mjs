@@ -6,7 +6,7 @@ import rehypeKatex from 'rehype-katex';
 import { locales, defaultLocale } from './src/i18n/config.mjs';
 import { unified } from '@astrojs/markdown-remark';
 
-const site = 'https://patrickjeuniaux.github.io';
+import { site } from './src/site.config.mjs';
 
 export default defineConfig({
   site,

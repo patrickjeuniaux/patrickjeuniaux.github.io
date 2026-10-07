@@ -1,5 +1,7 @@
 # Mettre à jour le site de Patrick Jeuniaux
 
+**Mise à jour du 7 octobre 2026 :** voir [MISE_A_JOUR.md](MISE_A_JOUR.md) pour installer cette livraison. `npm run verify` lance tous les contrôles ; `npm run archive` crée une archive complète des sources dans `archives/`.
+
 Ce guide explique comment modifier le site, ajouter une page, publier une nouvelle et préparer ses traductions. Pour ces opérations, tu écris dans des fichiers texte : tu n'as pas besoin de programmer en Astro.
 
 Le site est **statique** : Astro transforme les sources en pages HTML, puis GitHub Pages les publie. Les traductions sont des fichiers enregistrés dans le dépôt. Elles ne sont pas produites à la volée quand un visiteur change de langue.
@@ -419,7 +421,7 @@ La sélection commentée se rédige dans `pages/publications.md`. Chaque contrib
 Ton fichier bibliographique habituel est `/home/pjeuniaux/Documents/study/library.bib`. Pour mettre le site à jour à partir de ce fichier :
 
 ```bash
-npm run sync-bib
+npm run sync-bib -- "/chemin/vers/library.bib"
 npm run build
 ```
 
@@ -429,7 +431,7 @@ Pour utiliser un autre fichier :
 npm run sync-bib -- /chemin/vers/mes-references.bib
 ```
 
-Cette commande **remplace `data/index.bib`**. Sans argument, elle copie `/home/pjeuniaux/Documents/study/library.bib` ; le fichier source reste intact. La copie n'est pas automatique : relance `npm run sync-bib` après avoir modifié ta bibliothèque, puis vérifie `/work/` avant publication. Le lecteur couvre les champs utilisés par ce site ; il ne constitue pas un moteur BibTeX complet.
+Cette commande **remplace `data/index.bib`**. Sans argument, elle utilise la variable `BIB_SOURCE` ; si celle-ci est absente, elle affiche une erreur explicite ; le fichier source reste intact. La copie n'est pas automatique : relance `npm run sync-bib` après avoir modifié ta bibliothèque, puis vérifie `/work/` avant publication. Le lecteur couvre les champs utilisés par ce site ; il ne constitue pas un moteur BibTeX complet.
 
 ## 9. Vérifier avant de publier
 

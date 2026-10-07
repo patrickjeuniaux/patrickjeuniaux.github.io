@@ -14,3 +14,9 @@ yarn-error.log*
 Thumbs.db
 # Astro caches
 .astro/
+
+# Local archives and credentials
+archives/
+.env.*
+!.env.example
+.npmrc
